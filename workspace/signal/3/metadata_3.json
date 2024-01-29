@@ -1,0 +1,362 @@
+[
+    {
+        "page": 1,
+        "content": "刘华平\n清华大学  信号处理原理 -04"
+    },
+    {
+        "page": 2,
+        "content": "1 回顾——周期信号的傅立叶级数\n( )0 1 1\n1( ) cos sinnn\nnf t a a n t b n t \n== + +\n0\n0\n0\n0\n0\n00\n1\n11()\n2( )cos\n2( )sintT\nt\ntT\nnt\ntT\nnta f t dtT\na f t n tdtT\nb f t n tdtT\n+\n+\n+=\n=\n\n=\n\n\n➢傅立叶级数"
+    },
+    {
+        "page": 3,
+        "content": "2\n➢复指数形式傅立叶级数\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +\ncos sinjte t j t=+回顾——周期信号的傅立叶级数"
+    },
+    {
+        "page": 4,
+        "content": "3\n➢复指数形式傅立叶级数\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +\n( )\n( )11\n111\n1cos / 2\nsin / (2 )jn t jn t\njn t jn tn t e e\nn t e e j\n\n−\n−=+\n=−\ncos sinjte t j t=+回顾——周期信号的傅立叶级数"
+    },
+    {
+        "page": 5,
+        "content": "4\n➢复指数形式傅立叶级数\n简写为                                     ，其中：欧拉公式：\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +\n11\n0\n1()22jn t jn t n n n n\nna jb a jbf t a e e\n−\n=−+= + +\n11\n11\n1(0) ( ) ( () )jn t jn t\nnF f n te Fn e F\n−\n= = + +− \n1\n-()jn t\nn\nnf t F e\n==\n1()nF F n=回顾——周期信号的傅立叶级数\n记作 记作\n( )\n( )11\n111\n1cos / 2\nsin / (2 )jn t jn t\njn t jn tn t e e\nn t e e j\n\n−\n−=+\n=− 记作\n01\n011\n11= ( )(cos sin )2tTnn\nnta jbF f t n t j n t dtT+ −=−"
+    },
+    {
+        "page": 6,
+        "content": "5\n➢复指数形式傅立叶级数\n1\n-()jn t\nn\nnf t F e\n==\n011\n011()tTjn t\nntF f t e dtT+−=\n0111\n01tTjn t jn t\nitk e e dt T+−==\n回顾——周期信号的傅立叶级数\n( ), ( ) 1= = ( ), ( )\n( ), ( )j\njj\nj jjf t t\nc f t tk tt\n\n"
+    },
+    {
+        "page": 7,
+        "content": "6 回顾——周期信号的傅立叶级数\n为何实信号有负频率 ：sin或cos写成指数形式从欧拉公式的角度分成了 ejwt和e-jwt两项\n，引入了负数部分，负频率的出现本身无物理意义，实信号分解后正负是成对出现的➢复指数形式傅立叶级数\n1\n-()jn t\nn\nnf t F e\n==\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +\n1\n1\n1−\n01\nn1cos( )nn c c n t \n== + +\n1\n2nnFc=\n"
+    },
+    {
+        "page": 8,
+        "content": "7 回顾——周期信号的傅立叶级数\n➢帕斯瓦尔定理： 能量守恒\n2\n122\n1()t\niitif t dt c k\n==\n1( ) ( )ii\nif t c t \n==\n1\n-()jn t\nn\nnf t F e\n==\n2\n122\nn ()t\nntnf t dt F k\n=−=\n211\n1tjn t jn t\nntk e e dt−=\n2\n1*( ) ( )t\nn n ntk t t dt=\n12\n12\nn ()\nTnfF T t dt\n=−="
+    },
+    {
+        "page": 9,
+        "content": "8 回顾——周期信号的傅立叶级数\n➢帕斯瓦尔定理： 能量守恒\n•周期信号的平均功率等于傅 立叶级数展开各谐波分量有效值\n的平方和，也即时域和频域的能量守恒。\n/2 2\n/21()T\nTP f t dtT−=\n1/2\n/21( )[ ]Tjn t\nnTnf t F e dtT\n−\n−=−=\n/2\n/21( ) ( )T\nTf t f t dtT\n−=\n1/2*\n/21[ ( ) ]Tjn t\nnTnF f t e dtT\n−\n−=−=\n22\n0\n12n\nnP F F\n==+\n*\nnn\nnFF\n=−=\n2\nn\nnF\n=−=\n\nkX\nE\nT\n0\n2\n\n4\n0\n02\n2\n−"
+    },
+    {
+        "page": 10,
+        "content": "9 回顾——周期信号的傅立叶级数\n➢帕斯瓦尔定理： 时域与频域\n\nkX\nE\nT\n0\n2\n\n4\n0\n02\n2\n−\n例：设周期矩形脉冲信号中 E=1,T=1/4s,=1/20 s,求频带[0, 2/]内各谐波功\n率之和占信号总平均功率的比例。\n()ft0\n2\n2− -T T\nL\nLtE\n22\n0\n12n\nnP F F\n==+\n/2 2\n/21()T\nTP f t dtT−=\n2[0, ) [0,40 )=\n128T==\n1()2nn EF SaT=\n1()55nSa="
+    },
+    {
+        "page": 11,
+        "content": "10 回顾——周期信号的傅立叶级数\n➢帕斯瓦尔定理： 时域与频域\n\nkX\nE\nT\n0\n2\n\n4\n0\n02\n2\n−\n()ft0\n2\n2− -T T\nL\nLtE\n22\n0\n12n\nnP F F\n==+\n1\n1()2nn EF SaT=\n1()55nSa=\n22 2 2 2\n0 1 2 3 4 2[ ]＋＋＋ P F F F F F=+\n2 2 2 2 2 21 1 2 3 4( ) 2 ( ) [ ( ) ( ) ( ) ( )]5 5 5 5 5 5Sa Sa Sa Sa   = +  + + +\n0.1806=\n例：设周期矩形脉冲信号中 E=1,T=1/4s,=1/20 s,求频带[0, 2/]内各谐波功\n率之和占信号总平均功率的比例。"
+    },
+    {
+        "page": 12,
+        "content": "11 回顾——周期信号的傅立叶级数\n➢帕斯瓦尔定理： 时域与频域\n\nkX\nE\nT\n0\n2\n\n4\n0\n02\n2\n−\n()ft0\n2\n2− -T T\nL\nLtE\n22\n0\n12n\nnP F F\n==+\n0.1806P=\n/2 2\n/21()T\nTP f t dtT−=\n0.2=\n0.180690%0.2P\nP==\n例：设周期矩形脉冲信号中 E=1,T=1/4s,=1/20 s,求频带[0, 2/]内各谐波功\n率之和占信号总平均功率的比例。"
+    },
+    {
+        "page": 13,
+        "content": "12 回顾——周期信号的傅立叶级数\n➢带宽\n•在频域，能量主要集中在第一个零点以内\n•实际上，在允许一定失真的条件下，可以要求一个通信系统只把 𝜔≤2𝜋\n𝜏\n频率范围内的各个频率分量传送过去，而舍弃 𝜔≥2𝜋\n𝜏的分量。\n•常把  −2𝜋\n𝜏≤𝜔≤2𝜋\n𝜏 这段频率范围称为矩形信号的频带宽度，简称 带宽。\n•带宽只与脉冲的脉宽有关，而与脉高和周期均无关。\n"
+    },
+    {
+        "page": 14,
+        "content": "13 回顾——周期信号的傅立叶级数\n"
+    },
+    {
+        "page": 15,
+        "content": "14\n只能针对周期信号\n非周期信号 怎么办\n"
+    },
+    {
+        "page": 16,
+        "content": "15 回顾——周期信号的傅立叶级数\n➢周期矩形脉冲信号\n      设周期矩形脉冲信号 fT1(t)的脉冲宽度为 τ， 脉冲幅\n度为 E, 重复周期为 T1\nL\nL\n\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n\n\n\n\n\nnc\n1c\n2c\n0c\n0\n2\n\n4\n\n\n\nn\n\n0\n2/\n4/\n0\n0\n周期信号的频谱谱线的 间隔为𝜔1=2𝜋\n𝑇1\n周期信号的频谱谱线的 高度为\n1\n11\n1()2jn t\nT\nnn Ef t Sa eT\n=−= \n()1\n1\n12\n1\n1 21()T\njn t\nT nF F n f t e dtT−\n−== "
+    },
+    {
+        "page": 17,
+        "content": "16 回顾——周期信号的傅立叶级数\nL\nL\n\nnF\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n()ft0\n2\n2− -T1 T1\nL\nLtE\n➢周期矩形脉冲信号\n      \n𝑇1→∞\n谱线间距变密直至为零\n变为连续域𝜔\n谱线高度变矮直至为零\n1\n120T=→\n1\n111( ) 0jn t\nnTF f t e dtT−=→\n1\n11\n1()2jn t\nT\nnn Ef t Sa eT\n=−= "
+    },
+    {
+        "page": 18,
+        "content": "17\n非周期信号的傅里叶变换"
+    },
+    {
+        "page": 19,
+        "content": "18 非周期信号的傅里叶变换\nL\nL\n\nnF\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n➢周期  v.s.非周期的 FS  \n谱线间距变密直至为零\n变为连续域𝜔\n谱线高度变矮直至为零\n1\n120T=→\n1\n111( ) 0jn t\nnTF f t e dtT−=→\n"
+    },
+    {
+        "page": 20,
+        "content": "19 非周期信号的傅里叶变换\nL\nL\n\nnF\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n➢周期  v.s.非周期的 FS  \n谱线间距变密直至为零\n变为连续域𝜔\n谱线高度变矮直至为零\n1\n120T=→\n1\n111( ) 0jn t\nnTF f t e dtT−=→\n"
+    },
+    {
+        "page": 21,
+        "content": "20 非周期信号的傅里叶变换\n➢周期  v.s.非周期的 FS  \nL\nL\n\nnF\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n谱线间距变密直至为零\n变为连续域𝜔\n谱线高度变矮直至为零\n1\n120T=→\n1\n111( ) 0jn t\nnTF f t e dtT−=→"
+    },
+    {
+        "page": 22,
+        "content": "21 非周期信号的傅里叶变换\nL\nL\n\nnF\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n➢周期  v.s.非周期的 FS  \n谱线间距变密直至为零\n变为连续域𝜔\n谱线高度变矮直至为零\n1\n120T=→\n1\n111( ) 0jn t\nnTF f t e dtT−=→\n"
+    },
+    {
+        "page": 23,
+        "content": "22 非周期信号的傅里叶变换\nL\nL\n\nnF\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n➢周期  v.s.非周期的 FS  \n谱线间距变密直至为零\n变为连续域𝜔\n谱线高度变矮直至为零\n1\n120T=→\n1\n111( ) 0jn t\nnTF f t e dtT−=→\n"
+    },
+    {
+        "page": 24,
+        "content": "23 非周期信号的傅里叶变换\nL\nL\n\nnF\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n➢周期  v.s.非周期的 FS  \n谱线间距变密直至为零\n变为连续域𝜔\n谱线高度变矮直至为零\n1\n120T=→\n1\n111( ) 0jn t\nnTF f t e dtT−=→\n"
+    },
+    {
+        "page": 25,
+        "content": "24 非周期信号的傅里叶变换\nL\nL\n\nnF\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n➢周期  v.s.非周期的 FS  \n谱线间距变密直至为零\n变为连续域𝜔\n谱线高度变矮直至为零\n1\n120T=→\n1\n111( ) 0jn t\nnTF f t e dtT−=→\n"
+    },
+    {
+        "page": 26,
+        "content": "25 非周期信号的傅里叶变换\nL\nL\n\nnF\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n➢周期  v.s.非周期的 FS  \n谱线间距变密直至为零\n变为连续域𝜔\n谱线高度变矮直至为零\n1\n120T=→\n1\n111( ) 0jn t\nnTF f t e dtT−=→\n频谱失去意义！"
+    },
+    {
+        "page": 27,
+        "content": "26 非周期信号的傅里叶变换\nL\nL\n\nnF\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n➢周期  v.s.非周期的 FS  \n•物理意义入手：既是信号，必有能量。因此，频域必会以某\n种形式存在\n•数学角度思考：无数个无穷小量之和，在极限意义下可能等\n于一个有限值。前述问题只是说每个分量变成无穷小量，但\n并不是说总和（信号）为零\n1\n111( ) 0jn t\nnTF f t e dtT−=→谱线间距变密直至为零\n变为连续域𝜔\n谱线高度变矮直至为零\n1\n120T=→\n1\n111( ) 0jn t\nnTF f t e dtT−=→\n0→？"
+    },
+    {
+        "page": 28,
+        "content": "27 非周期信号的傅里叶变换\n𝑇1→∞\n11( ) lim ( )TTf t f t\n→=\n1\n11\n1()2jn t\nT\nnn EfTt Sa e\n=−= \nL\nL\n\nnF\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n0\n1\n11\n1()2jn t\nT\nnTnf t E Sa e\n=−= "
+    },
+    {
+        "page": 29,
+        "content": "28\n当\n当非周期信号的傅里叶变换\n1\n1()jn t\nTn\nnf t F e\n=−=\n11\n11/2\n/2\n11()Tjn t\nnTTF f t e dtT−\n−=\n1\n12\nT=\n11,T →\n1\n11/2\n/21 ( ) ( )Tjn t\nn TTft T e F dt F n−\n−= = 记作\n1\n1)1( ) ( )21(jn t jn t\nT\nnnf t e F n F e nT  \n\n=−\n =−  = = \n1T→\n111lim ( ) ( )2jt\nTTf t F e d\n− →=\n1( ) ( )2jtf t F e d\n−="
+    },
+    {
+        "page": 30,
+        "content": "29 非周期信号的傅里叶变换\n1( ) ( )2jtf t F e d\n−=\n11\n11  /2\n1/2( ) ( )Tjn t\nnTTT F f t e dt F n−\n−= = 记作\n1\n11 1/2\n/2 0lim ( ) lim ( )Tjn t\nTT TF n f t e dt\n−\n−  → →=\n( ) ( )jtF f t e dt−\n−=\n= ( )F记作"
+    },
+    {
+        "page": 31,
+        "content": "30\n𝑓(𝑡)↔𝐹(𝜔)\n𝐹(𝜔)称为频谱密度，简称 频谱 ——\nFT存在的充分条件：绝对可积非周期信号的傅里叶变换\n1( ) ( ) [ ( )]2jtf t F e d f t\n−==Δ\nF\n1( ) ( ) [ ( )]jtF f t e dt F −−\n−==F\n| ( ) |f t dt+\n−\n11002( ) lim lim limn\nnnTfFF T F Ff→  →  →= = ="
+    },
+    {
+        "page": 32,
+        "content": "31\n|𝐹(𝜔)|∼𝜔\n——相位频谱 反映各分量的初始相位     ——幅度频谱 反映各分量相对大小的关系      \n∠𝐹(𝜔)∼𝜔非周期信号的傅里叶变换\n( ) ( )jtF f t e dt−\n−=\n()( ) | ( ) |jFF F e="
+    },
+    {
+        "page": 33,
+        "content": "32 非周期信号的傅里叶变换\n频谱实部是偶对称的\n频谱虚部是奇对称的\n频谱相位是奇对称的\n( ) ( ) ( ) ( )\n( )cos ( )sinjtF R jX f t e dt\nf t tdt j f t tdt  \n−\n−\n\n− −= + =\n=−\n\n( ) ( )cos ( ) ( )sinR f t tdt X f t tdt   \n− −==\n( ) ( )RR=−\n( ) ( )XX=− −\n()( ) arctan()X\nR=\n"
+    },
+    {
+        "page": 34,
+        "content": "33\n𝐹(𝜔)与 𝐹𝑛(周期信号频谱 )的区别：       \n是离散的，代表各分量 绝对大小       𝐹𝑛\n𝐹(𝜔)是连续的，代表各分量 相对大小  \nL\nL\n\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−非周期信号的傅里叶变换\n011\n10\n1\n11\n1\n11()\n2( ) ,tTjn t\nnTt\njn t\nTn\nnF f t e dtT\nf t F eT\n+−\n\n=−=\n==\n\n ( ) ( )\n1( ) ( )2jt\njtF f t e dt\nf t F e d\n\n−\n−\n\n−=\n=\n"
+    },
+    {
+        "page": 35,
+        "content": "34 非周期信号的傅里叶变换\n𝐹(𝜔)与 𝐹𝑛(周期信号频谱 )的区别：       \nFS FT\n被分析对象 周期信号 非周期信号\n频率定义域 离散频率，谐波频率处 连续频率，整个频率轴\n函数值意义 频率分量的 数值 频率分量的 密度值\nL\nL\n\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n011\n10\n1\n11\n1\n11()\n2( ) ,tTjn t\nnTt\njn t\nTn\nnF f t e dtT\nf t F eT\n+−\n\n=−=\n==\n\n ( ) ( )\n1( ) ( )2jt\njtF f t e dt\nf t F e d\n\n−\n−\n\n−=\n=\n"
+    },
+    {
+        "page": 36,
+        "content": "35 非周期信号的傅里叶变换\n011\n1011()tTjn t\nnTtF f t e dtT+−=\n( ) ( )jtF f t e dt−\n−=\n1nTF"
+    },
+    {
+        "page": 37,
+        "content": "36\n非周期信号的傅里叶变换\n常用信号举例\n ( ) ( )\n1( ) ( )2jt\njtF f t e dt\nf t F e d\n\n−\n−\n\n−=\n=\n"
+    },
+    {
+        "page": 38,
+        "content": "37\n37➢常用信号的 FT\n例１：  \n解: 非周期信号的傅里叶变换\n( ) ( )jtF t e dt f−\n−=\n1( ) , 0ate u t aja−+\n1\n+ja=\n()\n00 ()a j t\nat j t ee e dtaj\n\n−+−−==−+ \n例1： 求𝑭(𝜔)\n( ) ( ) ( 0)atf t e u t a−="
+    },
+    {
+        "page": 39,
+        "content": "38\n解:： \n()xtt1\n0\n221()Xj\na\n=\n+\n1/a\n0\n()Xj\n/2\n0\n/2−\n↔➢常用信号的 FT非周期信号的傅里叶变换\n求𝑭(𝜔)\n( ) ( ) ( 0)atf t e u t a−=\n1( ) , 0ate u t aja−+\n221| ( ) |F\na\n=\n+\n( ) arctanFa =−\n 例1： "
+    },
+    {
+        "page": 40,
+        "content": "39\n例2:求矩形脉冲信号的频谱  ➢常用信号的 FT非周期信号的傅里叶变换\n1 | |( ) ( )  ( ) 2\n0   tf t EG t G t== \n其中\n其它\n解: \n( ) ( )jtF t e dt f−\n−=\n2 sin2Sa2j\nEEj\n− == − \n/2/2\n//2\n/2\n22/ j t j j\njt e e eEe dt E Ejj  \n\n\n−\n−−\n−\n−−= = =−− "
+    },
+    {
+        "page": 41,
+        "content": "40\n解:： \n()xttE\n0\n/2\n/2−\n()Xj\n2\n\n2\n−\n4\n\n4\n−\nE\n0\n↔➢常用信号的 FT非周期信号的傅里叶变换\n()2EG t E Sa\n例2:求矩形脉冲信号的频谱  \n1 | |( ) ( )  ( ) 2\n0   tf t EG t G t== \n其中\n其它\n"
+    },
+    {
+        "page": 42,
+        "content": "41\n➢常用信号的 FT非周期信号的傅里叶变换\n()xttE\n0\n/2\n/2−\n()Xj\n2\n\n2\n−\n4\n\n4\n−\nE\n0\n↔\n矩形脉冲信号 FT的特点：\n•FT为Sa函数，原点处函数值等于矩形脉冲的面积\n•FT的过零点位置为\n•频域的能量集中在第一个过零点区间\n•带宽只与脉宽有关，与脉高 E无关。带宽为\n2 / ( 0)kk  =\n( ) 2 / ,2 /    −\n2/ B=\n例2:求矩形脉冲信号的频谱  \n1 | |( ) ( )  ( ) 2\n0   tf t EG t G t== \n其中\n其它\n"
+    },
+    {
+        "page": 43,
+        "content": "42\n例3：求单位冲激信号 (t)的频谱，并写出它的频域分解式➢常用信号的 FT非周期信号的傅里叶变换\n解: \n( ) ( )\n()jt\njtF t e dt\nttf\ned\n\n−\n−\n−\n−=\n=\n\n( ) 1t\n频域分解式 :\n1( ) ( )2\n1()2jt\njtf t e dt\nt e dtF\n\n\n−\n\n−=\n=\n\n()Xj\n01\n1="
+    },
+    {
+        "page": 44,
+        "content": "43\n➢常用信号的 FT非周期信号的傅里叶变换\n例3：求单位冲激信号 (t)的频谱，并写出它的频域分解式\n•冲激函数的频谱等于 常数，即在整个频率范围内频谱是均匀分布的。\n•说明在时域中变化异常剧烈 的冲激函数中包含了 幅度相等的所有频率分布 。\n•因此，这种频谱常被称为均匀谱，或白色谱。\n()Xj\n01\n()xttE\n0\n/2\n/2−\n()Xj\n2\n\n2\n−\n4\n\n4\n−\nE\n0\n"
+    },
+    {
+        "page": 45,
+        "content": "44\n例3：求单位冲激信号 (t)的频谱，并写出它的频域分解式\n()Xj\n01\n()xttE\n0\n/2\n/2−\n()Xj\n2\n\n2\n−\n4\n\n4\n−\nE\n0\n↔\n➢常用信号的 FT非周期信号的傅里叶变换\n直流信号的傅里叶频谱是位于零点的冲激函数\n1( ) [1] 2 ( )2FF    ==\n"
+    },
+    {
+        "page": 46,
+        "content": "45\n➢常用信号的 FT非周期信号的傅里叶变换\n1( ) , 0ate u t aja−+\n()2G t Sa\n( ) 1t\n1( ) ( )utj +"
+    },
+    {
+        "page": 47,
+        "content": "46\n傅里叶变换的性质\n ( ) ( )\n1( ) ( )2jt\njtF f t e dt\nf t F e d\n\n−\n−\n\n−=\n=\n"
+    },
+    {
+        "page": 48,
+        "content": "47\n5 时频展缩特性4 对称特性3 奇偶特性2 线性特性1 唯一性\n12 信号能量与频谱的关系8 时域微分特性\n9 频域域微分特性\n10 时域卷积定理\n6 时移特性7频移特性\n11 频域卷积定理傅里叶变换的性质\n( ) ( )jtF f t e dt−\n−="
+    },
+    {
+        "page": 49,
+        "content": "48\n➢FT的唯一性傅里叶变换的性质\n2 12 1( ) ( ) ( )     ( ) ( )  f t f f t f t tF ==       = 若 则  F F\n11\n112\n2 [ ( )] [ (\n))] (\n( ) (),\nFFF\nFft \n\n−−==\n=反之 若\n则 FF"
+    },
+    {
+        "page": 50,
+        "content": "49 傅里叶变换的性质\n➢FT是线性运算\n对一个信号求 FT，等于对其分量（信号）求 FT然后再组合\n齐次性\n叠加性线性\n[ ( )] [ ( )]F af t aF f t=\n1 2 1 2( ) ( ) ( ) ( ) F f t f t F f t F f t+ = +          \n( ) ( )n n n n\nnnF a f t a F f t= "
+    },
+    {
+        "page": 51,
+        "content": "50\n50例：如图信号，求其频谱。\n↕ ↕ ↕解：\n()xtt2\n01\nte−傅里叶变换的性质\n➢FT是线性运算\n( )  ( )   ( )tf t e u t u t−=+\n11( ) ( )1Fjj  = + ++\n"
+    },
+    {
+        "page": 52,
+        "content": "51 傅里叶变换的性质\n➢FT的反褶与共轭性\n反褶与共轭 时域 频域\n反褶\n共轭\n反褶&&共轭\n( ) ( )f t F \n( ) ( )jtF f t e dt−\n−=\n()ft−\n*()ft\n*()ft−\n()F−\n*()F−\n*()F"
+    },
+    {
+        "page": 53,
+        "content": "52\n偶信号的频谱是偶函数，奇信号的频谱是奇函数。\n证明：  若是偶函数， 即傅里叶变换的性质\n➢FT的奇偶性\n( ) ( )jtF t e dt f−\n−=\n( ) ( )  \n( ) ( )\n()jt\njjF t e dt t\nef\nf e f dd\nF\n \n   \n\n−\n−−\n− −− = =−\n= − =\n=\n令\n()ft\n( ) ( )f t f t−="
+    },
+    {
+        "page": 54,
+        "content": "53\n•极相似的公式背后隐藏着什么关系？  \n•求IFT与FT本质上是相通的？  傅里叶变换的性质\n➢FT与IFT的对偶性  \n( ) ( )jtF f t e dt−\n−=\n1( ) ( )2jtf t F e d\n−="
+    },
+    {
+        "page": 55,
+        "content": "54 傅里叶变换的性质\nI： FT与IFT的变换核函数是共轭对称的\n   ➢FT与IFT的对偶性  \n其中，        表示按自变量   进\n行FT,结果仍是 t的函数。\n()F\n\n**j t j t j t j te e e e   −−==\n( )\n( ) ( )1\n**\n****1[ ( )] ( ) ( )2\n1()2\n11( ) ( )22jt\njt\njtF f t F e d\nF e d\nF e d F\n\n\n  \n\n  −\n−\n−\n−\n−\n−==\n=\n=  = \n\n\n在计算机程序设计实现上，  IFT可以通过 FT来完成"
+    },
+    {
+        "page": 56,
+        "content": "55 傅里叶变换的性质\nII：\n证明：\n将变量 t与互换，可以得到：\n  等号右边是对函数 F(t)的傅里叶变换！  ➢FT与IFT的对偶性  \n( ) 2 ( )F t f−\n1( ) ( )2jtf t F e d\n−=\n1( ) ( )2jtf t F e d−\n−−=\n2 ( ) ( )jtf F t e dt−\n−−="
+    },
+    {
+        "page": 57,
+        "content": "56\n56II：\n(1)\n()t\n1\n()xt\ntt\n001\n0\n\n\n0\n(2 )\n()Xj\n()Xj傅里叶变换的性质\n➢FT与IFT的对偶性  \n( ) 1t\n( ) 2 ( )F t f−\n1 2 ( ) −\n1 2 ( ) \n()F\n()F"
+    },
+    {
+        "page": 58,
+        "content": "57\n57II：\n()Gtt1\n0\n/2\n()c Sa t\nt1\n0\n()Xj0\n2/\n2/−\n\n\n0\nc\n\nc−\n/c\n/c\n/c−\n/2−傅里叶变换的性质\n➢FT与IFT的对偶性  \n( ) 2 ( )F t f−\n( ) Sa2Gt\n()2()\nc c\ncSa t G"
+    },
+    {
+        "page": 59,
+        "content": "58 傅里叶变换的性质\n➢FT与IFT的对偶性  \n"
+    },
+    {
+        "page": 60,
+        "content": "59 傅里叶变换的性质\n➢FT的尺度变换特性\n特例:  𝑓(𝑡)𝑓(𝑎𝑡)\n𝐹(𝜔)1\n𝑎𝐹(𝜔\n𝑎)𝑎<0翻转  |𝑎|<1扩展  |𝑎|>1压缩 \n𝑎<0翻转  |𝑎|<1压缩  |𝑎|>1扩展 \n1[ ( )] , ( 0)||FafFaa at=\n( ) ( )f t F  −−"
+    },
+    {
+        "page": 61,
+        "content": "60 傅里叶变换的性质\n➢FT的尺度变换特性\n()Gtt1\n0\n/2\n/2−\n()Xj 0\n2/\n2/−\n\n( / 2)xt\nt1\n0\n−\n2 (2 )Xj 0\n/\n/−\n2\n(2 )xt\nt1\n0\n1()22jX 0\n4/\n4/−\n/2\n\n\n\n\n/4\n/4−\n1[ ( )] , ( 0)||F f at F aaa=\n( ) Sa2Gt\n\n\n()2( ) Sa 2 Gt w \n( ) ( )f t G t=\n( / 2)ft\n(2 )ft\n( ) ( ) ( )\n( ) ( )f t f t f t\nFF− =−\n− =−若为奇函数，即 ，\n则\n"
+    },
+    {
+        "page": 62,
+        "content": "61\n61例试求下列信号的频谱\n解：  𝑓(−𝑡)↔𝐹(−𝜔)傅里叶变换的性质\n➢FT的尺度变换特性\n||( ), 0\n( ) ( )\n( ) ( )at\nat at a t\nat ate u t a\ne u t e u t e\ne u t e u t−−\n−−\n+ − =\n−−\n1( ) , 0\n1( ) , 0at\nate u t aja\ne u t aaj\n−+\n−  −"
+    },
+    {
+        "page": 63,
+        "content": "62\n例试求下列信号的频谱\n解：  \n()xtt1\n0傅里叶变换的性质\n➢FT的尺度变换特性\n||( ), 0\n( ) ( )\n( ) ( )at\nat at a t\nat ate u t a\ne u t e u t e\ne u t e u t−−\n−−\n+ − =\n−−\n1( ) , 0ate u t aja−+\n||\n221 1 2( ) ( )at at a t ae u t e u t ea j a j a  −−+ − =  + =+ − +\n"
+    },
+    {
+        "page": 64,
+        "content": "63\n例试求下列信号的频谱\n解：  \n()xtt1\n0\n-1傅里叶变换的性质\n➢FT的尺度变换特性\n||( ), 0\n( ) ( ) , 0\n( ) ( ), 0at\nat at a t\nat ate u t a\ne u t e u t e a\ne u t e u t a−−\n−−\n+ − = \n− − \n221( ) , 0\n1 1 2( ) ( )at\nat ate u t aja\nje u t e u ta j a j a\n\n  −\n−+\n−− − − =++−\n"
+    },
+    {
+        "page": 65,
+        "content": "64\n若  则  t0为任意实数   \n证明:   \n令傅里叶变换的性质\n➢FT的时移特性\n( ) ( ),f t F \n()0\n0 ()jtft t F e+\n()()00jtf t t t t e dt f−\n−+  +\n()0\n0\n00 ()\n()\n()jt\njt j\njtt\nFf\nft e d\ne e d\ne\n \n  \n\n−− \n−\n−\n−+ = =\n=\n=\n"
+    },
+    {
+        "page": 66,
+        "content": "65\n意义：  \n时域延时，频域则是相位变化，不影响幅度谱，  只在相位\n谱上叠加一个线性相位。傅里叶变换的性质\n➢FT的时移特性\n若  则  为任意实数   \n( ) ( ),f t F \n()0\n00 ( ) ,jtf t t F e t +\n()0 ()\n0 | ( ) |j F tf t t F e++\n"
+    },
+    {
+        "page": 67,
+        "content": "66\n若  则  \n为任意实数   \n证明:   ➢FT的频移特性周期信号的傅里叶变换\n0\n( ) ( ),f t F \n()\n()00\n0\n0( ) ( )\n()j t j t jt\njtf t e f t e e dt\nt e dt\nFf \n\n−\n−\n−−\n−\n=\n=\n−\n\n()0\n0 ()jtf t Fe  =−\n"
+    },
+    {
+        "page": 68,
+        "content": "67 傅里叶变换的性质\n•微分特性：\n•积分特性：➢FT的微积分\n时域微分\n频域微分\n时域积分\n频域积分\n( ) ( )dfttjFd\n1) ( ) ( ) (0) ( ) (tfd j FF      −\n−+\n1( ) (0) ( ) ( )F d f t f tjt   \n−+− \n()()dFjtf td\n−"
+    },
+    {
+        "page": 69,
+        "content": "68 傅里叶变换的性质\n•微分特性：\n证明:   ➢FT的微积分\n时域微分\n( ) ( )df t j Fdt\n1( ) ( )2\n1( ) ( )2\n( ) ( )jt\njtf t e d\ndf t F j e ddt\ndf t jdF\nFt\n\n  \n\n−=\n=\n\n若      存在,则  推论：\n()( ) ( )n\nn\nndtjdtfF\n()n\nndft\ndt"
+    },
+    {
+        "page": 70,
+        "content": "69\n69•微分特性：\n证明:   傅里叶变换的性质\n➢FT的微积分\n频域微分\n()()dFjtf td\n−\n( ) ( )jtF f t e dt−\n−=\n( ) ( )( )jtF f t jt e dt−\n−=−\n( ) ( )djtf t Fd−"
+    },
+    {
+        "page": 71,
+        "content": "70\n70•微分特性：\n若             则  傅里叶变换的性质\n➢FT的微积分\n频域微分\n()()dFjtf td\n−\n( ) ( ),f t F \n( ) ( )dtf t j Fd\n22 ( )\n1( )  ( )tj\ntu t j  \n \n\n−\n1 2 ( )\n1( )  ( )utj \n \n+"
+    },
+    {
+        "page": 72,
+        "content": "71\n1\n0\n()ut\n()Xj→\n()\n0\n()Xj\n/2\n0\n/2−\n↔\n1( ) ( )utj +\n➢FT的微积分\n•积分特性：\n1) ( ) ( ) (0) ( ) (tfd j FF      −\n−+傅里叶变换的性质"
+    },
+    {
+        "page": 73,
+        "content": "72\n•时域卷积定理：\n•频域卷积定理：傅里叶变换的性质\n➢FT的卷积定理\n1 2 1 2( )* ( ) ( ) ( )f t f t f t f t =           \n1 2 1 21( ) ( ) ( ) * ( )2f t f t f t f t=          \n"
+    },
+    {
+        "page": 74,
+        "content": "73\n•时域卷积定理：傅里叶变换的性质\n➢FT的卷积定理\n（卷积和 FT的定义）\n（交换积分次序）\n（FT定义及其时移特性）\n（常函数提出来）\n（FT定义）\n1 2 1 2( )* ( ) ( ) ( )f t f t f t f t =           \n1 2 1 2\n12\n12\n21\n2 1 1 2( )* ( ) ( ) ( )\n( ) ( )\n( ) ( )\n( ) ( )\n( ) ( ) ( ) ( )j\nj\njt\njtf t f t f f t d e dt\nf f t e dt d\nf f t d\nf t f d\nf t f te\nfte\nft\n\n  \n \n\n−\n− −\n\n−−\n− −\n\n−\n−\n−=−  \n=\n = \n=\n=  =               −\n\n\n\n"
+    },
+    {
+        "page": 75,
+        "content": "74\n例试求\n解：    •时域卷积定理：傅里叶变换的性质\n➢FT的卷积定理\n1 2 1 2( )* ( ) ( ) ( )f t f t f t f t =           \n2( ) * ( )tte u t e u t−−      \n1( ) , 0ate u t aja−+\n2 11( ) * ( )1 2\n1\n1 \n1\n2 tte u t e u tjj\njj\n−−       ++\n−\n=+++\n22( ) * ( ) ( ) ( )t t t te u t e u t e u t e u t− − − −    =−   "
+    },
+    {
+        "page": 76,
+        "content": "75\n•信号截取时，是使用如下矩形窗相乘来实现的：  \n因此，矩形信号边缘的跳变将引起原信号的频谱会产生畸变：\n傅里叶变换的性质\n1 2 111( ) ( )* ( ) ( )* Sa2 2 2F F F F     == \n()2EG t E Sa\n1 | |() 2\n0   tGt=\n其它\n•频域卷积定理：➢FT的卷积定理\n1 2 1 21( ) ( ) ( ) * ( )2f t f t f t f t=          \n"
+    },
+    {
+        "page": 77,
+        "content": "76\n➢信号的能量与频谱的关系（帕斯瓦尔定理）傅里叶变换的性质\n即（IFT定义）\n（交换积分次序）\n（FT定义）\n( )\n( )\n( )2*\n*\n*\n*\n*\n2( ) ( ) ( )\n1( ) ( )2\n1( ) ( )2\n1( ) ( )2\n1( ) ( )2\n1()2jt\njt\njtf t dt f t f t dt\nf t F e d dt\nf t F e d dt\nF f t e dt d\nF F d\nFd\n\n\n\n\n  \n\n− −\n\n− −\n−\n− −\n−\n− −\n\n−\n\n−=\n =   \n=\n=\n=\n=\n\n\n\n\n‖‖\n‖‖\n22 1( ) ( )2f t dt F d \n− −=‖‖ ‖‖\n22 1( ) ( )2f t dt F d \n− −=‖‖ ‖‖"
+    },
+    {
+        "page": 78,
+        "content": "77\n➢FT性质总结   \n1．揭示时域与频域的对应关系，进一步理解 FT意义\n3．卷积定理地位突出\n         2．便于求解 FT，在记住基本傅氏变换对基础上，  \n   灵活运用性质傅里叶变换的性质\n1 2 1 2\n1 2 1 2( )* ( ) ( ) ( )\n1( ) ( ) ( )* ( )2f t f t F F\nf t f t F F\n\n"
+    },
+    {
+        "page": 79,
+        "content": "78\n①时移 \n②频移 \n③时域微分  \n④频域微分  \n⑤时域积分  \n➢\nFT\n性质总结   傅里叶变换的性质\n()()0\n0 0 ( )* ()  jtf t t t f t t F e =+ +\n()\n()0\n001   ( ) () *22jtF f t e\nF \n −\n=−\n)   ( ) ( )* ( )  ( f t f t t F j   = \n1( ) ( )* 2 ( ) ( )2tf t F j jF     =\n()( ) ( )* ( )  (0) ( )t Ff d f t u t Fj    −=  +"
+    },
+    {
+        "page": 80,
+        "content": "79 傅里叶变换的性质\n对任意信号 f(t)和F(w) \n      当                在负无穷到正无穷的积分存在时\nf(t)与F(w)所覆盖的面积分别等于 F(w)与2f(t)在\n零点的数值 F(0)与2f(0)。\n()fttE\n0\n/2\n/2−\n()Xj\n2\n\n2\n−\n4\n\n4\n−\nE\n0\n(0) ( )\n1(0) ( )2F f t dt\nf F d \n−\n\n−=\n=\n\n( ), ( )f t F w\n( ) ( )\n1( ) ( )2jt\njtF f t e dt\nf t F e d\n\n−\n−\n\n−=\n=\n"
+    },
+    {
+        "page": 81,
+        "content": "80 傅里叶变换的性质\n对任意信号 f(t)和F(w) \n•设f(0)与F(0)分别等于各自对应曲线的最大值，则定义信号\n–等效脉宽：\n–等效带宽：\n偶双边指数信号频谱\n(0) / (0)\n(0) / (0)fFf\nB f F=\n=\n||()atf t e−=\n()22( ) 2 /F a a=+\n(0) ( )\n1(0) ( )2F f t dt\nf F d \n−\n\n−=\n=\n"
+    },
+    {
+        "page": 82,
+        "content": "81 傅里叶变换的性质\n周期 非周期\nFS FT"
+    },
+    {
+        "page": 83,
+        "content": "82\n周期信号的傅里叶变换"
+    },
+    {
+        "page": 84,
+        "content": "8383 周期信号的傅里叶变换\n回顾：非周期信号\nFT存在的充分条件： 绝对可积\n周期信号\n( ) ( )jtF f t e dt−\n−=\n| ( ) |f t dt+\n−\n1()Tf t dt+\n−→"
+    },
+    {
+        "page": 85,
+        "content": "84 周期信号的傅里叶变换\n例求                  的频谱\n解：  \n0\n00 cos   sinjte t t及、\n1 2 ( ) \n()0\n0 2jte  −\n()()\n()()00\n00\n00 Euler  \n0\n0 0 0\n Euler  \n0\n0 0 01cos2\ncos     \n1sin2\n               2\nsin     j t j t\nj t j t\nj t j tt e e\nt\nt e ej\njee\nt j j\n\n\n      \n\n      −\n−\n−=+\n − + +\n=−\n=−\n+ − − 公式\n公式\n"
+    },
+    {
+        "page": 86,
+        "content": "85\n•理论上，时域信号乘以一个复指数信号，原信号的\n频谱将被搬移到复指数信号的频率处。\n•实际应用中，利用欧拉公式，通过乘以正弦或余弦\n信号，可以达到 频谱搬移 的目的。\n()0\n0 2jtFe  =−\n()()\n()()0 0 0\n0 0 0cos\nsint\nt j j      \n       − + +\n + − −周期信号的傅里叶变换"
+    },
+    {
+        "page": 87,
+        "content": "86 周期信号的傅里叶变换\n•周期信号 频谱是离散谱。\n•但傅里叶变换的频谱是频谱密度，\n级数才是幅度值\n•因此每个谐频点的密度是无穷大\n•但频谱幅度则是有限的（无穷大密\n度乘上无穷小的频率范围即谐频点\n得到有限值的幅值）"
+    },
+    {
+        "page": 88,
+        "content": "87\n周期 非周期\nFS FT\n总结"
+    },
+    {
+        "page": 89,
+        "content": "88\n人类的一切知识，都是从 直观出发，\n然后产生 概念，最后发展成 理论。\n——伊曼努尔 ·康德\n《纯粹理性批评 》\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +\n1\n-()jn t\nn\nnf t F e\n==\n ( ) ( )\n1( ) ( )2jt\njtF f t e dt\nf t F e d\n\n−\n−\n\n−=\n=\n\n伊曼努尔 ·康德\n（1724 -1804）\n热的传播与扩散 级数展开 傅里叶变换总结"
+    },
+    {
+        "page": 90,
+        "content": "89 作业\n作业 2：\n作业 1：写出指数函数  (𝑓𝑡=𝑒−𝑎𝑡，𝑎>0,𝑡>0)的傅里叶变换。"
+    }
+]

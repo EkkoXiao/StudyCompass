@@ -1,0 +1,1433 @@
+{
+    "id": 2,
+    "keyword": "傅里叶级数",
+    "mainpoints": [
+        {
+            "id": 0,
+            "name": "信号的基本分解概述与分析方法",
+            "pages": [
+                1,
+                4
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        1,
+                        1
+                    ],
+                    "name": "信号处理原理概述",
+                    "definition": "介绍信号处理的基本理论和原理。",
+                    "information": "本部分可能包含了信号处理课程的简介或者是本讲的引言部分，由于内容较少，无法提供详细信息。",
+                    "usage": "为学生提供信号处理课程的背景知识，帮助学生了解课程内容和学习目标。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://cglhub.com/auto/db/detail.aspx?db=950008&rid=1480638&agfi=0&cls=0&uni=True&cid=0&showgp=True&prec=False&md=152&pd=208&msd=152&psd=208&mdd=152&pdd=208&count=10&reds=narrowband%3Bradar",
+                            "description": "本文从主动声呐回波信号的瞬时参数估计人手，介绍了两种将瞬时参数估计与信号检测、信号判别融为一体的信号分析与处理方法，分别称之为“瞬时频率序列分析”和“视在方位序列..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/harmonic-analysis",
+                            "description": "调和分析已成为一门广泛的学科，应用范围广泛，如数论、表示论、信号处理、量子力学、潮汐分析和神经科学。... 这是调和分析设定中不确定性原理的一种非常基本的形式。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.70.20200904",
+                            "description": "... 分析, 以证明该方法的有效性。2. 方法。应用本文所提方法处理癫痫脑电信号的步骤如图1所示。先利用弹性变分模型解算法对分割后的癫痫脑电子信号进行分解, 从分解后的..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://journals.nwpu.edu.cn/jxkxyjs/en/article/doi/10.13433/j.cnki.1003-8728.20190111",
+                            "description": "近年来, 信号处理领域出现的新方法-基于形态成分分析(MCA)理论的稀疏辅助信号分解 ... 信号分解方法。基于GMCP的信号分解定义为. (8)。式中:λ1>0, λ2>0。然后利用GMCP罚..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170702?viewType=HTML",
+                            "description": "通常，雷达回波信号是一种非平稳信号，其频率随时间不断变化，采用频率分析类方法可有效提升对非平稳信号的检测性能。在某些场景下，加速机动目标的雷达回波可以建模..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.370323687726893,
+                    "weight": 0.17777777777777776
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        2,
+                        2
+                    ],
+                    "name": "卷积公式及其应用",
+                    "definition": "通过积分表达式定义了两个函数的卷积。",
+                    "information": "卷积公式是信号处理中的核心概念，形式为(f * g)(t)，表示函数f(t)和g(t)的卷积，通过积分从0到t的形式进行定义。",
+                    "usage": "卷积在信号处理中的应用包括系统响应的分析、滤波器设计等。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.381531424469225,
+                    "weight": 0.21666666666666665
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        3,
+                        3
+                    ],
+                    "name": "信号分析方法",
+                    "definition": "描述了信号分析中使用的数学工具和概念。",
+                    "information": "介绍了奇异信号、欧拉公式以及傅里叶级数与傅里叶变换的相关概念，这些是分析信号时用到的数学基础。",
+                    "usage": "这些分析方法用于将信号分解为易于处理的形式，比如在频域分析中使用傅里叶变换。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://cglhub.com/auto/db/detail.aspx?db=950008&rid=1480638&agfi=0&cls=0&uni=True&cid=0&showgp=True&prec=False&md=152&pd=208&msd=152&psd=208&mdd=152&pdd=208&count=10&reds=narrowband%3Bradar",
+                            "description": "本文从主动声呐回波信号的瞬时参数估计人手，介绍了两种将瞬时参数估计与信号检测、信号判别融为一体的信号分析与处理方法，分别称之为“瞬时频率序列分析”和“视在方位序列 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1375923&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%CC%E1%C9%FD%D0%A1%B2%A8%B7%D6%CE%F6",
+                            "description": "基于小波分析的光纤陀螺噪声滤除方法研究 简述小波变换基本理论的基础上,讨论了小波滤波方法的基本步骤。仿真验证了小波分解和重构的Mallat算法、小波软阈值滤波算法 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/harmonic-analysis",
+                            "description": "谐波分析在科学和工程中的许多应用都是从这样的想法或假设开始的，即现象或信号由各个振动分量的总和组成。海洋潮汐和弦振动是常见而简单的例子。理论方法通常尝试通过微分 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.coursera.org/learn/algorithms",
+                            "description": "课程内容安排本课程的内容分成两大部分：算法的基础知识、通用算法设计技术与分析方法。第一部分是算法基础知识，约占20%，主要介绍算法相关的基本概念和数学基础。"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://qikan.cmes.org/jxgcxb/CN/10.3901/JME.2020.17.091",
+                            "description": "by 陈是俊 · 2020 · Cited by 26 — 参数化时频分析理论、方法及其在工程信号分析中的应用[D]. 上海:上海交通大学 ... 基于奇异值分解和局域均值分解的滚动轴承故障特征提取方法[J]. 机械工程学报,2015,51 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.9104437204463425,
+                    "weight": 0.3717948717948718
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        4,
+                        4
+                    ],
+                    "name": "信号的基本分解",
+                    "definition": "探讨了信号可以如何分解成更基本的组成部分。",
+                    "information": "本部分可能涉及信号的分解方法，如傅里叶变换或拉普拉斯变换，用于将信号从时域转换到频域，便于分析和处理。",
+                    "usage": "基本分解应用于信号去噪、压缩、特征提取等多个领域。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://blog.csdn.net/u012111465/article/details/80306252",
+                            "description": "14 May 2018 — matlab-矩阵的奇异值分解算法 · 对输入的一个信号进行矩阵化，并对此矩阵进行奇异值分解，以完成对信号的分析和处理. 矩阵分解及案例分析. 一.概述1."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/signal-subspace",
+                            "description": "信号子空间还用于使用MUSIC（算法）进行无线电测向。基本上，这些方法代表了主成分分析（PCA）方法对通过采样（例如采样音频信号）获得的观测时间序列集合的应用。这些..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://journals.nwpu.edu.cn/jxkxyjs/en/article/doi/10.13433/j.cnki.1003-8728.20190111",
+                            "description": "1.3 GMCP的稀疏性增强信号分解. MCA进行稀疏辅助方法可以用来分解振动信号, 为了准确分解复合信号中的分量, 提出了GMCP的稀疏性增强信号分解方法。基于GMCP的信号分解定义..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.70.20200904",
+                            "description": "本文提出的弹性变分模式分解是一种完全非递归式的频域信号分析与处理方法, 与原始变分模式分解算法不同的是, EVMD利用弹性网络回归代替VMD中构建约束变分方程时使用的拉格..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://qikan.cmes.org/jxgcxb/CN/10.3901/JME.2020.17.091",
+                            "description": "by 陈是岩 · 2020 · Cited by 26 — 参数化时频分析理论、方法及其在工程信号分析中的应用[D]. 上海:上海交通大学 ... 基于奇异值分解和局域均值分解的滚动轴承故障特征提取方法[J]. 机械工程学报,2015,51..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3481294918118853,
+                    "weight": 0.1
+                }
+            ],
+            "knowledgeDensity": 7.010428324454346
+        },
+        {
+            "id": 1,
+            "name": "信号分解的直流分量与交流分量分析",
+            "pages": [
+                5,
+                6
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        5,
+                        5
+                    ],
+                    "name": "信号的基本分解方法",
+                    "definition": "信号可以分解为直流分量和交流分量，或者奇分量和偶分量，以及实部分量与虚部分量。",
+                    "information": "信号的分解对于分析信号的特性非常重要，可以帮助我们更好地理解和处理信号。基于不同的需求，信号可以通过不同的方法分解，如直流+交流，奇+偶，实+虚等。每种分解都有其特定的数学定义和物理意义。",
+                    "usage": "在信号处理中，根据分析需求选择合适的分解方法，以便于对信号进行处理和分析。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://blog.csdn.net/weixin_43623428/article/details/119281728",
+                            "description": "31 Jul 2021 — ... 分析方面也是经常用的。 去掉FFT变换时，频谱中的直流分量直流分量：理论中，输入=0时，输出=0，没有什么直流分量的； 直流分量是输入信号带入的。 在 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://ieeexplore.ieee.org/iel5/5562463/5571954/05573027.pdf",
+                            "description": "基于正交多项式回归分析方法的系统辨认研究. System Identification Based on ... 改进独立分量分析在脑电信号伪迹消除中的应用研究. Application of an Improved ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.71.20211132",
+                            "description": "... 模态强度中的直流成分 DCl(T)|l=3 整体仍表现出下降趋势. 由于直流成分中的各直流分量无法像交流分量一样被分解到频率平面上, 下面将通过考察第3阶模态强度中直流分量 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.71.20220246",
+                            "description": "电阻测量是研究二维系统的物理性质常用的方法, 测量的激励信号一般使用准直流的频率(约10 Hz). 这种测量方法关注量子系统稳态的传输特性. 常见的微波测量, 如微波共振 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://m.eeworld.com.cn/datasheet_part/PKL14Z128RVLH4_R_,freescale-nxp-,68235665.html",
+                            "description": "... 信号和周期信号的频谱分析。它工作于声频直至亚微米的波频段，只显示信号的幅度而不显示信号的相位。它的工作原理是：本地振荡器采用扫频振荡器，它的输出信号与被测信号 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.9176577213835615,
+                    "weight": 0.3974358974358974
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        6,
+                        6
+                    ],
+                    "name": "直流-交流分解",
+                    "definition": "信号的直流分量是信号的长期平均值，而交流分量是信号相对于直流分量的变化部分。",
+                    "information": "直流分量可以通过对信号进行长时间积分并求极限来获得，表征了信号的平均水平。交流分量则表示信号的波动情况，即信号与其直流分量的差值。",
+                    "usage": "通过直流-交流分解，可以分析信号的稳定部分（直流分量）以及波动部分（交流分量），在电力系统分析、通信系统设计等领域有着广泛的应用。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/dc-bias",
+                            "description": "在压控振荡器(VCO) 中，例如无线电发射机，载波中心频率的选择是通过直流偏置完成的。对于调频(FM)，交流分量是基带音频信号加上副载波。频偏键控可以通过简单地改变直流偏..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://blog.csdn.net/weixin_43623428/article/details/119281728",
+                            "description": "31 Jul 2021 — ... 分析方面也是经常用的。去掉FFT变换时，频谱中的直流分量直流分量：理论中，输入=0时，输出=0，没有什么直流分量的；直流分量是输入信号带入的。在..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://dgjsxb.ces-transaction.com/EN/abstract/abstract6921.shtml",
+                            "description": "by 崔梦华 · Cited by 7 — 基于电弧电流高频分量的串联交流电弧故障检测方法[J]. 电力自动化设备, 2017, 37 ... 基于小波变换和奇异值分解的串联电弧故障检测方法[J]. 电工技术学报, 2017, 32(17):..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://dgjsxb.ces-transaction.com/EN/abstract/abstract9011.shtml",
+                            "description": "by 冯双 — 直驱风电场并入弱交流电网的次同步分量通路及阻尼特性分析[J]. 中国电机工程学报 ... 基于Copula的多变量运动想象脑电信号因果分析方法[J]. 航天医学与医学工程, 2018..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://manuals.repeater-builder.com/Kenwood/tk/TK-U100/TK-U100(U)_B51-8942-00.pdf",
+                            "description": "信号通过低通CR 滤波器。由微处理器进行调整的TX 频偏. 被施加到DAC IC(IC300)。此信号与音频信号混合，然后送入. VCO 和TCXO。 Page 15. TK-U100(U). 15. CIRCUIT..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.9137441405679843,
+                    "weight": 0.3846153846153846
+                }
+            ],
+            "knowledgeDensity": 12.841830186405893
+        },
+        {
+            "id": 2,
+            "name": "信号的偶分量与奇分量分析",
+            "pages": [
+                7,
+                8
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        7,
+                        8
+                    ],
+                    "name": "信号的基本分解",
+                    "definition": "信号分解是将信号拆分为更基本的组成部分，以便于分析和处理。",
+                    "information": "本节内容主要介绍了信号如何分解为偶分量和奇分量。偶分量是信号与其时间反转信号的和的一半，表达式为(e(t) + e(-t))/2，而奇分量是信号与其时间反转信号的差的一半，表达式为(f(t) - f(-t))/2。",
+                    "usage": "通过将信号分解为偶分量和奇分量，可以简化信号处理的复杂度，特别是在进行傅立叶变换或是设计信号处理滤波器时。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://dokumen.tips/documents/fourier-series-representation-of-periodic-signals.html",
+                            "description": "时域分析方法的基础： 信号在时域的分解。LTI 系统满足线性、时不变性。从分解信号的角度出发，基本信号单元必须满足两个要求：1. 本身简单，且LTI 系统对它的..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT230068",
+                            "description": "多分量LFM信号时间分析方法。 水声信道复杂多变，利用多分量LFM信号模型描述接收信号 ... 图 4 发送信号为单分量LFM信号的多普勒因子和时延估计均方误差差(考虑多径). 下载 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Mode-Decomposition",
+                            "description": "... 分量分析(FastICA)的信号分离方法。Research on the Separation Method of LFM ... 该分析依赖于偶/奇模式分解。本文提出了一种基于混合能量和模式分解的方法 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.71.20220635",
+                            "description": ", 可以实现信号光场不同正交分量的测量. 当 ϕ=0 和 ϕ=π/2 , 光电流差分别表示为 δi=lδ ... 基本原理. 4.2. 研究进展. 5.1. 硅素子码. 5.1.1. 五波包编码量子纠错. 5.1.2. GKP ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/N-Harmonic",
+                            "description": "这使电力公司能够了解作为网络一部分的具有最高总谐波失真(THD) 的变压器的数量，并参与谐波抑制以减少暴露。A Proposed Power Transformers Failure Assessment ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.998471858675331,
+                    "weight": 0.5256410256410255
+                }
+            ],
+            "knowledgeDensity": 15.840302045081224
+        },
+        {
+            "id": 3,
+            "name": "信号的实部与虚部分量分析",
+            "pages": [
+                9,
+                9
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        9,
+                        9
+                    ],
+                    "name": "信号的基本分解",
+                    "definition": "信号分为实部与虚部两个分量",
+                    "information": "信号可以分解为实部和虚部两部分，分别对应数学表示中的实数部分和虚数部分。",
+                    "usage": "在信号处理中，将信号分解为实部和虚部有助于进行各种信号分析，如频谱分析等。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20230869",
+                            "description": "具体地, 动量投影可以分为实部虚部两部分分 ∑xe−ip⋅x=∑x[ ... 本质上, 通过分析有限的实部与虚部分布完全确定积分中的信号分布和核函数属于求逆问题, 是没有唯一解的. 但 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT181190",
+                            "description": "STFT等线性变换方法对多分量的非平稳信号进行分析时不产生交叉项。但STFT通过在时域 ... 分离算法实际上是分别得到实部和虚部的能量 I2 和 Q2 的输出最小。2.2 SVA算法 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://patents.google.com/patent/WO2007137484A1/en",
+                            "description": "采用一维空间的信道实部和虚部分别处理的方法，避免了原理极其复杂且运算量极 大 ... 分解成实部形式和虚部形式 的信道信息。The initial estimating unit uses the ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT210571",
+                            "description": "基于劳伦特分解，二进制CPM信号可以表示为. x(t;d)=√2Ps∑n ... ，决定信号实部或虚部的系数矩阵也表示为 2N×2N 的对角矩阵，即 U=diag{j,j ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://yygx.xml-journal.net/en/article/doi/10.5768/JAO201839.0102004",
+                            "description": "式中：j表示虚数单位；实部ψh(t)和ϕh(t)满足实小波变换中的两维方程和小波方程关系，设它们的低通、高通滤波器分别是H0和H1。同样，虚部 ... 分解层数, n=4, 63.32, 44.25 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.432349522990169,
+                    "weight": 0.3333333333333333
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        9,
+                        9
+                    ],
+                    "name": "实部分量的定义",
+                    "definition": "信号的实部分量是信号的实数部分",
+                    "information": "信号的实部用'Re'表示，是复数信号中不含虚数单位的部分。",
+                    "usage": "实部分量体现了信号在实数域的特性，是信号分析中的重要指标。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20230869",
+                            "description": "具体地, 动量投影可分为实部虚部两部分分 Σxe−ip⋅x=Σx[ ... 本质上, 通过分析有限的实部与虚部分布完全确定积分中的信号分布和核函数属于求逆问题, 是没有唯一解的. 但 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Imaginary-Part",
+                            "description": "获得并分析了介电函数的实部和虚部、吸收系数、反射率和损耗函数等所有光学特性。 ... 态的总密度和部分密度以及光学特性，包括介电函数的实部和虚部、吸收系数，能量损失 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT181190",
+                            "description": "STFT等线性变换方法对多分量的非平稳信号进行分析时不产生交叉项。但STFT通过在时域 ... 分离算法实际上是分别得实部和虚部的能量 I2 和 Q2 的输出最小。 2.2 SVA算法 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT180261",
+                            "description": "... 噪声样值 ω(n) ，如果带通信号的采样频率是载波频率的4倍，且噪声样值的实部和虚部分量均服从单变量 SαS 分布，则 ω(n) 的实部和虚部分量是独立同分布的，即： ωR ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://patents.google.com/patent/WO2007137484A1/en",
+                            "description": "采用 一维空间的信道实部和虚部分别处理的方法，避免了原理极其复杂且运算量 极大的贝叶斯原理下联合概率密度问题的求解问题，从而大大减小了分析复杂度 和运算量。"
+                        }
+                    ],
+                    "knowledgeDensity": 2.932349522990169,
+                    "weight": 0.4230769230769231
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        9,
+                        9
+                    ],
+                    "name": "虚部分量的定义",
+                    "definition": "信号的虚部分量是信号的虚数部分",
+                    "information": "信号的虚部用'Im'表示，通常与虚数单位'i'或'j'相乘，反映了信号中的相位信息。",
+                    "usage": "虚部分量有助于了解信号的相位特性，在交流电和电磁波等领域应用广泛。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20230869",
+                            "description": "具体地, 动量投影可分为实部虚部两部分分 Σxe−ip⋅x=Σx[ ... 本质上, 通过分析有限的实部与虚部分布完全确定积分中的信号分布和核函数属于求逆问题, 是没有唯一解的. 但 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT181190",
+                            "description": "STFT等线性变换方法对多分量的非平稳信号进行分析时不产生交叉项。但STFT通过在时域 ... 分离算法实际上是分别得到实部和虚部的能量 I2 和 Q2 的输出最小。2.2 SVA算法 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT180261",
+                            "description": "... 噪声样值 ω(n) ，如果带通信号的采样频率是载波频率的4倍，且噪声样值的实部和虚部分量均服从单变量 SαS 分布，则 ω(n) 的实部和虚部分量是独立同分布的，即： ωR ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Imaginary-Part",
+                            "description": "sMIM 测量提供有关反射微波信号的实部和虚部的信息，这些信息可能与局部电导率和 ... 部分色散矩阵来调制复数符号的实部和虚部。介电函数的虚部也表明n-BN/WS2 层 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.932349522990169,
+                    "weight": 0.4358974358974359
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        9,
+                        9
+                    ],
+                    "name": "复数信号的物理意义",
+                    "definition": "复数信号在物理世界中不存在，主要用于理论分析",
+                    "information": "在物理世界中，信号都是实数，但将信号用复数表示在理论分析、尤其是信号处理领域中非常有用。",
+                    "usage": "复数信号的概念在频率分析、系统响应等理论研究中十分重要，有助于简化数学计算和理论推导。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20230869",
+                            "description": "... 若所计算的关联函数在CH变换下的因子为正，则计算结果的信号只存在于实部中，虚部完全为噪声，在无限大统计量极限下虚部为 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Imaginary-Part",
+                            "description": "... 复值OFDM 的实部和虚部分别发出信号。此外，对α 关系、关系时间值和介电常数 ... 部分色散矩阵来调制复数符号的实部和虚部。介电函数的虚部也表明n-BN/WS2 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://patents.google.com/patent/WO2012048572A1/en",
+                            "description": "进一步的，所述已调制信号为复信号，包括实部信号和虚部信号。进一步的，在采用复信号作为载波信号对已调制信号进行解调的过程 中，采用公式 = s BP (t)e m = (s ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://jeit.ac.cn/article/doi/10.11999/JEIT211276?pageType=en",
+                            "description": "分别表示复向量的实部和虚部。3. 干扰消除。在传统的MIMO检测系统中，最优检测方案是ML检测。但随着天线数量和信号调制阶数的增加，ML检测的复杂度呈指数级增加。因此 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.71.20211408",
+                            "description": "... 实部和虚部的表达式。由(6)式和(7)式组合可得复频谱。因 θ1(x,y,t)−θ2(x,y, ... 复图像物理意义不明确。受实验条件所限并使问题简化, 本文仿真中假定激光回波复图像的相位 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.932349522990169,
+                    "weight": 0.4487179487179487
+                }
+            ],
+            "knowledgeDensity": 27.0697001370419
+        },
+        {
+            "id": 4,
+            "name": "信号分解方法总结与信号的脉冲分解",
+            "pages": [
+                10,
+                11
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        10,
+                        10
+                    ],
+                    "name": "信号的基本分解方法",
+                    "definition": "信号分解的基本理论和方法。",
+                    "information": "在第10页中提到了信号分解方法，但未给出详细信息。",
+                    "usage": "用于了解信号可以通过什么方法进行分解。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2022.210411?viewType=HTML",
+                            "description": "文献[10]指出，一个好的信号解调方法应具备如下特征：1) F-P传感器输出信号中... 根据表4可总结出，解调方法的选择需首先考虑解调方法是否与F-P传感器匹配，若不匹配..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1420326&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%B1%B3%BE%B0%CB%D9%B6%C8",
+                            "description": "... 解与WFT、Gabor变换、正交小波变换的关系。通过对具体信号的分析，对不同变换方法的信号表示效率进行了对比，并总结了G-D框架及对其进行尺度扩展组成的Gabor函数族在..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20222436",
+                            "description": "目前在利用基本原子开展的相关研究中, 阿秒脉冲主要用于开展电子关联效应和不同... 因此使用少周期激光脉冲产生高次谐波是分离SAP最直接的方法。然而, 直接在IR波段..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://pubs-en.cstam.org.cn/article/doi/10.6052/0459-1879-22-007",
+                            "description": "by X Gu · 2022 · Cited by 1 — 一般而言，故障诊断的基本环节主要包括信号获取、特征提取和故障识别。从动态信号... 常见的信号处理方法主要包括基于带通滤波的方法和基于信号分解的方法。如前文所述..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT210161",
+                            "description": "... 脉冲信号。3.1 基于卷积神经网络的编码模型. Dicarlo组最先使用深度学习及变体来研究... 4.5 脉冲激发非负矩阵分解方法。大脑中的神经元回路非常复杂。即使对于视网膜这个..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3837275704523493,
+                    "weight": 0.25555555555555554
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        11,
+                        11
+                    ],
+                    "name": "信号的脉冲分解",
+                    "definition": "信号可以近似表示为一组矩形脉冲的和。",
+                    "information": "在第11页详细介绍了信号的脉冲分解，包括脉冲分解的表达方式，以及在t1处的矩形脉冲如何表示。",
+                    "usage": "用于具体展示如何将信号近似为矩形脉冲的和，以及如何计算和表示这种分解。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT220558",
+                            "description": "，可以通过去共轭算法，求解原始脉冲信号的参数。本文将CDoD算法总结为算法2。 算法2 CDoD算法伪代码. 输入：傅里叶系数实部向量cDCT，脉冲参数K，周期τ；. 输出：Dirac ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2022.210411?viewType=HTML",
+                            "description": "by Z Zhenrui · 2022 — 文献[10]指出，一个好的信号解调方法应具备如下特征：. 1) F-P传感器输出信号中 ... 根据表4可总结出，解调方法的选择需首先考虑解调方法是否与F-P传感器匹配，若不匹配 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20222436",
+                            "description": "近20年中, 激光技术的进步使得阿秒脉冲光源从极紫外(extreme ultraviolet, XUV)波段延伸到光谱的软X射线区域, 极大地促进了阿秒时间分辨谱学和相应理论方法的发展[3-5]. 当 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.researchgate.net/profile/Jianhua-Yang-6",
+                            "description": "针对强噪声背景下滚动轴承早期微弱故障信号经验模态分解问题，提出了一种基于级联自适应分段线性随机共振系统降噪的经验模态分解方法。该方法依赖于级联自适应分段线性 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://indico.ihep.ac.cn/event/8672/sessions/9172/attachments/55342/63675/sc.pptx",
+                            "description": "... 分解后提交到数据库; 双束团出束时，输出两个束团的平均效果：束团数目设置为1，首 ... 脉冲信号源：SRS DG645+SRD1. 数字示波器：Keysight S404A. 软磁合金环FCT（1K107B ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.9282380347077455,
+                    "weight": 0.41025641025641024
+                }
+            ],
+            "knowledgeDensity": 31.381665742201996
+        },
+        {
+            "id": 5,
+            "name": "信号分解方法回顾与信号分解综述",
+            "pages": [
+                12,
+                17
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        12,
+                        12
+                    ],
+                    "name": "脉冲分解的基础",
+                    "definition": "信号可以近似表示为一组矩形脉冲的和的形式。",
+                    "information": "在第12页中，提出了信号的脉冲分解概念，并展示了信号在t1处的矩形脉冲表示方法，以及如何通过原始函数的表达式来定义这种脉冲分解。",
+                    "usage": "用于分析和理解复杂信号的基本组成，以及信号处理中的脉冲响应和滤波等概念的引入。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jzus.zju.edu.cn/oldversion/issue.php?issueid=599",
+                            "description": "Chinese summary <17> 一种基于多分辨率分解和去相关的模块化安全性与鲁棒性彩色 ... 与所提第一种方法相比，改进后的方法可进一步减少信号失真。 关键词组：特征分析 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://jzus.zju.edu.cn/issue.php?issueid=630",
+                            "description": "摘要：本文回顾具有脉冲效应的复杂动态网络研究工作。将脉冲效应分为脉冲控制与脉冲干扰两个方面，较全面系统地总结具有脉冲效应的复杂动态网络基础性研究结果和最近研究 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Position-Method",
+                            "description": "... 分解（ESMD) 结合Elman 神经网络(ENN)) 用于构建五个预测模型，即。PCG 信号通过称为经验模式分解(EMD) 的迭代信号分解方法进行预处理。nan nan ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Complex-Wave",
+                            "description": "本研究提出了无需信号分解的疲劳分类，以及用于将EEG 信号分解为子带的其他算法，如离散小波变换(DWT) 和双树复小波变换(DT-CWT)。 结果：在本文中，我们首先介绍 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT211051",
+                            "description": "by Y DING · 2022 — 单频/多频连续波信号, 系统简单，抗静态干扰能力强，信号处理速度快, 获取的目标信息量少，对目标参数的估计精度低，识别准确率较差，能耗大. 超宽带穿墙雷达, 窄脉冲 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.9666231701526,
+                    "weight": 0.5
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        13,
+                        17
+                    ],
+                    "name": "信号分解方法回顾与综述",
+                    "definition": "信号分解是将信号表达为更简单构成部分的和的过程。",
+                    "information": "从第13页到第17页，内容涵盖了对前面提到的信号分解方法的回顾，以及对信号分解技术的总结，包括但不限于正交完备信号分解。",
+                    "usage": "这一部分有助于学生复习信号分解的基本方法，并理解如何将这些方法应用于实际信号处理中，例如在通信系统中分析和设计信号波形。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://qikan.cmes.org/zhjc/EN/10.13462/j.cnki.mmtamt.2019.07.011",
+                            "description": "[5] 林京,赵明.变转速下机械设备动态信号分析方法的回顾与展望[J].中国科学:技术科学, 2015,45(7):669-686. [6] 康海英,栾军英,郑海起,等.基于阶次跟踪和经验模式分解的..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Position-Method",
+                            "description": "在这里，我们回顾了通过各种沉积方法在Si 上生长外延BTO，包括分子束外延、脉冲激光 ... 集合经验模式分解（EEMD）是一种自适应信号分解方法。 实验中采用切比雪夫..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://cglhub.com/auto/db/detail.aspx?db=950008&rid=1360088&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=93&pd=6&msd=93&psd=6&mdd=93&pdd=6&count=10&reds=%E5%85%83%E8%A1%A8%E5%BE%81",
+                            "description": "(1)综述了图像信息基函数表示方法的研究现状，分析了傅立叶变换、小波和独立分量分析等 ... 确定盲分离中未知信号源个数的奇异值分解方法。上海交通大学学报，2001，35(8) ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT211051",
+                            "description": "by Y DING · 2022 · Citation: DING Yipeng, SHE Yanlong. Research Status and Prospect of Human Movement Recognition Technique Using Through-Wall Radar[J]."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Value-Decomposition",
+                            "description": "所提出的方法使用小波变换(WT) 方法将信号的颤动发作和非颤动发作类别划分为多个子带，并按照Petrosian 分形维数(PFD)、Higuchi 分形维数(HFD) 和奇异值分解状(SVDE)。"
+                        }
+                    ],
+                    "knowledgeDensity": 2.5310329324358882,
+                    "weight": 0.358974358974359
+                }
+            ],
+            "knowledgeDensity": 36.87932184479048
+        },
+        {
+            "id": 6,
+            "name": "向量的正交分解与三维欧式空间",
+            "pages": [
+                18,
+                22
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        18,
+                        18
+                    ],
+                    "name": "信号的正交分解",
+                    "definition": "正交分解是指将信号分解成互相正交的成分。",
+                    "information": "在第18页中提到了信号的正交分解，但未给出详细的定义或应用。",
+                    "usage": "信号的正交分解在信号处理领域中是重要的概念，用于将信号分解为正交的基底向量上的投影。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/hilbert-space",
+                            "description": "归一化：族中的所有元素都有范数1：对于所有k ∈ B，…ek… = 1。 完整性：族ek 的线性跨度，k ∈ B，在H 中是稠密的。满足前两个条件基的向量系统称为正交系统或正交集（ ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://github.com/DM1079/DM1079.github.io/blob/master/atom.xml",
+                            "description": "... 三维空间的几何形体显示在屏幕上。</p><p>​计算机图形学分为实时的(30 Frame per ... 正交矩阵，因此它的逆等于它的转置。</p><p>像机做这样的变换，其他所有物体也 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://jeit.ac.cn/article/doi/10.11999/JEIT211474?pageType=en",
+                            "description": "基于信号子空间类算法是将窄带下的子空间算法推广到宽带偏振源信号参数估计中，相对于统计推断类算法，计算复杂度得到了极大的改善，也吸引了众多国内 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/17965905/d1d434",
+                            "description": "... 向量。 信号f（t）的二进小波分解可表示为： 其中A是近似信号，为低频部分；D是细节信号，为高频部分，此时信号的频带分布如图4-6所示。 图4-6 多尺度分解的信号频带分布 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3500027217600525,
+                    "weight": 0.1388888888888889
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        19,
+                        22
+                    ],
+                    "name": "向量的正交分解与三维欧式空间",
+                    "definition": "向量的正交分解是指在三维欧式空间内，将向量分解成几个互相正交的向量基的线性组合。",
+                    "information": "从第19页到第22页详细介绍了向量基的概念、正交性质、向量在正交基上的分解，以及如何构建三维空间中的单位正交向量基。还包括了分解过程中的数学公式和矩阵表示方法。",
+                    "usage": "向量的正交分解用于在几何、物理学和工程学等领域解决问题，如坐标变换、物体的位移分析等。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/hilbert-space",
+                            "description": "归一化：族中的所有元素都有范数1：对于所有k ∈ B，‖ek‖ = 1。 完整性：族ek 的线性跨度，k ∈ B，在H 中是稠密的。满足前两个条件基的向量系统称为正交系统或正交集（ ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "http://www.irla.cn/en/article/doi/10.3788/IRLA20220103",
+                            "description": "25 Sept 2022 — ... 欧氏空间的平移向量 t 相差一个尺度因子。 根据公式(5)所示本质矩阵的形式，由参考文献[15]可知：若假设矩阵E可被分解为一个正交矩阵R与一个反对称 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://jeit.ac.cn/article/doi/10.11999/JEIT211474?pageType=en",
+                            "description": "by LIU Zhen · 2023 — doi: 10.11999/JEIT211474 · LIU Zhen 1 , , , · CHEN Xin 2 , · SU Xiaolong 1 , · HU Panhe 1 , · LIU Tianpeng 1 , · PENG Bo 1 , · LIU Yongxiang ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.oejournal.org/article/id/6074367d99d88125fb73fa2e",
+                            "description": "by Z Yongkang · 2021 · Cited by 5 — 2015年，Wu等人利用正交镜像滤波器组(QMFs)对信号进行dB6小波分解，把相对能量分布作为特征向量，对无入侵、人为入侵、拍手三种事件识别，准确率达89.19%。 由于 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://ch.whu.edu.cn/cn/article/doi/10.13203/j.whugis20200596",
+                            "description": "by 柳林 · 2021 · Cited by 4 — Z T 的特征向量，是一个M×M的正交矩阵；S为一个M×M的对角矩阵；V是一个N×M矩阵，为 Z T Z ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.209448875923787,
+                    "weight": 0.641025641025641
+                }
+            ],
+            "knowledgeDensity": 41.438773442474314
+        },
+        {
+            "id": 7,
+            "name": "函数的正交分解与完备的正交函数集",
+            "pages": [
+                23,
+                30
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        23,
+                        25
+                    ],
+                    "name": "向量的正交分解",
+                    "definition": "向量的正交分解是指将一个向量分解为一组正交基向量方向上的分量。",
+                    "information": "在三维欧式空间中，任一个向量可以分解为三个坐标轴方向上的分量，即基向量上的投影长度。n维欧式空间中的向量也可以类似地进行分解。ai表示向量a在单位基向量ei上的投影长度。无限维空间也可以用类似的方法来定义向量的正交分解。",
+                    "usage": "在物理学和工程学中，向量的正交分解用于将力、速度等物理量在不同方向上的影响分离开来，便于计算和理解。在数学中，正交分解是解决线性代数问题的基础工具。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/hilbert-space",
+                            "description": "希尔伯特空间中向量正交系统的完备性可以等价地重述如下： 如果⟨v, ek⟩ = 0 对于所有k ∈ B 对于所有v ∈ H，则v = 0。这意味着如果S 是任何正交集并且v 与S 正交，则v = 0。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.cnblogs.com/yyywxk/p/Data_Mining_and_Analysis.html",
+                            "description": "27 Dec 2020 — 5.2 向量核函数。 \\(\\mathbb{R}^d \\times \\mathbb{R}^d \\to \\mathbb{R}\\) ... 向量（单位正交）； 计算\\(\\frac{\\sum\\limits_{i=1}^r\\lambda_i}{var(D)）。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/polar-decomposition",
+                            "description": "一般来说，对于任何有界算子A， 其中(A*A)1/2是通过普通函数运算得到的A*A的唯一正平方根。 ... 第23a：极分解- 正交和对称矩阵Thumbnail Source: https: 第23a：极分解- 正交。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://staff.ustc.edu.cn/~smhu/qp/2021SCh4H.pdf",
+                            "description": "... 函数正交——（正交性） ⇒Proof. 力学量的本征函数系集可构成一个完备系，任何一个态函数都能用该 函数系展开——（完备性）。可构成一个正交归一的完备函数集(Complete Set)。"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://cglhub.com/auto/db/detail.aspx?db=950008&rid=1305570&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=learning",
+                            "description": "将Frobenius范数和近似正交约束作为目标函数,提出了近似正交非负矩阵分解(Approximate Orthogonal Non-negative Matrix Factorization, AONMF)方法。利用Taylor展开式和。"
+                        }
+                    ],
+                    "knowledgeDensity": 3.107667773107787,
+                    "weight": 0.6025641025641025
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        26,
+                        27
+                    ],
+                    "name": "函数的正交分解",
+                    "definition": "函数的正交分解是将函数分解为一组正交函数序列的线性组合。",
+                    "information": "利用泰勒公式将函数在无限维空间中展开，可以得到函数的无限级数展开。这些级数展开中的每一项都可以看作是在某个正交函数集上的分量。正交条件包括内积为零，即不同函数的内积积分结果为零。这种分解方法在解析函数时特别有用，例如在傅里叶分析中。",
+                    "usage": "函数的正交分解在数学分析、量子力学、信号处理等领域中扮演重要角色。它允许我们将复杂的函数或信号分解为简单的正交成分，从而简化分析和处理。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://staff.ustc.edu.cn/~smhu/qp/2021SCh4H.pdf",
+                            "description": "... 力学量的本征函数系集可构成一个完备系，任何一个态函数都能用该函数系展开——（完备性）。可构成一个正交归一的完备函数集(Complete Set) ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Orthogonal-Decomposition",
+                            "description": "在本文中，基于计算流体动力学，适当的正交分解理论和径向基函数插值方法，开发了一种降阶模型。... 经验模态分解(EMD)是一种处理非线性非平稳数据的有效方法，但缺乏正交 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.cnblogs.com/yyywxk/p/Data_Mining_and_Analysis.html",
+                            "description": "27 Dec 2020 — 正交：\\(\\mathbf{a}\\) 与\\(\\mathbf{b}\\) 正交，若\\(\\mathbf{a}^{T}\\ ... 若\\(X\\) 的函数取值范围为有限集或无限可数集，则称之为离散随机变量，反之，为 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.researchgate.net/publication/296665678_High_Speed_Digital_Image_Correlation_Techniques",
+                            "description": "1 Zernike 矩(ZM)描述方法Zernike 矩[5] 是基于Zernike 多项式的正交化函数，它是由一组单位圆内的完备正交集组成。 Zernike 矩描述方法(ZMD)是图像处理法 [6] [7] [5] ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://www.mmrc.iss.ac.cn/cscm/cm2011/files/program-1121.pdf",
+                            "description": "本文提出了基于完备正交系V-系统进行商标特征的描述，该方法在商标检索准确率上取得了良好的效果。 k次V-系统是一类L2[0,1]空间的完备正交函数系，它由分段k次多项式组成 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.970333331308447,
+                    "weight": 0.5128205128205128
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        28,
+                        30
+                    ],
+                    "name": "正交函数集与标准正交函数集",
+                    "definition": "正交函数集是在某个区间上定义的一组非零函数序列，任意两个函数的内积（积分）为零。标准正交函数集是正交函数集中每个函数都经过归一化处理。",
+                    "information": "在给定的区间[t1, t2]上，正交函数集中的任意两个函数满足内积为零的条件。通过归一化处理，可以得到标准正交函数集，其中每个函数的模长为1。标准正交函数集提供了一种在函数空间中以简洁且无冗余的方式表示函数的方法。",
+                    "usage": "正交函数集和标准正交函数集在解决偏微分方程、进行函数近似和数据压缩等领域有广泛应用。例如，傅里叶级数就是利用三角函数的正交性质来表示周期信号的一种标准正交函数集。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/hilbert-space",
+                            "description": "这是因为不同族的正交多项式对于不同的加权函数是正交的。= 索博列夫空间= 由Hs ... 这意味着如果S 是任何正交集并且v 与S 正交，则v 与线性跨度的闭包正交S 在空间上 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/wave-function",
+                            "description": "区间[0, 2π] 上的平方可积复值函数。集合{eint/2π, n ∈ ℤ} 是希尔伯特空间基，即最大正交集。傅里叶变换将上述空间中的函数放入l2(ℤ) 的元素中，即平方可加函数ℤ → ℂ 的 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.cnblogs.com/yyywxk/p/Data_Mining_and_Analysis.html",
+                            "description": "27 Dec 2020 — 正交：\\(\\mathbf{a}\\) 与\\(\\mathbf{b}\\) 正交，若\\(\\mathbf{a}^{T}\\ ... 若\\(X\\) 的函数取值范围为有限集或无限可数集，则称之为离散随机变量，反之，为 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://www.mmrc.iss.ac.cn/cscm/cm2011/files/program-1121.pdf",
+                            "description": "本文提出了基于完备正交系V-系统进. 行商标特征的描述，该方法在商标检索准确率上取得了良好的效果。k次V-系统是一类L2[0,1]空间的完备正交函数系，它由分段k次多项式组成 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/hilbert-space",
+                            "description": "这是因为不同族的正交多项式对于不同的加权函数是正交的。= 索博列夫空间= 由Hs ... 这意味着如果S 是任何正交集并且v 与S 正交，则v 与线性跨度的闭包正交S 在空间上 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.2068719844472264,
+                    "weight": 0.6282051282051282
+                }
+            ],
+            "knowledgeDensity": 50.72364653133777
+        },
+        {
+            "id": 8,
+            "name": "函数的正交分解应用与Parseval定理",
+            "pages": [
+                31,
+                34
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        31,
+                        31
+                    ],
+                    "name": "完备的标准正交函数集",
+                    "definition": "在给定区间内，如果除了标准正交函数集之外，不存在其他非零函数满足正交条件，则称这个正交函数集为完备的。",
+                    "information": "例如三角函数集：{sin kt, cos kt, k=0, 1, 2, ...} 和虚指数函数集：{e^(jkt), k=0, ±1, ±2, ...}被认为是完备的标准正交函数集。",
+                    "usage": "在函数的展开和信号处理等领域中，完备的标准正交函数集可以用来表示任何平方可积的函数。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Banach-Spaces",
+                            "description": "得到了一些在Banach 空间上的对称解析函数的应用。 研究了作用于Banach 空间的有 ... 由于正交性，希尔伯特空间在数学上比一般巴拿赫空间更容易处理。 本文重点 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.4539506841561973,
+                    "weight": 0.8666666666666667
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        32,
+                        32
+                    ],
+                    "name": "函数的正交分解",
+                    "definition": "如果函数f(t)可以表示为一组正交函数集{φi(t)}的线性组合，并满足正交性质，则称此表示为函数的正交分解。",
+                    "information": "函数f(t)的正交分解可以表示为f(t) = Σ ciφi(t)，其中ci为常数系数。正交分解有助于简化函数的分析和处理。",
+                    "usage": "函数的正交分解在信号处理、通信系统设计、傅里叶分析等领域有着广泛的应用。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.oejournal.org/article/doi/10.3969/j.issn.1003-501X.2017.06.011",
+                            "description": "由于小波包基函数具有正交性，所以能将信号的小波变换看做能量守恒，即信号经过小波变换后能量保持不变。由巴塞瓦尔(Parseval)定理以及式 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Banach-Spaces",
+                            "description": "由于正交性，希尔伯特空间在数学上比一般巴拿赫空间更容易处理。本文重点 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.47589158360816,
+                    "weight": 0.9333333333333333
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        33,
+                        34
+                    ],
+                    "name": "Parseval定理",
+                    "definition": "Parseval定理表明，函数的平方和等于其正交变换分解系数的平方和。",
+                    "information": "定理由Marc-Antoine Parseval提出，是内积空间上的一个恒等式。定理形式为∫|f(t)|^2 dt = Σ|ci|^2，其中ci为函数f(t)在正交函数集{φi(t)}下的分解系数。",
+                    "usage": "Parseval定理在信号能量分析、傅里叶变换以及泛函分析等数学和工程领域中具有重要意义，特别是在处理信号的能量和功率分析时非常有用。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.oejournal.org/article/doi/10.3969/j.issn.1003-501X.2017.06.011",
+                            "description": "2.2 激光超声信号频带能量表达. 由于小波包基函数具有正交性，所以能将信号的小波变换看做能量守恒，即信号经过小波变换后能量保持不变。由巴什瓦(Parseval)定理以及式 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.091610799914892,
+                    "weight": 0.5769230769230769
+                }
+            ],
+            "knowledgeDensity": 60.74509959901702
+        },
+        {
+            "id": 9,
+            "name": "周期信号的傅里叶级数展开",
+            "pages": [
+                35,
+                43
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        35,
+                        37
+                    ],
+                    "name": "函数的正交分解和帕斯瓦尔定理",
+                    "definition": "信号的能量等于信号在完备正交函数集中各分量的能量之和。",
+                    "information": "介绍了函数的正交分解的概念以及帕斯瓦尔定理的数学表达，阐述了连续周期信号、连续信号、离散信号、离散周期信号的分类。",
+                    "usage": "",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/fourier-series",
+                            "description": "将周期函数分解为简单振荡函数之和的早期思想可以追溯到公元前3 世纪。当时，古代 ... 另一个应用是用帕斯瓦尔定理来解决巴塞尔问题。这个例子被推广，因此可以为任何正 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Differential-Operator",
+                            "description": "在本文的主要目标和关键结果中，我们介绍了由微分算子在开放单位圆盘U 中定义的某些解析和二元函数族的新子类。 ... 在这项工作中，我们推导出表示积分微分算子对广义傅里叶 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.0362881121598004,
+                    "weight": 0.5384615384615384
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        38,
+                        40
+                    ],
+                    "name": "傅里叶级数 —— 概述",
+                    "definition": "三角函数集：{sin nt, cos nt | n = 1, 2, ...}, 任何周期信号可以表示为不同频率的正弦波信号的无限叠加。",
+                    "information": "讲述了三角函数集作为一种正交函数集，并介绍了傅里叶级数的基本概念。提到了历史上拉格朗日等数学家对此的发现，即某些周期函数可以由三角函数的和来表示。",
+                    "usage": "",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/fourier-series",
+                            "description": "傅里叶级数() 是周期函数对三角函数和的扩展。傅立叶级数是三角级数的一个例子，但并非所有的三角级数都是傅立叶级数。将函数表示为正弦和余弦之和有助于分析许多与 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Fourier-Series",
+                            "description": "基于原理和傅里叶级数的叠加，推导了磁通密度分布。 ... 局部周期性磁化率分布被扩展为傅里叶级数，并且GSTC 被重写为一种形式，使它们能够根据反射和透射表面场进行数值求解 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747?viewType=HTML",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 4) 将分数傅里叶变换与机器学习结合。分数傅里叶变换可以提供图像在多个分数域的特征, 这些特征有助于机器学习对图像分类。5) 基于分数傅里叶变换的图信号处理。基于傅里 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://my.oschina.net/u/4283651?q=grub",
+                            "description": "... 周期信号，可以给周期信号也建立傅里叶变换。 有两种方法求周期信号的傅里叶变换： *1. 利用傅里叶级数进行构造** 对于周期信号$x(t)$，其傅里叶级数展开式为： $$x(t) ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.69.20191968",
+                            "description": "... 周期函数, 因此可做傅里叶展开: 将展开式代入运动方程(33)中可得序参量运动方程为 ... 傅里叶级数形式: 利用OA仿设, 系数hn相互之间不独立, 它们满足幂律关系: 这里 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.107106791456539,
+                    "weight": 0.5897435897435896
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        41,
+                        41
+                    ],
+                    "name": "傅里叶级数的工程应用和吉布斯现象",
+                    "definition": "采用有限正弦项正弦波叠加逼近原周期信号，N的大小决定逼近原波形的程度。",
+                    "information": "描述了工程应用中常用有限正弦项来逼近原周期信号，以及随着傅里叶级数项数N的增加，逼近的精度不断改善的情况。同时介绍了吉布斯现象，即在不连续点附近会出现过冲现象，且随着N的增加，过冲的最大值趋近于不连续点跳变值的9%。",
+                    "usage": "",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://ocw.chu.edu.tw/mod/resource/view.php?id=820",
+                            "description": "週期為2π 及任意週期之Fourier 級數. 1. 若. ) ( 2 ). (. f x. f x π. +. =，且. 1,. 0. ( ). 1 ... 能說Fourier cosine series 無Gibbs 現象，收斂速度快，Fourier sine ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.922638528557879,
+                    "weight": 0.2944444444444444
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        42,
+                        43
+                    ],
+                    "name": "傅里叶级数在现代科技中的应用",
+                    "definition": "",
+                    "information": "提到了傅里叶级数在现代科技中的应用，如JPEG压缩、MP3音频编码、Wi-Fi路由器以及4G无线通信网络等。",
+                    "usage": "傅里叶级数的概念和原理在现代科技中有广泛应用，比如图像和音频压缩、无线通信等领域。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170740",
+                            "description": "Citation: Song Weibin, Zhang Shengru, Deng Yiqiu, et al. Analog to information conversion for sparse signals band-limited in fractional Fourier transform..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "http://m.eeworld.com.cn/datasheet_part/1N5544URTR-1,MICROSEMI,43075.html",
+                            "description": "非周期信号的傅里叶变换. 前面已讨论了周期非正弦信号的傅里叶级数展开，下面来分析非周期信号的傅里叶变换。当周期信号的重复周期T 无限增大时，周期信号就转化为非周期信号..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://zlibrary-asia.se/book/17524333/164c89",
+                            "description": "继傅里叶级数之后，其他类似的级数也进入解析领域；它们是通过同一大门而进入的；它们是考虑到应用而被设想出来的。 二阶偏微分方程理论有类似的历史。它主要是借助..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/17956588/5d2e29",
+                            "description": "... Fourier（约瑟夫·傅里叶）在一篇颇具争议的《热的解析理论》中指出，任何周期函数都可以用正弦函数和余弦函数构成的无限级数来表示。而这就是傅里叶级数： 如果用傅里叶级数..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.0742608090051182,
+                    "weight": 0.5641025641025641
+                }
+            ],
+            "knowledgeDensity": 71.88539384019637
+        },
+        {
+            "id": 10,
+            "name": "周期信号的傅里叶级数展开细节分析",
+            "pages": [
+                44,
+                52
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        44,
+                        45
+                    ],
+                    "name": "周期信号的傅里叶级数展开及其条件",
+                    "definition": "如果正交函数集是三角函数集或指数函数集，则周期函数展开的级数就是“傅里叶级数”。",
+                    "information": "对应的级数通常被称为“三角形式傅里叶级数”和“指数形式傅里叶级数”。周期信号的傅里叶级数展开需要满足狄利克雷条件：在一个周期内，间断点的个数有限，极值点的个数有限，绝对可积分数值有限。狄利克雷条件由Johann Peter Gustav Lejeune Dirichlet提出。",
+                    "usage": "周期函数可以在一组正交基函数上展开成为无限级数，用于信号处理、系统分析等领域。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747",
+                            "description": "by M Jinming · 2018 · Cited by 15 — ... 傅里叶变换在严格意义上的离散化形式。其缺点是需要计算变换矩阵与输入信号的乘积, 计算复杂度较高, 为O(N2)。 表 1. 离散分数傅里叶变换特征值及其分布规则."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://my.oschina.net/u/4283651?q=grub",
+                            "description": "周期信号的傅里叶变换. 为了在统一框架里分析周期信号与非周期信号，可以给周期信号也 ... 利用傅里叶级数进行构造 对于周期信号$x(t)$，其傅里叶级数展开式为： $$x(t) ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20230579",
+                            "description": "The lock-in amplifier can perform high-precision measurement in both time and amplitude dimensions, so that it becomes a key component of instrumental ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/17524333/164c89",
+                            "description": "傅里叶（Fourier）级数是分析不断使用的精密工具，正是用这种手段，才能描述非连续函数；为了解决与热传导有关的物理学问题，傅里叶发明了它。当然，如果这个问题未被 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/16695181/0e2a81?dsource=recommend",
+                            "description": "... 傅里叶信号是另一个数字序列。变换后的数字序列越长，则越能表征原始信号。假设 ... 理解离散傅里叶分析的原理和用scipy.fftpack计算的方法。 理解卷积原理，掌握 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.0729672904885637,
+                    "weight": 0.5512820512820513
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        46,
+                        47
+                    ],
+                    "name": "狄利克雷条件的反例说明",
+                    "definition": "狄利克雷条件的反例用于说明不满足条件时，函数可能无法展开为傅里叶级数。",
+                    "information": "反例包括：(1) 间断点个数无限多的函数不能满足狄利克雷条件；(2) 极值点个数无限多的函数不能满足狄利克雷条件；(3) 绝对可积分数值无限大的函数不能满足狄利克雷条件。",
+                    "usage": "通过对狄利克雷条件的反例分析，加深理解傅里叶级数展开的适用范围和限制。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://zlibrary-asia.se/book/17524333/164c89",
+                            "description": "我愿把狄利克雷（Dirichlet）原理作为第二个例子，如此众多的数学物理学定理都建立在 ... 傅里叶（Fourier）级数是分析不断使用的精密工具，正是用这种手段，才能描述非 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://zlibrary-asia.se/book/16695181/0e2a81?dsource=recommend",
+                            "description": "... 傅里叶信号是另一个数字序列。变换后的数字序列越长，则越能表征原始信号。假设 ... ◎ 理解离散傅里叶分析的原理和用scipy.fftpack计算的方法。 ◎ 理解卷积原理，掌握 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.5018780629982427,
+                    "weight": 0.34615384615384615
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        48,
+                        52
+                    ],
+                    "name": "三角形式傅里叶级数的具体展开与系数计算",
+                    "definition": "周期函数可以展开成三角形式的傅里叶级数，即包含正弦项和余弦项的级数。",
+                    "information": "具体的级数展开形式为：f(t) = a0/2 + Σ(an*cos(nω0t) + bn*sin(nω0t))，其中ω0为基波角频率，an和bn为三角形式的傅里叶级数系数，可以通过积分来计算。直流分量的振幅为a0，余弦分量的振幅为an，正弦分量的振幅为bn。",
+                    "usage": "三角形式傅里叶级数的展开和系数计算适用于进行周期信号分析、滤波设计和信号重建等。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.71.20220841",
+                            "description": "The French engineer Fourier proposed the Fourier series expansion and wave analysis theory in 1822. To analyze the frequency of the Fourier series, the frequency resolution needs to be optimized and adjusted."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20230579",
+                            "description": "The lock-in amplifier can perform high-precision measurement in both time and amplitude dimensions, so that it becomes a key component of instrumental ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "http://www.pmo.cas.cn/kycg2019/ndbg2019/201909/P020190915772268119271.pdf",
+                            "description": "The method of series expansion with numerical levels cannot avoid encountering the Laplace limit problem. To solve this issue, our work adopted the Fourier series expansion method, representing the final result in a concise semi-analytical form, which retains ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2020.190593",
+                            "description": "The angular frequency of the signal is the difference in the OAM mode values of the measured OAM beam and the reference beam, and its amplitude is directly proportional to the amplitude of the measured OAM beam. By performing Fourier analysis on the power of the collected base mode signal, the corresponding OAM spectrum can be obtained."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/18758275/cf9337",
+                            "description": "The book analyzes the specific technical details in the FPGA implementation process. It mainly includes descriptions of FPGA overview, design languages and development tools, and the theory of the Discrete Fourier Transform (DFT), which has long been very mature ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.2691198850235827,
+                    "weight": 0.6538461538461537
+                }
+            ],
+            "knowledgeDensity": 80.72935907870676
+        },
+        {
+            "id": 11,
+            "name": "周期信号的傅里叶级数实例分析与总结",
+            "pages": [
+                53,
+                68
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        53,
+                        57
+                    ],
+                    "name": "三角形式傅立叶级数基本概念与计算公式",
+                    "definition": "三角形式傅立叶级数是将周期信号分解为直流分量和谐波分量的和的数学表达形式。",
+                    "information": "周期信号的傅立叶级数可以表示为基础频率的整数倍的正弦波和余弦波的叠加，其中包括了求解各个谐波分量的幅度和相位的积分计算公式。",
+                    "usage": "用于分析周期信号的频谱成分，包括直流分量和各谐波分量，并求解其系数，以便于信号处理、电路分析等领域。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/fourier-analysis",
+                            "description": "数学中的傅立叶分析（Fourier Analysis）是研究通过更简单的三角函数之和来表示或近似一般函数的方法。傅里叶分析从傅里叶级数的研究发展而来，以约瑟夫·傅里叶的名字命名..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "http://www.pmo.cas.cn/kycg2019/ndbg2019/201909/P020190915772268119271.pdf",
+                            "description": "统的偏心率级数展开方法将无法避免地遇到拉普拉斯极限问题。为了解决此问题，我们的工作采用了傅里叶级数展开方法，将最终结果表示为一个紧致的半分析形式，即可保留..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2020.190593",
+                            "description": "信号的角频率是待测OAM光束与参考光束的OAM模式值之差，其幅度正比于待测OAM光束的幅度，通过对收集到的基模信号功率进行傅里叶分析，即可得到待测OAM光束对应的OAM谱。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/18758275/cf9337",
+                            "description": "...傅里叶变换的设计等内容。数字信号处理设计的基石是滤波器设计和频域分析，掌握数字信号处理的原理是完成FPGA设计的基础。本书在编写过程中对数字信号处理的原理进行了..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/16695181/0e2a81?dsource=recommend",
+                            "description": "...傅里叶信号是另一个数字序列。变换后的数字序列越长，则越能表征原始信号。假设...理解离散傅里叶分析的原理和用scipy.fftpack计算的方法。理解卷积原理，掌握..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.3468737178900296,
+                    "weight": 0.6666666666666666
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        58,
+                        60
+                    ],
+                    "name": "矩形脉冲信号的傅立叶级数分析",
+                    "definition": "矩形脉冲信号的傅立叶级数分析是针对具有特定形状的周期信号进行频谱分析的过程。",
+                    "information": "通过对矩形脉冲信号进行傅立叶级数分解，可以得到该信号的频谱成分和频谱图，分析其包含的谐波成分和特性。",
+                    "usage": "在信号处理、通信系统设计等领域，用于理解和分析矩形脉冲信号的频率成分，优化信号的设计和传输。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jeit.ac.cn/article/doi/10.11999/JEIT211221?pageType=en",
+                            "description": "by HAN Chong · 2022 · Cited by 1 — ... 通过对每个chirp信号使用傅里叶变换，将会产生一个个具有不同的分离峰值 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2020.190593",
+                            "description": "by G Zhongyi · 2020 · Cited by 21 — ... 通过对收集到的基模信号功率进行傅里叶分析，即可得到待测OAM光束对应的OAM谱。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://dokumen.tips/documents/signals-and-systems-zhejiang-2017-03-02-oppenheim-a-v-willsky-a-s-nawab-nawab.html",
+                            "description": "— 非周期信号Fourier变换(FT). ②线性系统. 谐波谐波 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.1435054637738693,
+                    "weight": 0.6153846153846154
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        61,
+                        61
+                    ],
+                    "name": "周期矩形脉冲信号的频谱图绘制",
+                    "definition": "周期矩形脉冲信号的频谱图是表示信号频谱成分分布的图形。",
+                    "information": "频谱图通过图示的方式展现了信号的幅度谱，反映了不同频率成分的强度，对于理解信号的频率特性具有直观的作用。",
+                    "usage": "用于直观展示信号的频谱成分，分析和设计滤波器，以及信号的频率特性研究。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 5) 基于分数傅里叶变换的图信号处理。基于傅里叶变换的图信号处理是当下的一个 ... 基于分数阶傅里叶变换和频谱增强的路面裂缝图像识别方法. 计算机应用. 2020(S1): 189 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.esdemc.com/zh/author/chensicheng/",
+                            "description": "ESDEMC_TS001_用于ESD分析的传输线脉冲测试——元件级。 作者Wei Huang、Jerry ... 蓝牙和WiFi设备的测量频谱如图6和图7所示。对于每个设备测量，它们都连接到一台计算机 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.935510946102702,
+                    "weight": 0.4615384615384615
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        62,
+                        67
+                    ],
+                    "name": "复指数形式傅立叶级数及其与三角形式的关系",
+                    "definition": "复指数形式傅立叶级数是利用欧拉公式，将三角形式傅立叶级数转换成复数指数形式的表示方法。",
+                    "information": "通过欧拉公式将三角函数转换为复指数函数，将周期信号表示为一系列复指数函数的线性组合，每个复数代表一个频率成分的幅度和相位。",
+                    "usage": "在信号处理领域，复指数形式的傅立叶级数提供了一种更为通用和数学处理上更为方便的信号表示方法，尤其是在滤波器设计、调制解调等应用中。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/fourier-analysis",
+                            "description": "数学中的傅立叶分析（Fourier Analysis）是研究通过更简单的三角函数之和来表示或近似一般函数的方法。傅里叶分析从傅里叶级数的研究发展而来，以约瑟夫·傅里叶的名字命名..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/bessel-function",
+                            "description": "和它用于将平面波展开为柱面波之和，或查找调频（FM）信号的傅立叶级数。这种正交关系可用于提取傅里叶贝塞尔级数的系数。在这种情况下，函数基于具有固定..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://dokumen.tips/documents/signals-and-systems-zhejiang-2017-03-02-oppenheim-a-v-willsky-a-s-nawab-nawab.html",
+                            "description": "连续时间信号——周期复指数信号和正弦信号(5)。 （4）正弦,复指数信号的重要性： — 周期信号Fourier级数(FS)。 —非周期信号Fourier变换(FT)。 线性系统。 谐波谐波（系统频域..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/18758275/cf9337",
+                            "description": "频谱分析和滤波器设计是数字信号处理的两大基石。离散傅里叶变换（Discrete Fourier Transform，DFT）的理论很早就非常成熟了，后期出现的快速傅里叶变换（Fast..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/17956588/5d2e29",
+                            "description": "... Fourier（约瑟夫·傅里叶）在一篇颇具争议的《热的解析理论》中指出，任何周期函数都可以用正弦函数和余弦函数构成的无限级数来表示。而这就是傅里叶级数：如果用傅里叶级数..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.89008325005157,
+                    "weight": 1.0
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        68,
+                        68
+                    ],
+                    "name": "周期信号的傅立叶级数总结",
+                    "definition": "周期信号的傅立叶级数总结是对前面内容的概括和综合。",
+                    "information": "总结了周期信号可以通过傅立叶级数分解为一系列简谐分量的基本原理和方法，以及求解傅立叶级数系数的基本公式。",
+                    "usage": "对于学习和掌握傅立叶级数在周期信号分析中的应用提供了完整的概览，便于理解和记忆傅立叶级数的基本概念及其应用。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.417538488189004,
+                    "weight": 0.7333333333333333
+                }
+            ],
+            "knowledgeDensity": 97.46287094471394
+        },
+        {
+            "id": 12,
+            "name": "作业题与实验可视化傅里叶级数",
+            "pages": [
+                69,
+                70
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        69,
+                        69
+                    ],
+                    "name": "三角函数序列的正交性证明",
+                    "definition": "一组函数在某区间内的积分为0，即证明这组函数在该区间内两两正交。",
+                    "information": "作业中提到的三角函数序列{1, cos(φ1t+δ1), cos(2φ1t+δ2), …, cos(nφ1t+δn)}需要证明在区间[0, 2π/φ1]上的正交性。",
+                    "usage": "在信号处理中，正交性常用于分解信号为独立的分量，例如在傅里叶分析中。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.4372448168679033,
+                    "weight": 0.8
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        69,
+                        69
+                    ],
+                    "name": "函数的傅里叶级数展开",
+                    "definition": "将一个周期函数分解为一系列正弦和余弦函数的和的形式。",
+                    "information": "求函数f(t) = sin(t) + cos(2t) + 5cos(3t) - sin(4t)的傅里叶级数。",
+                    "usage": "傅里叶级数在信号处理、热传递、振动分析等多个领域有广泛应用。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9372448168679033,
+                    "weight": 0.47435897435897434
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        70,
+                        70
+                    ],
+                    "name": "傅里叶级数可视化实验",
+                    "definition": "通过图形化方式展示傅里叶级数各分量的叠加效果。",
+                    "information": "实验一描述了傅里叶级数的可视化，通过构造多个圆上运动的点，并将它们在纵坐标上的叠加来展示傅里叶级数的合成过程，使用Python3.6环境，实验截止日期为10月25日。",
+                    "usage": "可视化帮助理解傅里叶级数的概念，特别是在教学和演示信号合成时非常有用。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.959110883162394,
+                    "weight": 0.48717948717948717
+                }
+            ],
+            "knowledgeDensity": 106.79647146161214
+        }
+    ],
+    "knowledgeDensity": 640.8048631780342
+}

@@ -1,0 +1,1415 @@
+{
+    "id": 4,
+    "keyword": "信号采样",
+    "mainpoints": [
+        {
+            "id": 0,
+            "name": "信号处理原理概述",
+            "pages": [
+                1,
+                1
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        1,
+                        1
+                    ],
+                    "name": "信号处理原理概述",
+                    "definition": "信号处理是指使用数学和技术手段对信息进行分析和操作的过程，旨在提高信息的质量和有用性。",
+                    "information": "信号处理原理概述可能包括信号处理的定义、基本概念、应用领域以及在实际系统中的作用。",
+                    "usage": "信号处理技术广泛应用于通信、雷达、音频、视频、医疗成像、语音识别等多种领域。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://library2go.overdrive.com/library2go-leo-111-134/content/media/2187747",
+                            "description": "本书介绍了离散时间信号与系统,离散变换及其快速算法,数字滤波器设计,数字信号处理系统的实现,多采样率信号处理与离散小波变换等内容。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://m.baike.com/wikiid/7061175925787418510",
+                            "description": "本书全面讨论了数字信号处理的基本概念、原理和应用。全书共13章，主要包括离散序列和系统、离散傅里叶变换及其快速算法、有限和无限脉冲响应的滤波器的设计基本原理的。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.academia.edu/34659002/%E6%95%B0%E5%AD%97%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC_1_",
+                            "description": "电子信息学院《数字信号处理》MATLAB 实验指导 目录实验一：MATLAB 简介. ... 原理在频域处理中，只考虑了功率谱的变换，在最后的IFFT 变换中要借助相位谱来恢复去噪后的。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://library2go.overdrive.com/library2go-111-134/content/media/2187746",
+                            "description": "本书全面介绍了数字信号处理与应用的基础理论和分析方法。包括离散时间信号与系统的变换、离散傅里叶变换；快速傅里叶变换及其应用；数字滤波器的基本结构、设计原理。"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://xbdz.cbpt.cnki.net/WKE/WebPublication/paperDigest.aspx?paperID=FCCBABD1-132B-4D55-9612-7AA4CB0B35BD",
+                            "description": "介绍了Fourier自去卷积法的基本原理、研究进展及其在化学信号处理中的应用情况,引参考文献52篇。 关键词(KeyWords)：化学计量学;信号处理;Fourier自去卷积. Abstract。"
+                        }
+                    ],
+                    "knowledgeDensity": 1.3530993808817873,
+                    "weight": 0.1
+                }
+            ],
+            "knowledgeDensity": 1.3530993808817873
+        },
+        {
+            "id": 1,
+            "name": "傅里叶变换和信号变换",
+            "pages": [
+                2,
+                8
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        2,
+                        3
+                    ],
+                    "name": "傅里叶级数与傅里叶变换概述",
+                    "definition": "从傅里叶级数到傅里叶变换的基本概念。",
+                    "information": "介绍了傅里叶级数的概念、适用场景以及如何通过极限过程从傅里叶级数推导出傅里叶变换，包括周期信号与非周期信号的频率定义、分析对象的不同（周期信号和非周期信号），以及函数值意义（频率分量的数值和密度值）。",
+                    "usage": "用于分析周期信号和非周期信号在不同频率定义域下的变化和特性。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Fourier-Series",
+                            "description": "已经实现了LPA质心的快速傅里叶变换和傅里叶级数模合，以检测周期性变化并分析模型规律性。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://blog.csdn.net/qq_31390999/article/details/94721623",
+                            "description": "本文主要介绍如何通过librosa来获取spectrogram 和mel spectrogram 继续访问. 频率分析-傅里叶级数及傅里叶变换、STFT 、小波变换、Wigner-Ville 分布."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://blog.csdn.net/qq_40268672/article/details/121746695",
+                            "description": "傅里叶变换FFT 傅立叶变换是一种分析信号的方法，它可分析信号的成分，也可用这些成分合成信号。许多波形可作为信号的成分，比如正弦波、方波、锯齿波。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://context.reverso.net/translation/english-chinese/fourier+transform",
+                            "description": "离散傅立叶变换是信号分析中的一种重要手段，它将时域信号转换成频域信号。"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://github.com/upupming/Lab5-fourier-transform?search=1",
+                            "description": "f 和 f ^ 常常被称为傅里叶积分对或傅里叶变换对。 傅里叶级数. 连续形式的傅里叶变换其实是傅里叶级数（Fourier series）的推广，因为积分其实是一种极限形式。"
+                        }
+                    ],
+                    "knowledgeDensity": 3.521605978363822,
+                    "weight": 1.0
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        4,
+                        5
+                    ],
+                    "name": "典型信号的傅里叶变换",
+                    "definition": "描述了几种典型信号的傅里叶变换。",
+                    "information": "展示了如何对典型信号进行傅里叶变换，包括周期信号的傅里叶变换公式和对欧拉公式的应用，以及如何通过傅里叶变换处理时域上的信号。",
+                    "usage": "用于实际信号处理中，如何将常见的信号模型转换到频域进行分析。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://slideplayer.com/slide/8445525/",
+                            "description": "周期信号的傅里叶变换. 典型非周期信号( 如指数信号, 矩形信号等) 都是满足绝对可积（或绝对可和）条件的能量信号，其傅里 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.my-mooc.com/en/mooc/course-v1-tsinghuax-40130653x-2016-t1/",
+                            "description": "Week3 测试信号分析与处理（2） (Signal processing II): 傅里叶变换的性质(The property of Fourier transform): 功率信号的傅里叶变换(Fourier transform of power ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.academia.edu/34659002/%E6%95%B0%E5%AD%97%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC_1_",
+                            "description": "2) 快速傅里叶变换函数:fft(s)。s 为加窗后的一帧信号。因为实时信号FFT 的频域样值关于中点(即采样频率的1/2)对称, 所以fft(s)给出的矩阵数据只有前半部分有用。 % ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747?viewType=HTML",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 上述离散分数变换都是基于特征分解型离散分数傅里叶变换的定义方式得到的。这些分数变换体现了以离散分数傅里叶变换为核心的离散分数变换的多样性, 同时也为分数域数字信号 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://patents.google.com/patent/CN103093085A/ko",
+                            "description": "... 傅里叶变换的信号谐波分析方法. Khaleelu Rehman et al. 2018 Modeling and simulation of ECG signal for heartbeat application. Dilcher et al. 2014 On q-analogues ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.9648440944287104,
+                    "weight": 0.5909090909090908
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        6,
+                        6
+                    ],
+                    "name": "时域卷积与频域乘积",
+                    "definition": "阐述了时域卷积定理和频域乘积定理。",
+                    "information": "介绍了时域中两个信号卷积对应频域中频谱的乘积，以及时域中信号相乘对应于频域中频谱的卷积，进一步说明了时域卷积不会产生新频率，而时域相乘则可能产生新频率。",
+                    "usage": "在信号处理中，特别是在滤波器设计和系统分析中，这些定理用于简化计算和提供直观的频域视角。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/convolution-theorem",
+                            "description": "... 信号）卷积的傅里叶变换是它们的傅里叶变换的逐点乘积。更一般地，一个域（例如时域）中的卷积等效于另一个域（例如频域）中的逐点乘法。其他版本的卷积定理可以应用于 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/id/5fa4fb9df4d791802438c29a",
+                            "description": "by W Rongbo · 2018 · Cited by 1 — 经典的卷积定理表明，两个信号的卷积与其傅里叶变换(Fourier transform, FT)存在严格的对偶形式，可描述为时域卷积频域相乘。 ... 积运算与傅里叶余弦变换卷积运算。 3.2 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://blog.csdn.net/lyd_7_29/article/details/124910277",
+                            "description": "24 May 2022 — 得到所谓周期信号的傅里叶变换. 离散化（理想抽样），相当于对冲激函数周期序列作乘积时域抽样，设抽样间隔为 T s T_s Ts​， ω s = 2 π T s \\omega_s ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://encyclopedia.pub/entry/history/compare_revision/90539/-1",
+                            "description": "整个卷积混合信号从时域转换为频域，通过短时傅里叶变换（STFT）进行分离。与时域卷积运算相比，频域积运算具有计算方便、计算复杂度小、收敛速度快等优点。) ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://patents.google.com/patent/WO2017185663A1/en",
+                            "description": "... 时域卷积等价于频域乘积的原理，将HRTF数据与视频音轨等输入时域音频信号的FFT变换结果相乘，再进行IFFT变换为时域信号并将此时域信号用耳机播放给用户。A common ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.405546375199701,
+                    "weight": 0.40909090909090906
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        7,
+                        8
+                    ],
+                    "name": "傅里叶变换的特性总结",
+                    "definition": "总结了傅里叶变换的主要特性。",
+                    "information": "对比了周期信号和非周期信号在傅里叶变换上的不同处理方法，强调了傅里叶变换在信号分析中的通用性和适用性。",
+                    "usage": "提供了一个总结，帮助理解和记忆傅里叶变换在不同类型信号处理中的应用。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://scuteee.com/courses/sophomore/signalandsystem/%E8%BF%9E%E7%BB%AD%E6%97%B6%E9%97%B4%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2%E7%9A%84%E6%80%A7%E8%B4%A8",
+                            "description": "傅里叶变换的性质 · 线性性 · 时移 · 共轭对称 · 微分 · 积分 · 尺度变换 · 对偶性 · Paswal 定理."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/fourier-analysis",
+                            "description": "频率分析使用频率变换作为傅立叶变换的替代，以包含时间和频率信息的形式表示信号。由于不确定性原理，这些之间需要进行权衡。这些可以是傅里叶变换的推广，例如短时傅里叶。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://iphysresearch.github.io/blog/post/signal_processing/spectral_analysis_scipy/",
+                            "description": "由于随机信号是时域无限信号，不具备可积分条件，因此不能直接进行傅里叶变换。又因为随机信号的频率、幅值、相位都是随机的，因此从理论上讲，一般..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.oejournal.org/article/id/5fa4fba1f4d791802438c2a1",
+                            "description": "Hartley变换是1942年由Hartley提出的, 是一种类似于正余弦变换的积分变换。对比傅里叶变换, Hartley变换具有将实函数转换为实函数的优点。二维Hartley变换可以用类似光学傅里..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747?viewType=HTML",
+                            "description": "上述离散分数变换都是基于特征分解型离散分数傅里叶变换的定义方式得到的。这些分数变换体现了以离散分数傅里叶变换为核心的离散分数变换的多样性, 同时也为分数域数字信号..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.9663594831300224,
+                    "weight": 0.606060606060606
+                }
+            ],
+            "knowledgeDensity": 13.211455312004043
+        },
+        {
+            "id": 2,
+            "name": "信号的采样与量化",
+            "pages": [
+                9,
+                27
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        9,
+                        11
+                    ],
+                    "name": "信号采样的基本概念",
+                    "definition": "信号采样是将连续信号转换为离散信号的过程",
+                    "information": "介绍了信号的周期与非周期，连续信号的离散化，以及采样周期越小，采样信号越接近原始信号的概念。",
+                    "usage": "用于对连续信号进行数字化处理，便于在数字设备上进行信号处理",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1314721&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%B4%F8%CF%DE",
+                            "description": "... 信号进行高效采样的理论基础，是基于空间映射概念对原始Shannon采样理论的扩展。本论文针对TIADC结构中存在的通道失配误差差，以非线性混合滤波器组（NLFB）为基本模型 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://blog.51cto.com/u_16213607/8840972",
+                            "description": "15 Dec 2023 — 将采样后离散信号的幅度用二进制数表示出来的过程称为量化。（日常生活所说的量化，就是设定一个范围或者区间，然后看获取到的数据在这个条件内的收集出来 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/signal-processing",
+                            "description": "... 采样信号，并在时间上量化但不在幅度上量化。模拟离散时间信号处理是一种以采样 ... 概念还指在不考虑量化误差的情况下建立数字信号处理的数学基础的理论领域。 = 数字 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.academia.edu/34659002/%E6%95%B0%E5%AD%97%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC_1_",
+                            "description": "... 信号的一种方法。设离散时域采样信号为x(n),n=0,1, ...,N-1, 其中n 为时域采样点序号,N 是信号长 度。然后对信号进行分帧处理, 则x(n)表示为xn(m),n=0,1, ...,N-1, 其中n 是 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://blog.csdn.net/zgyrelax/article/details/17391215",
+                            "description": "18 Dec 2013 — ... 采样和量化。采样就是每隔一定时间就读一次声音信号的幅度，而量化则是将采样得到的声音信号幅度转换为数字值，从本质上讲，采样是时间上的数字化，而 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.4450260507036243,
+                    "weight": 0.43939393939393934
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        12,
+                        14
+                    ],
+                    "name": "信号采样的空间与时间准确度",
+                    "definition": "空间准确度与时间准确度分别描述了在空间和时间上信号采样的精确程度",
+                    "information": "阐述了不同感官之间采样准确度的比较，例如视觉、触觉、听觉，并引入了概念例如空间准确度和时间准确度。",
+                    "usage": "用于理解不同类型信号采样的特点，以及如何根据需要选择合适的采样准确度",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1314721&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%B4%F8%CF%DE",
+                            "description": "研究高效采样结构和扩展的采样理论具有重要的理论意义和实用价值。时间交替模数转换器（TIADC）是一种针对带宽有限的宽带信号进行采样的高效并行结构，而有限新息率..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Sampling-Rate",
+                            "description": "信号采样率、准确的同步信号以及对操作经验的依赖。A method for detecting ... 以高时间采样率获取高空间分辨率(HSR) 图像并不经济，甚至无法使用现代多光谱卫星成像..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Sampling-Frequency",
+                            "description": "采样频率不足会牺牲信号保真度，从而导致估计不准确，尤其是对于空间步态参数。采样频率不足会牺牲信号保真度，从而导致估计不准确，尤其是对于空间步态参数。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://www.npr.ac.cn/en/article/doi/10.11804/NuclPhysRev.40.2022035",
+                            "description": "待测信号经过前端模拟电路处理后，将输入至波形数字化电路进行采样和量化。FPGA接收采样结果，并直接将采样点输出至上位机，得到待测信号的瞬态采样波形。"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://www.irla.cn/en/article/doi/10.3788/IRLA20210786",
+                            "description": "...空间信息采集的准确性。Figure 6. Schematic of scanning strategy of HSL. (a) ...图中横坐标代表采样时间，收到激光器Trigger信号后开始计时至t0=0，采样间隔为0.2..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.5117183528429656,
+                    "weight": 0.4848484848484848
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        15,
+                        22
+                    ],
+                    "name": "信号采样与量化的Shannon定理",
+                    "definition": "Shannon定理是信号采样理论中的一个基本定理，指出了信号完美重建的采样条件",
+                    "information": "详细解释了Shannon定理，并展示了信号采样过程中的示例和图解，包括采样率的计算和采样周期的定义。",
+                    "usage": "用于指导信号采样过程，确保信号可以无失真地重建",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/nonuniform-sampling",
+                            "description": "非均匀采样是采样理论的一个分支，包括与奈奎斯特-香农采样定理相关的结果。非均匀采样基于拉格朗日插值及其与（均匀）采样定理的关系。非均匀采样 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/digital-recording",
+                            "description": "... 信号可以根据奈奎斯特-香农采样定理的约束精确重构，这取决于采样速率和量化误差。将是音频或视频位深度。由于信号以数字方式存储，复制、存储或干扰不会降低记录质量 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/id/5fa4fba1f4d791802438c2a4",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 5.3 多通道采样. 多通道并行采样可极大降低采样率, 是近年来的一个研究重点。Zhang于2008年提出了适用于分数域带限信号的多通道采样定理。该采样模型如图 7所示。Wei于2010 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20231245",
+                            "description": "此外, 探测器自身在完成光电转换、信号传输的过程中会产生一定的量化误差与探测噪声. ... 定理, 以更低的采样频率实现原始信号的重构. 其理论基础为当具有稀疏性时, 通过非 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://patents.google.com/patent/WO2016134549A1/en",
+                            "description": "根据香农采样定理，当模拟限带信号的采样率不低于奈奎斯特采样率时，可以根据离散时间采样值恢复该模拟信号。压缩采样理论指出，当模拟信号稀疏或者在某个基上稀疏时 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.700862769318864,
+                    "weight": 0.5
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        23,
+                        27
+                    ],
+                    "name": "信号的量化过程及其影响因素",
+                    "definition": "量化是将采样后的信号转换为具有有限位数的数字值的过程",
+                    "information": "讨论了信号量化的基本概念，量化级数的选择，以及采样频率对信号重建质量的影响。",
+                    "usage": "用于在数字信号处理中对模拟信号进行数字表示，同时权衡量化精度和所需存储空间的关系",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://patents.google.com/patent/CN1964486A/zh",
+                            "description": "本发明提供一种用于视频编码系统的非线性差分量化器，包括第一差分量化单元，其包括：量化子单元，用于将输入视频信息中相邻的像素输入值的每个差分转化为多个离散步长..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170742",
+                            "description": "1) 在声音信号采集过程中，借鉴文献[4]中提到的基于分数阶里叶变换的量化噪声抑制方法去降低声音信号采样的量化噪声，以提高声音信号的质量。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.69.20200136",
+                            "description": "为了进一步提高随机性, 采用比特反转的方法, 量化采集方案如图8(a)所示, SLs混沌信号采样量化之后得到12位的随机比特, 抽取最低4 bit作为有效位..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT221420",
+                            "description": "最后进行2 bit的TDC过程，细量化的结束信号作为TDC的开始信号..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://www.npr.ac.cn/en/article/doi/10.11804/NuclPhysRev.39.2021023",
+                            "description": "其量化RMS精度为42.6 ps。该测量结果存在三个码值，分别对应于-1、0、1 LSB，对应于两次采样分别出现亚稳态的情况。"
+                        }
+                    ],
+                    "knowledgeDensity": 2.0608015504501083,
+                    "weight": 0.3787878787878788
+                }
+            ],
+            "knowledgeDensity": 22.929864035319607
+        },
+        {
+            "id": 3,
+            "name": "采样定理和信号重建",
+            "pages": [
+                28,
+                42
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        28,
+                        31
+                    ],
+                    "name": "信号的采样与量化",
+                    "definition": "在一定条件下，用离散时间信号代替连续时间信号的过程。",
+                    "information": "日常生活中常见用离散时间信号表示连续时间信号的例子，如照片、屏幕画面等。研究连续时间信号与离散时间信号之间的关系，主要包括在什么条件下，一个连续时间信号可以用它的离散时间样本来代替而不丢失原有的信息；如何从连续时间信号的离散时间样本中真实地恢复成原来的连续时间信号。",
+                    "usage": "信号处理中的采样定理，信号的数字化存储与传输，图像与声音的数字化处理。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/nonuniform-sampling",
+                            "description": "香农的非均匀采样采样理论指出，如果平均采样率满足奈奎斯特准则，则可以从其样本中完美地重构带限信号。因此，虽然均匀间隔的样本可能有助于重建算法，但它不是完美重建的..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/compressed-sensing",
+                            "description": "压缩感知（也称为压缩感测、压缩采样或稀疏采样）是一种信号处理技术，用于通过寻找不确定的线性系统的解来高效获取和重构信号。它基于这样一个原理，即可以通过优化..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20231245",
+                            "description": "... 理, 以更低的采样频率实现原始信号的重构。其理论基础为当具有稀疏性时, 通过非... 压缩感知的流程可大致分为: 信号的稀疏表示、非相干测量与信号重构。信号的稀疏..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.oejournal.org/article/id/5fa4fba1f4d791802438c2a4",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 分数傅里叶变换相关的采样是指在时域对连续时间信号进行采样, 然后在分数域对信号进行分析和重构。... 经典的Nyquist-Shannon采样定理表明, 采样信号的频谱具有周期性, 且..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT190512",
+                            "description": "by J FAN · 2020 · Cited by 10 — ... 采样定理带来的弊端，为众多领域信息的获取提供了新思路。不同于奈奎斯特采样定理，压缩感知从全局信息出发进行采样，在原始稀疏信号先验知识中，以..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.098364687118822,
+                    "weight": 0.6515151515151515
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        32,
+                        35
+                    ],
+                    "name": "采样信号与理想采样",
+                    "definition": "连续信号经过采样后，变成幅度不等的等间隔脉冲串。",
+                    "information": "理想采样也称为脉冲采样，采样周期为Ts，采样信号为连续信号经采样后的结果。采样信号在时域与频域的表现形式以及它们之间的数学关系。",
+                    "usage": "通过采样获得数字信号，并在频域进行分析与处理。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Signal-Reconstruction",
+                            "description": "在本文中，提出了使用低于奈奎斯特速率的信号样本进行完美信号重建的采样定理，其中涉及非线性信号重建技术。我们给出了理论分析，该方法是对经典局部最大同步的改进..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/signal-reconstruction",
+                            "description": "在信号处理中，重建通常意味着从一系列等距样本中确定原始连续信号。本文采用广义、抽象的数学方法进行信号采样和重建。有关基于带宽限制信号的更实用的方法，请参阅..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1729620&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%CF%A1%CA%E8%B1%ED%CA%BE%3B%BA%CB",
+                            "description": "在以往的信号处理流程中，对信号的采样所采用的采样准则是奈奎斯特采样定理。定理...信号重建不是很理想。本文在此基础上提出了一种改进算法，并针对无噪和有噪两种..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://jeit.ac.cn/article/doi/10.11999/JEIT211297?pageType=en",
+                            "description": "压缩感知理论摒弃先采样后压缩的传统做法，实现了采样和压缩的同步进行，降低了采样速率，减少了处理成本和存储成本。如式(1)所示，原始信号x在..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20231245",
+                            "description": "...采样定理，以更低的采样频率实现原始信号的重构。其理论基础为当具有稀疏性时，通过非均匀采样可以远低于奈奎斯特采样率的采样数量准确还原原始信号。压缩感知算法最初由..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.1946030189065446,
+                    "weight": 0.8666666666666667
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        36,
+                        39
+                    ],
+                    "name": "采样信号的频域表示",
+                    "definition": "采样信号在频域中的表现形式，包括采样信号的频谱。",
+                    "information": "采样信号的频谱是连续信号频谱以采样频率为周期进行延拓的结果。详细讨论了采样周期变大、频谱周期变小时，离散信号的频谱发生相互重叠的混叠现象。",
+                    "usage": "理解采样信号的频域特性，防止混叠现象，设计合适的采样率。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170740",
+                            "description": "RD采样方案是一种基于随机解调的AIC方案, 该方案对AIC的发展起到了强大的推动作用。对于频域稀疏信号, 能够以低于香农采样速率的速率进行采样, 并且由采样值可以恢复出..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Signal-Reconstruction",
+                            "description": "在本文中，提出了使用低于奈奎斯特速率的信号样本进行完美信号重建的采样定理，其中涉及非线性信号重建技术。我们给出了理论分析，该方法是对经典局部最大同步..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2023.220088?viewType=HTML",
+                            "description": "by Z Chi · 2023 · Cited by 1 — ... 信号带宽近似表示为B=1/τ。N为过采样倍数。设中频为200 MHz，脉冲宽度为50 ns，N为5时 ... 从时域上直接观察难以对其量化，因而需要从信号频域上提取相应特征来进一步区分。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT190512",
+                            "description": "by J FAN · 2020 · Cited by 10 — 基于稀疏时频分布的跳频信号参数估计[J]. 电子与信息学报, 2018, 40(3): ... 基于测量域复采样压缩感知信息隐藏算法. 现代电子技术. 2022(05): 74-78 . 3..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT200683",
+                            "description": "by Z JIANG · 2021 · Cited by 1 — 时频域信号经过海森堡变换(Heisenberg transform)后成为时域信号。在接收端，时域接收信号由维格纳(Wigner)变换成为时频域信号，经过SFFT处理解调得到..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.141464794344182,
+                    "weight": 0.7333333333333333
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        40,
+                        42
+                    ],
+                    "name": "混叠现象与预滤波",
+                    "definition": "在采样频率低于信号最高频率的两倍时，信号频谱发生重叠的现象。",
+                    "information": "混叠现象会导致原信号无法正确恢复。介绍了如何通过预滤波器在采样前滤除高频成分以防止混叠现象，并讨论了预滤波后重构信号产生模糊的效果。",
+                    "usage": "在模拟信号数字化前，通过预滤波处理信号以避免采样后的混叠，保证信号质量。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2023.220088?viewType=HTML",
+                            "description": "by Z Chi · 2023 · Cited by 1 — 2.3.3 特殊采样率下的IQ解调. 3. 声场信号的预处理. 3.1 系统噪声抑制. 3.2 相干衰落噪声抑制. 3.3 偏振相关噪声抑制. 3.4 多空间分辨率分析. 4. 特征提取与模式识别."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.70.20201122",
+                            "description": "对于EMD, 带通滤波器混叠较多低频成分, 关于中心频率对称度差, 狭带特性差, 需要 ... 关于心动周期特性极差的ECG信号重建, 以及从物理现象本质探索ECG信号处理, 是本 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.polyu.edu.hk/proj/gef/wp-content/uploads/2016/02/reference-book-layout-fix3b.pdf",
+                            "description": "混叠. An effect results in different signals to become indistinguishable when ... 采样定理. See Definition on Nyquist-Shannon Theorem. Alternative: Nyquist ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/6180679/057405/%E5%A4%A7%E8%AF%9D%E6%A0%B8%E5%BF%83%E7%BD%91-by-%E9%99%88%E5%AD%A6%E6%A2%81-Z-Library",
+                            "description": "图1-9 带通抽样示意图说明：带通抽样定理使用的前提条件是只允许在其中一个频带上存在信号，而不允许在不同的频带同时存在信号，否则将会引起信号混叠。带通抽样理论的 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.487143768006186,
+                    "weight": 0.45454545454545453
+                }
+            ],
+            "knowledgeDensity": 34.85144030369534
+        },
+        {
+            "id": 4,
+            "name": "混叠和滤波",
+            "pages": [
+                43,
+                47
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        43,
+                        43
+                    ],
+                    "name": "采样与采样定理基本要求",
+                    "definition": "为了使采样后的信号样本能完全代表原来的信号，必须能够从中不失真地分离出原信号。",
+                    "information": "这要求在周期性延拓时不能发生频谱的混叠现象。因此，采样信号x(t)必须是带限的，且采样频率必须满足一定条件以避免混叠。",
+                    "usage": "在信号处理中，合理设定采样频率和采样方法，以确保信号的还原和分析",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT181190",
+                            "description": "这是由采样定理决定的。若按 fs=2fmax 对 x(t) 采样，并对采样后的 x(n) ... 采样频率下，WVD会产生混叠，而STFT不会。 2.3.2 重排WVD无混叠算法. 结合上文对 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20231245",
+                            "description": "... 采样间距必须大于信号中最高频率分量的两倍。对于光学图像来说, 当探测器像素尺寸间距过大, 或采样过于稀疏时, 像素中的信息发生混叠, 造成图像分辨率的下降. 信噪比 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT230593",
+                            "description": "by Z WANG · 2023 — 同时定义以下3个滤波器设计的基本特性。 (1) ζ1代表阻带衰减特性，防止不同滤波器间的混叠干扰 ... 要求对模拟器件的设计提出定量化标准。 References (33) ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170740",
+                            "description": "... 采样定理可知其采样速率至少为4 GHz。这样的话, 不仅采样和信号处理的硬件方面难以满足其要求, 而且需要消耗大量的资源来储存和传输这些数据。分数域的采样作为香农采样 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://www.oejournal.org/article/id/5fa4fba1f4d791802438c2a4",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 对于周期非均匀采样, Zhang基于Tao提出的周期非均匀采样定理给出了分数域带限随机信号的重构公式。对于多通道采样, Zhang基于其在2008年提出的多通道采样定理给出了分数域 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.917422499801688,
+                    "weight": 0.5303030303030303
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        44,
+                        47
+                    ],
+                    "name": "Nyquist采样定理",
+                    "definition": "工程实践理论推导的一个定理，也称为香农定理。",
+                    "information": "Nyquist采样定理是数字信号处理中的基本定理，指出采样频率必须是信号最高频率成分的两倍以上，才能在理论上无失真地重构原始信号。",
+                    "usage": "在数字信号采样中应用，用于指导采样频率的选择，确保信号不会发生混叠，可以被正确还原。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://pearl.shanghaitech.edu.cn/teaching/2022Spring/SI100B/archive/Lectures/SP%20Part%202-Frequency%20spectrum.pdf",
+                            "description": "Sampling (Nyquist) Theorem (采样/奈奎斯特定理). Let be a band-limited ... Spatial Aliasing (空间混叠). 18. Page 19. Filtering (滤波). What can..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "http://course.sdu.edu.cn/Download2/20160323150537002.ppt",
+                            "description": "不满足采样定理条件, 存在频率混叠. 高阶系统, 频率混叠可忽略, 所以脉冲响应不变法可用于设计滤波器. In this case, Eq. (4.55) does not hold exactly,; because the..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/id/5fa4fba1f4d791802438c2a4",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 经典的Nyquist-Shannon采样定理表明, 采样信号的频谱具有周期性, 且周期为 π 2 π ... 采样过程中存在的混叠误差和截断误差。对于时钟抖动造成的非均匀采样, Xu在..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://dbpedia.org/page/Nyquist_frequency",
+                            "description": "... 奈奎斯特（Harry Nyquist）或奈奎斯特－香农采样定理得名。采样定理指出，只要离散系统的奈奎斯特频率高于被采样信号的最高频率或带宽，就可以避免混叠现象。 从理论上..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://slideplayer.com/slide/13836212/",
+                            "description": "13 Sept 2018 — 11 No aliasing 满足采样定理条件, 无频率混叠. No aliasing 满足采样定理 ... 混叠可忽略, 所以脉冲响应不变法可用于设计滤波器. CT system have..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.993408568777538,
+                    "weight": 0.3636363636363636
+                }
+            ],
+            "knowledgeDensity": 39.76227137227457
+        },
+        {
+            "id": 5,
+            "name": "Nyquist采样定理",
+            "pages": [
+                48,
+                71
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        48,
+                        69
+                    ],
+                    "name": "采样与采样定理基础",
+                    "definition": "采样是将连续时间信号转换为离散时间信号的过程，采样定理是指明了采样过程中必须遵循的原则，以确保连续信号可以被准确地恢复出来。",
+                    "information": "此部分涉及采样和采样定理的基本概念、原理及其在信号处理中的基础作用。介绍了信号采样的必要性、采样频率的选择、以及如何通过采样定理来避免混叠效应等基础知识。",
+                    "usage": "在数字信号处理、通信系统、音视频编码等领域中，采样和采样定理是确保信号正确传输和恢复的关键技术。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://sound.bai-hua.org/index.php?title=%E5%A5%88%E5%A5%8E%E6%96%AF%E7%89%B9%E5%AE%9A%E7%90%86",
+                            "description": "采样过程所应遵循的规律，又称取样定理、抽样定理。采样定理说明采样频率与信号频谱之间的关系，是连续信号离散化的基本依据。采样定理是1928年由美国电信工程师H.奈奎斯特..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.my-mooc.com/en/mooc/course-v1-tsinghuax-40130653x-2016-t1/",
+                            "description": "采样定理(Sampling theorem): 漏泄与加窗(Spectral leakage and windowing): 柱状 ... 伯德图与奈奎斯特图(Bode plot and Nyquist plot): 一阶惯性系统(First-order system)..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747?viewType=HTML",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 均匀采样作为最基础的采样模型, 是分数傅里叶变换相关的采样理论在早期的研究重点 ... 经典的Nyquist-Shannon采样定理表明, 采样信号的频谱具有周期性, 且周期为 π 2π..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://staff.ustc.edu.cn/~zhling/Course_SSP/slides/Chapter_02.pdf",
+                            "description": "is called the sampling period(采样周期), and its reciprocal is called the ... = Nyquist frequency (highest frequency with significant spectral level in..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://dbpedia.org/page/Voice_frequency",
+                            "description": "... 采样率作为数字公共交换电话网（PSTN）所用的脉冲编码调制系统的基础。根据奈奎斯特-香农采样定理，采样频率（8kHz）必须至少是在离散时间（4kHz）采样之前进行适当滤波的语音频率最高部分的两倍，从而有效重建语音信号。"
+                        }
+                    ],
+                    "knowledgeDensity": 1.9933470635357686,
+                    "weight": 0.34848484848484845
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        70,
+                        70
+                    ],
+                    "name": "Nyquist采样定理",
+                    "definition": "Nyquist采样定理是指在采样过程中，采样频率必须不小于信号最高频率的两倍，才能确保信号不发生混叠，从而可以无失真地恢复原信号。",
+                    "information": "介绍了Nyquist采样定理的具体内容，包括在通信中的信号采样实例，如语音信号、电视信号的采样频率和相关应用。同时，提出了CCITT建议的模拟话音信号采样频率，考虑到了保护频带的设置。",
+                    "usage": "Nyquist采样定理广泛应用于模拟信号的数字化过程中，如模拟电话通信、音频录制、视频处理等领域。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem",
+                            "description": "It establishes a sufficient condition for a sample rate that permits a discrete sequence of samples to capture all the information from a continuous-time signal ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.polyu.edu.hk/proj/gef/index.php/glossary/nyquist-shannon-theorem/",
+                            "description": "Digital signal sampling theorem bridging between continuous (analog) signal and discrete (digital) signal."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.wikidata.org/wiki/Q679800",
+                            "description": "No description defined. Chinese."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://link.springer.com/article/10.1631/FITEE.1900320",
+                            "description": "Data recovery with sub-Nyquist sampling: fundamental limit and a detection algorithm."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://www.researchgate.net/publication/283184040_Discussion_of_Some_Basic_Problems_on_Sampling_Theorem",
+                            "description": "Discussion of Some Basic Problems on Sampling Theorem, Nyquist-Shannon sampling theory. This new method allows reconstruction of the signal from fewer samples than required by the sampling theorem."
+                        }
+                    ],
+                    "knowledgeDensity": 2.9266367848337174,
+                    "weight": 0.5454545454545454
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        71,
+                        71
+                    ],
+                    "name": "连续时信号与离散时信号的关系",
+                    "definition": "连续时间信号与离散时间信号的关系是指在满足一定条件下，通过采样得到的离散时间信号可以完整地代表原始的连续时间信号。",
+                    "information": "探讨了在什么条件下，一个连续时间信号可以通过其离散时间样本来代替而不丢失任何信息，以及如何从连续时间信号的离散时间样本中准确无误地恢复出原始信号。",
+                    "usage": "这一理论基础指导着数字信号处理过程中信号的采样和重建，对于信号压缩、存储和传输具有重要意义。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/nyquist-frequency",
+                            "description": "在信号处理中，奈奎斯特频率（或折叠频率）以哈里·奈奎斯特的名字命名，是连续函数或采样器的一种特性，可将信号转换为离散序列。对于给定的采样率（每秒样本数），奈..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://sound.bai-hua.org/index.php?title=%E5%A5%88%E5%A5%8E%E6%96%AF%E7%89%B9%E5%AE%9A%E7%90%86",
+                            "description": "采样定理说明采样频率与信号频谱之间的关系，是连续信号离散化的基本依据。采样定理是1928年由美国电信工程师H.奈奎斯特首先提出来的，因此称为奈奎斯特采样定理。1933..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "http://chenweixiang.github.io/2016/06/14/fourier-transform.html",
+                            "description": "在数字信号处理领域，奈奎斯特-香农采样定理是连续信号（通常称作“模拟信号”）与离散信号（通常称作“数字信号”）之间的一个基本桥梁。它确定了信号带宽的..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.12086/oee.2018.170747",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 分数傅里叶变换相关的采样是指在时域对连续时间信号进行采样, 然后在分数域对信号 ... 经典的Nyquist-Shannon采样定理表明, 采样信号的频谱具有周期性, 且周期为 π 2π..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://www.irla.cn/en/article/doi/10.3788/IRLA20220017",
+                            "description": "一般可以分为从连续到连续、从连续到离散、从离散到离散三种。点响应函数 h(rg;rf) ... ，是时间信号以Nyquist采样率进行离散采样处理后的独立表达系数的数目，可以理解..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.907379572490853,
+                    "weight": 0.5151515151515151
+                }
+            ],
+            "knowledgeDensity": 47.589634793134906
+        },
+        {
+            "id": 6,
+            "name": "连续信号的采样与离散信号的关系",
+            "pages": [
+                72,
+                81
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        72,
+                        74
+                    ],
+                    "name": "连续信号的采样重构概述",
+                    "definition": "连续信号的采样重构是指将连续信号通过采样过程转换为离散信号，再通过一定的处理恢复为连续信号的过程。",
+                    "information": "本部分介绍了连续信号采样重构的基本概念，包括滤波器的频域（分析）与时域（实现）。",
+                    "usage": "在信号处理中，采样重构用于模拟信号的数字化处理以及数字信号的模拟还原。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT230593",
+                            "description": "by Z WANG · 2023 — ... 连续时间信号到数字离散信号的转换. ˆsi(n)=si(t)|t=n/f ... 信号重构系统由数字采样、数字下变频以及数字上变频3个环节完成了频谱 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/id/5fa4fba1f4d791802438c2a4",
+                            "description": "by M Jinming · 2018 · Cited by 15 — ... 采样型离散化算法和特征分解型离散化算法;. 2) 介绍了由特征分解型离散分数傅里叶变换 ... 3) 信号的采样与重构是信号处理中的一个基础问题, 文中主要介绍了三种采样模型 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Sampling-Rate",
+                            "description": "... 信号采样率、准确的同步信号以及对操作经验的依赖。 A method for detecting image ... 采样准则的情况下提高重构精度。 引入睡眠调度以动态调整空间采样率，并使用 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.itu.int/dms_pub/itu-r/opb/rep/R-REP-BT.2140-1-2009-PDF-C.pdf",
+                            "description": "由于一段一段连续播放的图像和伴音信号后期处理出现的累计效应. 可能影响图像或伴音 ... 模拟信号用一系列离散的采样来表示。虽然模拟信号必须足够频繁地采样才能. 够允许 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT220558",
+                            "description": "基于正交压缩采样系统的脉冲雷达回波信号实时重构方法[J]. 电子与信息学报, 2016, 38(5): 1064–1071. doi: 10.11999/JEIT150767. ZHANG Suling, XI Feng, CHEN Shengyao ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.4469853643436406,
+                    "weight": 0.19333333333333333
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        75,
+                        77
+                    ],
+                    "name": "理想滤波器的作用与设计",
+                    "definition": "理想滤波器指的是能够完美地通过或者阻止特定频率成分的滤波器。",
+                    "information": "介绍了以某个截止频率为标准的理想滤波器在连续信号采样重构中的作用，特别是对奇性质理想滤波器的分析。",
+                    "usage": "理想滤波器的概念在设计数字滤波器时非常重要，虽然它是一个理想化的模型，但它提供了一个设计指标。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://cglhub.com/auto/db/detail.aspx?db=950008&rid=1350492&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%CE%C8%CC%AC%BD%E2",
+                            "description": "... 过滤波器设计及跟踪性能分析。利用离散Riccati方程的非递归代数解,推导得到了利用距离、速度、加速度测量的Kalman跟踪过滤波器的稳态解的解析表达式，并提出了一种新的利用..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/id/5fa4fba1f4d791802438c2a4",
+                            "description": "通过设计不同的 F α [ h ] , 可以得到不同类型的分数域过滤波器。当观测信号在时域和频域重叠, 但在某个特定阶次的分数域没有重叠时, 可以利用分数域过滤波实现信号的复原。该..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://jeit.ac.cn/article/doi/10.11999/JEIT221368?pageType=en",
+                            "description": "... 过滤波器的情况。这是一种寻找低维子空间的方法。但是后来发现，STC虽然可以得出不止一个方向，但依然不是纯粹的子单元的过滤波器，而是一些子单元的组合。4.5 脉冲激发非..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT220687",
+                            "description": "by X FENG · 2022 — (2). 其中， Δf=2v/λ 为目标运动速度 v 产生的多普勒频移， λ 为波长。接收信号被依次送入混频器、低通过滤波器，得到中频信号. SIF(t)=12ARAT..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.70.20211216",
+                            "description": "理想零差探测器输出的信号 Xout 可以表示为. 其中 A 为放大系数, XLO 为本振光的 ... 对探测器输出信号的峰值进行采样, 采样率为1 GSa/s, 样本量为 107 . 基于以上..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.99971281731613,
+                    "weight": 0.6212121212121211
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        78,
+                        80
+                    ],
+                    "name": "信号重构的数学表述与内插方法",
+                    "definition": "信号重构是采样信号恢复过程中，通过数学方法精确还原原始连续信号的步骤。",
+                    "information": "详细描述了使用滤波器函数对信号采样值进行内插以重建连续信号的数学方法，相当于滤波器的脉冲响应与信号作权重的脉冲串的卷积。",
+                    "usage": "该数学表述为实际的信号处理提供了理论依据，通过内插方法可以在数字信号处理中重建出原始的模拟信号。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT230593",
+                            "description": "by Z WANG · 2023 — ... 信号重构的时域数学模型梳理了各子带信号重构的输入-输出关系。利用傅里叶变换，将时域 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 该方法通过对连续Hermite-Gaussian函数进行采样, 得到一组离散向量, 再利用一种有效 ... 3) 信号的采样与重构是信号处理中的一个基础问题, 文中主要介绍了三种采样模型 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://rfc2cn.com/rfc6716.html",
+                            "description": "采样率（与实际音频带宽相反）可在编码器和解码器侧独立选择，例如，全频带信号可解码为宽带，反之亦然。这种方法确保发送方和接收方始终可以互操作，而不管其实际音频硬件 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://www.rfc2cn.com/rfc6386.html",
+                            "description": "当然，所有数字信号都是以某种方式采样的。样本间间隔（例如，对于音频样本的时间 ... 同样，这种滤波器产生的重构误差可以简单地表示为频域中的乘法器；也就是说，这种 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://ieeexplore.ieee.org/iel7/6621666/6639389/06641025.pdf",
+                            "description": "by F LU — 基于小波变换和自适应滤波的PPG 信号处理方法. PPG Signals Processing Using Wavelet ... 基于凸多面体描述作用域的分段仿射离散系统Hю 控制方法研究. Hю Control Scheme ...\n89 pages"
+                        }
+                    ],
+                    "knowledgeDensity": 3.0827676501021024,
+                    "weight": 0.6363636363636362
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        81,
+                        81
+                    ],
+                    "name": "连续信号重构的内插实践",
+                    "definition": "在连续信号重构中，内插是指通过采样点重建出原始信号的过程。",
+                    "information": "本页继续强调了由样本值重建信号的内插方法，是对前述理论的实践和应用。",
+                    "usage": "内插实践是信号处理中的一个基本环节，特别是在数字到模拟转换（DAC）过程中的应用。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT230593",
+                            "description": "by Z WANG · 2023 — ... 信号与重构信号的频域关系为. Y(f)=K∑i=1M∑j=1| ... 内的信号重构的频谱拼接效果。 重构信号频谱如图12所示，重构信号由于变频的初始相位导致子带交叠区 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT180049",
+                            "description": "by P WANG · 2018 · Cited by 2 — 4.1 样条插值重建. 样条插值重构算法的基本思路是基于有限的非均匀采样点使用样条函数对被采样信号进行逼近，然后对逼近函数重采样得到理想的均匀采样信号，完成重构。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "http://www.irla.cn/en/article/doi/10.3788/IRLA202049.0413006",
+                            "description": "by C Huaiyu · 2020 · Cited by 2 — 2.3. k域重采样. OCT信号的采样点数是决定系统干涉长度的重要依据，频域OCT系统中 k 域重采样的方法主要有棱镜色散补偿、电路K-clock时钟、非均匀离散傅里叶变换邠..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://ieeexplore.ieee.org/iel7/6621666/6639389/06641025.pdf",
+                            "description": "by F LU — 一类基于广义采样保持函数的采样系统零点稳定性. Stability of Zeros of Sampling ... 考虑临近信号干扰的ZPW2000A 型无绝缘轨道电路系统的建模与仿真. ZPW2000A ...\n89 pages"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://pubs-en.cstam.org.cn/article/doi/10.6052/0459-1879-23-167",
+                            "description": "by H Yang · 2023 — A FLOW FIELD SUPER-RESOLUTION RECONSTRUCTION METHOD BASED ON DIFFUSION MODEL · Han Yang *, · Zhu Junpeng †, , , · Guo Chunyu †, · Fan Yiwei *, · Wang Yonghao ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.8881568356989262,
+                    "weight": 0.3333333333333333
+                }
+            ],
+            "knowledgeDensity": 57.0072574605957
+        },
+        {
+            "id": 7,
+            "name": "理想滤波器和插值",
+            "pages": [
+                82,
+                94
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        82,
+                        86
+                    ],
+                    "name": "连续信号的采样重构",
+                    "definition": "连续信号采样重构是信号处理中的一个基本概念，指的是从连续信号的离散采样中恢复出原始的连续信号。",
+                    "information": "这部分内容讨论了从连续信号的采样值中重建信号的方法，包括内插的概念，即利用样本值重建信号的过程。",
+                    "usage": "在数字信号处理、通信系统和信息恢复等领域中，连续信号的采样重构用于从有限的样本中恢复出原始信号，以便于进一步的分析和处理。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT230593",
+                            "description": "by Z WANG · 2023 — 子带划分与信号重构技术利用子带分析滤波器组将带宽较宽的信号分解成若干 ... 信号重构系统由数字采样、数字下变频以及数字上变频3个环节完成了频谱 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20230360",
+                            "description": "基于三维匹配滤波器的检测前跟踪算法由于在傅里叶频域空间工作, 具有更强的抗干 ... 基于频谱分析筛选出感兴趣目标的信号是重构其运动轨迹的关键, 首先选取图2(a)黄色 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/filter-bank",
+                            "description": "在这种情况下，与上采样相关的插值滤波器称为合成滤波器。每个通道的净频率响应是合成滤波器和滤波器组（分析滤波器）的频率响应的乘积。理想情况下， ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747?viewType=HTML",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 对于周期非均匀采样, Zhang基于Tao提出的周期非均匀采样定理给出了分数域带限随机信号的重构公式。对于多通道采样, Zhang基于其在2008年提出的多通道采样定理给出了分数域 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://www.rfc2cn.com/rfc6386.html",
+                            "description": "... 滤波器）给出，类似于VP8所使用的方法。同样，这种滤波器产生的重构误差可以简单地表示为频域中的乘法器；也就是说，这种滤波器只是将其应用到的任何信号的傅里叶变换 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.5864631351337084,
+                    "weight": 0.2866666666666666
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        87,
+                        92
+                    ],
+                    "name": "理想滤波器的可实现性",
+                    "definition": "理想滤波器是具有完美特性的滤波器，通常在理论上讨论，但在实际中难以实现。",
+                    "information": "这部分内容描述了理想滤波器对应单位脉冲响应的概念，并讨论了其可实现性，包括滤波器的幅频特性和相频特性，以及近似实现理想滤波器的方法。",
+                    "usage": "在设计滤波器时，工程师会尽量接近理想滤波器的特性，以达到信号处理的目的。理想滤波器的概念对于理解和设计实际可用的滤波器系统具有重要意义。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://context.reverso.net/translation/english-chinese/band-pass+filter",
+                            "description": "In fact, there is no ideal band-pass filter. 实际上，并不存在理想的带通滤波器。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://blog.csdn.net/qq_41476542/article/details/121756869",
+                            "description": "6 Dec 2021 — ... 理想，如果要高识别率，需要对字符进行上下左右的投影切割，然后再进行归一 ... 可以使用运动模糊去除滤波器来实现这一点。通过使用这些工具，我们可以 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/id/62c7e0c299d88171c95f55aa",
+                            "description": "by L Chaolin · 2022 · Cited by 2 — 同时利用子测量值表明瞬时位置的特点来监测振动，可以实现振动补偿。2021年，Xie等 ... (a) 利用窄带通滤波器标记瞬时频率的测量示意图；(b) 扫频激光，碳线和带通滤波器 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://patents.google.com/patent/WO2012051776A1/en",
+                            "description": "一插值滤波器，与所述 A/D 转换器的输出端连接，用于对输入的低采样率 PCM 编码信号按照过采样率进行信号插值操作，同时通过低通滤波操作滤除插值处理后信号的周期性延 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://rfc2cn.com/rfc6716.html",
+                            "description": "一些重采样滤波器（包括参考实现所使用的滤波器）可能会添加非精确整数或非线性相位的 ... 实现具有不同复杂性/质量权衡的可编程逻辑控制器。 The PLC in the reference ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.1497513489679987,
+                    "weight": 0.8
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        93,
+                        94
+                    ],
+                    "name": "零阶保持插值",
+                    "definition": "零阶保持插值是一种简单的信号重建方法，它通过保持每个采样点的值不变直到下一个采样点来重建信号。",
+                    "information": "这部分内容介绍了零阶保持内插函数的基本概念，描述了它的数学表达，并讨论了它的应用。",
+                    "usage": "零阶保持插值方法在数字到模拟转换器(DAC)中广泛使用，以将数字信号转换为相应的模拟信号。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT230593",
+                            "description": "by Z WANG · 2023 — ... 阶数和采样率有关， NH, fH为子带划分滤波器的阶数与采样率， NL, fL为插值滤波器的阶数与采样率，因此子带划分滤波器与插值滤波器的相频响应可以表示为 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://my.oschina.net/jjinl?q=iverilog",
+                            "description": "ENABLE_PCPI：缺省设置为0，协处理器接口选择。 ENABLE_MUL：缺省设置为0，使能 ... 第一步确定FIR滤波器阶数，我们设定为31 第二步确定截止频率，转换为归一化的频率 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT210239",
+                            "description": "... 插值算法得到，但是效果较差。卡尔曼滤波器是一种解决信道跟踪问题很好的手段 ... 滤波器目前已经广泛应用于高速移动环境下的信道估计。 综上，为了提升车联网在双 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20230323",
+                            "description": "非线性造影超声成像可以通过直接使用滤波器滤出谐波. 但为保证较高的成像分辨率需要发射短时脉冲声波, 对应了频域上较大的带宽, 传统的高通滤波器无法实现完全的基波谐 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1275699&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%B8%B4%B9%B2%E9%EE%B6%D4%3B%B9%B2%E9%EE%B6%D4%B3%C6%3B%D6%D8%B8%B4%3B%C7%B0%B5%BC",
+                            "description": "对于利用补零DFT/IDFT实现信道插值的方法,分析指出传统的时域插值方法和变换域 ... 对于补零前的数据处理,分析指出采用滤波方法时应进行非对称滤波,并提出一种简单的 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.4237828877025822,
+                    "weight": 0.14666666666666667
+                }
+            ],
+            "knowledgeDensity": 63.16725483239998
+        },
+        {
+            "id": 8,
+            "name": "欠采样和频域采样",
+            "pages": [
+                95,
+                107
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        95,
+                        97
+                    ],
+                    "name": "连续信号的采样重构",
+                    "definition": "连续信号的采样重构是指通过连续信号的采样点来恢复原始信号的过程。",
+                    "information": "讨论了一阶保持插值（线性内插）以及采样信号的重构。一阶保持插值需要延迟1步才能实现插值。",
+                    "usage": "在信号处理中，重构采样信号是为了恢复原始的连续信号。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.lamda.nju.edu.cn/yehj/dsp2021/6.pdf",
+                            "description": "信号的频域采样。▫ 频域。▫ 时域。... 相乘。... ... ... 1 ... 信号的时域采样（欠采样）。▫ 不满足采样 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://blog.csdn.net/m0_72923026/article/details/131354098",
+                            "description": "23 Jun 2023 — 一、实验目的 ... (1)验证采样定理。 (2)熟悉信号的抽样与恢复过程。 (3)通过实验观察欠采样时信号频谱的混叠现象。 (4)掌握采样前后信号频谱的变化，加深对 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://blog.csdn.net/weixin_39598135/article/details/116439097",
+                            "description": "9 Apr 2021 — 连续信号的采样与重构实验报告(36页) 本资源提供全文预览，点击全文预览即可全文预览,如果喜欢文档就下载吧，查找使用更方便 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.cnblogs.com/taigacon/p/8411981.html",
+                            "description": "4 Feb 2018 — 这一节主要讨论采样定理，在《傅里叶变换及其应用及其学习笔记》中有进行过推导与讲解，因此下面的内容也大同小异。不过如果是从《离散时间信号处理》 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://www.cnblogs.com/humaomao/p/14432370.html",
+                            "description": "5 Dec 2020 — 1.加深理解采样对信号的时域和频域特性的影响; 2.加深对采样定理的理解和掌握，以及对信号恢复的必要性; 3.掌握对连续信号在时域的采样与重构的方法。"
+                        }
+                    ],
+                    "knowledgeDensity": 2.4894656972420828,
+                    "weight": 0.46969696969696967
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        98,
+                        101
+                    ],
+                    "name": "欠采样及其影响",
+                    "definition": "欠采样是指采样频率低于信号最高频率的二倍，无法满足采样定理要求的情况。",
+                    "information": "讨论了欠采样所导致的频率混叠现象，以及即使通过理想内插也无法恢复原信号的问题。欠采样条件下，恢复的信号在采样点上与原信号具有相同的值。",
+                    "usage": "在信号处理中，需要避免欠采样，以免引起频率混叠，无法准确恢复原信号。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.researchgate.net/figure/Comparisons-of-damage-indexes-with-different_fig4_274994679",
+                            "description": "... 通过仿真验证了压缩感知的方法能实现BTT 欠采样多频叶片振动信号的频谱盲重构。图7 MUSIC 算法 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2023.220088?viewType=HTML",
+                            "description": "by Z Chi · 2023 · Cited by 1 — N为过采样倍数。设中频为200 MHz，脉冲宽度为50 ns，N为5时，fs 应大于等于1100 MHz，高速高精度的ADC芯片会造成仪器成本激增。同时高采样率下会造成高量化位数的ADC选型 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.68.20181801",
+                            "description": "对于CS方法来说, 采样模式为随机采样目标频谱, 重构方法采用压缩感知的恢复算法重构图像. 基于压缩感知的恢复算法可有效抑制由随机降采样和简单IFFT引入的噪声, 由此可见..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://jeit.ac.cn/article/doi/10.11999/JEIT210335?pageType=en",
+                            "description": "... 欠采样成像能力。图 6 不同信噪比情况下成像性能曲线. 下载: 全尺寸图片 幻灯片. 5 ... 基于频域稀疏压缩感知的星载SAR稀疏重航下3维成像[J]. 电子与信息学报, 2020, 42 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/filter-bank",
+                            "description": "不同之处在于，接收器还将子带下变频至较低的中心频率，从而可以以较低的速率重新采样。通过对带通子带进行欠采样可以获得相同的结果。当某些频率比其他频率更重要时，..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.2252410332054997,
+                    "weight": 0.9333333333333333
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        102,
+                        103
+                    ],
+                    "name": "二次采样的问题",
+                    "definition": "二次采样是指对已经采样过的信号再次采样的过程。",
+                    "information": "二次采样可能导致信号的进一步退化。文中讨论了对采样信号再次进行采样的效果，并提到了相关的数学表达。",
+                    "usage": "在信号处理中，通常希望避免二次采样，因为它可能会进一步损害信号的质量。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=277773&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=multiuser%3Bdetection",
+                            "description": "其次研究了基于缺采样技术的多信道频谱感知问题。述说了本课题的系统模型及授权用户的时域信号模型,分析了采样速率不满足奈奎斯特采样定律时的频谱混叠方式,并分析了 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.researchgate.net/figure/Comparisons-of-damage-indexes-with-different_fig4_274994679",
+                            "description": "... 缺采样多频叶片振动重构, 是约束BTT 定时技术向航空发动机旋转叶片振动在线测量应用的关键问题之一。本文提出采用压缩感知方法解决BTT 缺采样多频叶片振动盲重构难题 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/compressed-sensing",
+                            "description": "... 缺采样具有高频内容的稀疏信号。= 缺定线性系统= 缺定的线性方程组比方程有更多 ... 此类问题的最小二乘解是L. 2个{\\displaystyle L^{2}} 最小化标准，即系统中的能量 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://jeit.ac.cn/article/doi/10.11999/JEIT210335?pageType=en",
+                            "description": "... 缺采样成像能力。图 6 不同信噪比情况下成像性能曲线. 下载: 全尺寸图片 幻灯片. 5 ... 基于频域稀疏压缩感知的星载SAR稀疏重航3维成像[J]. 电子与信息学报, 2020, 42 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.68.20181801",
+                            "description": "对于VD方法来说, 采样模式为随机采样目标频谱, 重构方法采用缺失频谱补零, 然后整个频谱进行IFFT. 由此可见, VD方法的高频信息无明显缺失, 理论上最高分辨率下降较小, 但 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.9577199563019523,
+                    "weight": 0.5757575757575757
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        104,
+                        107
+                    ],
+                    "name": "频域采样及其应用",
+                    "definition": "频域采样是指在频率域内对信号的频谱进行采样的过程。",
+                    "information": "详细讨论了频域采样的概念，以及如何通过矩形窗在频域从采样频谱中重建连续频域信号的方法。提到了频域采样在实际应用中如何截取原信号的频谱。",
+                    "usage": "在信号处理中，频域采样用于从离散频谱中恢复出连续的频率信号，尤其在滤波和信号分析中有重要应用。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.researchgate.net/figure/Comparisons-of-damage-indexes-with-different_fig4_274994679",
+                            "description": "... 通过仿真验证了压缩感知的方法能实现BTT 缺采样多频叶片振动信号的频谱盲重构。图7 MUSIC 算法 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1314721&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%B4%F8%CF%DE",
+                            "description": "现代通信与雷达系统的主流发展趋势是宽带化和软件化。有效的宽带信号采样与重构方法是顺应该发展趋势的必要基础，然而由于集成电路制造工艺和一些特殊应用条件的限制 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2023.220088?viewType=HTML",
+                            "description": "时域特征+频域特征, 距离法, 人奔跑、车行驶及人车联合行进, 2007, [68]. 自适应动态阈值 ... 分布式光纤声波传感器及其在天然地震学研究中的应用[J]. 地球物理学进展, 2020 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/filter-bank",
+                            "description": "= 频域滤波器组设计= 如果您不需要完美的重构，您可以通过在频域中工作而不是使用FIR 滤波器来简化您的设计问题。请注意，频域技术并不限于设计未下采样滤波器组（读取） ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://jzus.zju.edu.cn/issue.php?issueid=701",
+                            "description": "本质上，上述空间多径等效信道频域响应相当于模拟波束成形矢量关于天线空间采样的离散傅里叶变换。为使等效信道尽可能平坦，可以寻找一种在频域具有平坦特性的序列设计模拟 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.133988046167793,
+                    "weight": 0.6666666666666666
+                }
+            ],
+            "knowledgeDensity": 74.97366956531732
+        },
+        {
+            "id": 9,
+            "name": "总结和作业指导",
+            "pages": [
+                108,
+                113
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        108,
+                        108
+                    ],
+                    "name": "带限信号与采样定理",
+                    "definition": "带限信号是指频域内频率分量有限的信号，采样定理是指带限信号可以通过有限的采样点无失真恢复的原理。",
+                    "information": "讨论了带限信号在时域采样定理的应用条件，强调了带宽和时限没有必然的逻辑联系，指出了时域采样理论中带限要求的重要性。",
+                    "usage": "用于理解带限信号概念以及采样定理在信号处理中的应用，特别是在频域采样中保证信号可恢复性的条件。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://www.engineering.org.cn/ch/search?searchCategory=all&resourceType=article&searchKeyword=%20under-determined%20equation",
+                            "description": "本文针对线性调制基带信号的亚纳秒采样，研究其信号恢复性能极限与算法。该问题中，原信号维度无法降低，因此亚纳秒采样不可避免会带来信息损失，信号恢复也变成..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.427581541637779,
+                    "weight": 0.4242424242424242
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        109,
+                        111
+                    ],
+                    "name": "信号采样与重构",
+                    "definition": "信号采样是将连续信号转换为离散信号的过程，重构是将离散信号还原为连续信号的过程。",
+                    "information": "总结了连续信号的采样理论，采样信号的重构方法，以及时域采样与频域采样的对应关系，包括了采样信号数学表达式的推导和例子。",
+                    "usage": "用于指导信号处理中的采样和重构操作，理解时域和频域采样的关系，以及如何通过采样信号恢复原始信号。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://m.eeworld.com.cn/datasheet_part/K7D161874B-HC37,SAMSUNG,370321.html",
+                            "description": "信号测量与处理、微型计算机等技术为基础而形成的，主要研究信息数据的采集、存储... 重构人货空间关系“新物流的重点在共配，核心区域是城市，关键点为服务。”王继绪..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://zlibrary-asia.se/book/22278338/9612fc",
+                            "description": "重构、改良App 的主要架构等。这些优化的建议也许不总是可行的，但是知道App 到底... 密集的信号流量意味着要在最小的信号交互时间内尽可能快地发送数据并且允许用户..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.5180843669002495,
+                    "weight": 0.24
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        112,
+                        112
+                    ],
+                    "name": "采样信号特性",
+                    "definition": "采样信号特性指的是信号采样后在时频域内的表现形式和特点。",
+                    "information": "描述了周期与非周期采样信号的表达式，提到了离散时间傅立叶变换（DTFT）的应用，以及采样信号的特性。",
+                    "usage": "用于分析和计算周期性采样信号的频域表现，以及理解非周期采样信号的特性。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://www.engineering.org.cn/ch/search?searchCategory=all&resourceType=article&searchKeyword=%20under-determined%20equation",
+                            "description": "本文针对线性调制基带信号的亚奈奎斯特采样，研究其信号恢复性能极限与算法。该 ... 作业有一定的指导意义。 关键词：深水钻井 隔水导管 弯曲方程 固有频率 形状函数."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://repository.lib.cuhk.edu.hk/collection/cuhk-etd?display=list&page=170",
+                            "description": "利用DMS过滤干扰信号后，LC-DMS-MS在分析牛血清蛋白消解样品时的表现优于传统的LC-MS方法。在相同洗脱条件下，与LC-MS相比（测序覆盖率65%； Mascot score：192），LC-DMS- ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "http://m.eeworld.com.cn/datasheet_part/HCPL-2201_060,broadcom,33771105.html",
+                            "description": "高TG厚铜细体埋盲孔印制板作业指导书: 其他网上看到的，觉得不错，转过来，希望对 ... 测量波形从输入连接器经过采样和信号处理显示在屏幕上，同时保存数据。一旦选择了不 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://hdsfdxzkb.xml-journal.net/en/article/doi/10.3969/j.issn.1000-5641.201942001",
+                            "description": "... 特点是有效电平很低, 导致输出只能勉强听到语音内容, 信号噪音比很差, 而表达声音特征的音色差异都集中在中高频区域, 导致听辨过程中实验人无法确定声音的音色。 后期 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.397339103277366,
+                    "weight": 0.3939393939393939
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        113,
+                        113
+                    ],
+                    "name": "作业指导1",
+                    "definition": "提供了关于信号采样和恢复的作业题目，着重于采样不足时信号恢复的问题。",
+                    "information": "说明了信号如果采样不足，恢复的信号不仅频率降低，而且相位反转的情况，以及理想低通滤波器的带宽要求。",
+                    "usage": "用于指导学生理解和分析采样定理中的欠采样情况，以及如何通过滤波器带宽设计来满足信号处理的要求。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.cnblogs.com/beuihe/p/15698863.html",
+                            "description": "这三次作业并没有什么新的知识点，都是对之前学习的东西进行应用，主要有：1、继承、多态的应用；2、ArrayList泛型的应用方法；3、Comparable接口及泛型的应用。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.cnblogs.com/bai6/p/15705653.html",
+                            "description": "详见作业指导书2020-OO第07次作业-1指导书V1.0.pdf. 输入格式: 首先，在一行上输入一串数字（1~4，整数），其中，1代表圆形卡片，2代表矩形卡片，3代表三角形卡片，4..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://jz.docin.com/p-1752228145.html",
+                            "description": "汽轮发电机检修作业指导书 · 汽轮发电机基座 · 1汽轮发电机基座底板施工方案 · 1#汽轮发电机基座底板施工方案 · 汽轮发电机安装作业指导书 · 汽轮发电机冲洗油循环作业指导书。"
+                        }
+                    ],
+                    "knowledgeDensity": 2.9508863985106695,
+                    "weight": 0.5606060606060606
+                }
+            ],
+            "knowledgeDensity": 84.26756097564339
+        }
+    ],
+    "knowledgeDensity": 439.11350803126663
+}

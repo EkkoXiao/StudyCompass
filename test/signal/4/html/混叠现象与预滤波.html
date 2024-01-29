@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>混叠现象与预滤波</title>
+            <style>
+                body {
+                    font-family: '微软雅黑', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background: linear-gradient(to right, #090740, #9d73c8);
+                    color: #fff;
+                    line-height: 1.6;
+                }
+                h1, h2 {
+                    color: #fff;
+                    border-bottom: 2px solid #8190c9;
+                    padding-bottom: 5px;
+                }
+                strong {
+                    color: #F9A825;
+                }
+                p {
+                    margin-bottom: 15px;
+                    color: #ddd;
+                }
+                a {
+                    color: #27d2bb;
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                }
+                a:hover {
+                    text-decoration: underline;
+                    color: #1a7d68;
+                }
+                .container {
+                    max-width: 800px;
+                    margin: 40px auto;
+                    padding: 30px;
+                    background: rgba(0, 0, 0, 0.7);
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                }
+                .info-box {
+                    border: 1px solid #72c8f3;
+                    padding: 15px;
+                    margin-bottom: 15px;
+                    border-radius: 5px;
+                    background: #5414461a;
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                }
+                .img-box {
+                    border: 1px solid #08b4b4;
+                    padding: 15px;
+                    margin-bottom: 15px;
+                    border-radius: 5px;
+                    background: rgba(2, 77, 94, 0.725);
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                }
+                .relative-search-results {
+                    max-width: 800px;
+                    word-wrap: break-word;
+                    list-style-type: none;
+                    padding: 0;
+                }
+                .relative-search-results li {
+                    margin-bottom: 5px;
+                }
+                .images {
+                    margin-top: 15px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>混叠现象与预滤波</h1>
+                <div class="info-box">
+                    <h2>Definition</h2>
+                    <p>在采样频率低于信号最高频率的两倍时，信号频谱发生重叠的现象。</p>
+                </div>
+                <div class="info-box">
+                    <h2>Information</h2>
+                    <p>混叠现象会导致原信号无法正确恢复。介绍了如何通过预滤波器在采样前滤除高频成分以防止混叠现象，并讨论了预滤波后重构信号产生模糊的效果。</p>
+                </div>
+                <div class="info-box">
+                    <h2>Usage</h2>
+                    <p>在模拟信号数字化前，通过预滤波处理信号以避免采样后的混叠，保证信号质量。</p>
+                </div>
+
+                <h2>Knowledge Density:</h2>
+                <p>2.4871</p>
+                <div class="img-box">
+                    <h2>Relative Images</h2>
+                    <p>                
+                        <div class="images">
+                            N/A
+                        </div>
+                    </p>
+                </div>
+
+            </div>
+        </body>
+        </html>
+        

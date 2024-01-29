@@ -1,0 +1,906 @@
+{
+    "id": 1,
+    "keyword": "软件工程测试",
+    "mainpoints": [
+        {
+            "id": 0,
+            "name": "软件工程和软件测试概述",
+            "pages": [
+                1,
+                5
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        1,
+                        2
+                    ],
+                    "name": "课程和文献介绍",
+                    "definition": "软件工程课程的标识和参考文献资料",
+                    "information": "课程代码为19CSE314，名称为软件工程。主要参考文献为Pressman R S, Bruce R.Maxim的《Software engineering - A Practitioner’s Approach》第八版，由Tata McGraw-Hill在2014年出版。",
+                    "usage": "为学生提供课程概述和学习该课程的主要文献参考。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/software-engineering",
+                            "description": "软件工程是一种基于工程的软件开发方法。 软件工程师是应用工程设计流程来设计、开发、维护、测试和评估计算机软件的人员。程序员一词有时被用作同义词，但它也可以指..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.bookskys.com/books/book_893798109.html",
+                            "description": "本书对软件工程的基础知识（包括面向对象和传统方法）进行了严谨和全面的介绍，是软件工程领域的经典作品。 全书共分两大部分：第一部分介绍基本的软件工程理论；第二..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "http://m.tushu007.com/ISBN-9787538174601.pdf",
+                            "description": "《软件工程专业英语》课程是要求学生在已经掌握计算机行业英语的基础上进一步掌握软件方向专业. 术语，熟悉软件文档的写作规范，提高软件文档的翻译技能。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/19201643/23924c",
+                            "description": "这里就点到为止吧，请读者参考软件测试的有关文献。 章1-4 测试的常规分类测试的... 我们不可以把软件工程方法看成是诸葛亮的锦囊妙计——在出了问题之后才打开看看，而..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://www.scribd.com/document/653896639/Annex-3-NPU-Student-Selection-Report",
+                            "description": "... 《软件度量是软件工程化发展的必由之路》 中国宇航学会计算机专委会2006 年学术交流 ... 嵌入式软件的开发方法研究、测试技术分布式系统建模方法与离散事件仿真技术的理论..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3243980267102582,
+                    "weight": 0.4615384615384615
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        3,
+                        3
+                    ],
+                    "name": "覆盖主题",
+                    "definition": "课程中将要讨论的主要测试策略和实践",
+                    "information": "介绍了软件测试的战略方法，包括针对传统软件、Web应用、移动应用的测试策略，以及验证测试和系统测试的相关章节。",
+                    "usage": "指导学生了解课程内容的结构和重点，为学习各个主题提供明确的方向和参考章节。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://www.tushu007.com/ISBN-9787111282464.pdf",
+                            "description": "<<软件测试基础>>. 内容概要. 本书采用创新方法来讲述软件测试，定义测试为将几个通用的测试准则应用于软件结构或软件模型的. 过程。 书中融入了最新的测试技术，包括现代..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://zlibrary-asia.se/book/21975151/b530ef",
+                            "description": "1 测试主题概述A.2 风险分析A.3 每次构建版本的基线测试A.4 最新可测试版本（Last ... 在Google，软件测试团队归属于一个被称为“工程生产力”（译注：Engineering productivity）..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.2490718805368106,
+                    "weight": 0.1
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        4,
+                        5
+                    ],
+                    "name": "软件测试策略和方法",
+                    "definition": "软件测试策略的概念和应用",
+                    "information": "软件测试策略提供了一个测试步骤的路线图，包括测试规划、测试用例设计、测试执行、数据收集和评估。它提倡定制化的测试方法，同时要求有合理的规划和项目进度的管理。测试策略应该从组件级别开始，并向外扩展到整个计算机系统的集成。不同的软件工程方法和时间点适合不同的测试技术。测试由软件开发者以及（对于大型项目）独立测试团队进行。测试和调试是不同的活动，但调试必须在任何测试策略中得到考虑。",
+                    "usage": "帮助学生理解如何制定软件测试策略，明确测试的层次和范围，以及测试活动的执行者和测试与调试的区别。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://blog.csdn.net/weixin_34549315/article/details/119028845",
+                            "description": "The significance of methods and strategies lies in how to use the most effective methods, spend the least cost, complete the testing project with the highest quality under limited resources, and continuously improve the quality of software testing during the project."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://gitee.com/microseyuyu/openeuler-riscv-2303-test",
+                            "description": "Testing passed 1405 test cases, with 722 test cases not passed. Testing framework: mugen-riscv; Testing method: Automatic restoration of the testing environment, interval separation of test suites, and automatic allocation of external resources for hard disks."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.x-mol.com/paper/1430286013746102272?recommendPaper=1232147726052904960",
+                            "description": "The 'new space' demands increased 'agility' for software development, which may limit testing capabilities. Although advanced and beneficial software testing techniques can be found in the software engineering field, CubeSat software solutions mainly rely on unit testing, and software in the environment..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/23302090/c31095",
+                            "description": "The testing strategy provides recommended methods for testing objects. By reading the requirement specification and related documents, understanding the system to be tested, determining the testing scope, and methods..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://flutter.cn/docs/ui/widgets",
+                            "description": "Testing and debugging. Testing; Overview; Unit testing. Introduction; Simulating dependencies. Widget testing. Introduction; Finding widgets; Simulating gestures..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3615072007031597,
+                    "weight": 0.5384615384615384
+                }
+            ],
+            "knowledgeDensity": 3.9349771079502283
+        },
+        {
+            "id": 1,
+            "name": "软件测试策略和验证与确认",
+            "pages": [
+                6,
+                11
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        6,
+                        7
+                    ],
+                    "name": "验证与确认",
+                    "definition": "验证是确保软件正确实现特定功能的任务集合；验证是确保已构建的软件可追溯至客户需求的不同任务集合。",
+                    "information": "Boehm提出了另一种表述方式，验证：'我们是否正确地构建产品？'；验证：'我们是否构建了正确的产品？'。验证和确认包括广泛的软件质量保证活动，如技术评审、质量和配置审计、性能监控、仿真、可行性研究、文档审查、数据库审查、算法分析等。",
+                    "usage": "虽然测试在验证和确认中扮演着极其重要的角色，但还需要许多其他活动。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.cnblogs.com/jams742003/archive/2011/09/04/2166201.html",
+                            "description": "Sep 4, 2011 - 软件测试是通常所讲的更广泛主题——验证与确认，Verification and Validation，V&V的一部分。 验证：指确保软件正确的实现某一特定功能的一系列活动。它 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://blog.csdn.net/xifeijian/article/details/8627790",
+                            "description": "Mar 1, 2013 - 软件验证(Verification)和确认（Validation）的区别. 一、验证VER. 验证（VER）：生产活动的输出正确地满足其输入（built it right）"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://zhuanlan.zhihu.com/p/648519061",
+                            "description": "Aug 7, 2023 - 三、确认测试. 确认测试其任务是验证软件的有效性，即验证软件的功能和性能及其它特性是否与用户的要求一致。确认测试也称为有效性测试。 确认测试的 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://juejin.cn/s/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E4%B8%AD%E9%AA%8C%E8%AF%81%E5%92%8C%E7%A1%AE%E8%AE%A4%E7%9A%84%E5%8C%BA%E5%88%AB",
+                            "description": "在软件测试中，验证和确认是两个重要的概念，它们的含义和作用是不同的。 验证是指通过检查、审查、测试等手段，确认软件系统是否符合所定义的规格和要求。"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://blog.csdn.net/Li__YingYing/article/details/29843811",
+                            "description": "Jun 10, 2014 - 测试过程分4个步骤进行，即单元测试，组装测试，确认测试 和 系统测试 。 确认测试又称有效性测试。任务是验证软件的功能和性能及其它特性是否与用户的 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3098020472141125,
+                    "weight": 0.41025641025641024
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        8,
+                        9
+                    ],
+                    "name": "软件测试策略与挑战",
+                    "definition": "软件测试策略涉及测试步骤的顺序。",
+                    "information": "在讨论部分提出了问题，是否总是可能开发出一个使用上一页描述的测试步骤序列的测试策略，并询问嵌入式系统可能带来的复杂性。",
+                    "usage": "在实际应用中，测试策略可能需要根据不同类型的系统和具体情况进行调整，以应对各种可能的挑战。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://www.uml.org.cn/Test/12/softwaretestingmaturitymodel.doc",
+                            "description": "... 测试策略的纪律性。Software, on the other hand, is a different matter ... 具有讽刺意义的是，并不是由软件开发人员发起这项努力的，而是软件测试人员。这一 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oschina.net/p/angular-cli-ghpages",
+                            "description": "制定和落地分级测试策略 - 通用的应用级测试策略模板 - 设计环境管理、数据管理 ... 挑战，以验证组学习并验证模型。它通常由三个步骤组成：1. 头脑风暴，以识别 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://m.cfsri.com/shiftsync/product-forum-50/neoload-2023-1-with-sso-kerberos-391?postid=862",
+                            "description": "悬而未决的问题 · 欢迎 · 在社区开始8 · 讨论 · 测试策略和方法15 · 开发方法8 · 一般讨论:问&得到答案18 · 产品论坛134年 · 社区 · 任务和挑战6. 学习. 学习 · 文章 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://m.eeworld.com.cn/datasheet_part/AG604-89G,wj-communications-inc-qorvo,13554247.html",
+                            "description": "【亲测】二极管电压测试“跳坑”注意事项——硬件的板载测试验证: 硬件的板载测试验证 ... 测试策略。NI大中华区市场经理刘翊阳向集微网记者解读了《NI趋势展望报告2019》的 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/21975151/b530ef",
+                            "description": "Google软件测试之道| [美]James Whittaker Jason Arbon Jeff Carollo 著& ePUBw.COM | download on Z-Library | Z-Library. Download books for free. Find books."
+                        }
+                    ],
+                    "knowledgeDensity": 1.2843776994406273,
+                    "weight": 0.2944444444444444
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        10,
+                        11
+                    ],
+                    "name": "软件测试策略问题",
+                    "definition": "软件测试策略的问题涉及在测试开始之前量化地指定产品要求、明确测试目标等。",
+                    "information": "开发者需要理解软件的用户并为每个用户类别开发档案；强调'快速循环测试'的测试计划；构建能够自我测试的'健壮'软件；使用有效的技术评审作为测试前的过滤器；评估测试策略和测试用例的技术评审；为测试过程开发持续改进方法。",
+                    "usage": "这些策略性问题指导测试工作的计划和实施，可帮助提高测试效率和效果。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/test-plan",
+                            "description": "测试计划记录了用于验证和确认产品或系统是否符合设计规范和其他要求的策略。测试 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "http://www.uml.org.cn/Test/12/softwaretestingmaturitymodel.doc",
+                            "description": "... 测试策略的纪律性。Software, on the other hand, is a different matter ... 具有讽刺意义的是，并不是由软件开发人员发起这项努力的，而是软件测试人员。这一 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.cnblogs.com/HannahLihui/p/10205896.html",
+                            "description": "Jan 1, 2019 — 第22章、测试策略. Testing is the process of exercising a program with the specific intent of finding errors prior to delivery to the end user."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.dspace.com/zh/zho/home/applicationfields/foo/production-software-dev.cfm",
+                            "description": "因此，功能可靠性方面的问题也随之而来。因此dSPACE致力于在功能安全、测试策略开发以及复杂E/E的验证和确认领域提供端到端解决方案，从最早的项目阶段到最后的验证进行 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://www.adlinktech.com/products/downloadarea.aspx?lang=zh-cn&Kind=OT",
+                            "description": "软件 · ADLINK DDS · Zenoh. 行业. 国防与军工 智能医疗 工业自动化 网络和通信 智能物流 ... 确认以及验证电子设备测量和最终产品。临华科技将继续通过创新产品扩展其测试 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.7975071302328445,
+                    "weight": 0.5512820512820513
+                }
+            ],
+            "knowledgeDensity": 8.326663984837813
+        },
+        {
+            "id": 2,
+            "name": "单元测试和集成测试",
+            "pages": [
+                12,
+                17
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        12,
+                        13
+                    ],
+                    "name": "单元测试概念",
+                    "definition": "单元测试关注于软件设计的最小单元——软件组件或模块的验证工作。",
+                    "information": "单元测试使用组件级别的设计描述作为指南，测试重要的控制路径，以发现模块边界内的错误。由于单元测试的范围受限，测试的相对复杂性和它们发现的错误也受到限制。单元测试关注于组件内部的处理逻辑和数据结构，并且可以针对多个组件同时进行。",
+                    "usage": "单元测试用于验证单个组件或模块的功能正确性，是软件开发中测试阶段的一个基本组成部分。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://aijishu.com/a/1060000000014005",
+                            "description": "在计算机编程中，单元测试是一种软件测试方法，用以测试源代码的单个单元、一个或多个计算机程序模块的集合以及相关的控制数据、使用过程和操作过程，以确定它们是否适合..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://docs.python.org/zh-cn/3.7/library/unittest.html",
+                            "description": "Mar 16, 2023 — （如果你已经对测试的概念比较熟悉了，你可能想直接跳转到这一部分断言 ... 在生产环境中建议测试应由持续集成系统（continuous integration system）..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/integration-testing",
+                            "description": "集成测试（也称为集成和测试，简称I&T）是软件测试的一个阶段，其中将各个软件模块放在一起并作为一个整体进行测试。执行集成测试以评估系统或组件是否符合指定的功能..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://docs.dapr.io/zh-hans/developing-applications/sdks/php/php-app/php-unit-testing/",
+                            "description": "单元和集成测试是PHP SDK的一等公民。 使用DI 容器、mocks、stubs 和提供的 \\Dapr\\Mocks\\TestClient 允许您进行非常细粒度的测试。"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://wiki.gear-tech.io/zh-cn/docs/developing-contracts/testing/",
+                            "description": "根据Rustbook 中描述的基本概念和测试方法，测试可以被组织成两个主要类别：单元测试和集成测试。 单元测试能够对每个单元的代码进行测试，并与其他代码隔离。它可以..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.2942966052464928,
+                    "weight": 0.3974358974358974
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        14,
+                        14
+                    ],
+                    "name": "单元测试环境",
+                    "definition": "单元测试环境通常包括一个主程序（驱动程序）和替代组件（存根）。",
+                    "information": "驱动程序负责接收测试用例数据，将数据传递给被测试的组件，并打印相关结果。存根用来替代那些由待测试组件调用的下级模块。",
+                    "usage": "单元测试环境用于创建单元测试所需的条件，以便在隔离的环境中执行测试，不受其他模块的干扰。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://docs.spring.io/spring-boot/docs/current/reference/html/features.html",
+                            "description": "It is also possible to configure the SpringApplication by using an application.properties file. See Externalized Configuration for details. For a complete list..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.jetbrains.com/pycharm/",
+                            "description": "The Python & Django IDE with intelligent code completion, on-the-fly error checking, quick-fixes, and much more..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/userguide/example_cross_Testing_section.html",
+                            "description": "以下代码示例显示了使用AWS SDK 编写单元测试和集成测试时的最佳实践方法示例。 Rust. SDK for Rust. 注意. 本文档适用于预览版中的软件开发工具包。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://docs.buddy.red/docs/guides/wordpress-unit-tests/",
+                            "description": "不同方法使用Buddy进行WordPress单元测试. Unit testing is the essential safeguard of every software development project. Whether you're working on a web app..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://docs.px4.io/main/zh/test_and_ci/docker.html",
+                            "description": "单元测试 · 持续集成 · MAVSDK集成测试 · ROS集成测试 · Docker 容器 · 维护 · 无人机 ... 本主题说明如何使用available docker containers 访问本地Linux..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.8427921585121294,
+                    "weight": 0.6025641025641025
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        15,
+                        17
+                    ],
+                    "name": "集成测试及其策略",
+                    "definition": "集成测试是一种系统性技术，用于在构建软件架构的同时进行测试，以发现与接口相关的错误。",
+                    "information": "集成测试的目标是把经过单元测试的组件组合成设计所指定的程序结构。这一过程包括自顶向下的集成（深度优先与广度优先集成）和自底向上的集成。",
+                    "usage": "集成测试用于在组件或模块级别之上验证不同部分的合作与接口，确保系统作为一个整体能够正确运行。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/userguide/example_cross_Testing_section.html",
+                            "description": "以下代码示例显示了使用AWS SDK 编写单元测试和集成测试时的最佳实践方法示例。 Rust. SDK for Rust. 注意. 本文档适用于预览版中的软件开发工具包。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://kubernetes.feisky.xyz/community/testing",
+                            "description": "End to end (e2e) 测试 · 启动cluster，测试，最后停止cluster · 仅测试指定的用例 · 跳过测试用例 · 并行测试 · 清理测试资源 · 有用的 -ctl."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://docs.aws.amazon.com/zh_tw/code-library/latest/ug/s3_example_cross_Testing_section.html",
+                            "description": "使用AWS SDK 进行单元和集成测试的示例方法."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://blog.csdn.net/cyan20115/article/details/106549207",
+                            "description": "在本文中，我们将向您展示如何测试Spring Boot REST应用程序。 通常，我们使用MockMvc或TestRestTemplate进行集成测试。"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://access.redhat.com/documentation/zh-cn/red_hat_fuse/7.8/html/apache_camel_component_reference/_integration_testing",
+                            "description": "在使用Spring 事务进行测试时，为了避免挂起的路由，请参阅有关交易客户端下的Spring Integration Testing 的注释。"
+                        }
+                    ],
+                    "knowledgeDensity": 1.9066688904661526,
+                    "weight": 0.6666666666666666
+                }
+            ],
+            "knowledgeDensity": 13.370421639062586
+        },
+        {
+            "id": 3,
+            "name": "回归测试和冒烟测试",
+            "pages": [
+                18,
+                21
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        18,
+                        19
+                    ],
+                    "name": "回归测试",
+                    "definition": "回归测试是在集成测试策略中，为确保更改没有引入意外的副作用而重新执行的一些已经进行过的测试子集。",
+                    "information": "每次添加新模块后，软件会发生变化，建立新的数据流路径，可能发生新的输入/输出，并且调用新的控制逻辑。这些变化可能引起之前正常工作的功能出现问题。回归测试通过重新执行测试子集，帮助确保因测试或其他原因所作的更改没有引入意外行为或额外错误。",
+                    "usage": "回归测试套件包含三个不同类别的测试用例：一是执行所有软件功能的代表性样本测试；二是专注于可能受更改影响的软件功能的附加测试；三是专注于已更改软件组件的测试。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.2850422782840574,
+                    "weight": 0.3333333333333333
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        20,
+                        21
+                    ],
+                    "name": "冒烟测试",
+                    "definition": "冒烟测试是在产品软件开发时常用的一种集成测试方法。",
+                    "information": "将已转换为代码的软件组件集成到构建中，设计一系列测试以揭示将阻止构建正常运行的错误。每天对构建与其他构建集成后的整个产品（当前形式）进行冒烟测试，集成方法可以是自顶向下或自底向上。",
+                    "usage": "冒烟测试的好处包括：最小化集成风险，由于每天进行测试，因此早期发现不兼容和其他阻碍性错误，降低了发现错误时严重影响进度表的可能性；提高最终产品质量，由于方法是以构建（集成）为导向的，因此冒烟测试可能揭露功能性错误以及体系结构和组件级设计错误，如果这些错误早期得到纠正，将导致更好的产品质量；简化错误诊断和修正，像所有集成测试方法一样，在冒烟测试中发现的错误很可能与“新软件增量”有关；更容易评估进度，随着时间的推移，更多软件已经集成并且已经证明能够工作，这提高了团队士气，并为管理者提供了进展正在取得的良好指示。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3365057334537214,
+                    "weight": 0.5128205128205128
+                }
+            ],
+            "knowledgeDensity": 15.991969650800366
+        },
+        {
+            "id": 4,
+            "name": "Web应用和移动应用测试策略",
+            "pages": [
+                22,
+                27
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        22,
+                        22
+                    ],
+                    "name": "Web应用测试策略",
+                    "definition": "确保Web应用在设计和功能方面符合要求的一系列检查过程",
+                    "information": "内容包括审查WebApp的内容模型、界面模型、设计模型，以发现错误和导航问题。还包括UI测试，如单元测试、导航测试、环境配置兼容性测试，以及安全和性能测试。",
+                    "usage": "在Web应用开发过程中，通过这些策略确保应用的质量和性能，以及在不同环境下的兼容性。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3274527758616517,
+                    "weight": 0.47435897435897434
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        23,
+                        23
+                    ],
+                    "name": "移动应用测试策略",
+                    "definition": "针对移动设备特定需求的测试方法集合",
+                    "information": "内容包括用户体验测试、设备兼容性测试、性能测试、连通性测试、安全测试、野外测试和认证测试。确保移动应用在不同设备和网络环境下的性能和安全性，同时满足应用商店的标准。",
+                    "usage": "在移动应用开发和发布前，通过这些测试策略来优化用户体验，保证应用的广泛兼容性和性能。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.8452634155181236,
+                    "weight": 0.6153846153846154
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        24,
+                        24
+                    ],
+                    "name": "验证测试",
+                    "definition": "测试软件以确认它满足业务需求和用户预期的过程",
+                    "information": "包括关注用户可见动作和系统输出的测试，验证标准与用户故事结合，以及Alpha测试、Beta测试和客户验收测试。",
+                    "usage": "在软件开发的最后阶段，通过验证测试确保软件产品符合用户的实际使用需求和预期。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.8398424410338876,
+                    "weight": 0.5897435897435896
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        25,
+                        25
+                    ],
+                    "name": "验证测试讨论",
+                    "definition": "关于谁应该执行验证测试的讨论",
+                    "information": "讨论软件开发者和软件用户之间，谁更适合执行验证测试，以及为什么。",
+                    "usage": "帮助确定验证测试的最佳实践和责任分配，以确保软件质量和满足用户需求。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.335032080776835,
+                    "weight": 0.8
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        27,
+                        27
+                    ],
+                    "name": "非功能性测试",
+                    "definition": "对软件系统的属性进行测试，这些属性不包括软件的功能性行为",
+                    "information": "包括确定项目应用中要执行的非功能性测试类型，以及在这些类型中确定具体的测试。",
+                    "usage": "确保软件系统在性能、安全性、可用性和兼容性等非功能性方面满足要求。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.8358950543828851,
+                    "weight": 0.5769230769230769
+                }
+            ],
+            "knowledgeDensity": 25.175455418373748
+        },
+        {
+            "id": 5,
+            "name": "验证测试和系统测试",
+            "pages": [
+                28,
+                31
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        28,
+                        28
+                    ],
+                    "name": "软件测试目的",
+                    "definition": "软件测试的目标是发现错误。",
+                    "information": "为了达到这个目标，传统软件通过一系列测试步骤来进行，其中单元测试和集成测试集中在组件的功能验证上，以及组件在软件架构中的整合。",
+                    "usage": "验证测试用于证明软件满足需求的可追溯性，系统测试则在软件被整合到更大的系统中后对其进行验证。每个测试步骤都通过一系列系统化的测试技术来设计测试用例，随着测试的深入，软件被考虑的抽象层次也在扩大。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.2683420544680777,
+                    "weight": 0.21666666666666665
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        29,
+                        29
+                    ],
+                    "name": "测试应用类型",
+                    "definition": "介绍了不同类型的应用程序测试。",
+                    "information": "提到了对传统应用程序、Web应用程序和移动应用程序的测试。引用了Pressman R S, Bruce R.Maxim的《软件工程 - 实践者的方法》第八版，以及章节23、25、26作为参考。",
+                    "usage": "指导学生如何参考相关章节来学习和掌握不同类型应用程序的测试方法。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.2490718805368106,
+                    "weight": 0.1388888888888889
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        30,
+                        30
+                    ],
+                    "name": "测试覆盖的主题",
+                    "definition": "列出了测试覆盖的主题及对应的教材参考章节。",
+                    "information": "具体内容包括测试传统应用程序的章节23.1至23.6，测试Web应用程序的章节25.1至25.9，以及测试移动应用程序的章节26.1至26.3。",
+                    "usage": "帮助学生理解课程内容的结构和参考教材的具体章节，以便于他们更好地规划学习路径。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.2901276325964874,
+                    "weight": 0.3846153846153846
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        31,
+                        31
+                    ],
+                    "name": "测试基础",
+                    "definition": "测试的目标是为了发现错误，而一个好的测试是具有高概率发现错误的测试。",
+                    "information": "因此，在设计和实现计算机系统或产品时，需要考虑到“可测试性”。同时，测试本身必须具有一组特征，以最小的努力发现最多的错误。",
+                    "usage": "“可测试性”指的是软件能够被测试的容易程度。设计测试时需要考虑这一点，以提高测试的有效性和效率。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.827997868660945,
+                    "weight": 0.5641025641025641
+                }
+            ],
+            "knowledgeDensity": 30.810994854636068
+        },
+        {
+            "id": 6,
+            "name": "测试基础知识和测试特点",
+            "pages": [
+                32,
+                37
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        32,
+                        33
+                    ],
+                    "name": "测试特性",
+                    "definition": "概述了好的测试应该具有的一些关键特征",
+                    "information": "好的测试能够高概率地找到错误，不会有冗余，应该是同类中最好的，既不应该过于简单也不应该过于复杂。",
+                    "usage": "在设计测试用例时参考，确保测试用例的有效性和效率。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.848483492959099,
+                    "weight": 0.6282051282051282
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        34,
+                        34
+                    ],
+                    "name": "测试的内外视图",
+                    "definition": "介绍了测试的不同视角",
+                    "information": "本部分内容可能在该页未详细展开，需要结合前后文来理解测试的多种视角。",
+                    "usage": "帮助理解测试过程中应该采用的不同视角和方法。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3209677618710782,
+                    "weight": 0.4487179487179487
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        35,
+                        35
+                    ],
+                    "name": "白盒测试",
+                    "definition": "一种基于软件内部结构和设计的测试方法",
+                    "information": "白盒测试利用控制结构引导测试用例设计，确保每一个独立路径至少被执行一次，所有逻辑决策都被验证真假两面，循环在边界和操作范围内被执行，以及内部数据结构的有效性得到验证。",
+                    "usage": "在单元测试和集成测试阶段，确保代码逻辑的正确性和完整性。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.320106987481287,
+                    "weight": 0.4358974358974359
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        36,
+                        37
+                    ],
+                    "name": "黑盒测试",
+                    "definition": "一种基于软件功能需求的测试方法",
+                    "information": "黑盒测试关注软件的功能需求，通过输入条件的集合来完整地测试所有功能需求。它旨在发现错误的不同类别，包括不正确或缺失的功能、接口错误、数据结构或外部数据库访问问题、行为或性能错误，以及初始化和终止错误。",
+                    "usage": "通常在系统测试和验收测试阶段使用，以验证软件的功能是否符合用户需求。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.2850422782840574,
+                    "weight": 0.34615384615384615
+                }
+            ],
+            "knowledgeDensity": 36.5855953752316
+        },
+        {
+            "id": 7,
+            "name": "白盒测试和黑盒测试",
+            "pages": [
+                38,
+                43
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        38,
+                        39
+                    ],
+                    "name": "图形化测试方法",
+                    "definition": "一种黑盒测试方法，通过理解软件中模型化的对象及其相互关系来定义测试。",
+                    "information": "首先理解软件中模型化的对象及其相互关系，然后定义一系列的测试来验证所有对象是否具有预期的相互关系。通过遍历图形来派生测试用例，覆盖显示的每个关系，这些测试用例旨在发现任何关系中的错误。",
+                    "usage": "用于验证软件中各个对象是否按预期正确相互关联，以及确保关系间的正确性。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3298046486589166,
+                    "weight": 0.48717948717948717
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        41,
+                        41
+                    ],
+                    "name": "等价类划分",
+                    "definition": "一种黑盒测试方法，将程序的输入域分为可以从中派生测试用例的数据类。",
+                    "information": "等价类划分将输入条件划分为有效或无效状态的集合，理想的测试用例可以揭示一个错误类，这可能需要执行多个测试用例后才能观察到的通用错误。",
+                    "usage": "用于设计能有效发现程序处理输入数据错误的测试用例，提高测试效率。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.2896198974310742,
+                    "weight": 0.3717948717948718
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        42,
+                        42
+                    ],
+                    "name": "边界值分析",
+                    "definition": "一种测试技术，基于错误更多发生在输入域的边界而非中心的观察。",
+                    "information": "边界值分析作为一种测试技术，它补充了等价类划分并导致选择测试用例来执行边界值，不是选择任何等价类中的元素，而是选择在等价类的“边缘”选择测试用例。",
+                    "usage": "用于选择测试用例以检验输入值的边界情况，特别是在输入域的边界处进行测试，以发现边界相关的错误。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.283386552351895,
+                    "weight": 0.25555555555555554
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        43,
+                        43
+                    ],
+                    "name": "测试用例设计总结",
+                    "definition": "为了提高发现软件错误的可能性，测试用例设计使用了两种不同类别的技术：白盒测试和黑盒测试。",
+                    "information": "白盒测试关注程序控制结构，测试用例的派生确保程序中的所有语句在测试期间至少执行一次，并且所有逻辑条件得到了执行。黑盒测试旨在验证功能需求，而不考虑程序的内部工作情况。",
+                    "usage": "用于指导测试用例的设计，确保通过有效的测试覆盖来最大化发现错误的可能性。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.2627456562855293,
+                    "weight": 0.17777777777777776
+                }
+            ],
+            "knowledgeDensity": 41.75115212995901
+        },
+        {
+            "id": 8,
+            "name": "Web应用测试",
+            "pages": [
+                44,
+                69
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        44,
+                        47
+                    ],
+                    "name": "Web应用测试概述",
+                    "definition": "Web应用测试是指对Web应用程序执行的一系列测试过程，以确保其质量和性能。",
+                    "information": "介绍了Web应用测试的质量维度、错误类型、测试策略等，包括客户端错误的症状、配置错误、多层架构的错误追踪难点等。",
+                    "usage": "用于指导测试人员理解Web应用测试的基本概念和准备工作，以便在测试过程中更有效地发现和修复错误。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.8632070264319243,
+                    "weight": 0.641025641025641
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        48,
+                        54
+                    ],
+                    "name": "测试计划与内容测试",
+                    "definition": "测试计划是指为Web应用测试制定的详细策略，内容测试关注于Web应用内容的正确性。",
+                    "information": "讨论了测试计划的创建，包括测试任务集、产出工作产品和结果评估。内容测试包括查找文本、图形和其他媒体中的语法错误、语义错误以及内容组织结构错误。",
+                    "usage": "帮助测试人员制定测试计划和执行内容测试，以确保Web应用提供的内容准确无误。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.484957964080765,
+                    "weight": 0.8666666666666667
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        55,
+                        58
+                    ],
+                    "name": "用户界面与可用性测试",
+                    "definition": "用户界面测试关注应用界面的交互机制和美学方面，可用性测试评估应用的易用性。",
+                    "information": "用户界面测试包括在需求分析、设计和测试阶段的验证和确认工作。可用性测试可以针对特定的界面机制、完整的Web页面或整个Web应用进行。",
+                    "usage": "确保Web应用的用户界面满足用户需求且具有良好的用户体验。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3493790930546936,
+                    "weight": 0.5256410256410255
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        59,
+                        62
+                    ],
+                    "name": "兼容性与配置测试",
+                    "definition": "兼容性测试检查Web应用在不同计算配置下的操作，配置测试关注于可能的客户端和服务器端配置。",
+                    "information": "兼容性测试旨在发现不同计算配置下的操作问题，配置测试则检查一系列可能的客户端和服务器端配置，以确保用户体验一致性并隔离特定配置下的错误。",
+                    "usage": "帮助测试人员确保Web应用在各种设备和操作系统上均能正常工作，以及适应不同的用户环境。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.9006205032877517,
+                    "weight": 0.6538461538461537
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        63,
+                        69
+                    ],
+                    "name": "安全性测试",
+                    "definition": "安全性测试是指检查Web应用客户端环境、网络通信和服务器端环境的安全弱点。",
+                    "information": "安全性测试设计用于探测客户端、服务器端和网络通信的漏洞。它涉及到检查浏览器、邮件程序或通信软件中的预存漏洞，以及服务器端的拒绝服务攻击和恶意脚本。",
+                    "usage": "用于揭示Web应用潜在的安全风险，防止敏感信息泄露、性能降低、功能失效或数据盗窃等安全问题。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.9727281548456799,
+                    "weight": 0.7333333333333333
+                }
+            ],
+            "knowledgeDensity": 51.32204487165983
+        },
+        {
+            "id": 9,
+            "name": "移动应用测试",
+            "pages": [
+                70,
+                89
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        70,
+                        70
+                    ],
+                    "name": "OWASP前十大攻击",
+                    "definition": "OWASP前十大攻击是网络应用安全常见的十种攻击方式",
+                    "information": "虽然这部分内容并非来自教科书，但了解这些攻击对于理解安全测试的角度是非常有用的。具体内容可以参考给出的网络链接。",
+                    "usage": "用于教育学生网络应用可能面临的安全威胁，以及提高他们在进行网络应用开发和测试时的安全意识。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3168977786404048,
+                    "weight": 0.4230769230769231
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        71,
+                        77
+                    ],
+                    "name": "性能测试",
+                    "definition": "性能测试用于揭示由于服务器资源不足、网络带宽不适当、数据库能力不足、操作系统能力弱或设计不当的Web应用功能等原因可能导致的性能问题",
+                    "information": "性能测试旨在了解系统在不同负载（即用户数量、事务数量或数据总量）下的响应情况，并收集指标以进行设计修改以提高性能。性能测试的问题包括服务器响应时间是否显著下降到不可接受的程度，性能变得不可接受的点在哪里，以及性能下降是否会影响系统安全、可靠性或准确性等。",
+                    "usage": "在软件开发过程中评估Web应用的性能，并指导如何改进系统以满足用户的性能需求。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.0069834305625935,
+                    "weight": 0.9333333333333333
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        78,
+                        80
+                    ],
+                    "name": "压力测试与WebApp测试总结",
+                    "definition": "压力测试是负载测试的进一步延伸，旨在将变量N、T和D推向并超越操作限制，从而找出系统在极端条件下的表现",
+                    "information": "压力测试用于回答系统是否会在超出容量时优雅降级，服务器是否会在超出容量时关闭，以及超出容量时是否丢失交易等问题。此外，第79页提供了WebApp测试的总结，强调测试的目标是通过测试WebApp的多个维度来发现错误或揭示可能导致质量失败的问题。",
+                    "usage": "用于在开发阶段测试应用程序对高负载和极端使用情况的反应，并确保系统在用户体验和安全性方面的健壮性。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3333157629419154,
+                    "weight": 0.5
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        81,
+                        87
+                    ],
+                    "name": "移动应用测试",
+                    "definition": "移动应用测试针对移动应用的多个质量维度进行测试，目的是发现错误或揭示可能导致质量问题的问题",
+                    "information": "移动应用测试关注内容、功能、结构、可用性、上下文使用、可导航性、性能、电源管理、兼容性、互操作性、容量和安全等质量元素。测试包括在移动应用设计过程中进行的评审和可用性评估，以及在实际设备上实施和部署移动应用后进行的测试。",
+                    "usage": "在移动应用开发过程中确保应用的质量，以及在实际设备上为最终用户提供无缝和安全的使用体验。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.0339635808352234,
+                    "weight": 1.0
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        88,
+                        89
+                    ],
+                    "name": "用户交互谱系与移动应用测试总结",
+                    "definition": "考虑用户交互的全谱意味着需要考虑用户在使用移动应用时可能遇到的各种情况和环境",
+                    "information": "第89页提供了移动应用测试的总结，强调了测试的目标是通过测试移动应用的多个维度来发现错误或揭示可能导致质量失败的问题。这包括在实际设备上实施和部署移动应用后进行的测试。",
+                    "usage": "帮助开发者和测试人员理解和预测用户在不同环境下使用移动应用时可能遇到的问题，并据此进行适当的测试和优化。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.288876935218088,
+                    "weight": 0.358974358974359
+                }
+            ],
+            "knowledgeDensity": 61.30208235985805
+        }
+    ],
+    "knowledgeDensity": 288.5713573923693
+}

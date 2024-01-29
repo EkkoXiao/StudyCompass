@@ -1,0 +1,279 @@
+{
+    "keyword": "信号卷积运算",
+    "mainpoints": [
+        {
+            "name": "信号处理原理与数学基础回顾",
+            "from_page": 1,
+            "to_page": 2,
+            "subpoints": [
+                {
+                    "name": "讲师介绍",
+                    "from_page": 1,
+                    "to_page": 1,
+                    "filename": "讲师介绍.pdf"
+                },
+                {
+                    "name": "数学基础回顾",
+                    "from_page": 2,
+                    "to_page": 2,
+                    "filename": "数学基础回顾.pdf"
+                }
+            ]
+        },
+        {
+            "name": "欧拉公式及其证明方法",
+            "from_page": 3,
+            "to_page": 9,
+            "subpoints": [
+                {
+                    "name": "欧拉公式的基本介绍",
+                    "from_page": 3,
+                    "to_page": 5,
+                    "filename": "欧拉公式的基本介绍.pdf"
+                },
+                {
+                    "name": "欧拉公式的重要性",
+                    "from_page": 6,
+                    "to_page": 6,
+                    "filename": "欧拉公式的重要性.pdf"
+                },
+                {
+                    "name": "欧拉公式的证明方法",
+                    "from_page": 7,
+                    "to_page": 9,
+                    "filename": "欧拉公式的证明方法.pdf"
+                }
+            ]
+        },
+        {
+            "name": "欧拉公式的应用",
+            "from_page": 10,
+            "to_page": 15,
+            "subpoints": [
+                {
+                    "name": "复指数信号的欧拉公式表示",
+                    "from_page": 10,
+                    "to_page": 12,
+                    "filename": "复指数信号的欧拉公式表示.pdf"
+                },
+                {
+                    "name": "复指数信号不同取值的比较",
+                    "from_page": 13,
+                    "to_page": 13,
+                    "filename": "复指数信号不同取值的比较.pdf"
+                },
+                {
+                    "name": "欧拉公式的基本形式",
+                    "from_page": 14,
+                    "to_page": 14,
+                    "filename": "欧拉公式的基本形式.pdf"
+                },
+                {
+                    "name": "欧拉公式的应用拓展",
+                    "from_page": 15,
+                    "to_page": 15,
+                    "filename": "欧拉公式的应用拓展.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号的运算及其物理意义",
+            "from_page": 16,
+            "to_page": 23,
+            "subpoints": [
+                {
+                    "name": "欧拉公式的应用",
+                    "from_page": 16,
+                    "to_page": 16,
+                    "filename": "欧拉公式的应用.pdf"
+                },
+                {
+                    "name": "常规运算",
+                    "from_page": 17,
+                    "to_page": 19,
+                    "filename": "常规运算.pdf"
+                },
+                {
+                    "name": "信号的卷积运算",
+                    "from_page": 20,
+                    "to_page": 20,
+                    "filename": "信号的卷积运算.pdf"
+                },
+                {
+                    "name": "卷积定理的引出与卷积运算",
+                    "from_page": 21,
+                    "to_page": 23,
+                    "filename": "卷积定理的引出与卷积运算.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号的卷积运算及定义",
+            "from_page": 24,
+            "to_page": 37,
+            "subpoints": [
+                {
+                    "name": "卷积运算定义及其引出的信号卷积",
+                    "from_page": 24,
+                    "to_page": 28,
+                    "filename": "卷积运算定义及其引出的信号卷积.pdf"
+                },
+                {
+                    "name": "卷积运算公式及其计算",
+                    "from_page": 29,
+                    "to_page": 33,
+                    "filename": "卷积运算公式及其计算.pdf"
+                },
+                {
+                    "name": "连续信号的卷积运算及其特性",
+                    "from_page": 34,
+                    "to_page": 37,
+                    "filename": "连续信号的卷积运算及其特性.pdf"
+                }
+            ]
+        },
+        {
+            "name": "连续信号的卷积运算及其物理意义",
+            "from_page": 38,
+            "to_page": 42,
+            "subpoints": [
+                {
+                    "name": "连续信号的卷积运算定义",
+                    "from_page": 38,
+                    "to_page": 38,
+                    "filename": "连续信号的卷积运算定义.pdf"
+                },
+                {
+                    "name": "离散信号的卷积运算定义",
+                    "from_page": 39,
+                    "to_page": 39,
+                    "filename": "离散信号的卷积运算定义.pdf"
+                },
+                {
+                    "name": "卷积运算的物理意义与概率论应用",
+                    "from_page": 40,
+                    "to_page": 41,
+                    "filename": "卷积运算的物理意义与概率论应用.pdf"
+                },
+                {
+                    "name": "离散信号卷积的数学表述",
+                    "from_page": 42,
+                    "to_page": 42,
+                    "filename": "离散信号卷积的数学表述.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号卷积运算的性质",
+            "from_page": 43,
+            "to_page": 47,
+            "subpoints": [
+                {
+                    "name": "卷积运算定义",
+                    "from_page": 43,
+                    "to_page": 43,
+                    "filename": "卷积运算定义.pdf"
+                },
+                {
+                    "name": "卷积运算性质",
+                    "from_page": 44,
+                    "to_page": 47,
+                    "filename": "卷积运算性质.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号的微分与积分运算",
+            "from_page": 48,
+            "to_page": 50,
+            "subpoints": [
+                {
+                    "name": "信号的卷积运算性质",
+                    "from_page": 48,
+                    "to_page": 48,
+                    "filename": "信号的卷积运算性质.pdf"
+                },
+                {
+                    "name": "信号卷积的导数与重积分次数",
+                    "from_page": 49,
+                    "to_page": 49,
+                    "filename": "信号卷积的导数与重积分次数.pdf"
+                },
+                {
+                    "name": "卷积的积分运算",
+                    "from_page": 49,
+                    "to_page": 49,
+                    "filename": "卷积的积分运算.pdf"
+                },
+                {
+                    "name": "信号运算类型",
+                    "from_page": 50,
+                    "to_page": 50,
+                    "filename": "信号运算类型.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号的相关运算与应用",
+            "from_page": 51,
+            "to_page": 53,
+            "subpoints": [
+                {
+                    "name": "信号的相关运算",
+                    "from_page": 51,
+                    "to_page": 51,
+                    "filename": "信号的相关运算.pdf"
+                },
+                {
+                    "name": "相关与卷积信号的相关运算",
+                    "from_page": 52,
+                    "to_page": 52,
+                    "filename": "相关与卷积信号的相关运算.pdf"
+                },
+                {
+                    "name": "卷积、相关的拓展应用",
+                    "from_page": 53,
+                    "to_page": 53,
+                    "filename": "卷积、相关的拓展应用.pdf"
+                }
+            ]
+        },
+        {
+            "name": "奇异信号及其扩展应用",
+            "from_page": 54,
+            "to_page": 83,
+            "subpoints": [
+                {
+                    "name": "奇异信号的引出",
+                    "from_page": 54,
+                    "to_page": 57,
+                    "filename": "奇异信号的引出.pdf"
+                },
+                {
+                    "name": "奇异信号的性质",
+                    "from_page": 58,
+                    "to_page": 64,
+                    "filename": "奇异信号的性质.pdf"
+                },
+                {
+                    "name": "奇异信号的运算",
+                    "from_page": 65,
+                    "to_page": 71,
+                    "filename": "奇异信号的运算.pdf"
+                },
+                {
+                    "name": "奇异信号的扩展应用",
+                    "from_page": 72,
+                    "to_page": 77,
+                    "filename": "奇异信号的扩展应用.pdf"
+                },
+                {
+                    "name": "奇异信号总结与练习",
+                    "from_page": 78,
+                    "to_page": 83,
+                    "filename": "奇异信号总结与练习.pdf"
+                }
+            ]
+        }
+    ]
+}

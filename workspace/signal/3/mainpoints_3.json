@@ -1,0 +1,1087 @@
+{
+    "id": 3,
+    "keyword": "傅里叶变换",
+    "mainpoints": [
+        {
+            "id": 0,
+            "name": "信号处理原理概述和基础知识",
+            "pages": [
+                1,
+                1
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        1,
+                        1
+                    ],
+                    "name": "信号处理原理概述",
+                    "definition": "信号处理是指使用数学和技术手段对信息载体进行分析和操作的一系列方法。",
+                    "information": "在清华大学刘华平教授的《信号处理原理》课程中，对信号处理的基本概念、方法和应用进行了介绍。",
+                    "usage": "信号处理的技术和理论被广泛应用于通信、雷达、音频、视频、医疗成像等多个领域。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://web.lib.xjtu.edu.cn/info/1117/6337.htm",
+                            "description": "本书共14章，分四部分：第一部分介绍语音信号处理基础知识，主要包括数字信号处理基础、语音产生机理、(人的)听觉和听感知机理和声道中的声传播原理；第二部分介绍语音信号..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://m.zhangyue.com/readbook/12972462/7.html?p2=104109",
+                            "description": "本书章节安排如下。 第2章介绍相关数学知识和阵列信号的基础知识，是阵列信号处理问题研究的基础。 第3章介绍多种波束形成算法，包括基于LCMV、GSC、投影分析、高阶..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://juejin.cn/post/6979232584681127972",
+                            "description": "... 处理得到心率周期的均匀时序列；分别提取呼吸轮廓信号和均匀时序列的特征信息，并根据预设的训练样本集获得该睡眠生理信号对应的先验知识；根据特征信息和先验知识..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.coursera.org/learn/os-pku",
+                            "description": "《操作系统原理》是针对计算机科学技术专业三年级本科生开设的一门专业基础课程。本课程着重学生系统观的培养，通过重点讲述操作系统的内部结构、工作原理及典型技术的..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://www.cee.cqu.edu.cn/info/2894/9629.htm",
+                            "description": "2) 充分掌握输配电设备工作原理、操作规范以及试验方法； 2) Applying Electrical ... 数字信号处理（Digital Signal Processing）. 授课教师：Erwin Stoschek, 张丽..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3561149463255215,
+                    "weight": 0.1388888888888889
+                }
+            ],
+            "knowledgeDensity": 1.3561149463255215
+        },
+        {
+            "id": 1,
+            "name": "周期信号的傅里叶级数展开",
+            "pages": [
+                2,
+                15
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        2,
+                        9
+                    ],
+                    "name": "周期信号的傅里叶级数展开基础",
+                    "definition": "周期信号的傅里叶级数展开是将周期函数表示为不同频率的和谐波的叠加。",
+                    "information": "介绍了周期信号如何通过傅里叶级数的形式表达，包括了基础的三角形式和指数形式的傅里叶级数。给出了傅里叶系数的计算方法，展示了怎样将周期信号分解为一系列正弦波与余弦波的和，以及怎样从时域信号转换到频域信号。",
+                    "usage": "用于信号处理中将周期信号从时域转换到频域，对信号进行分析、滤波、压缩等处理。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://my.oschina.net/u/4283651?q=grub",
+                            "description": "利用傅里叶级数进行构造 对于周期信号$x(t)$，其傅里叶级数展开式为：$$x(t) ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://ocw.chu.edu.tw/mod/resource/view.php?id=820",
+                            "description": "▲周期为2π 及任意周期之Fourier 级数. 1. 若.) ( 2 ).(. f x. f x π. +. =，并且1,. 0 ... (1) 试以傅立叶积分(Fourier Integral)展开f(x)。 (2) 试求解此微分方程式。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747?viewType=HTML",
+                            "description": "... 4) 建立在分数域滤波基础上的信号检测与参数估计是雷达、通信信号处理中的关键技术, 目前取得的研究成果包括:分数域卷积定理、分数相关和分数功率谱、短时分数傅里叶变换 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Discrete-Fourier",
+                            "description": "周期图是每个反向散射信号的离散傅里叶变换(DFT)系数的一系列指数，并用作功率谱密度 ... 基于广义离散傅里叶级数的近场声全息术(GDFS-NAH)是一种自然贴片NAH 方法 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20222317",
+                            "description": "... (x,y) 是基于傅里叶级数展开的正余弦模式, 在该框架下 I0 即等价于傅里叶系数. 因此, 通过代入调制后的投影光场和计算相应的傅里叶系数, G(x,y) 将变为待重建 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.4201023453610846,
+                    "weight": 0.9333333333333333
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        10,
+                        11
+                    ],
+                    "name": "周期信号傅里叶级数的能量分析",
+                    "definition": "根据帕斯瓦尔定理，时域信号的能量等于其频域信号能量的总和。",
+                    "information": "通过帕斯瓦尔定理对周期信号傅里叶级数展开后的每个分量的能量进行计算和分析，显示了实信号正负频率分量能量的对称性，并给出了信号总能量与各分量能量之间的关系。",
+                    "usage": "用于分析信号的频域能量分布，可应用于信号能量的估计、通信系统的设计和信号处理等领域。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Fourier-Series",
+                            "description": "... 通过有限傅立叶级数分析呈现周期性运动的频率幅度特性，以便更好地理解具有电磁耦合并联调谐耦合质量阻尼器惰性的非线性振动 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 4) 建立在分数域滤波基础上的信号检测与参数估计是雷达、通信信号处理中的关键技术, 目前取得的研究成果包括:分数域卷积定理、分数相关和分数功率谱、短时分数傅里叶变换 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20222317",
+                            "description": "... (x,y) 是基于傅里叶级数展开的正余弦模式, 在该框架下 I0 即等价于傅里叶系数. 因此, 通过代入调制后的投射光场和计算相应的傅里叶系数, G(x,y) 将变为待重建 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://slideplayer.com/slide/6240984/",
+                            "description": "典型非周期信号( 如指数信号, 矩形信号等) 都是满足绝对可积（或绝对可和）条件的能量信号，其傅里叶变换都存在， 但绝对可积（或绝对可和）条件仅是充分条件, 而不是必要 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.68.20191164",
+                            "description": "1965年, Cooley和Tukey充分利用了傅里叶变换的周期性和对称性以及蝶形操作对展开项合并, 大幅度提高了计算效率, 将时间复杂度O(N2)的运算量降低为O(2Nlog2N)量级. 应用广博 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.005007292702855,
+                    "weight": 0.5384615384615384
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        12,
+                        12
+                    ],
+                    "name": "信号的带宽",
+                    "definition": "信号的带宽是指信号所包含的频率成分范围，通常定义为信号能量集中的频率区间。",
+                    "information": "解释了信号带宽的概念，并指出带宽与信号的脉冲宽度之间的关系。说明了带宽只与信号的脉冲宽度有关，与脉冲的高度和周期无关。",
+                    "usage": "信号带宽的概念在通信系统设计中非常重要，影响着信号的传输速率和信道的利用效率。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jeit.ac.cn/article/doi/10.11999/JEIT211376?pageType=en",
+                            "description": "by SUN Dajun · 2023 — ... 带宽参数，实现对水下连续波信号的稳定跟踪。 2.4 算法误差分析. 信号捕获 ... 周期25.4 ms信号进行捕获可得结果如图4所示。 图 4 信号捕获结果。 下载 "
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT230593",
+                            "description": "by Z WANG · 2023 — 根据仿真条件进行信号级仿真，设定4个重叠通带带宽为4 MHz的预选滤波器，将 ... (4) 在信号合成前，通过快速傅里叶变换得到子带 i与 i+1的校准信号频谱 "
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2019.180338",
+                            "description": "... 信号i1(t)及其傅里叶级数展开为 ... 采样得到的序列包含信号每个周期的波峰值与波谷值，将两者作差，并经FIR低通滤波器限制噪声带宽，最后提取信号每个周期的幅值。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://pubs-en.cstam.org.cn/article/doi/10.6052/0459-1879-21-560",
+                            "description": "by D Xu · 2022 · Cited by 4 — 这一模型对离心压气机的失稳点预测展示出了很大的潜力。 由于假设背景流在周向和径向都是均匀的, 因此扰动量在周向和径向均可以作傅里叶展开, 即 ... 评估压力信号时间周期性 "
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://www.irla.cn/en/article/doi/10.3788/IRLA20220402",
+                            "description": "by W Aiye · 2022 — 通常而言，在多维信号的离散傅里叶相位恢复中，当过采样倍数为2时，可以 ... 数构成的向量同样具有稀疏性，对该向量的l1范数施加一定的约束条件，待 "
+                        }
+                    ],
+                    "knowledgeDensity": 3.406866324320387,
+                    "weight": 0.8666666666666667
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        14,
+                        15
+                    ],
+                    "name": "非周期信号的处理",
+                    "definition": "非周期信号处理是指对于非周期信号，采用不同于周期信号傅里叶级数展开的方法来分析。",
+                    "information": "文本简要提及了非周期信号的处理方法，但没有给出详细的解释或例子。",
+                    "usage": "非周期信号通常通过傅里叶变换进行处理，适用于信号和系统分析、滤波设计等领域。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/fourier-series",
+                            "description": "下图显示了方波分量的部分傅里叶级数结果。 傅里叶级数与傅里叶变换密切相关，可用于寻找非周期函数中的频率信息。周期函数可以用圆上的函数来标识。为此，傅里叶级数..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Fourier-Series",
+                            "description": "基于最小二乘法的全局傅里叶级数拟合用于信号处理。 Application of a New ... 非线性系统中具有已知周期的时变激励函数。nan. repeated de la 的重复. Using..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 分数傅里叶变换适合处理Chirp信号, 在上述领域中得到了广泛应用。除此之外, 分数傅里叶变换也被应用于医学、图像加密、生物特征识别等领域。 9.2 展望. 分数傅里叶变换在..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.slideserve.com/alisa-ramsey/chapter-5-powerpoint-ppt-presentation",
+                            "description": "15 Mar 2019 — ... 周期信号5.0 引言<3.12> 3.6 周期信号的傅立叶级数展开. 周期信号 周期: N 非周期信号5.1 非周期信号的表示: 离散时间傅里叶变换A. 离散时间傅里叶变换的..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://my.oschina.net/u/4283651?q=grub",
+                            "description": "... 非周期信号，可以给周期信号也建立傅里叶变换。 有两种方法求周期信号的傅里叶变换：*1. 利用傅里叶级数进行构造** 对于周期信号$x(t)$，其傅里叶级数展开式为：$$x..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.4077153606234964,
+                    "weight": 0.3333333333333333
+                }
+            ],
+            "knowledgeDensity": 13.595806269333345
+        },
+        {
+            "id": 2,
+            "name": "傅里叶变换的基本概念和性质",
+            "pages": [
+                16,
+                31
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        16,
+                        17
+                    ],
+                    "name": "周期信号的傅立叶级数",
+                    "definition": "周期信号可以通过傅立叶级数分解为一系列的正弦波和余弦波的和。",
+                    "information": "讨论了周期矩形脉冲信号的傅立叶级数表示，其中包括了脉冲宽度、脉冲幅度和重复周期等参数，并介绍了信号的频谱线间隔和高度的计算方法。",
+                    "usage": "周期信号的频谱分析和信号处理中，通过傅立叶变换得到频域信息，对信号进行分析和处理。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://www.ignatz.xyz/2021/12/16/%E9%9B%B6-%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/",
+                            "description": "周期为$T= 1/f_0 = 2\\pi/\\omg_0$的信号$s(t)$可以表示为基 ... 傅里叶级数. 周期信号的频谱密度为."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.youtube.com/watch?v=d7H5AyhA7Cw",
+                            "description": ""
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/id/5fa4fba1f4d791802438c2a4",
+                            "description": "基于Namias的工作, McBRIDE于1987年修改了Namias的分数傅里叶算子, 并分析了修改后的算子所具有的一些性质, 使分数傅里叶变换的理论更加明确。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.69.20200283",
+                            "description": "利用傅里叶变换的性质, 常微分方程(ordinary differential equation, ODE)和积分-微分方程(integro-differential equation, IDE)所对应的传递函数可以计算得到。"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://www.irla.cn/en/article/doi/10.3788/IRLA20220402",
+                            "description": "许多完全不同的信号具有相同的傅里叶变换强度，这意味着从傅里叶幅度之中 ... 信号的稀疏性先验知识合并。稀疏性半正定规划相位恢复的最初工作来自于亚 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.0053950727271053,
+                    "weight": 0.5512820512820513
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        18,
+                        21
+                    ],
+                    "name": "非周期信号的傅里叶变换",
+                    "definition": "非周期信号的傅里叶变换是将非周期信号转换到频域的一种数学方法。",
+                    "information": "探讨了非周期信号的傅里叶变换，其中包括了信号如何从时域转换到频域，以及如何通过傅里叶变换来理解信号的频率内容。",
+                    "usage": "在信号处理中，非周期信号的傅里叶变换用于分析信号的频率成分，适用于滤波、信号识别等领域。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.my-mooc.com/en/mooc/course-v1-tsinghuax-40130653x-2016-t1/",
+                            "description": "非周期信号的频域描述(Fourier transform): Class ... 傅里叶变换的性质(The property of Fourier transform): 功率信号的傅里叶变换(Fourier transform of power signal) ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://slideplayer.com/slide/8254731/",
+                            "description": "周期信号的傅里叶变换. 典型非周期信号( 如指数信号, 矩形信号等) 都是满足绝对可积(或绝对可和)条件的能量信号，其傅里 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "http://chenweixiang.github.io/2016/06/14/fourier-transform.html",
+                            "description": "14 Jun 2016 — 非周期, 连续, 周期. 离散傅立叶变换. Discrete Fourier Transform (DFT), 离散, 周期, 离散, 周期. 连续傅里叶变换/ Fourier ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747?viewType=HTML",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 基于Namias的工作, McBRIDE于1987年修改了Namias的分数傅里叶算子, 并分析了修改后的算子所具有的一些性质, 使分数傅里叶变换的理论更加明确。Mendlovic和Ozaktas[4-5]于 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://cloud.tencent.com/developer/article/1102025?areaSource=106002.28",
+                            "description": "离散傅里叶变换 #include #include using namespace std; #define PI 3.14159265354 struct complex{ double r,i; }; complex multi(complex a,complex b){ complex ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.0626130886421223,
+                    "weight": 0.5897435897435896
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        22,
+                        26
+                    ],
+                    "name": "傅里叶变换的物理意义和数学角度思考",
+                    "definition": "傅里叶变换不仅是一种数学工具，也蕴含着深刻的物理意义。",
+                    "information": "从物理意义和数学角度对傅里叶变换进行了思考，包括信号的能量分布以及傅里叶变换的极限情况和连续性质。",
+                    "usage": "用于深入理解傅里叶变换在信号处理中的实际意义，以及在解决实际问题时如何运用傅里叶变换的原理。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.hanspub.org/journal/PaperInformation.aspx?paperID=18469",
+                            "description": "by Xu Guanlei · 2016 · Cited by 4 — 本文从数学角度出发，针对近年来受到广泛关注和研究的广义不确定原理（即时频分析广义测不准原理和信号稀疏表示广义测不准原理两大方面），给出了广义不确定原理研究中所涉及..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20231608",
+                            "description": "量子Jarzynski恒等式的简单证明如下: 其中用到了幺正演化算符ˆU(τ) 的幺正性质. 2013年两个研究组提出间接验证量子Jarzynski恒等式的方案——将功分布的傅里叶变换映射为一个..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/wave-function",
+                            "description": "... 傅里叶变换。每个表示选择都应该被认为指定了一个唯一的函数空间，其中存在与该表示选择相对应的波函数。尽管可以说两个这样的函数空间在数学上是等价的，但这种区别最..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/hankel-transform",
+                            "description": "Hankel 变换是一种积分变换，首先由数学家Hermann Hankel 提出。也称为傅里叶贝塞尔变换。正如无限区间傅立叶变换与有限区间傅立叶级数相关一样，无限区间汉克尔..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://wiki.swarma.org/index.php/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83",
+                            "description": "16 Nov 2020 — 特别是，标准正态分布是傅里叶变换的特征函数。[math]\\displaystyle{ M ... [math]\\displaystyle{ 《数学》 === Fourier transform and..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.659951156459961,
+                    "weight": 0.3846153846153846
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        27,
+                        31
+                    ],
+                    "name": "傅里叶变换的收敛条件和性质",
+                    "definition": "傅里叶变换有一定的收敛条件，这些条件影响着傅里叶变换的有效性和应用。",
+                    "information": "详细介绍了傅里叶变换的收敛条件，如绝对可积条件，以及傅里叶变换的一些重要性质，如频谱密度等。",
+                    "usage": "在进行傅里叶变换时，需要确保信号满足收敛条件，以保证变换的正确性和有意义的结果。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/fourier-series",
+                            "description": "傅立叶级数的系数由函数乘以三角函数的积分确定，如下面傅立叶级数的一般形式所述。傅里叶级数收敛性的研究集中在部分和的行为上。这意味着随着序列中越来越多的项被求和..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747",
+                            "description": "基于Namias的工作, McBRIDE于1987年修改了Namias的分数傅里叶算子，并分析了修改后的算子所具有的一些性质, 使分数傅里叶变换的理论更加明确。Mendlovic和Ozaktas[4-5]于..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.cnblogs.com/violeshnv/p/16852259.html",
+                            "description": "变换域常用性质总结. 目录. 基础. 分解; 性质; 卷积. Fourier 变换. 三角函数傅里叶级数; 指数傅里叶级数; 定义; 性质; 与傅里叶级数; Hilbert 变换关系."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.sciengine.com/SST/issue/46/2",
+                            "description": "... 条件下的两区压力分布和产能预测方程，并结合生产实例进行了参数敏感性分析。结果 ... 基于傅里叶导热定律, 两种具有不同热导率温度依赖特性的材料组合而成的复合材料..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://www.researchgate.net/scientific-contributions/Y-B-Yan-2163462354",
+                            "description": "... 傅里叶变换分布。将CCD 测得的光场作为GS 算法的输入振幅，经过程序迭代运算 ... 图3 液晶空间光调制器产生的位相图从误差分布可知，GS 算法的收敛速度很快，程序迭代35..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.2360032288401337,
+                    "weight": 0.8
+                }
+            ],
+            "knowledgeDensity": 25.559768816002666
+        },
+        {
+            "id": 3,
+            "name": "傅里叶变换的数学表达和物理意义",
+            "pages": [
+                32,
+                46
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        32,
+                        34
+                    ],
+                    "name": "傅里叶变换的基本概念及其数学表达",
+                    "definition": "傅里叶变换是一种用来分析各种函数或信号的频域特性的数学工具。",
+                    "information": "在傅里叶变换的内容中，介绍了相位频谱反映各分量的初始相位，幅度频谱反映各分量相对大小的关系，非周期信号的傅里叶变换以及频谱实部是偶对称的，频谱虚部是奇对称的等概念。",
+                    "usage": "傅里叶变换常用于信号处理、图像处理、通信系统等领域，通过转换到频域分析信号的频率成分，可以进行滤波、信号压缩、噪声消除等操作。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.cnblogs.com/heweiren-cheng/p/14753258.html",
+                            "description": "10 May 2021 — 为了用基向量表达向量v，我们需要搞清楚v在其中任意一个基向量方向上走了多远。让我们看一下如何求出其在e1方向上走了多远。我们把这样的操作称之为 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747",
+                            "description": "by M Jinming · 2018 · Cited by 15 — ... 傅里叶变换在严格意义上的离散化形式。其缺点是需要计算变换矩阵与输入信号的乘积, 计算复杂度较高, 为O(N2)。 表 1. 离散分数傅里叶变换特征值及其分配规则."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.69.20191870",
+                            "description": "这一点可以通过如下计算过程来得到验证: 先利用0—X时刻的原子构型来计算VACF, 通过傅里叶变换得到相应的振动态密度, 然后再通过计算X—2X时刻的原子构型的VACF来得到相应的 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://www.irla.cn/en/article/doi/10.3788/IRLA20220017",
+                            "description": "信息论是20世纪最伟大的工作之一，它应用概率论、数理统计等数学手段定量分析信号的压缩、传输及处理的一般规律。 ... Harris曾指出，一个空间有界的物体，其傅里叶变换是 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Fourier-Series",
+                            "description": "尽管已经提出了基于傅里叶级数的相关性来预测减振及其退化，但其物理意义直到现在还不清楚。 我们将密度函数表示为有限Hermite-Fourier 级数，并针对平面 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.065224609744112,
+                    "weight": 0.6025641025641025
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        35,
+                        38
+                    ],
+                    "name": "傅里叶变换的物理意义与频域分析",
+                    "definition": "傅里叶变换将时域信号转换为频域信号，从而分析信号的频率成分。",
+                    "information": "在这部分内容中，强调了周期信号和非周期信号在进行傅里叶变换时的不同点，周期信号的频谱是离散的，而非周期信号的频谱是连续的。并解释了频域信号值的含义，即频率分量的数值和密度值。",
+                    "usage": "利用傅里叶变换的物理意义，可以对信号进行频域分析，识别并提取有用的频率成分，或者对信号进行适当的频域修改来优化信号传输和处理。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/fourier-series",
+                            "description": "... 傅立叶彻底改变了数学和物理学。类似的三角级数曾被欧拉、达朗贝尔、丹尼尔·伯努利和高斯使用过，但傅里叶认为这样的三角级数可以表示任意函数。在什么意义上这实际上 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20222317",
+                            "description": "FSI与SGI均采用正交正余弦散斑作为基底调制投射光场, 很容易联想到两者成像原理的一致性。在FSI中, 傅里叶基底散斑是二维拉克函数的二维逆傅里叶变换(取实部)的结果，..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.69.20200625",
+                            "description": "... 意义。为准确分析实验所得时序信号, 时域、频域以及时频域分析方法被广泛应用于流动失稳识别中。文献[2]采用傅里叶变换分析重构失速先兆信号, 通过各流通模态幅值判别 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://en.dzkx.org/article/doi/10.6038/cjg2018L0431",
+                            "description": "... 变换为以时间和频率为变量的函数.相比于传统的傅里叶分析，时频分析更能突出信号的时间-频率的联合分布瞬态特征。经典的时频分析方法有短时傅里叶变换(short time Fourier ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://patents.google.com/patent/WO2022048639A1/en",
+                            "description": "... 频域分析可以通过所述的ISFFT和SFFT相互转换得到。The full name of OTFS modulation ... 经典傅里叶变换理论，以及公式(5)可知，From the relationship ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.093805860094317,
+                    "weight": 0.6153846153846154
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        39,
+                        42
+                    ],
+                    "name": "常用信号的傅里叶变换",
+                    "definition": "对特定的常见信号进行傅里叶变换，以得到它们的频域表达式。",
+                    "information": "这一部分主要介绍了常用信号，如矩形脉冲信号、单位阶跃函数和指数衰减信号等的傅里叶变换过程和结果。详细推导了它们的频域表达式，并分析了它们的频谱特性。",
+                    "usage": "通过对常用信号进行傅里叶变换，我们可以直观地理解不同信号的频域特性，并在实际应用中快速运用这些结果进行信号处理。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.cnblogs.com/heweiren-cheng/p/14753258.html",
+                            "description": "10 May 2021 - We will use our review of vector spaces to motivate the notion that the Fourier Transform represents some sort of a 'change of basis' for a ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20222317",
+                            "description": "通过前面的论证可知, 在傅里叶变换域下的鬼成像方法原理一致, 只是成像的具体方法或重建图像的算法不同. 如果将上述思考进一步扩展, 考虑到图像本身是一种二维空间信号, ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.70.20202044",
+                            "description": "针对现有随机噪声消除方法存在的探测效率低且只能抑制部分随机噪声的问题, 本文研究了一种改进的短时傅里叶变换方法, 通过对单次采集的MRS包络信号进行Hilbert变换求取解析 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://slideplayer.com/slide/13878861/",
+                            "description": "周期信号的傅里叶变换. 典型非周期信号( 如指数信号, 矩形信号等) 都是满足绝对可积(或绝对可和)条件的能量信号, 其傅里 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Fourier-Series",
+                            "description": "已经实现了LPA质心的快速傅里叶变换和傅里叶级数模拟，以检测周期性变化并分析 ... 物理意义直到现在还不清楚。 我们将密度函数表示为有限Hermite-Fourier 级数 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.1443072680042774,
+                    "weight": 0.7333333333333333
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        43,
+                        46
+                    ],
+                    "name": "傅里叶变换在信号处理中的应用",
+                    "definition": "傅里叶变换在信号处理中的应用是将时域中的信号转换到频域，以便于进行分析和处理。",
+                    "information": "这部分内容进一步阐述了傅里叶变换在信号处理中的具体应用，包括单位冲激信号的傅里叶变换，即冲激函数的频谱为常数，说明了冲激函数包含了所有频率成分。并且讨论了直流信号的傅里叶变换，其频谱在零频点处有冲激响应。",
+                    "usage": "傅里叶变换在信号处理中的应用广泛，可以用于分析信号的频域特性，设计滤波器，以及在系统识别和图像处理中对信号进行还原和重建。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 分数阶傅里叶变换在心电信号处理中的应用[J].电子科技, 2011, 24(8):116-118. Google Scholar. Shang Y, Xu T, He Y H. The applications of the fractional Fourier ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.researchgate.net/publication/276353424_Hypercomplex_spectral_transformations",
+                            "description": "超复数系是实数、复数、四元数和向量代数的统一和推广， 自然地结合了代数、几何和分析的优点，简洁高效地表达和处理复杂系统的数学和物理问题。 ... 应用，如信号处理和深度 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://patents.google.com/patent/WO2022048639A1/en",
+                            "description": "... 信号处理过程来实现。并且，所述额外的信号处理仅由傅里叶变换组成，可以完全通过现有的硬件实现，无需新增模块。这种与现有硬件体系的良好兼容性大大方便了OTFS系统的 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://www.irla.cn/en/article/doi/10.3788/IRLA20220402",
+                            "description": "by W Aiye · 2022 — ，故傅里叶相位恢复问题可以表述为：. 一维傅里叶相位恢复问题是多解的。许多完全不同的信号具有相同的傅里叶变换强度，这意味着从傅里叶幅度之中 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://pubs-en.cstam.org.cn/article/doi/10.6052/0459-1879-21-609",
+                            "description": "by H Li · 2022 · Cited by 5 — 通过快速傅里叶变换, 对射流压力场进行傅里叶模态分解, 即将时域空间的脉动压力场时间序列变换到频域空间, 提取啸声频率成分, 逐点计算声压级和相位, 得到啸声频率上声 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.6283221562904138,
+                    "weight": 0.3717948717948718
+                }
+            ],
+            "knowledgeDensity": 37.49142871013579
+        },
+        {
+            "id": 4,
+            "name": "非周期信号的傅里叶变换",
+            "pages": [
+                47,
+                61
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        47,
+                        51
+                    ],
+                    "name": "傅里叶变换的基本性质",
+                    "definition": "傅里叶变换将时域信号转换到频域，描述了信号的频率特性。",
+                    "information": "介绍了傅里叶变换的性质，包括时频展宽特性、对称特性、奇偶特性、线性特性和唯一性。",
+                    "usage": "在信号处理中，通过傅里叶变换的基本性质，可以简化时域信号到频域的转换过程，便于分析信号的频率成分。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.my-mooc.com/en/mooc/course-v1-tsinghuax-40130653x-2016-t1/",
+                            "description": "非周期信号的频域描述(Fourier transform): Class ... 傅里叶变换的性质(The property of Fourier transform): 功率信号的傅里叶变换(Fourier transform of power signal) ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://aries.dyu.edu.tw/~thhu/COMS2/Ch3_signal_system.pdf",
+                            "description": "二、Fourier变换. Page 51. 51. Page 52. 52. Page 53. 53. Page 54. 54. 三、Fouier转换之性质. Page 55 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.slideserve.com/alisa-ramsey/chapter-5-powerpoint-ppt-presentation",
+                            "description": "15 Mar 2019 — 3. 2. 1. 非周期信号的离散傅里叶变换. 周期信号的傅里叶级数系数(DFS) ... 循环卷积 周期卷积<DSP> 5.5 相乘性质. 5.5 相乘性质 · 5.5 相乘性质 · 5.3.2 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT200584?viewType=HTML",
+                            "description": "by C DING · 2021 · Cited by 4 — 根据周期信号傅里叶变换公式. S(nf0)=1TT2∫ ... (1)FGSP算法的设计是基于傅里叶变换的性质及互谱相位的特点，解决了一部分现有互谱相位斜率求解算法未解决 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2020.190660",
+                            "description": "by W Shuo · 2020 · Cited by 3 — 因此，针对现有研究中存在的问题，本文提出一种最大奇异值法(maximum singular value method, MSVM)来估计调频信号在分数傅里叶变换域的稀疏性。 ... 叶变换的性质，同时还 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.127937383913813,
+                    "weight": 0.6538461538461537
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        52,
+                        54
+                    ],
+                    "name": "傅里叶变换的奇偶性质",
+                    "definition": "奇信号的傅里叶变换是奇函数，偶信号的傅里叶变换是偶函数。",
+                    "information": "通过对信号的奇偶性进行分析，可以得出信号傅里叶变换后的奇偶性，这对于信号分析和处理有重要意义。",
+                    "usage": "在信号分析中，根据信号的奇偶性，可以预测傅里叶变换后的频谱特性，对于设计滤波器和信号重建等有实际应用价值。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20230323",
+                            "description": "1999年, Juin-Jet和David提出脉冲反转法, 即反转两个连续超声波的发射极性, 实现了对线性反射体散射信号的去除, 而仅保留非线性偶次谐波信号. ... 傅里叶变换下的对偶空间. k ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT210820",
+                            "description": "by H WANG · 2022 · Cited by 1 — PSWFs信号与Legendre多项式都具有严格奇偶对称性，其奇偶对称性与阶数有关。阶数为偶数时，PSWFs信号与Legendre多项式都为偶对称；阶数为奇数时 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1503009&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=coincidence%3Bfractional%3Btransform%3Bfourier",
+                            "description": "离散分数随机正/余弦变换具有和离散分数随机变换相同的性质,同时它们能保持奇偶信号的对称性。 ... 我们详尽地分析了复数阶乌列叶变换的数学性质。采用Wigner分布函数的方法 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Discrete-Fourier",
+                            "description": "周期图是每个反向散射信号的离散傅里叶变换(DFT) 系数的一系列指数，并用作功率谱密度的非参数估计。Nonlinear Beamforming Based on Group-Sparsities of Periodograms ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.027839700172963,
+                    "weight": 0.5769230769230769
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        55,
+                        57
+                    ],
+                    "name": "傅里叶变换与逆变换的对偶性",
+                    "definition": "傅里叶变换和它的逆变换在形式上具有对偶性质。",
+                    "information": "解释了傅里叶变换和逆傅里叶变换在数学形式上的相似性，以及它们之间的关系和区别。",
+                    "usage": "在信号处理中，对偶性质说明了从频域到时域的逆变换过程，可以通过傅里叶变换的方法来实现，为信号的时频域转换提供了数学基础。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/fourier-analysis",
+                            "description": "时频分析使用时频变换作为傅立叶变换的替代，以包含时间和频率信息的形式表示信号。由于不确定性原理，这些之间需要进行权衡。这些可以是傅里叶变换的推广，例如短时傅里叶。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2018.170747?viewType=HTML",
+                            "description": "by M Jinming · 2018 · Cited by 15 — 上述离散分数变换都是基于特征分解型离散分数傅里叶变换的定义方式得到的。这些分数变换体现了以离散分数傅里叶变换为核心的离散分数变换的多样性, 同时也为分数域数字信号。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/hilbert-transform",
+                            "description": "在数学和信号处理中，希尔伯特变换是一种特殊的奇异积分，它采用实变量的函数u(t) 并产生另一个实变量的函数H(u)(t)。希尔伯特变换由与函数卷积的柯西主值给出。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.72.20230323",
+                            "description": "2. 基本原理. 2.1. k空间伪谱法. k是一个空间频率概念, 是标准空间在傅里叶变换下的对偶空间。k 空间信号分布 S(k∈Rn) 与标准空间信号分布 s(r∈Rn) 变换关系如下:."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://patents.google.com/patent/WO2021134600A1/en",
+                            "description": "在逆辛对偶傅里叶变换(inverse symplectic finite fourier transform，ISFFT)变换之后(即上式4)，X[m,n]表示时频格上的信号。After the inverse symplectic dual。"
+                        }
+                    ],
+                    "knowledgeDensity": 3.556438693235229,
+                    "weight": 1.0
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        58,
+                        61
+                    ],
+                    "name": "傅里叶变换的尺度变换特性",
+                    "definition": "傅里叶变换具有尺度变换特性，信号尺度的压缩和扩展会影响其频域表示。",
+                    "information": "讨论了尺度变化对傅里叶变换的影响，包括尺度因子对信号频域特性的影响以及信号的翻转、压缩和扩展等操作。",
+                    "usage": "此特性在信号处理中应用广泛，如在多尺度分析中，通过改变信号的尺度来观察信号的不同频率成分，用于图像处理、语音分析等领域。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.0949017175135913,
+                    "weight": 0.6282051282051282
+                }
+            ],
+            "knowledgeDensity": 50.29854620497139
+        },
+        {
+            "id": 5,
+            "name": "傅里叶变换的性质总结和频域分析",
+            "pages": [
+                62,
+                76
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        62,
+                        65
+                    ],
+                    "name": "傅里叶变换的频域分析及其性质",
+                    "definition": "傅里叶变换(Fourier Transform, FT)是一种将信号从时域转换到频域的数学方法，便于分析信号的频率成分。",
+                    "information": "页面涵盖了信号的傅里叶变换频谱的求解方法，以及傅里叶变换的尺度变换特性，包括时域的拉伸和压缩如何影响频域的表现。",
+                    "usage": "在信号处理中，FT用于分析信号的频率内容，以及在滤波、信号压缩等领域的应用。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.0998756098642124,
+                    "weight": 0.641025641025641
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        66,
+                        67
+                    ],
+                    "name": "傅里叶变换的微分和积分特性",
+                    "definition": "傅里叶变换的微分特性描述了时域信号微分后对应的频域表现；积分特性则描述了时域信号积分后的频域表现。",
+                    "information": "这部分内容展示了信号在时域进行微分和积分操作后，其傅里叶变换的变化规律，以及对应的数学表达式。",
+                    "usage": "微分特性常用于信号的边缘检测，积分特性在信号能量分析和恢复原始信号时非常有用。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9664023823339467,
+                    "weight": 0.5128205128205128
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        68,
+                        70
+                    ],
+                    "name": "傅里叶变换的时移和频移特性",
+                    "definition": "傅里叶变换的时移特性表明时域信号的移动会在频域产生相位变化；频移特性指的是时域信号乘以一个复指数会导致频域的平移。",
+                    "information": "本节内容解释了时域信号的平移如何影响其在频域的表现，包括相位变化和频域的平移。",
+                    "usage": "时移特性在信号同步中很重要，而频移特性在调频技术中有广泛应用。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.027628606122805,
+                    "weight": 0.5641025641025641
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        71,
+                        74
+                    ],
+                    "name": "傅里叶变换的卷积定理",
+                    "definition": "卷积定理表明时域中两信号的卷积对应于频域中这两信号傅里叶变换的乘积。",
+                    "information": "介绍了卷积定理的概念及其在傅里叶变换中的应用，包括时域卷积和频域卷积的关系。",
+                    "usage": "卷积定理在信号滤波、系统响应分析等方面有广泛应用。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.129361575404418,
+                    "weight": 0.6666666666666666
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        75,
+                        76
+                    ],
+                    "name": "信号的截取和窗函数效应",
+                    "definition": "信号的截取指的是在时域中对信号进行限定范围内的观察，窗函数效应则描述了截取操作对信号频谱的影响。",
+                    "information": "这一部分讨论了信号截取时，如何通过窗函数来减少截取引起的频谱变化，以及信号边缘的突变如何导致频谱的畸变。",
+                    "usage": "在实际信号处理中，窗函数用于减少频谱泄露，提高频谱分析的分辨率。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9953466083102747,
+                    "weight": 0.5256410256410255
+                }
+            ],
+            "knowledgeDensity": 65.51716098700705
+        },
+        {
+            "id": 6,
+            "name": "周期信号与非周期信号的傅里叶变换比较和总结",
+            "pages": [
+                77,
+                82
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        77,
+                        77
+                    ],
+                    "name": "傅里叶变换的能量与频谱的关系",
+                    "definition": "信号的能量与其频谱之间的关系，即帕斯瓦尔定理。",
+                    "information": "介绍了信号在时域和频域的能量关系，通过傅里叶变换定义，展示了交换积分次序的数学过程，并解释了傅里叶变换的性质。",
+                    "usage": "用于分析信号的频域特性和能量分布，理解时域信号与频域信号的对应关系。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9306575341842325,
+                    "weight": 0.5
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        78,
+                        78
+                    ],
+                    "name": "傅里叶变换性质的总结",
+                    "definition": "傅里叶变换性质的概述，包括时域与频域的对应关系。",
+                    "information": "总结了傅里叶变换的性质，如时域和频域的对应关系，卷积定理的位置突出，以及傅里叶变换的灵活应用。",
+                    "usage": "帮助理解和运用傅里叶变换解决实际问题，如信号处理和系统分析中的频域分析。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.403921064254291,
+                    "weight": 0.2944444444444444
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        79,
+                        79
+                    ],
+                    "name": "傅里叶变换性质的数学表达",
+                    "definition": "具体数学公式描述的傅里叶变换性质。",
+                    "information": "通过数学公式详细说明了傅里叶变换的几个重要性质，如时移、频移、时域微分、频域微分和时域积分。",
+                    "usage": "在信号和系统分析中，利用这些性质对信号进行变换，简化问题解决过程。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.900866639986277,
+                    "weight": 0.41025641025641024
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        80,
+                        80
+                    ],
+                    "name": "傅里叶变换的平均功率谱",
+                    "definition": "信号的傅里叶变换与其平均功率谱的关系。",
+                    "information": "描述了任意信号f(t)与其傅里叶变换F(w)之间的关系，特别是在负无穷到正无穷的积分存在时，信号覆盖的面积分别等于F(w)与2πf(t)在零点的数值。",
+                    "usage": "用于分析信号的能量分布，寻找信号的功率谱密度，以及计算信号的总能量。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.911699161829239,
+                    "weight": 0.4487179487179487
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        81,
+                        81
+                    ],
+                    "name": "傅里叶变换中的等效带宽和脉宽",
+                    "definition": "定义了信号的等效带宽和等效脉宽。",
+                    "information": "通过信号的最大值来定义等效带宽和等效脉宽，给出了信号频谱的奇偶边指数表达式。",
+                    "usage": "在信号处理中用于衡量信号占用的频谱宽度和时间长度，设计滤波器和通信系统时的重要参考指标。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.910764457426793,
+                    "weight": 0.4358974358974359
+                },
+                {
+                    "id": 5,
+                    "pages": [
+                        82,
+                        82
+                    ],
+                    "name": "周期与非周期信号傅里叶变换的比较",
+                    "definition": "对比周期信号的傅里叶级数(FS)和非周期信号的傅里叶变换(FT)。",
+                    "information": "简要提及了周期信号和非周期信号在傅里叶变换方面的不同处理方法。",
+                    "usage": "区分周期性和非周期性信号在频域分析中的不同处理方式，为信号分析提供基础理论支持。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3611833308434154,
+                    "weight": 0.17777777777777776
+                }
+            ],
+            "knowledgeDensity": 80.93625317553129
+        },
+        {
+            "id": 7,
+            "name": "周期信号的傅里叶变换详细分析",
+            "pages": [
+                83,
+                88
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        83,
+                        83
+                    ],
+                    "name": "周期信号的傅里叶变换概述",
+                    "definition": "周期信号的傅里叶变换是一种将周期信号分解为不同频率的正弦波和余弦波的方法。",
+                    "information": "这部分内容提供了周期信号傅里叶变换的初步介绍，突出其在信号处理中的重要性。",
+                    "usage": "用于分析和处理周期性信号，以便在频域中理解其行为。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3556859367198146,
+                    "weight": 0.1
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        84,
+                        84
+                    ],
+                    "name": "傅里叶变换的存在条件",
+                    "definition": "非周期信号的傅里叶变换存在的条件是信号是绝对可积的。",
+                    "information": "详细阐述了确定一个非周期信号是否有傅里叶变换的数学条件，主要依据是信号在整个定义域上的积分是有限的。",
+                    "usage": "在对信号进行傅里叶变换之前，先判断信号是否满足变换的基本条件。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.890021235213796,
+                    "weight": 0.3974358974358974
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        85,
+                        85
+                    ],
+                    "name": "频谱搬移",
+                    "definition": "时域信号乘以一个复指数信号，原信号的频谱将被搬移至复指数信号的频率处。",
+                    "information": "通过利用欧拉公式，展示了如何通过乘以正弦或余弦信号来实现频谱搬移。这部分内容详细解释了频谱搬移的过程和结果。",
+                    "usage": "在无线通信和信号处理中，频谱搬移用于调制信号，将其移到特定的频率带。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.3943851519008406,
+                    "weight": 0.25555555555555554
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        86,
+                        86
+                    ],
+                    "name": "周期信号的傅里叶变换特性",
+                    "definition": "周期信号的傅里叶变换结果是离散谱，频谱密度是无限大的，但频谱幅度是有限的。",
+                    "information": "解释了周期信号的离散频谱特性，并说明了频谱密度和频谱幅度之间的关系。强调了虽然每个谱线的密度无限大，但是由于频率范围无限小，因此每个谱线的幅值是有限的。",
+                    "usage": "用于描述和分析周期信号在频域中的特性，是通信系统设计和信号处理的重要基础。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.907766694981822,
+                    "weight": 0.4230769230769231
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        87,
+                        88
+                    ],
+                    "name": "周期信号与非周期信号傅里叶变换的总结",
+                    "definition": "周期信号的傅里叶变换产生离散谱，非周期信号的傅里叶变换产生连续谱。",
+                    "information": "总结了周期信号和非周期信号在傅里叶变换后的主要区别，强调了它们在频域表示上的不同。",
+                    "usage": "帮助理解和区分周期信号和非周期信号在傅里叶变换后的基本特性，为进一步的信号分析和处理提供理论基础。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.441016456774679,
+                    "weight": 0.358974358974359
+                }
+            ],
+            "knowledgeDensity": 92.92512865112222
+        },
+        {
+            "id": 8,
+            "name": "信号处理原理回顾和作业指导",
+            "pages": [
+                89,
+                90
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        89,
+                        89
+                    ],
+                    "name": "知识产生过程",
+                    "definition": "人类知识的产生过程",
+                    "information": "人类的一切知识都是从直观出发，然后产生概念，最后发展成理论。",
+                    "usage": "引用伊曼努尔·康德的观点，说明知识产生的阶段性发展。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.4122895086485774,
+                    "weight": 0.34615384615384615
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        89,
+                        89
+                    ],
+                    "name": "信号处理基础",
+                    "definition": "信号在数学上的表达和处理",
+                    "information": "介绍了信号函数的傅里叶变换表达式，包括连续时间信号的傅里叶级数表示和傅里叶变换表示。",
+                    "usage": "作为信号处理原理的基础，用于分析和处理各种信号。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9122895086485774,
+                    "weight": 0.4615384615384615
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        89,
+                        89
+                    ],
+                    "name": "康德简介",
+                    "definition": "伊曼努尔·康德简介",
+                    "information": "伊曼努尔·康德（1724-1804），德国哲学家，其著作《纯粹理性批判》对后世产生重要影响。",
+                    "usage": "了解康德及其哲学思想的历史背景。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9122895086485774,
+                    "weight": 0.47435897435897434
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        89,
+                        89
+                    ],
+                    "name": "数学公式概览",
+                    "definition": "热的传导与扩散、级数展开、傅里叶变换总结",
+                    "information": "概述了物理数学中热传导与扩散的数学处理方法，以及数学分析中的级数展开技术。",
+                    "usage": "为理工科学生提供物理过程的数学模型和分析方法。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9122895086485774,
+                    "weight": 0.48717948717948717
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        90,
+                        90
+                    ],
+                    "name": "作业指导",
+                    "definition": "指数函数的傅里叶变换作业",
+                    "information": "作业1要求写出指数函数的傅里叶变换。",
+                    "usage": "引导学生理解和掌握课堂上学到的信号处理方法，通过作业巩固知识点。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3870277105726556,
+                    "weight": 0.21666666666666665
+                }
+            ],
+            "knowledgeDensity": 105.46131439628921
+        }
+    ],
+    "knowledgeDensity": 473.1415221567185
+}

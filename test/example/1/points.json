@@ -1,0 +1,303 @@
+{
+    "keyword": "软件工程测试",
+    "mainpoints": [
+        {
+            "name": "软件工程和软件测试概述",
+            "from_page": 1,
+            "to_page": 5,
+            "subpoints": [
+                {
+                    "name": "课程和文献介绍",
+                    "from_page": 1,
+                    "to_page": 2,
+                    "filename": "课程和文献介绍.pdf"
+                },
+                {
+                    "name": "覆盖主题",
+                    "from_page": 3,
+                    "to_page": 3,
+                    "filename": "覆盖主题.pdf"
+                },
+                {
+                    "name": "软件测试策略和方法",
+                    "from_page": 4,
+                    "to_page": 5,
+                    "filename": "软件测试策略和方法.pdf"
+                }
+            ]
+        },
+        {
+            "name": "软件测试策略和验证与确认",
+            "from_page": 6,
+            "to_page": 11,
+            "subpoints": [
+                {
+                    "name": "验证与确认",
+                    "from_page": 6,
+                    "to_page": 7,
+                    "filename": "验证与确认.pdf"
+                },
+                {
+                    "name": "软件测试策略与挑战",
+                    "from_page": 8,
+                    "to_page": 9,
+                    "filename": "软件测试策略与挑战.pdf"
+                },
+                {
+                    "name": "软件测试策略问题",
+                    "from_page": 10,
+                    "to_page": 11,
+                    "filename": "软件测试策略问题.pdf"
+                }
+            ]
+        },
+        {
+            "name": "单元测试和集成测试",
+            "from_page": 12,
+            "to_page": 17,
+            "subpoints": [
+                {
+                    "name": "单元测试概念",
+                    "from_page": 12,
+                    "to_page": 13,
+                    "filename": "单元测试概念.pdf"
+                },
+                {
+                    "name": "单元测试环境",
+                    "from_page": 14,
+                    "to_page": 14,
+                    "filename": "单元测试环境.pdf"
+                },
+                {
+                    "name": "集成测试及其策略",
+                    "from_page": 15,
+                    "to_page": 17,
+                    "filename": "集成测试及其策略.pdf"
+                }
+            ]
+        },
+        {
+            "name": "回归测试和冒烟测试",
+            "from_page": 18,
+            "to_page": 21,
+            "subpoints": [
+                {
+                    "name": "回归测试",
+                    "from_page": 18,
+                    "to_page": 19,
+                    "filename": "回归测试.pdf"
+                },
+                {
+                    "name": "冒烟测试",
+                    "from_page": 20,
+                    "to_page": 21,
+                    "filename": "冒烟测试.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Web应用和移动应用测试策略",
+            "from_page": 22,
+            "to_page": 27,
+            "subpoints": [
+                {
+                    "name": "Web应用测试策略",
+                    "from_page": 22,
+                    "to_page": 22,
+                    "filename": "Web应用测试策略.pdf"
+                },
+                {
+                    "name": "移动应用测试策略",
+                    "from_page": 23,
+                    "to_page": 23,
+                    "filename": "移动应用测试策略.pdf"
+                },
+                {
+                    "name": "验证测试",
+                    "from_page": 24,
+                    "to_page": 24,
+                    "filename": "验证测试.pdf"
+                },
+                {
+                    "name": "验证测试讨论",
+                    "from_page": 25,
+                    "to_page": 25,
+                    "filename": "验证测试讨论.pdf"
+                },
+                {
+                    "name": "非功能性测试",
+                    "from_page": 27,
+                    "to_page": 27,
+                    "filename": "非功能性测试.pdf"
+                }
+            ]
+        },
+        {
+            "name": "验证测试和系统测试",
+            "from_page": 28,
+            "to_page": 31,
+            "subpoints": [
+                {
+                    "name": "软件测试目的",
+                    "from_page": 28,
+                    "to_page": 28,
+                    "filename": "软件测试目的.pdf"
+                },
+                {
+                    "name": "测试应用类型",
+                    "from_page": 29,
+                    "to_page": 29,
+                    "filename": "测试应用类型.pdf"
+                },
+                {
+                    "name": "测试覆盖的主题",
+                    "from_page": 30,
+                    "to_page": 30,
+                    "filename": "测试覆盖的主题.pdf"
+                },
+                {
+                    "name": "测试基础",
+                    "from_page": 31,
+                    "to_page": 31,
+                    "filename": "测试基础.pdf"
+                }
+            ]
+        },
+        {
+            "name": "测试基础知识和测试特点",
+            "from_page": 32,
+            "to_page": 37,
+            "subpoints": [
+                {
+                    "name": "测试特性",
+                    "from_page": 32,
+                    "to_page": 33,
+                    "filename": "测试特性.pdf"
+                },
+                {
+                    "name": "测试的内外视图",
+                    "from_page": 34,
+                    "to_page": 34,
+                    "filename": "测试的内外视图.pdf"
+                },
+                {
+                    "name": "白盒测试",
+                    "from_page": 35,
+                    "to_page": 35,
+                    "filename": "白盒测试.pdf"
+                },
+                {
+                    "name": "黑盒测试",
+                    "from_page": 36,
+                    "to_page": 37,
+                    "filename": "黑盒测试.pdf"
+                }
+            ]
+        },
+        {
+            "name": "白盒测试和黑盒测试",
+            "from_page": 38,
+            "to_page": 43,
+            "subpoints": [
+                {
+                    "name": "图形化测试方法",
+                    "from_page": 38,
+                    "to_page": 39,
+                    "filename": "图形化测试方法.pdf"
+                },
+                {
+                    "name": "等价类划分",
+                    "from_page": 41,
+                    "to_page": 41,
+                    "filename": "等价类划分.pdf"
+                },
+                {
+                    "name": "边界值分析",
+                    "from_page": 42,
+                    "to_page": 42,
+                    "filename": "边界值分析.pdf"
+                },
+                {
+                    "name": "测试用例设计总结",
+                    "from_page": 43,
+                    "to_page": 43,
+                    "filename": "测试用例设计总结.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Web应用测试",
+            "from_page": 44,
+            "to_page": 69,
+            "subpoints": [
+                {
+                    "name": "Web应用测试概述",
+                    "from_page": 44,
+                    "to_page": 47,
+                    "filename": "Web应用测试概述.pdf"
+                },
+                {
+                    "name": "测试计划与内容测试",
+                    "from_page": 48,
+                    "to_page": 54,
+                    "filename": "测试计划与内容测试.pdf"
+                },
+                {
+                    "name": "用户界面与可用性测试",
+                    "from_page": 55,
+                    "to_page": 58,
+                    "filename": "用户界面与可用性测试.pdf"
+                },
+                {
+                    "name": "兼容性与配置测试",
+                    "from_page": 59,
+                    "to_page": 62,
+                    "filename": "兼容性与配置测试.pdf"
+                },
+                {
+                    "name": "安全性测试",
+                    "from_page": 63,
+                    "to_page": 69,
+                    "filename": "安全性测试.pdf"
+                }
+            ]
+        },
+        {
+            "name": "移动应用测试",
+            "from_page": 70,
+            "to_page": 89,
+            "subpoints": [
+                {
+                    "name": "OWASP前十大攻击",
+                    "from_page": 70,
+                    "to_page": 70,
+                    "filename": "OWASP前十大攻击.pdf"
+                },
+                {
+                    "name": "性能测试",
+                    "from_page": 71,
+                    "to_page": 77,
+                    "filename": "性能测试.pdf"
+                },
+                {
+                    "name": "压力测试与WebApp测试总结",
+                    "from_page": 78,
+                    "to_page": 80,
+                    "filename": "压力测试与WebApp测试总结.pdf"
+                },
+                {
+                    "name": "移动应用测试",
+                    "from_page": 81,
+                    "to_page": 87,
+                    "filename": "移动应用测试.pdf"
+                },
+                {
+                    "name": "用户交互谱系与移动应用测试总结",
+                    "from_page": 88,
+                    "to_page": 89,
+                    "filename": "用户交互谱系与移动应用测试总结.pdf"
+                }
+            ]
+        }
+    ]
+}

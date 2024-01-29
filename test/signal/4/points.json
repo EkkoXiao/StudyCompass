@@ -1,0 +1,273 @@
+{
+    "keyword": "信号采样",
+    "mainpoints": [
+        {
+            "name": "信号处理原理概述",
+            "from_page": 1,
+            "to_page": 1,
+            "subpoints": [
+                {
+                    "name": "信号处理原理概述",
+                    "from_page": 1,
+                    "to_page": 1,
+                    "filename": "信号处理原理概述.pdf"
+                }
+            ]
+        },
+        {
+            "name": "傅里叶变换和信号变换",
+            "from_page": 2,
+            "to_page": 8,
+            "subpoints": [
+                {
+                    "name": "傅里叶级数与傅里叶变换概述",
+                    "from_page": 2,
+                    "to_page": 3,
+                    "filename": "傅里叶级数与傅里叶变换概述.pdf"
+                },
+                {
+                    "name": "典型信号的傅里叶变换",
+                    "from_page": 4,
+                    "to_page": 5,
+                    "filename": "典型信号的傅里叶变换.pdf"
+                },
+                {
+                    "name": "时域卷积与频域乘积",
+                    "from_page": 6,
+                    "to_page": 6,
+                    "filename": "时域卷积与频域乘积.pdf"
+                },
+                {
+                    "name": "傅里叶变换的特性总结",
+                    "from_page": 7,
+                    "to_page": 8,
+                    "filename": "傅里叶变换的特性总结.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号的采样与量化",
+            "from_page": 9,
+            "to_page": 27,
+            "subpoints": [
+                {
+                    "name": "信号采样的基本概念",
+                    "from_page": 9,
+                    "to_page": 11,
+                    "filename": "信号采样的基本概念.pdf"
+                },
+                {
+                    "name": "信号采样的空间与时间准确度",
+                    "from_page": 12,
+                    "to_page": 14,
+                    "filename": "信号采样的空间与时间准确度.pdf"
+                },
+                {
+                    "name": "信号采样与量化的Shannon定理",
+                    "from_page": 15,
+                    "to_page": 22,
+                    "filename": "信号采样与量化的Shannon定理.pdf"
+                },
+                {
+                    "name": "信号的量化过程及其影响因素",
+                    "from_page": 23,
+                    "to_page": 27,
+                    "filename": "信号的量化过程及其影响因素.pdf"
+                }
+            ]
+        },
+        {
+            "name": "采样定理和信号重建",
+            "from_page": 28,
+            "to_page": 42,
+            "subpoints": [
+                {
+                    "name": "信号的采样与量化",
+                    "from_page": 28,
+                    "to_page": 31,
+                    "filename": "信号的采样与量化.pdf"
+                },
+                {
+                    "name": "采样信号与理想采样",
+                    "from_page": 32,
+                    "to_page": 35,
+                    "filename": "采样信号与理想采样.pdf"
+                },
+                {
+                    "name": "采样信号的频域表示",
+                    "from_page": 36,
+                    "to_page": 39,
+                    "filename": "采样信号的频域表示.pdf"
+                },
+                {
+                    "name": "混叠现象与预滤波",
+                    "from_page": 40,
+                    "to_page": 42,
+                    "filename": "混叠现象与预滤波.pdf"
+                }
+            ]
+        },
+        {
+            "name": "混叠和滤波",
+            "from_page": 43,
+            "to_page": 47,
+            "subpoints": [
+                {
+                    "name": "采样与采样定理基本要求",
+                    "from_page": 43,
+                    "to_page": 43,
+                    "filename": "采样与采样定理基本要求.pdf"
+                },
+                {
+                    "name": "Nyquist采样定理",
+                    "from_page": 44,
+                    "to_page": 47,
+                    "filename": "Nyquist采样定理.pdf"
+                }
+            ]
+        },
+        {
+            "name": "Nyquist采样定理",
+            "from_page": 48,
+            "to_page": 71,
+            "subpoints": [
+                {
+                    "name": "采样与采样定理基础",
+                    "from_page": 48,
+                    "to_page": 69,
+                    "filename": "采样与采样定理基础.pdf"
+                },
+                {
+                    "name": "Nyquist采样定理",
+                    "from_page": 70,
+                    "to_page": 70,
+                    "filename": "Nyquist采样定理.pdf"
+                },
+                {
+                    "name": "连续时信号与离散时信号的关系",
+                    "from_page": 71,
+                    "to_page": 71,
+                    "filename": "连续时信号与离散时信号的关系.pdf"
+                }
+            ]
+        },
+        {
+            "name": "连续信号的采样与离散信号的关系",
+            "from_page": 72,
+            "to_page": 81,
+            "subpoints": [
+                {
+                    "name": "连续信号的采样重构概述",
+                    "from_page": 72,
+                    "to_page": 74,
+                    "filename": "连续信号的采样重构概述.pdf"
+                },
+                {
+                    "name": "理想滤波器的作用与设计",
+                    "from_page": 75,
+                    "to_page": 77,
+                    "filename": "理想滤波器的作用与设计.pdf"
+                },
+                {
+                    "name": "信号重构的数学表述与内插方法",
+                    "from_page": 78,
+                    "to_page": 80,
+                    "filename": "信号重构的数学表述与内插方法.pdf"
+                },
+                {
+                    "name": "连续信号重构的内插实践",
+                    "from_page": 81,
+                    "to_page": 81,
+                    "filename": "连续信号重构的内插实践.pdf"
+                }
+            ]
+        },
+        {
+            "name": "理想滤波器和插值",
+            "from_page": 82,
+            "to_page": 94,
+            "subpoints": [
+                {
+                    "name": "连续信号的采样重构",
+                    "from_page": 82,
+                    "to_page": 86,
+                    "filename": "连续信号的采样重构.pdf"
+                },
+                {
+                    "name": "理想滤波器的可实现性",
+                    "from_page": 87,
+                    "to_page": 92,
+                    "filename": "理想滤波器的可实现性.pdf"
+                },
+                {
+                    "name": "零阶保持插值",
+                    "from_page": 93,
+                    "to_page": 94,
+                    "filename": "零阶保持插值.pdf"
+                }
+            ]
+        },
+        {
+            "name": "欠采样和频域采样",
+            "from_page": 95,
+            "to_page": 107,
+            "subpoints": [
+                {
+                    "name": "连续信号的采样重构",
+                    "from_page": 95,
+                    "to_page": 97,
+                    "filename": "连续信号的采样重构.pdf"
+                },
+                {
+                    "name": "欠采样及其影响",
+                    "from_page": 98,
+                    "to_page": 101,
+                    "filename": "欠采样及其影响.pdf"
+                },
+                {
+                    "name": "二次采样的问题",
+                    "from_page": 102,
+                    "to_page": 103,
+                    "filename": "二次采样的问题.pdf"
+                },
+                {
+                    "name": "频域采样及其应用",
+                    "from_page": 104,
+                    "to_page": 107,
+                    "filename": "频域采样及其应用.pdf"
+                }
+            ]
+        },
+        {
+            "name": "总结和作业指导",
+            "from_page": 108,
+            "to_page": 113,
+            "subpoints": [
+                {
+                    "name": "带限信号与采样定理",
+                    "from_page": 108,
+                    "to_page": 108,
+                    "filename": "带限信号与采样定理.pdf"
+                },
+                {
+                    "name": "信号采样与重构",
+                    "from_page": 109,
+                    "to_page": 111,
+                    "filename": "信号采样与重构.pdf"
+                },
+                {
+                    "name": "采样信号特性",
+                    "from_page": 112,
+                    "to_page": 112,
+                    "filename": "采样信号特性.pdf"
+                },
+                {
+                    "name": "作业指导1",
+                    "from_page": 113,
+                    "to_page": 113,
+                    "filename": "作业指导1.pdf"
+                }
+            ]
+        }
+    ]
+}

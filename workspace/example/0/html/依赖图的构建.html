@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>依赖图的构建</title>
+            <style>
+                body {
+                    font-family: '微软雅黑', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background: linear-gradient(to right, #090740, #9d73c8);
+                    color: #fff;
+                    line-height: 1.6;
+                }
+                h1, h2 {
+                    color: #fff;
+                    border-bottom: 2px solid #8190c9;
+                    padding-bottom: 5px;
+                }
+                strong {
+                    color: #F9A825;
+                }
+                p {
+                    margin-bottom: 15px;
+                    color: #ddd;
+                }
+                a {
+                    color: #27d2bb;
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                }
+                a:hover {
+                    text-decoration: underline;
+                    color: #1a7d68;
+                }
+                .container {
+                    max-width: 800px;
+                    margin: 40px auto;
+                    padding: 30px;
+                    background: rgba(0, 0, 0, 0.7);
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                }
+                .info-box {
+                    border: 1px solid #72c8f3;
+                    padding: 15px;
+                    margin-bottom: 15px;
+                    border-radius: 5px;
+                    background: #5414461a;
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                }
+                .img-box {
+                    border: 1px solid #08b4b4;
+                    padding: 15px;
+                    margin-bottom: 15px;
+                    border-radius: 5px;
+                    background: rgba(2, 77, 94, 0.725);
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                }
+                .relative-search-results {
+                    max-width: 800px;
+                    word-wrap: break-word;
+                    list-style-type: none;
+                    padding: 0;
+                }
+                .relative-search-results li {
+                    margin-bottom: 5px;
+                }
+                .images {
+                    margin-top: 15px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>依赖图的构建</h1>
+                <div class="info-box">
+                    <h2>Definition</h2>
+                    <p>依赖图是一个有向图，用来描述分析树中属性之间的相互依赖关系。</p>
+                </div>
+                <div class="info-box">
+                    <h2>Information</h2>
+                    <p>在这一部分中，详细描述了依赖图的概念和构建依赖图的算法过程。通过遍历分析树中的每一个结点，对于每个结点使用的产生式的每一个语义规则中涉及的每一个属性，在依赖图中建立结点；对于形如f(c1,c2,…ck)的语义规则，在依赖图中也建立一个虚结点，并从ci结点到b结点构造有向边，从而表示属性之间的依赖关系。</p>
+                </div>
+                <div class="info-box">
+                    <h2>Usage</h2>
+                    <p>依赖图的构建在进行属性值计算之前是一个必要步骤，它能够指导我们如何顺序地计算属性值，以及如何检测和处理潜在的属性计算中的循环依赖问题。</p>
+                </div>
+
+                <h2>Knowledge Density:</h2>
+                <p>1.8865</p>
+                <div class="img-box">
+                    <h2>Relative Images</h2>
+                    <p>                
+                        <div class="images">
+                            N/A
+                        </div>
+                    </p>
+                </div>
+
+            </div>
+        </body>
+        </html>
+        

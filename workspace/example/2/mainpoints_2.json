@@ -1,0 +1,1124 @@
+{
+    "id": 2,
+    "keyword": "古巴导弹危机",
+    "mainpoints": [
+        {
+            "id": 0,
+            "name": "博弈论与政治",
+            "pages": [
+                1,
+                1
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        1,
+                        1
+                    ],
+                    "name": "博弈论与政治",
+                    "definition": "博弈论是研究具有竞争和合作特点的决策行为的数学理论，它在政治学中用来分析不同政治行为者之间的策略互动。",
+                    "information": "本部分内容将介绍博弈论在政治领域中的应用，解释博弈论的基本概念，并且通过实际的政治事件，如古巴导弹危机，来分析其中的策略互动。",
+                    "usage": "了解博弈论与政治的关系，帮助学生认识到数学理论在社会科学中的应用，特别是在政治决策和国际关系的分析中的重要性。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.renven.net/threads/%E6%94%BF%E6%B2%BB%E5%8D%9A%E5%BC%88%E8%AE%BA%E5%AF%BC%E8%AE%BA.11008/",
+                            "description": "条目内容介绍: 书名: Political Game Theory_An Introduction 作者: Nolan McCarty (Author), Adam Meirowitz (Author) 出版社:Cambridge University Press; ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/game-theory",
+                            "description": "博弈论是对理性主体之间战略互动的数学模型的研究。它不仅可以应用于逻辑学、系统科学、计算机科学，还可以应用于社会科学的各个领域。博弈论概念也广泛应用于经济学中 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://books.google.com/books/about/%E5%8D%9A%E5%BC%88%E8%AE%BA%E8%A7%86%E5%9F%9F%E4%B8%8B%E7%9A%84%E7%A7%81%E8%90%A5%E4%BC%81%E4%B8%9A%E4%B8%BB%E6%94%BF.html?id=paQCxQEACAAJ",
+                            "description": "Title, 博弈论视域下的私营企业主政治参与行为分析 ; Author, 华正学 ; Publisher, 中国商务出版社, 2017 ; ISBN, 7510320569, 9787510320569 ; Length, 329 pages."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.popularonline.com.my/default/catalogsearch/result/?mode=grid&q=%E5%8D%9A%E5%BC%88%E8%AE%BA",
+                            "description": "本书对博弈论的基本原理进行了深入浅出的探讨，详细介绍了博弈模型的内涵、适用范围、作用形式，将原本深奥的博弈论通俗化、简单化，同时对博弈论在政治、管理、营销 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://www.edx.org/learn/economics/university-of-hong-kong-state-law-and-the-economy-i",
+                            "description": "純公共物品和高斯定理第3和第4課利用博弈論來解釋支付結構如何突顯政治選擇，包括提供公共物品。 然後，我們將了解如何透過集體行動糾正市場外部性，並研究高斯定理對公眾 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3848148387749055,
+                    "weight": 0.40350877192982454
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        1,
+                        1
+                    ],
+                    "name": "边缘政策—古巴导弹危机",
+                    "definition": "边缘政策是指在冷战期间，美苏两国为避免全面核战争而在对抗中寻求边缘的政策，古巴导弹危机是边缘政策的典型案例。",
+                    "information": "第八讲主要分析了古巴导弹危机事件中的边缘政策，展示了两个超级大国在核战争边缘进行的博弈，以及它们如何通过策略性的决策回避了全面核战争。",
+                    "usage": "通过学习古巴导弹危机的案例，学生可以理解在国际政治危机中决策者如何运用博弈论原理做出策略决策，以及博弈论在解决实际政治冲突中的实际作用。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://zlibrary-asia.se/book/17977630/c2f675",
+                            "description": "1962年古巴导弹危机中被击落的美国U-2侦察机残骸。1962年10月29日，肯尼迪总统..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3848148387749055,
+                    "weight": 0.42105263157894735
+                }
+            ],
+            "knowledgeDensity": 2.769629677549811
+        },
+        {
+            "id": 1,
+            "name": "重复博弈练习与数学证明",
+            "pages": [
+                2,
+                4
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        2,
+                        3
+                    ],
+                    "name": "重复博弈练习",
+                    "definition": "通过不断重复相同的博弈情境，分析和学习决策者在有限理性下的策略选择与博弈结果。",
+                    "information": "本部分包含了一个重复性的博弈练习题目，表格显示了两位博弈者Alice和Bob在不同策略组合下的得分情况，其中C代表合作，D代表背叛。每个博弈者选择C或D时，他们将根据对方的选择获得相应的得分（例如，如果Alice选择C，Bob选择D，那么Alice的得分是0，Bob的得分是5）。",
+                    "usage": "用于教授学生理解纳什均衡、最优策略选择以及博弈的可能结果，同时训练学生分析重复博弈中的策略和决策过程。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://perchance.org/4y189ibqx4",
+                            "description": "... 重复博弈博弈树博弈实验博弈投资毕达哥拉斯博弊论贝特朗博弊C 骰子摇手精炼均衡重复博弈常和博弈策略空间抽象博弊论策略集合纯策略混合策略(博弈论) 纯策略纳什均衡超模博弈 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.guofei.site/2021/01/03/tree_algorithm.html",
+                            "description": "3 Jan 2021 — 【应用数学】博弈论 ... 重复的数字:type inorder: List[int] :type postorder: List[int] :rtype ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://zlibrary-asia.se/book/5603581/96cfa1/%E8%BA%AB%E8%BE%B9%E7%9A%84%E5%8D%9A%E5%BC%88%28%E5%AE%8C%E6%95%B4%E5%9B%BE%E6%96%87%E7%89%88%29-by-%E8%91%A3%E5%BF%97%E5%BC%BA-Z-Library",
+                            "description": "只不过数学家是用数学语言表达出博弈论的快乐，他们就像高雅音乐的爱好者那样从 ... 长期关系和重复博弈建立长期关系，使得策略博弈可以多次重复，如果这个“多次 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/13860616/d7d957",
+                            "description": "... 博弈及重复博弈这两种情况。例如，是不是每个人都是在与他人反复地互动中发现 ... 为了证明博弈论的合理性（或至少是在叙述上的有效性），博弈论专家宾莫尔 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.5068058097205486,
+                    "weight": 0.6491228070175439
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        4,
+                        4
+                    ],
+                    "name": "数学证明",
+                    "definition": "使用数学逻辑和数学语言来确立数学命题的真实性。",
+                    "information": "本部分预计将包含数学命题及其证明的过程和方法。由于具体内容未显示，无法提供详细信息，但一般涉及逻辑推理、公理、定理和证明技巧。",
+                    "usage": "用于指导学生理解和掌握数学定理的证明方法，培养学生的逻辑推理能力和数学思维。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://leetcode.cn/problems/valid-sudoku/solution/heng-xiang-shu-xiang-xiao-jiu-gong-3chong-mapbian-/",
+                            "description": "... 若出现重复元素，则证明数据不合理，返回false 若合理则添加元素到set ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.guofei.site/2021/01/03/tree_algorithm.html",
+                            "description": "... 【离散数学1】数理逻辑 【离散数学3】格和布尔代数 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://slideplayer.com/slide/3932444/",
+                            "description": "... 假设S 是一个非空集合， ρ（s）是S 的幂集合。不难证明:(ρ(S),∩, ∪,′, ,S) 是一个布尔代数 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://slideplayer.com/slide/8856024/",
+                            "description": "... 数学. 定义设G= （ V ， T ， S ， P ）是一个语法结构 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://www.sis.zju.edu.cn/_upload/article/files/be/d6/3d11581341b7a9624dd07209dff9/c0842830-6cbc-4a88-970c-6d05c58a7b85.xls",
+                            "description": "... 证明, Developing Leaders By Executive Coaching, Athanasopoulou ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.393834930078401,
+                    "weight": 0.43859649122807015
+                }
+            ],
+            "knowledgeDensity": 5.67027041734876
+        },
+        {
+            "id": 2,
+            "name": "国际油价与产能决策问题",
+            "pages": [
+                5,
+                5
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        5,
+                        5
+                    ],
+                    "name": "国际油价与产能决策问题",
+                    "definition": "涉及伊朗和伊拉克如何根据各自的产油能力和成本来决策石油生产量，以及这些决策如何影响国际油价。",
+                    "information": "Iran和Iraq决定石油的产能应该是每天200万至400万桶，因此两国石油产能的可能的总产量为400、600、800万桶每日。石油价格分别为100、60、40美元1桶，Iran生产每桶油成本为8美元，Iraq则为16美元，两国均使用触发策略。试算两国的贴现因子为多少时，该重复博弈的纳什均衡为两国均日产200万桶。",
+                    "usage": "用于教学或研究国际经济学中的博弈论，特别是在石油产出与定价策略决策中的应用。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.caosco.com/static-files/283a6d6b-a7b6-412e-99a8-4fc7c721587f",
+                            "description": "30 Mar 2023 — 场剧烈波动，国际油价高位震荡，全球通胀压力增大，叠加. 新冠疫情影响 ... 营问题难以增加产量等因素影响，导致原油供应紧张。 与此同时，全球放宽新冠..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://policy.asiapacificenergy.org/node/3043",
+                            "description": "石油储备规模及应急响应水平、国际石油合作质量还不能完全适应近年来国际油价波动幅度加大、频率加快的市场格局。 国内石油勘探投入不足。油气领域勘探开发主体较少..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://policy.asiapacificenergy.org/node/3587",
+                            "description": "（三）深化国际产能和装备制造合作 ... 近年来，国际油价大幅震荡，对世界能源市场造成深远影响，未来走势充满变数。新..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.reuters.com/article/idUSL3S0Y93GV/",
+                            "description": "2 days ago — 科威特驻石油输出国组织(OPEC)的代表Nawal al-Fuzaia周一表示，全球原油价格料将不会在2015年下半年下跌，而现在讨论OPEC的6月会议供应决策还为时过早..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.2913204278835748,
+                    "weight": 0.1
+                }
+            ],
+            "knowledgeDensity": 6.961590845232335
+        },
+        {
+            "id": 3,
+            "name": "古巴导弹危机背景分析",
+            "pages": [
+                7,
+                13
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        7,
+                        7
+                    ],
+                    "name": "古巴导弹危机背景概述",
+                    "definition": "介绍1962年夏末秋初苏联在古巴部署导弹的情况",
+                    "information": "1962年夏末秋初，苏联开始在古巴部署中程弹道导弹（MRBM）、地对空SA-2型导弹、IL-28轰炸机和一种战术核武器（FROG），这些武器具备打击华盛顿特区的能力。",
+                    "usage": "为读者提供对古巴导弹危机起因的基本了解，为后续事件的叙述奠定背景。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.lib.pku.edu.cn/portal/en/news/0000000455",
+                            "description": "1. 阿富汗：美国对阿富汗政策的形成，1973年－1990年 · 2. 柏林危机，1958年－1962年 · 3. 中美关系：从敌对到合作，1960年－1997年 · 4. 古巴导弹危机，1962年 · 5. 萨尔瓦多 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://thebulletin.org/roundtable/%E5%B9%BF%E5%B2%9B%E5%92%8C%E9%95%BF%E5%B4%8E%EF%BC%9A%E5%90%B8%E5%8F%96%E6%95%99%E8%AE%AD%E4%BA%86%E5%90%97%EF%BC%9F/",
+                            "description": "1945年8月，标志核子时代来临的三位一体核试验刚进行了三个星期，美国就在广岛引爆了“小男孩”，造成数万人死亡。数日之后，同样的命运随着“大胖子”降临长崎。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "http://easy.property.hk/article_content.php?author=PHK_WONDERFUL&id=27032",
+                            "description": "2023/02/07 古巴导弹危机后，赫鲁晓夫为何指责我国？从此中苏关系越来越坏- 一个大帅哥, 2023/02/06 一个愿意为历史道歉的榜样- 屈辱妈, 2023/02/06 美国传来关于中国的 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/17976026/7dc937",
+                            "description": "... 古巴导弹危机那样受到如此多的研究和分析。古巴导弹危机（1962年10月）发生的十三天，是人类历史上距离核战争毁灭最近的一次。无以计数的杂志、书籍、纪录片、研究总统 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/11336370/fd1f55",
+                            "description": "... 古巴导弹危机中，始终贯彻了质疑决策法。讽刺的是，这一次的成功是以猪湾行动的失败为开端的。1959年，在菲德尔·卡斯特罗（Fidel Castro）掌握古巴政权后，社会主义被 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3944777541222675,
+                    "weight": 0.47368421052631576
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        7,
+                        9
+                    ],
+                    "name": "古巴导弹危机发展过程",
+                    "definition": "描述古巴导弹危机从发现到处置的过程",
+                    "information": "美国总统肯尼迪与苏联领导人赫鲁晓夫的战略决策，美军对古巴的军事封锁行动，以及苏联在联合国的宣传策略。美国试图通过政治和军事手段解决苏联在古巴的导弹部署问题。",
+                    "usage": "让读者了解在古巴导弹危机期间美国内部的决策过程，以及对苏联采取的行动。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://interpret.csis.org/translations/a-review-of-u-s-ussr-confidence-building-measures-during-the-cold-war/",
+                            "description": "1962 年古巴导弹危机后，苏联试图缓解与美国对抗带来的巨大压力。双方开始探求在约束对方，同时又不损害自身战略地位的前提下，就一定范围内有限度地控制战略武器竞赛。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://interpret.csis.org/translations/science-of-military-strategy-2020-ed-chapter-7-prevention-and-handling-of-military-crises/",
+                            "description": "一方面，军事危机在发牛、发展过程中常常受到多种不确定因素的影响，表现为引发... 古巴导弹危机、苏伊士运河危机以及多次台海危机，都是在高风险条件下最终达成了某。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://gaodawei.wordpress.com/tag/state-department/",
+                            "description": "二是要利用齐奥赛斯库等人与中国的亲密关系，频频传递美国期望与中国和解的诚意。三是为了起到立竿见影的效果，美国亮出了1962年古巴导弹危机中尚保留未及动用的一张王牌。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/11966421/1fc547",
+                            "description": "... 古巴导弹危机。迈克尔·多布斯2015年4月前言鲜有历史事件会像古巴导弹危机那样受到如此多的研究和分析。古巴导弹危机（1962年10月）发生的二十三天，是人类历史上距离核。"
+                        }
+                    ],
+                    "knowledgeDensity": 1.5444151225721976,
+                    "weight": 0.75
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        10,
+                        12
+                    ],
+                    "name": "古巴导弹危机解决方案",
+                    "definition": "阐述美苏双方如何通过外交方式解决危机",
+                    "information": "危机期间，肯尼迪和赫鲁晓夫进行了秘密通信，提出了导弹撤离和核查的要求，以及对古巴非入侵的承诺。半年后，美国从土耳其撤离了导弹。",
+                    "usage": "向读者展示古巴导弹危机如何在避免核战争的边缘被和平解决，以及双方的妥协。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://zlibrary-asia.se/book/21178448/5145ff",
+                            "description": "在当年的古巴导弹危机中，形势变化迅猛，世界安宁危在旦夕，审时度势、随机应变的... 弱化等级制度的影响促生了创新的解决方案。总统最后否决了空袭，执行封锁战略。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://zlibrary-asia.se/book/11336370/fd1f55",
+                            "description": "... 古巴导弹危机中，始终贯彻了质疑决策法。令人犹豫的是，这一次的成功是以猪湾行动的失败为开端的。1959年，在菲德尔·卡斯特罗（Fidel Castro）掌握古巴政权后，社会主义被..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.5715009923177103,
+                    "weight": 0.8333333333333333
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        13,
+                        13
+                    ],
+                    "name": "古巴导弹危机的双方立场",
+                    "definition": "分析美苏双方在危机中的立场和底线",
+                    "information": "美国强硬要求苏联撤除在古巴的导弹，同时表明若要求不被满足，不惜发动核战争。苏联则希望保留在美国后院的导弹以达到威慑效果，但双方都不清楚对方的最终底线。",
+                    "usage": "帮助读者理解古巴导弹危机双方的策略和心理，以及决策的难度。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://interpret.csis.org/translations/a-review-of-u-s-ussr-confidence-building-measures-during-the-cold-war/",
+                            "description": "20 世纪60 年代后期，美国进行战略收缩以减轻军费压力。1962 年古巴导弹危机后，苏联试图缓解与美国对抗带来的巨大压力。双方开始谋求在约束对方，同时又不损害自身战略地位的前提下，就一定范围内有限度地控制战略武器竞赛。为了实现上述目的，美苏双方达成了大量军控型建立信任措施的协议。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://thebulletin.org/roundtable/千禧世代看下一个核年代/",
+                            "description": "在\"核不扩散条约\"（NPT 条约）生效42 年后，世界已发生了巨大的变化-- 冷战结束，全球核武数量减少，然而核武国家的数量却增加了。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://interpret.csis.org/translations/arms-control-and-global-strategic-stability-in-great-power-competition-an-analysis-based-on-u-s-soviet-union-nuclear-arms-control-negotiations/",
+                            "description": "军备控制可以通过合作举措约束双方战略武器的发展、改善安全环境。在SALT I/ABM条约达成前，苏联进攻导弹的数量已经超过了美国，而且还在以每年大约200枚的速度增加，美国 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://gaodawei.wordpress.com/tag/state-department/",
+                            "description": "经反复考虑，毛泽东同意了。9月11日，双方在机场进行了三个半小时的会谈。这次会谈表明中苏关系略有缓和，但危机依旧。赫鲁晓夫回国后，苏联又改变了态度，趋于强硬。这反映 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/21178448/5145ff",
+                            "description": "... 立场明确的个人观点。表面看起来似乎没有什么问题。但是，他的出席以及立场鲜明的 ... 在当年的古巴导弹危机中，形势变化迅猛，世界安宁危在旦夕，审时度势、随机应变的 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.5387041411677942,
+                    "weight": 0.6666666666666666
+                }
+            ],
+            "knowledgeDensity": 13.010688855412306
+        },
+        {
+            "id": 4,
+            "name": "简单威慑博弈模型",
+            "pages": [
+                14,
+                15
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        14,
+                        14
+                    ],
+                    "name": "简单威慑博弈模型",
+                    "definition": "一种分析和理解国际关系中威慑力量相互作用的模型。",
+                    "information": "通过模型中的数值（1, -4）来表征威慑的力量大小和结果。",
+                    "usage": "用于在国际关系学中分析某国或组织在特定情况下的威慑能力。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/game-theory",
+                            "description": "博弈论是对理性主体之间战略互动的数学模型的研究。它不仅可以应用于逻辑学、系统科学、计算机科学，还可以应用于社会科学的各个领域。博弈论概念也广泛应用于经济学中。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.europeanleadershipnetwork.org/wp-content/uploads/2023/11/Chinese-bibliography_AI_Nuclear_Final.pdf",
+                            "description": "战数数据的检验，模型的可信度达不到实用要求等。]”56. “Should be considered through ... 博弈中处于不利地位。因. 此，美国极为重视自身能否保有人工智能技术的全球领导。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.researchgate.net/profile/Stephen-Colarelli-2/publication/301554182_An_evolutionary_organizational_psychology_An_evolutionary_psychologist's_journey/links/57198f4708aed8a339e70371/An-evolutionary-organizational-psychology-An-evolutionary-psychologists-journey.pdf",
+                            "description": "... 模型的研究、情绪与认知的脑电生理机制以及. 关于目击者鉴定的研究。在面容审美 ... 简单而有效的. 启发法，做出明智的决定、分类或预测。本书出版后在该领域引起了广泛的."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://perchance.org/kzl8pf69p6",
+                            "description": "... 模型，然后不断地进行模拟，通过评估过去模拟未来。这就要求调节和评估很多反馈 ... 威慑政策会取消竞争对手出于谦利而进行侵犯的动机，因为回击产生的成本可以抵消进攻。"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://books.google.com.sg/books?id=IqdWEAAAQBAJ&pg=PT436&lpg=PT436&dq=%E7%AE%80%E5%8D%95%E5%A8%81%E6%85%91%E5%8D%9A%E5%BC%88%E6%A8%A1%E5%9E%8B+%E7%AE%80%E5%8D%95%E5%A8%81%E6%85%91%E5%8D%9A%E5%BC%88%E6%A8%A1%E5%9E%8B&source=bl&ots=jX3Rlo40Qn&sig=ACfU3U18vWOQaJAlNp0s-z_ij2W0sI7VKQ&hl=en&sa=X&ved=2ahUKEwj_6NKXqayDAxUUz6ACHSRqCH8Q6AF6BAg7EAM",
+                            "description": "(No description available)"
+                        }
+                    ],
+                    "knowledgeDensity": 1.3220648123670595,
+                    "weight": 0.15833333333333333
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        14,
+                        14
+                    ],
+                    "name": "撤出",
+                    "definition": "指一个国家或组织从某一地区或冲突中撤回其军事或政治力量。",
+                    "information": "无具体数值说明，可能是撤出行为的概念性说明。",
+                    "usage": "用于描述国家或组织在国际博弈中主动减少其在某些领域的影响力。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://huggingface.co/datasets/jclian91/open_domain_triple_extraction",
+                            "description": "... 出了15分钟，但是在简单交流后，他当即表示同意富途加入小米IPO承销团。', '据“今日俄罗斯”电视台网站8月15日报道，迫降飞机机长达米尔·尤苏波夫表示，在既定情况下多 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://books.google.com.sg/books?id=IqdWEAAAQBAJ&pg=PT436&lpg=PT436&dq=%E7%AE%80%E5%8D%95%E5%A8%81%E6%85%91%E5%8D%9A%E5%BC%88%E6%A8%A1%E5%9E%8B+%E6%92%A4%E5%87%BA&source=bl&ots=jX3Rlo41Mr&sig=ACfU3U2JjXbcZi9cyop-PXsrQJ90Lk7T5w&hl=en&sa=X&ved=2ahUKEwimr6K2qayDAxX13zgGHQqkCB8Q6AF6BAgeEAM",
+                            "description": ""
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://books.google.com.sg/books?id=m5dWEAAAQBAJ&pg=PT97&lpg=PT97&dq=%E7%AE%80%E5%8D%95%E5%A8%81%E6%85%91%E5%8D%9A%E5%BC%88%E6%A8%A1%E5%9E%8B+%E6%92%A4%E5%87%BA&source=bl&ots=00QgwNOdxv&sig=ACfU3U2aOJF_ZzVzKok6d-Q7sDsJTWcHFg&hl=en&sa=X&ved=2ahUKEwimr6K2qayDAxX13zgGHQqkCB8Q6AF6BAgdEAM",
+                            "description": ""
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://pidaitishengj.com/rss/google.xml",
+                            "description": "... 简单！曾经的门派最强者申冬，如今只想安稳度日，但夏日的出现却打破了其宁静的 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3220648123670595,
+                    "weight": 0.21666666666666667
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        14,
+                        14
+                    ],
+                    "name": "对抗",
+                    "definition": "国家或组织间进行的直接或间接的竞争行为。",
+                    "information": "通过数值（-10, -8）表示对抗的严重程度或负面影响。",
+                    "usage": "用来描述在国际政治舞台上，国与国之间进行的政治、经济或军事竞争。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/game-theory",
+                            "description": "博弈论是对理性主体之间战略互动的数学模型的研究。它不仅可以应用于逻辑学、系统科学、计算机科学，还可以应用于社会科学的各个领域。博弈论概念也广泛应用于经济学中 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.europeanleadershipnetwork.org/wp-content/uploads/2023/11/Chinese-bibliography_AI_Nuclear_Final.pdf",
+                            "description": "战数数据的检验，模型的可信度达不到实用要求等。]”56. “Should be considered through ... 博弈中处于不利地位。因此，美国极为重视自己能否保有人工智能技术的全球领导 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://perchance.org/kzl8pf69p6",
+                            "description": "... 模型，然后不断地进行模拟，通过评估过去模拟预测未来。这就要求调整和评估很多反馈 ... 威慑政策会取消竞争对手出于贪利而进行侵犯的动机，因为回击产生的成本可以抵消进攻 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.sammyboy.com/threads/stupid-ukraine-threaten-to-nuke-putin-best-lesson-for-kim-jong-nuke-to-learn-about-denuclearization-regret.262282/",
+                            "description": "2018 — ... 对抗中获胜。甚至有些人设想重新研制核武器，并恢复苏联解体时乌克兰的第 ... 简单，没有政治家会轻易放弃手中的底牌。包括白俄罗斯、哈萨克斯坦在内 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/19145817/85141a",
+                            "description": "... 对抗性、并存在着胜利者与失败者的游戏。而平衡成功的标准则看你是否能‘拍’对方一 ... 博弈论与徒劳无功的‘利用’态度在有关谈判的博弈研究中，我们可以看到如果所有的 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3220648123670595,
+                    "weight": 0.275
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        14,
+                        14
+                    ],
+                    "name": "不威慑",
+                    "definition": "指国家或组织没有展示足够的力量来阻止对手行动的情形。",
+                    "information": "数值（-2, 2）可能表示不威慑的状态对各方的影响。",
+                    "usage": "用来分析在国际关系中，某方因缺乏威慑力而无法有效遏制对手的情况。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.sammyboy.com/threads/stupid-ukraine-threaten-to-nuke-putin-best-lesson-for-kim-jong-nuke-to-learn-about-denuclearization-regret.262282/",
+                            "description": "11 Dec 2018 — 在乌克兰境内从来没有生产过核弹头，因此，它根本不具备生产核武器的能力。要制造核武器，需要的材料比政治家的想法要多得多，必须要拥有科技基础及工业 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://books.google.com.sg/books?id=IqdWEAAAQBAJ&pg=PT436&lpg=PT436&dq=%E7%AE%80%E5%8D%95%E5%A8%81%E6%85%91%E5%8D%9A%E5%BC%88%E6%A8%A1%E5%9E%8B+%E4%B8%8D%E5%A8%81%E6%85%91&source=bl&ots=jX3Rlo5ULn&sig=ACfU3U0Czzy4n0SSgtcgHFvo88OvOrcBZQ&hl=en&sa=X&ved=2ahUKEwjSzMPfqayDAxVrzzgGHaZsDGYQ6AF6BAg9EAM",
+                            "description": ""
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://zlibrary-asia.se/book/14030638/d4cdf7",
+                            "description": "好战略看起来总是这么简单，不需要用一个又一个演示文稿去解释。好战略也不是矩阵 ... 威慑阻止冲突，如果威慑无效，就发动并获得战争。”这种表述估计很少有人反对，但 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://epdf.pub/-48b4628197f25414d0712b919fa48bfc93997.html",
+                            "description": "... 简单一点，反正饿死病死了就没麻烦了，当然表面功夫还是要做的，皇帝（元顺帝）要下谕 ... 不负名将之名，用豪豪战功证明了他自己，他的不屈功绩将记入史册，为后人追忆 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/game-theory",
+                            "description": "博弈论是对理性主体之间战略互动的数学模型的研究。它不仅可以应用于逻辑学、系统科学、计算机科学，还可以应用于社会科学的各个领域。博弈论概念也广泛应用于经济学中 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3220648123670595,
+                    "weight": 0.3333333333333333
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        15,
+                        15
+                    ],
+                    "name": "简单威慑博弈模型",
+                    "definition": "与第0点内容相同，为一种国际博弈分析模型。",
+                    "information": "第15页内容与第14页的简单威慑博弈模型相同，表明这是连续讨论的一部分。",
+                    "usage": "其用途与第0点相同，适用于理解和分析国际威慑战略。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/game-theory",
+                            "description": "博弈论是对理性主体之间战略互动的数学模型的研究。它不仅可以应用于逻辑学、系统科学、计算机科学，还可以应用于社会科学的各个领域。博弈论概念也广泛应用于经济学中..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.europeanleadershipnetwork.org/wp-content/uploads/2023/11/Chinese-bibliography_AI_Nuclear_Final.pdf",
+                            "description": "战数的检验，模型的可信度达不到实用要求等。]”56. “Should be considered through ... 博弈中处于不利地位。因此，美国极为重视自身能否保有人工智能技术的全球领导..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.researchgate.net/profile/Stephen-Colarelli-2/publication/301554182_An_evolutionary_organizational_psychology_An_evolutionary_psychologist's_journey/links/57198f4708aed8a339e70371/An-evolutionary-organizational-psychology-An-evolutionary-psychologists-journey.pdf",
+                            "description": "... 模型的研究、情绪与认知的脑电生理机制以及. 关于目击者辨认的研究。在面容审美... 简单而有效的. 启发法，做出明智的决定、分类或预测。本书出版后在该领域引起了广泛的."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://books.google.com.sg/books?id=IqdWEAAAQBAJ&pg=PT436&lpg=PT436&dq=%E7%AE%80%E5%8D%95%E5%A8%81%E6%85%91%E5%8D%9A%E5%BC%88%E6%A8%A1%E5%9E%8B+%E7%AE%80%E5%8D%95%E5%A8%81%E6%85%91%E5%8D%9A%E5%BC%88%E6%A8%A1%E5%9E%8B&source=bl&ots=jX3Rlo5UQk&sig=ACfU3U1GRZ3t77z27zlbUHngqzpeVyo20g&hl=en&sa=X&ved=2ahUKEwi0s-f1qayDAxVlzDgGHYmrDvwQ6AF6BAg6EAM",
+                            "description": "The description is not available, but the URL and the query within it suggest a direct relation to the topic of simple deterrence game theory model."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/5603581/96cfa1/%E8%BA%AB%E8%BE%B9%E7%9A%84%E5%8D%9A%E5%BC%88%28%E5%AE%8C%E6%95%B4%E5%9B%BE%E6%96%87%E7%89%88%29-by-%E8%91%A3%E5%BF%97%E5%BC%BA-Z-Library",
+                            "description": "），我们这里的简单模型只是对他们文章一部分内容的简单改编。 利用囚徒困境压低供应价格故事模型假设你是一家公司的采购人员，正决定向两家供应商采购100万只配件，每..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.393834930078401,
+                    "weight": 0.45614035087719296
+                }
+            ],
+            "knowledgeDensity": 19.692783034958946
+        },
+        {
+            "id": 5,
+            "name": "与强硬型苏联的博弈",
+            "pages": [
+                16,
+                17
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        16,
+                        17
+                    ],
+                    "name": "与强硬型苏联的博弈",
+                    "definition": "指的是在国际政治中与苏联这样的强硬型国家进行的政治、外交博弈。",
+                    "information": "文本内容涉及了与苏联进行的博弈策略和历史事件的描述，包括美国和苏联的对抗以及双方的政策和行动。",
+                    "usage": "了解冷战时期国际关系的学生可以通过学习这一部分加深对于国际政治博弈中的策略和行动的理解。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://interpret.csis.org/translations/destruction-and-reconstruction-of-order-in-the-field-reflections-on-ukraine/",
+                            "description": "1 Mar 2022 — 尽管此次乌克兰冲突的爆发事发突然，但论其根源，则是冷战后美俄乌三方错综复杂安全博弈的必然后果。... 型发展到侵获型，最终到达“失败国家”边缘。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://news.futunn.com/en/post/2098379",
+                            "description": "XinhuaNews Agency flash: The US State Department announced on February 1 that the US will suspend implementation of its obligations under the INF Treaty on..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://interpret.csis.org/translations/an-analysis-of-the-united-states-deterrence-by-denial-strategy-against-china/",
+                            "description": "The United States' deterrence by denial strategy began in the Cold War and led to large-scale civil defense construction and ballistic missile defense..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://zhongweng.tiddlyspot.com/",
+                            "description": "... 型肝炎 dīngxínggānyán hepatitis D 丁点/ 丁點 dīngdiǎn tiny bit 丁青 dīngqīng ... 苏联/ 前苏联 qiánsūlián former Soviet Union 前言 qiányán preface;forward..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://books.google.com.sg/books?id=3aBWEAAAQBAJ&pg=RA1-PT289&lpg=RA1-PT289&dq=%E4%B8%8E%E5%BC%BA%E7%A1%AC%E5%9E%8B%E8%8B%8F%E8%81%94%E7%9A%84%E5%8D%9A%E5%BC%88+%E4%B8%8E%E5%BC%BA%E7%A1%AC%E5%9E%8B%E8%8B%8F%E8%81%94%E7%9A%84%E5%8D%9A%E5%BC%88&source=bl&ots=D14MlW2ZOY&sig=ACfU3U0Ox-MZ1CUN5_YNm7FOtRJZag4T6A&hl=en&sa=X&ved=2ahUKEwihpZ7Yr6yDAxUsxTgGHQB_BMwQ6AF6BAgeEAM",
+                            "description": ""
+                        }
+                    ],
+                    "knowledgeDensity": 1.4164003972188293,
+                    "weight": 0.49122807017543857
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        16,
+                        17
+                    ],
+                    "name": "撤出",
+                    "definition": "指的是从某一地区或领域撤出军事力量或政治影响。",
+                    "information": "这可能是指在与苏联的博弈中，某一方（如美国）撤出其在某一地区的军事或政治存在，作为战略调整的一部分。",
+                    "usage": "学生可以通过这一部分理解在国际政治冲突中撤退策略的重要性以及它带来的政治后果。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://interpret.csis.org/translations/arms-control-and-global-strategic-stability-in-great-power-competition-an-analysis-based-on-u-s-soviet-union-nuclear-arms-control-negotiations/",
+                            "description": "军备控制可以通过合作举措约束双方战略武器的发展、改善安全环境。在SALT I／ABM条约达成前，苏联进攻导弹的数量已经超过了美国，而且还在以每年大约200枚的速度增加，美国..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://news.futunn.com/en/post/2098379",
+                            "description": "XinhuaNews Agency flash: The US State Department announced on February 1 that the US will suspend implementation of its obligations under the INF Treaty on..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.4164003972188293,
+                    "weight": 0.5087719298245614
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        16,
+                        17
+                    ],
+                    "name": "威慑",
+                    "definition": "通过展示军事力量或政治决心来阻止对方采取某种行动的策略。",
+                    "information": "文本可能讨论了在对苏联的博弈中使用威慑策略的例子，包括通过军事演习、言语威胁等方式向苏联展示力量。",
+                    "usage": "学生可以学习威慑策略如何影响国际关系，以及它在避免冲突升级中的作用。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://interpret.csis.org/translations/arms-control-and-global-strategic-stability-in-great-power-competition-an-analysis-based-on-u-s-soviet-union-nuclear-arms-control-negotiations/",
+                            "description": "军备控制可以通过合作举措约束双方战略武器的发展、改善安全环境。在SALT I/ABM条约达成前，苏联进攻导弹的数量已经超过了美国，而且还在以每年大约200枚的速度增加，美国 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://interpret.csis.org/translations/an-analysis-of-the-united-states-deterrence-by-denial-strategy-against-china/",
+                            "description": "美国“网络空间日光浴委员会”发布的报告明确提出，美国将致力于构建多层次复合型的网络威慑战略。“分层网络威慑”战略的核心层即为拒绝获益层，关键是加强网络韧性和防御 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://news.futunn.com/en/post/2098379",
+                            "description": "XinhuaNews Agency flash: The US State Department announced on February 1 that the US will suspend implementation of its obligations under the INF Treaty on ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://gaodawei.wordpress.com/category/foreign-relations-%E5%A4%96%E4%BA%A4/page/3/",
+                            "description": "5 Jun 2023 — ... 威慑的最大变革”，增强了北约的凝聚力。同时，伴随政治军事的阵营化，美欧俄之间的地缘经济博弈也剑拔弩张。 ... 强硬，但中国、印度、土耳其等非西方国家 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://gaodawei.wordpress.com/tag/political/",
+                            "description": "... 强硬，当前美国的外交政策就是在这种基调下形成的。 提到拜登政府提出的“中产阶级 ... 博弈双方在文明和种族上的差异所带来的影响上。美国认为，从古希腊和古罗马时期 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.4164003972188293,
+                    "weight": 0.5263157894736842
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        16,
+                        17
+                    ],
+                    "name": "对抗",
+                    "definition": "指两个国家或集团在政治或军事上的直接较量。",
+                    "information": "文中可能描述了美苏在某些特定事件中的对抗情况，如某些冲突、谈判或是在国际舞台上的角力。",
+                    "usage": "学生可以通过这一部分来分析和理解冷战期间美苏两大阵营之间的对抗性质和它对世界政治的影响。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://interpret.csis.org/translations/destruction-and-reconstruction-of-order-in-the-field-reflections-on-ukraine/",
+                            "description": "1 Mar 2022 — Current Russian President Vladimir Putin has proposed joining NATO three times. It is thus clear that post-Cold War Russia has tried to ease ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://groups.google.com/group/kanggongjiuguojun/attach/a53091e3ceed/?part=0.1",
+                            "description": "... 强硬的外交政策只会触发邻国的抵触情绪。此次中国修宪，习近平无限期延长任期 ... 对抗性的，称刘鹤警告纳瓦罗，美国对中国采取的贸易行为导致两国经济关系紧张 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.douyin.com/shipin/7272087702118451234",
+                            "description": "世界秩序的博弈，地缘政治的博弈，我们必须要团结起来。我们要抗争的不仅是河污水 ... 二零一一年啊，一位名叫原田康博的日本官员，在上级领导的强硬命令之下，端起了 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://zlibrary-asia.se/book/22195187/9ba623",
+                            "description": "... 型潜艇的改良要快得多。美国修正战略，以对日本而言不可思议的效率制造并维修 ... 对抗美国和苏联的全球战争。原因之一是，对战时总是躲在地堡里的希特勒而言，战争 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.4164003972188293,
+                    "weight": 0.5438596491228069
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        16,
+                        17
+                    ],
+                    "name": "不威慑",
+                    "definition": "指在国际关系中没有足够的力量或意志来阻止对方采取某种行动。",
+                    "information": "文本可能讨论了某些情况下美国或其他国家未能有效威慑苏联，导致苏联采取了一些行动。",
+                    "usage": "通过学习这个概念，学生能够理解在国际政治中威慑失败可能导致的后果，以及如何通过外交或其他手段来弥补威慑上的不足。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://interpret.csis.org/translations/an-analysis-of-the-united-states-deterrence-by-denial-strategy-against-china/",
+                            "description": "从二战后美国的威慑实践看，美国不会单独应用拒绝策略，而是倾向于将拒绝与惩罚手段相结合。这主要是因为纯粹的拒绝性威慑存在不足。一方面，与核威慑所面临的困境类似，..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://interpret.csis.org/translations/arms-control-and-global-strategic-stability-in-great-power-competition-an-analysis-based-on-u-s-soviet-union-nuclear-arms-control-negotiations/",
+                            "description": "与之相反，鹰派则认为苏联的进攻性意图不会改变，强调以实力求和平，避免对苏联让步，力图保留美国的军事优势。鹰派反对扩大条约覆盖范围的常用理由就是条约无法核查..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://news.futunn.com/en/post/2098379",
+                            "description": "XinhuaNews Agency flash: The US State Department announced on February 1 that the US will suspend implementation of its obligations under the INF Treaty on..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://gaodawei.wordpress.com/tag/political/",
+                            "description": "... 坚决维护党中央权威和集中统一领导，做到不掉队、不走偏，不折不扣抓好党中央精神贯彻落实。要把坚持底线思维、坚持问题导向贯穿工作始终，做到见微知著、防患于..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/5603581/96cfa1/%E8%BA%AB%E8%BE%B9%E7%9A%84%E5%8D%9A%E5%BC%88%28%E5%AE%8C%E6%95%B4%E5%9B%BE%E6%96%87%E7%89%88%29-by-%E8%91%A3%E5%BF%97%E5%BC%BA-Z-Library",
+                            "description": "从博弈论的角度来说，这是不完全信息的博弈。与教授不知道学生是否撒谎一样，赵高... 苏联不拆除的情况下将升级到空战。从苏联这一方来看也是如此，它固然可以坚持保留..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.4164003972188293,
+                    "weight": 0.5614035087719298
+                }
+            ],
+            "knowledgeDensity": 26.774785021053095
+        },
+        {
+            "id": 6,
+            "name": "不知道苏联类型下的威慑",
+            "pages": [
+                18,
+                18
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        18,
+                        18
+                    ],
+                    "name": "苏联威慑类型",
+                    "definition": "不同的苏联威慑类型及其特点",
+                    "information": "文档讨论了在不同情况下苏联的威慑能力，包括强硬的苏联和软弱的苏联，以及它们在特定情境下的概率。",
+                    "usage": "用于理解冷战期间不同情况下苏联的外交政策和军事策略",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://thebulletin.org/roundtable/%E9%9B%B6%E6%A0%B8%EF%BC%9A%E6%AD%A3%E7%A1%AE%E7%9A%84%E7%9B%AE%E6%A0%87%EF%BC%9F/",
+                            "description": "17 Sept 2014 — 遵全面核裁军 · 最小威慑的主要问题 · 大国无需承诺？"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://studylib.net/doc/9013136/lesson-plans",
+                            "description": "... 苏联企图主宰东欧，以及苏联的扩张主义。95 但是之后很多历史学家提出了另一种观点 ... 他不知道他的女儿已经成为王公子了。He didn't know that his daughter had..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://docs.google.com/document/d/1CBop3WLvtbC_ALzhZKEcIj6b_TJOxhnBv_ze_TCAgOE/",
+                            "description": "LIDA技术在1950年代由苏联发明，后来在各国得到了发展。声音直达大脑（Voice to ... 不知道被监控的情况下，我们却信以为真。在我们受害者不知道被监控的情况下，精神..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://mstmha.files.wordpress.com/2017/07/over-250-torture-cases-from-china-asia-pacific.doc",
+                            "description": "... 不敢过问就可以甚嚣尘上，一意孤行；不要以为中央领导不知道这种\"秘密罪恶\"的 ... 下她不会显出来或不会明显地显出来而被人们所发现！因此，她不仅可以随时了解全..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "http://www.jar2.com/Topics/USA_CIA_DARPA_NATO_Biological_Warfare_Terrorism.html",
+                            "description": "... 不遭受海外和祖国政治损害的情况下实现这一目标。Again this designer virus is ... 美国知道，如果现状不会突然改变，那么这一天也将如此迟到与中国对抗。特朗普自称..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3394918902247808,
+                    "weight": 0.3508771929824561
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        18,
+                        18
+                    ],
+                    "name": "苏联的行动",
+                    "definition": "苏联采取的具体行动和对策",
+                    "information": "描述了苏联的撤退、对抗以及与美国的关系等行为，指出了不同行动对应的坐标点。",
+                    "usage": "用以分析苏联在国际关系中的行为模式，以及其对外政策的实际执行情况",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://m.ysts.cc/sm/sitemap/1.xml",
+                            "description": "... 下实现，那么七十二变呢？有人说，科学的尽头是神话。那么基因进化的尽头，是什么？答案，尽在本书中！ 基因大时代 猪三不 ... 知道碰上其中一个意味着什么吗？上古世界 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://studylib.net/doc/9013136/lesson-plans",
+                            "description": "... 苏联企图主宰东欧，以及苏联的扩张主义。 95 但是之后很多历史学家提出了另一种观点 ... 他不知道他的女儿已经成为瘾君子了。 He didn't know that his daughter had ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://gaodawei.wordpress.com/tag/pla/",
+                            "description": "不久前，俄罗斯国防部召开年度扩大会议，总结了2022年俄武装力量的建设成果以及在乌克兰特别军事行动的进展。针对俄军在俄乌冲突中暴露出的建设短板和能力弱项，会议提出下 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://www.jar2.com/Topics/USA_CIA_DARPA_NATO_Biological_Warfare_Terrorism.html",
+                            "description": "... 下，人民币和中国的BRI / OBOR取代或取代了美国石油美元霸权等诸多方面……美国知道，如果现状不会突然改变，那么这一天也将如此迟到与中国对抗。特朗普自称“选民”，从一 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://docs.google.com/document/d/1CBop3WLvtbC_ALzhZKEcIj6b_TJOxhnBv_ze_TCAgOE/",
+                            "description": "... 下一步行动不睡觉等等 4月8日我早上起来左耳耳塞不见了我都找了没有接过在一处我 ... 不知道被监控的情况下，我们却信以为真。在我们受害者不知道被监控的情况下，精神 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3394918902247808,
+                    "weight": 0.3684210526315789
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        18,
+                        18
+                    ],
+                    "name": "概率论述",
+                    "definition": "苏联威慑力量的概率分析",
+                    "information": "提供了强硬的苏联和软弱的苏联威慑成功的概率（p和1-p），为进一步的统计分析或模型构建提供了基础。",
+                    "usage": "用于定量分析苏联威慑策略的有效性和可能性",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://www.lib.ruc.edu.cn/uploadfile/20140414/102417129.xlsx",
+                            "description": "13 Apr 2014 - ... 概率, Michael Strevens, TriLiteral LLC, O211, O, 39.95, USD, 246. 2495, 9789814366175, CASE-BASED PREDICTIONS: AN AXIOMATIC APPROACH TO ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://zlibrary-asia.se/book/23489333/1ece27",
+                            "description": "... 概率推测必须满足的理性条件进行规定。例如，在相互排斥的情况中，就不会出现主观概率的总数超出100%的问题。主观概率必须符合概率计算的原则，这些原则以公理的形式 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://zlibrary-asia.se/book/5603581/96cfa1/%E8%BA%AB%E8%BE%B9%E7%9A%84%E5%8D%9A%E5%BC%88%28%E5%AE%8C%E6%95%B4%E5%9B%BE%E6%96%87%E7%89%88%29-by-%E8%91%A3%E5%BF%97%E5%BC%BA-Z-Library",
+                            "description": "... 知道但另外一个员工不知道。这样，被偏爱的员工知道自己获胜的概率会大于1/2 ... 苏联不解体的情况下将升级到空降。从苏联这一方来看也是如此，它固然可以坚持保留 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3394918902247808,
+                    "weight": 0.38596491228070173
+                }
+            ],
+            "knowledgeDensity": 30.79326069172744
+        },
+        {
+            "id": 7,
+            "name": "危机的边缘政策模型",
+            "pages": [
+                19,
+                20
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        19,
+                        20
+                    ],
+                    "name": "危机的边缘政策模型概述",
+                    "definition": "一种在国际关系中，描述危机边缘政策的决策模型。",
+                    "information": "该模型涉及到强国在对抗中所采取的政策和战略。主要描述了美国与苏联在冷战期间对峙时，各自可能采取的政策动作及其后果，包括撤退、边缘政策的风险和威慑，对抗和不威慑的情况。",
+                    "usage": "用于分析和预测在国际关系冷战背景下，大国在临界点上的行为及其可能引发的国际政治后果。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://hdsfdxjkb.xml-journal.net/en/article/doi/10.16382/j.cnki.1000-5560.2019.02.002",
+                            "description": "... 边缘，且为政治服务的工具价值成为主导价值，教育的内在价值则难以保全。最后，当我国社会走出启蒙与救亡的历史怪圈、真正走向“东方启蒙”的时候，我国教育的根本价值 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5dc1714d5&appId=PPGMS",
+                            "description": "认清相似以揭示差异：使用双因子模型识别复杂PTSD和边缘型人格障碍. 症状. 背景: 尽管存在概念上的相似性, 越来越多的证据支持复杂性创伤后应激障碍 (CPTSD) 和边缘性 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://d.wanfangdata.com.cn/periodical/xhdzybxzl-e202101405",
+                            "description": "24 Oct 2022 — More and more in-depth studies have revealed that the occurrence and development of tumors depend on gene mutation and tumor heterogeneity."
+                        }
+                    ],
+                    "knowledgeDensity": 3.115968779084717,
+                    "weight": 1.0
+                }
+            ],
+            "knowledgeDensity": 33.90922947081216
+        },
+        {
+            "id": 8,
+            "name": "边缘政策模型的风险探究",
+            "pages": [
+                21,
+                26
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        21,
+                        23
+                    ],
+                    "name": "边缘政策模型的基本概述",
+                    "definition": "边缘政策模型是一种风险探究工具，用于评估不同政策选择下的潜在风险。",
+                    "information": "这部分主要介绍了边缘政策模型的基本概念，包括模型的上限（可接受条件）和下限（有效条件），以及探测区间的设定。",
+                    "usage": "在制定政策时，利用边缘政策模型来确定一个安全的操作范围，确保政策执行既有效又不超出可接受的风险边界。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.7181568102212137,
+                    "weight": 0.9166666666666666
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        26,
+                        26
+                    ],
+                    "name": "边缘政策模型的风险管理策略",
+                    "definition": "边缘政策模型的风险管理策略是指通过逐步升级互动损害风险来控制政策实施时的不确定性。",
+                    "information": "这部分详细介绍了如何使用边缘政策模型来逐步增加风险，包括起始时寻找小而安全的威胁、逐步增加风险、解读信号以找出有效和可接受的条件，以及保持对局势的控制力。",
+                    "usage": "在政策实施过程中，通过边缘政策模型指导策略调整，以适应不断变化的环境和风险，从而更好地管理潜在的不确定性和威胁。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://cloud.google.com/chronicle/docs/ingestion/cloud/context-parsers/collect-network-connectivity-context-logs?hl=zh-cn",
+                            "description": "下表说明了Chronicle 解析器如何将Network Connectivity Center 上下文日志字段映射到Chronicle 统一数据模型(UDM) 字段。 ... 该内容对您有帮助吗？"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.jcejournal.com.cn/EN/top_access",
+                            "description": "... 政策和全球风险冲击对全球宏观经济波动的影响，并重点对两个因素各自发挥主导作用的时期进行了识别。基于面板局部投影模型的实证研究发现:在中心国家货币政策维持不变的 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://d.wanfangdata.com.cn/periodical/zgkx-ef202207006",
+                            "description": "22 Sept 2022 — 摘要：Implementing defensive deception in the cloud is promising to proactively counter reconnaissance attack.This technique presents decoys ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.engineering.org.cn/en/search?searchCategory=author&resourceType=article&searchKeyword=Project%20Team%20on%20the%20Strategy%20and%20Pathway%20for%20Peaking%20Carbon%20Emissions%20and%20Carbon%20Neutrality&sortBy=weightDesc",
+                            "description": "大量能源模型与气候模式、土地利用模型耦合，构建复杂综合评估模型 ... 风险对供应链的影响，并制定相应的风险应对策略。基于智能仿真的供应链风险管理平台强调多样性的风险 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://wms.lib.nkust.edu.tw/marine_related/list.php?page=3677",
+                            "description": "硕士/ 国立高雄第一科技大学/ 风险管理与保险研究所/ 101 / This research aims on deficit problems occurred during the period after the financial crisis in ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.4746874654943327,
+                    "weight": 0.631578947368421
+                }
+            ],
+            "knowledgeDensity": 37.10207374652771
+        },
+        {
+            "id": 9,
+            "name": "边缘政策模型总结",
+            "pages": [
+                27,
+                27
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        27,
+                        27
+                    ],
+                    "name": "边缘政策模型概述",
+                    "definition": "一种策略性应用，通过不断增加的风险使双方面对潜在的灾难。",
+                    "information": "边缘政策模型是一种战略模型，要求参与者不断地提高风险水平，以迫使对手作出让步。",
+                    "usage": "在需要通过威慑对手，使其屈服于自己的策略意图时使用边缘政策模型。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://bjb.nufe.edu.cn/dfiles/2/20150403.pdf",
+                            "description": "R． Fried- man，其在《区域发展政策》一书中较为完整建构出. “中心一边缘”理论模式 ... “中心一边缘”模型（ C－P）的是克鲁格曼。其在. 对Dixit—Stiglitz（ 垄断竞争 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://zh.wikipedia.org/zh-sg/%E9%82%8A%E7%B7%A3%E6%94%BF%E7%AD%96",
+                            "description": "边缘政策（英语：Brinkmanship）是指在冷战时期用来形容一个近乎要发动战争的情况，也就是到达战争边缘，从而说服对方屈服的一种战略术语。边缘政策是一种被视为有效的政策 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://cloud.tencent.com/developer/article/1935624?areaSource=106005.19",
+                            "description": "基于Paddle Serving&百度智能边缘BIE的边缘AI解决方案-腾讯云开发 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://aijishu.com/a/1060000000132375",
+                            "description": "5个可以让你的模型在边缘设备上高效推理的算法 - 极术社区"
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://www.freetobid.com/docs/en-us/citrix-sd-wan/current-release/use-cases-sd-wan-virtual-routing/enable-ha-y-cable.html",
+                            "description": "The following procedure describes the steps to enable High Availability on 1100 SE/PE appliances deployed in Edge Mode where the handoffs from the WAN link ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.427050602817362,
+                    "weight": 0.5789473684210527
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        27,
+                        27
+                    ],
+                    "name": "威慑的适度原则",
+                    "definition": "威慑力度必须大到足以影响对手决策，同时小到自身能够承受。",
+                    "information": "适度的威慑是策略中的平衡艺术，既要有足够的力度使对方就范，又不能过大到自己无法承受后果。",
+                    "usage": "在制定威慑政策时考量，确保威慑既有效又可控。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://mstmha.files.wordpress.com/2017/07/over-250-torture-cases-from-china-asia-pacific.doc",
+                            "description": "... 原则。历史早就对这种完全违法的秘密侵犯公民人权的秘密整人“理论”和罪恶手段做出了公正的判断。在上世纪八十年代初,纠正错误“拨乱反正”落实政策 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://docs.google.com/document/d/1CBop3WLvtbC_ALzhZKEcIj6b_TJOxhnBv_ze_TCAgOE/",
+                            "description": "... 政策\",平反一切“冤、假、错案”,一位司法界资深人士专门在《人民日报》上发表文章，郑重地指出了：“在中国没有思想犯！！”这一重要的法理原则。显然，历史已经对这 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.427050602817362,
+                    "weight": 0.5964912280701754
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        27,
+                        27
+                    ],
+                    "name": "风险升级与平衡",
+                    "definition": "通过逐步提高互相伤害的风险，来测试和确定双方的风险承受能力。",
+                    "information": "在边缘政策模型中，通过逐步提高风险来确定双方的底线，以实现最终目标。",
+                    "usage": "用于双方在对抗中，通过逐步加剧的风险来探测和平衡对方的反应和承受能力。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.rhsupplies.org/activities-resources/publications/un-commission-on-life-saving-commodities-commissioners-report-chinese-mandarin-7101/",
+                            "description": "... 风险可能需要一段时间。图 2详列了更具体有效的本地市场打造机制示例（见下页） ... 政策限制某些级别的保健人员——包括社区保健人员和药剂师——在处方中 开立和使用救生 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "http://www.jjwtts.com/EN/searchresult",
+                            "description": "... 模型考察 基础设施升级对区域经济差距的影响。研究发现：（1）基础设施 ... 基于所得实证结果，为促进我国经济结构合理升级演化与数字经济纵深 发展提出相关 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "http://hdsfdxjkb.xml-journal.net/en/article/doi/10.16382/j.cnki.1000-5560.2020.06.001",
+                            "description": "... 总结了数据驱动教学的新范式，基于大数据技术构建了高效互动课堂理论框架与5J模型，探理了线下互动课堂和线上网络教学两种典型教学情境的数据体系与分析方法，并提出 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.engineering.org.cn/en/search?searchCategory=&resourceType=&searchKeyword=%20civil%20engineering&sortBy=weightDesc",
+                            "description": "Abstract: A methodology to compute the CO2 uptake of recycled aggregate concrete is proposed in the commented paper. Besides some typos in several formulas, ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.427050602817362,
+                    "weight": 0.6140350877192982
+                }
+            ],
+            "knowledgeDensity": 41.38322555497979
+        }
+    ],
+    "knowledgeDensity": 218.06753731560235
+}

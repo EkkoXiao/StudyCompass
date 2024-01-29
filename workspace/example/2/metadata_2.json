@@ -1,0 +1,1047 @@
+[
+    {
+        "page": 1,
+        "type": "Title",
+        "content": "博弈论与政治"
+    },
+    {
+        "page": 1,
+        "type": "Title",
+        "content": "第八讲：边缘政策—古巴飞弹危机"
+    },
+    {
+        "page": 1,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 2,
+        "type": "Title",
+        "content": "重复博弈练习题1"
+    },
+    {
+        "page": 2,
+        "type": "Table",
+        "content": "Bob\n           C      D\nAlice  C   3,3    0,5\n       D   5,0    1,1"
+    },
+    {
+        "page": 2,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 3,
+        "type": "Title",
+        "content": "重复博弈练习题1"
+    },
+    {
+        "page": 3,
+        "type": "Table",
+        "content": "Bob\n           C      D\nAlice  C   3,3    0,5\n       D   5,0    1,1"
+    },
+    {
+        "page": 3,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "数学证明"
+    },
+    {
+        "page": 4,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "重复博弈练习题2"
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "Iran和Iraq决定石油的产能应该是每日2百万或4百万桶，因此两国石油产能合计可能的产能为4、6、8百万桶每日，石油价格分别为100、60、和40美元1桶，Iran生产每桶油成本为8美元，Iraq则为16美元，彼此均使用触发策略，试算两国的贴现因子为多少时，该重复博弈的纳什均衡为两国均日产2百万桶。"
+    },
+    {
+        "page": 5,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "重复博弈练习题2"
+    },
+    {
+        "page": 6,
+        "type": "Table",
+        "content": "IRAQ\n          2       4\nIRAN  2   46,42   26,44\n      4   52,22   32,24"
+    },
+    {
+        "page": 6,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "背景"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "1962年夏末秋初，苏联(USSR)开始在古巴(Cuba)部署中程弹道导弹(Medium Range Ballistic Missile, MRBM)—可打到华盛顿特区、地对空SA-2型导弹、IL-28轰炸机和一种战术核武器(FROG)。"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "事件从发生到结束共历时13天。"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "苏联企图将古巴建立为“东方阵营”的桥头堡，以打消美国入侵古巴的念头，并抵消中国在古巴的影响力。"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "苏联领导：Khrushchev（苏联最高苏维埃主席团？）"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "美国总统：J. F. Kennedy（国家安全执行委员会，ExComn)"
+    },
+    {
+        "page": 7,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 8,
+        "type": "Title",
+        "content": "背景"
+    },
+    {
+        "page": 8,
+        "type": "Title",
+        "content": "为了保密，让苏联不知道美国已侦查到古巴飞弹部署，甘乃迪继续他日常计划行程。"
+    },
+    {
+        "page": 8,
+        "type": "Title",
+        "content": "白宫方面并劝说媒体保密。"
+    },
+    {
+        "page": 8,
+        "type": "Title",
+        "content": "国防部长McNamara认为这只是纯政治事件，没有影响到军事平衡。"
+    },
+    {
+        "page": 8,
+        "type": "Title",
+        "content": "Kennedy认为姑息会让苏联部署更多的飞弹。"
+    },
+    {
+        "page": 8,
+        "type": "Title",
+        "content": "按：WWI的姑息主义"
+    },
+    {
+        "page": 8,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "背景"
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "ExComn分析美国有三种选择："
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "针对导弹基地进行空袭。"
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "对在古巴机场的飞机进行空袭。"
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "全面入侵古巴。"
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "McNamara后来提出军事封锁(Blockade)的计划。"
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "副国务卿认为“无示警空袭”会使美国成为跟日本空袭珍珠港时一样的卑劣。"
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "ExComn非军事成员发现将军们要的是“大规模空中打击”时，改变初衷，倾向支持军事封锁的计划。"
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "于是军事封锁得到ExComn支持，但改名为隔离(Quarantine)。"
+    },
+    {
+        "page": 9,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 10,
+        "type": "Title",
+        "content": "背景"
+    },
+    {
+        "page": 10,
+        "type": "Title",
+        "content": "Kennedy也从最初的支持空袭转向军事封锁。"
+    },
+    {
+        "page": 10,
+        "type": "Title",
+        "content": "但，他也必须承受发动核战可能导致的后果，压力山大。"
+    },
+    {
+        "page": 10,
+        "type": "UncategorizedText",
+        "content": "CIA评估导弹已部署完成，增长了空袭或大举入侵的危险。"
+    },
+    {
+        "page": 10,
+        "type": "Title",
+        "content": "Kennedy最后选择ExComn最保守的建议——军事封锁。"
+    },
+    {
+        "page": 10,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 11,
+        "type": "Title",
+        "content": "背景"
+    },
+    {
+        "page": 11,
+        "type": "Title",
+        "content": "苏联试图恫吓并否认有部署飞弹的事， Khrushchev称“封锁”是海盗的行为，是一种国际帝国主义行为，称驶向古巴的苏联船只，将不理会美国的封锁。"
+    },
+    {
+        "page": 11,
+        "type": "Title",
+        "content": "苏联并在联合国宣传他们的意图是防御的行为。"
+    },
+    {
+        "page": 11,
+        "type": "Title",
+        "content": "私底下， Khrushchev向Kennedy直接表达要结束危机，以撤除导弹当作条件交换，交换美国从土耳其撤除美国在其部署的飞弹。"
+    },
+    {
+        "page": 11,
+        "type": "UncategorizedText",
+        "content": "后来在斡旋的期间，美国在古巴发现核武器(FROG)。"
+    },
+    {
+        "page": 11,
+        "type": "Title",
+        "content": "于是，美国发出最后通牒，苏联如果不同意撤除导弹，就大规模空中打击古巴。"
+    },
+    {
+        "page": 11,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "背景"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "军事封锁生效，Khrushchev私下传递讯息给美国，愿意重启条件交换。"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "后来，Kennedy私下致Khrushchev信件要求："
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "苏联撤飞弹，并接受核查。"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "美国不入侵古巴。"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "半年后，美国从土耳其撤飞弹。"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "但是苏联如公开第三点，美国则推翻提议。"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "苏联必须在24小时内答复，否则会有灾难性后果。"
+    },
+    {
+        "page": 12,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "背景"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "美国期望苏联将飞弹撤出古巴。"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "苏联则希望把飞弹留在美国后门，对美国造成威胁。"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "彼此都不知道双方的底线在那。"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "美国一开始强硬要求苏联撤飞弹，不然不惜发动战争（核武战争）。"
+    },
+    {
+        "page": 13,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "简单威胁赛局"
+    },
+    {
+        "page": 14,
+        "type": "UncategorizedText",
+        "content": "1, -4"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "撤出"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "威胁"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "对抗"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "美国"
+    },
+    {
+        "page": 14,
+        "type": "UncategorizedText",
+        "content": "-10,-8"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "不威胁"
+    },
+    {
+        "page": 14,
+        "type": "UncategorizedText",
+        "content": "-2,2"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 14,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "简单威胁赛局"
+    },
+    {
+        "page": 15,
+        "type": "UncategorizedText",
+        "content": "1, -4"
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "撤出"
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "威胁"
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "对抗"
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "美国"
+    },
+    {
+        "page": 15,
+        "type": "UncategorizedText",
+        "content": "-10,-8"
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "不威胁"
+    },
+    {
+        "page": 15,
+        "type": "UncategorizedText",
+        "content": "-2,2"
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 15,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "与强硬型苏联的博弈"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "1, -8"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "撤出"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "威胁"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "对抗"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "美国"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "-10,-4"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "不威胁"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "-2,2"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 16,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "与强硬型苏联的博弈"
+    },
+    {
+        "page": 17,
+        "type": "UncategorizedText",
+        "content": "1, -8"
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "撤出"
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "威胁"
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "对抗"
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "美国"
+    },
+    {
+        "page": 17,
+        "type": "UncategorizedText",
+        "content": "-10,-4"
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "不威胁"
+    },
+    {
+        "page": 17,
+        "type": "UncategorizedText",
+        "content": "-2,2"
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 17,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "不知道苏联类型下的威胁"
+    },
+    {
+        "page": 18,
+        "type": "UncategorizedText",
+        "content": "1, -8"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "撤出"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "威胁"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "对抗"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "美国"
+    },
+    {
+        "page": 18,
+        "type": "UncategorizedText",
+        "content": "-10,-4"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "强硬的苏联，"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "概率为p"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "不威胁"
+    },
+    {
+        "page": 18,
+        "type": "UncategorizedText",
+        "content": "-2,2"
+    },
+    {
+        "page": 18,
+        "type": "UncategorizedText",
+        "content": "1, -4"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "自然"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "撤出"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "软弱的苏联，"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "概率为1-p"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "威胁"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "对抗"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "美国"
+    },
+    {
+        "page": 18,
+        "type": "UncategorizedText",
+        "content": "-10,-8"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "不威胁"
+    },
+    {
+        "page": 18,
+        "type": "UncategorizedText",
+        "content": "-2,2"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 18,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 19,
+        "type": "Title",
+        "content": "危机的边缘政策模型"
+    },
+    {
+        "page": 19,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "危机的边缘政策模型"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "1, -8"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "撤出"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "边缘政策冒险威胁"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "对抗"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "美国"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "-2-8q,2-6q"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "强硬的苏联，"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "概率为p"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "不威胁"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "-2,2"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "1, -4"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "自然"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "撤出"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "边缘政策冒险威胁"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "软弱的苏联，"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "概率为1-p"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "对抗"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "美国"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "-2-8q,2-10q"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "不威胁"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "-2,2"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "苏联"
+    },
+    {
+        "page": 20,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "危机的边缘政策模型"
+    },
+    {
+        "page": 21,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "危机的边缘政策模型"
+    },
+    {
+        "page": 22,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "q"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "两个条件都成立的区域"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "上限(可接受条件)"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "下限(有效条件)"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "0.6"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "试探区"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "0.27"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "0.33"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "0.50"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "0.38"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "p"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "危机的边缘政策模型"
+    },
+    {
+        "page": 23,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "危机的边缘政策模型"
+    },
+    {
+        "page": 24,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "危机的边缘政策模型"
+    },
+    {
+        "page": 25,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "危机的边缘政策模型"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "相互损害风险的逐步升级"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "择时躲避的懦夫博弈。"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "如何使用边缘策略："
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "开始时要找小且安全的威胁。"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "逐步增加风险。"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "解读信号，找出有效条件，及可接受条件。"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "保持对局势的控制力。"
+    },
+    {
+        "page": 26,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 27,
+        "type": "Title",
+        "content": "总结"
+    },
+    {
+        "page": 27,
+        "type": "Title",
+        "content": "概率威胁的策略式应用，就是让你和对手都面对一场风险不断增加的灾难，即“边缘政策”。"
+    },
+    {
+        "page": 27,
+        "type": "Title",
+        "content": "威胁必须够大，迫使对手就范，但也要够小，使自己也能承受。"
+    },
+    {
+        "page": 27,
+        "type": "Title",
+        "content": "为达以上目的，必须逐步升级相互损害的风险来确定双方的风险承受水平。"
+    }
+]

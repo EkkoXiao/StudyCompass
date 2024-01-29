@@ -1,0 +1,303 @@
+{
+    "keyword": "语义计算",
+    "mainpoints": [
+        {
+            "name": "语法制导的语义计算基础",
+            "from_page": 1,
+            "to_page": 4,
+            "subpoints": [
+                {
+                    "name": "课程标题",
+                    "from_page": 1,
+                    "to_page": 1,
+                    "filename": "课程标题.pdf"
+                },
+                {
+                    "name": "语法制导的语义计算基础介绍",
+                    "from_page": 2,
+                    "to_page": 3,
+                    "filename": "语法制导的语义计算基础介绍.pdf"
+                },
+                {
+                    "name": "属性文法示例",
+                    "from_page": 4,
+                    "to_page": 4,
+                    "filename": "属性文法示例.pdf"
+                }
+            ]
+        },
+        {
+            "name": "属性文法和翻译模式的语义计算规则及计算过程定义",
+            "from_page": 5,
+            "to_page": 11,
+            "subpoints": [
+                {
+                    "name": "属性文法的语义动作计算",
+                    "from_page": 5,
+                    "to_page": 7,
+                    "filename": "属性文法的语义动作计算.pdf"
+                },
+                {
+                    "name": "属性文法的基本概念",
+                    "from_page": 8,
+                    "to_page": 9,
+                    "filename": "属性文法的基本概念.pdf"
+                },
+                {
+                    "name": "属性的分类及语义规则",
+                    "from_page": 10,
+                    "to_page": 11,
+                    "filename": "属性的分类及语义规则.pdf"
+                }
+            ]
+        },
+        {
+            "name": "属性文法举例与基于属性文法的语义计算",
+            "from_page": 12,
+            "to_page": 20,
+            "subpoints": [
+                {
+                    "name": "属性文法基础和综合属性示例",
+                    "from_page": 12,
+                    "to_page": 13,
+                    "filename": "属性文法基础和综合属性示例.pdf"
+                },
+                {
+                    "name": "继承属性示例",
+                    "from_page": 14,
+                    "to_page": 15,
+                    "filename": "继承属性示例.pdf"
+                },
+                {
+                    "name": "基于属性文法的语义计算方法",
+                    "from_page": 16,
+                    "to_page": 17,
+                    "filename": "基于属性文法的语义计算方法.pdf"
+                },
+                {
+                    "name": "依赖图的构建",
+                    "from_page": 18,
+                    "to_page": 19,
+                    "filename": "依赖图的构建.pdf"
+                },
+                {
+                    "name": "树遍历计算方法示例",
+                    "from_page": 20,
+                    "to_page": 20,
+                    "filename": "树遍历计算方法示例.pdf"
+                }
+            ]
+        },
+        {
+            "name": "属性文法的概念和属性的记号",
+            "from_page": 21,
+            "to_page": 30,
+            "subpoints": [
+                {
+                    "name": "基于属性文法的语义计算示例",
+                    "from_page": 21,
+                    "to_page": 24,
+                    "filename": "基于属性文法的语义计算示例.pdf"
+                },
+                {
+                    "name": "属性文法的计算过程和结果表示",
+                    "from_page": 24,
+                    "to_page": 26,
+                    "filename": "属性文法的计算过程和结果表示.pdf"
+                },
+                {
+                    "name": "属性文法的分类及其应用",
+                    "from_page": 26,
+                    "to_page": 28,
+                    "filename": "属性文法的分类及其应用.pdf"
+                },
+                {
+                    "name": "S-属性文法的语义计算方法",
+                    "from_page": 28,
+                    "to_page": 29,
+                    "filename": "S-属性文法的语义计算方法.pdf"
+                },
+                {
+                    "name": "LR分析技术中S-属性文法的实现",
+                    "from_page": 29,
+                    "to_page": 30,
+                    "filename": "LR分析技术中S-属性文法的实现.pdf"
+                }
+            ]
+        },
+        {
+            "name": "综合属性和继承属性的定义及属性文法的例子",
+            "from_page": 31,
+            "to_page": 40,
+            "subpoints": [
+                {
+                    "name": "基于属性文法的语义计算概念介绍",
+                    "from_page": 31,
+                    "to_page": 31,
+                    "filename": "基于属性文法的语义计算概念介绍.pdf"
+                },
+                {
+                    "name": "属性文法的语义计算实例",
+                    "from_page": 32,
+                    "to_page": 33,
+                    "filename": "属性文法的语义计算实例.pdf"
+                },
+                {
+                    "name": "L-属性文法的语义计算与深度优先后序遍历算法",
+                    "from_page": 34,
+                    "to_page": 35,
+                    "filename": "L-属性文法的语义计算与深度优先后序遍历算法.pdf"
+                },
+                {
+                    "name": "基于深度优先后序遍历算法的L-属性文法计算示例",
+                    "from_page": 36,
+                    "to_page": 37,
+                    "filename": "基于深度优先后序遍历算法的L-属性文法计算示例.pdf"
+                },
+                {
+                    "name": "翻译模式及其在语义计算中的应用",
+                    "from_page": 38,
+                    "to_page": 40,
+                    "filename": "翻译模式及其在语义计算中的应用.pdf"
+                }
+            ]
+        },
+        {
+            "name": "基于属性文法的语义计算方法",
+            "from_page": 41,
+            "to_page": 50,
+            "subpoints": [
+                {
+                    "name": "基于翻译模式的语义计算概述",
+                    "from_page": 41,
+                    "to_page": 43,
+                    "filename": "基于翻译模式的语义计算概述.pdf"
+                },
+                {
+                    "name": "基于翻译模式的语义计算举例",
+                    "from_page": 44,
+                    "to_page": 47,
+                    "filename": "基于翻译模式的语义计算举例.pdf"
+                },
+                {
+                    "name": "消除左递归的翻译模式变换方法",
+                    "from_page": 48,
+                    "to_page": 50,
+                    "filename": "消除左递归的翻译模式变换方法.pdf"
+                }
+            ]
+        },
+        {
+            "name": "基于翻译模式的语义计算",
+            "from_page": 51,
+            "to_page": 60,
+            "subpoints": [
+                {
+                    "name": "基于翻译模式的语义计算简介",
+                    "from_page": 51,
+                    "to_page": 51,
+                    "filename": "基于翻译模式的语义计算简介.pdf"
+                },
+                {
+                    "name": "自下而上的语义计算与分析栈",
+                    "from_page": 52,
+                    "to_page": 56,
+                    "filename": "自下而上的语义计算与分析栈.pdf"
+                },
+                {
+                    "name": "继承属性的模拟求值",
+                    "from_page": 57,
+                    "to_page": 58,
+                    "filename": "继承属性的模拟求值.pdf"
+                },
+                {
+                    "name": "复杂例子的继承属性模拟求值",
+                    "from_page": 59,
+                    "to_page": 60,
+                    "filename": "复杂例子的继承属性模拟求值.pdf"
+                }
+            ]
+        },
+        {
+            "name": "基于翻译模式的自上而下语义计算",
+            "from_page": 61,
+            "to_page": 70,
+            "subpoints": [
+                {
+                    "name": "翻译模式的语义计算初步介绍",
+                    "from_page": 61,
+                    "to_page": 62,
+                    "filename": "翻译模式的语义计算初步介绍.pdf"
+                },
+                {
+                    "name": "翻译模式的语义计算实例应用",
+                    "from_page": 63,
+                    "to_page": 64,
+                    "filename": "翻译模式的语义计算实例应用.pdf"
+                },
+                {
+                    "name": "分析栈与综合属性的具体操作",
+                    "from_page": 65,
+                    "to_page": 66,
+                    "filename": "分析栈与综合属性的具体操作.pdf"
+                },
+                {
+                    "name": "翻译模式的语义计算深入探讨",
+                    "from_page": 67,
+                    "to_page": 70,
+                    "filename": "翻译模式的语义计算深入探讨.pdf"
+                }
+            ]
+        },
+        {
+            "name": "基于翻译模式的自下而上语义计算和继承属性的模拟求值",
+            "from_page": 71,
+            "to_page": 74,
+            "subpoints": [
+                {
+                    "name": "基于翻译模式的语义计算概述",
+                    "from_page": 71,
+                    "to_page": 71,
+                    "filename": "基于翻译模式的语义计算概述.pdf"
+                },
+                {
+                    "name": "继承属性的分析栈访问",
+                    "from_page": 71,
+                    "to_page": 71,
+                    "filename": "继承属性的分析栈访问.pdf"
+                },
+                {
+                    "name": "示例与分析栈属性综合",
+                    "from_page": 71,
+                    "to_page": 74,
+                    "filename": "示例与分析栈属性综合.pdf"
+                }
+            ]
+        },
+        {
+            "name": "使用综合属性代替继承属性的方法和课后作业",
+            "from_page": 75,
+            "to_page": 80,
+            "subpoints": [
+                {
+                    "name": "基于翻译模式的语义计算",
+                    "from_page": 75,
+                    "to_page": 77,
+                    "filename": "基于翻译模式的语义计算.pdf"
+                },
+                {
+                    "name": "用综合属性代替继承属性",
+                    "from_page": 78,
+                    "to_page": 79,
+                    "filename": "用综合属性代替继承属性.pdf"
+                },
+                {
+                    "name": "课后作业",
+                    "from_page": 80,
+                    "to_page": 80,
+                    "filename": "课后作业.pdf"
+                }
+            ]
+        }
+    ]
+}

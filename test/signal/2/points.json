@@ -1,0 +1,324 @@
+{
+    "keyword": "傅里叶级数",
+    "mainpoints": [
+        {
+            "name": "信号的基本分解概述与分析方法",
+            "from_page": 1,
+            "to_page": 4,
+            "subpoints": [
+                {
+                    "name": "信号处理原理概述",
+                    "from_page": 1,
+                    "to_page": 1,
+                    "filename": "信号处理原理概述.pdf"
+                },
+                {
+                    "name": "卷积公式及其应用",
+                    "from_page": 2,
+                    "to_page": 2,
+                    "filename": "卷积公式及其应用.pdf"
+                },
+                {
+                    "name": "信号分析方法",
+                    "from_page": 3,
+                    "to_page": 3,
+                    "filename": "信号分析方法.pdf"
+                },
+                {
+                    "name": "信号的基本分解",
+                    "from_page": 4,
+                    "to_page": 4,
+                    "filename": "信号的基本分解.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号分解的直流分量与交流分量分析",
+            "from_page": 5,
+            "to_page": 6,
+            "subpoints": [
+                {
+                    "name": "信号的基本分解方法",
+                    "from_page": 5,
+                    "to_page": 5,
+                    "filename": "信号的基本分解方法.pdf"
+                },
+                {
+                    "name": "直流-交流分解",
+                    "from_page": 6,
+                    "to_page": 6,
+                    "filename": "直流-交流分解.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号的偶分量与奇分量分析",
+            "from_page": 7,
+            "to_page": 8,
+            "subpoints": [
+                {
+                    "name": "信号的基本分解",
+                    "from_page": 7,
+                    "to_page": 8,
+                    "filename": "信号的基本分解.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号的实部与虚部分量分析",
+            "from_page": 9,
+            "to_page": 9,
+            "subpoints": [
+                {
+                    "name": "信号的基本分解",
+                    "from_page": 9,
+                    "to_page": 9,
+                    "filename": "信号的基本分解.pdf"
+                },
+                {
+                    "name": "实部分量的定义",
+                    "from_page": 9,
+                    "to_page": 9,
+                    "filename": "实部分量的定义.pdf"
+                },
+                {
+                    "name": "虚部分量的定义",
+                    "from_page": 9,
+                    "to_page": 9,
+                    "filename": "虚部分量的定义.pdf"
+                },
+                {
+                    "name": "复数信号的物理意义",
+                    "from_page": 9,
+                    "to_page": 9,
+                    "filename": "复数信号的物理意义.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号分解方法总结与信号的脉冲分解",
+            "from_page": 10,
+            "to_page": 11,
+            "subpoints": [
+                {
+                    "name": "信号的基本分解方法",
+                    "from_page": 10,
+                    "to_page": 10,
+                    "filename": "信号的基本分解方法.pdf"
+                },
+                {
+                    "name": "信号的脉冲分解",
+                    "from_page": 11,
+                    "to_page": 11,
+                    "filename": "信号的脉冲分解.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号分解方法回顾与信号分解综述",
+            "from_page": 12,
+            "to_page": 17,
+            "subpoints": [
+                {
+                    "name": "脉冲分解的基础",
+                    "from_page": 12,
+                    "to_page": 12,
+                    "filename": "脉冲分解的基础.pdf"
+                },
+                {
+                    "name": "信号分解方法回顾与综述",
+                    "from_page": 13,
+                    "to_page": 17,
+                    "filename": "信号分解方法回顾与综述.pdf"
+                }
+            ]
+        },
+        {
+            "name": "向量的正交分解与三维欧式空间",
+            "from_page": 18,
+            "to_page": 22,
+            "subpoints": [
+                {
+                    "name": "信号的正交分解",
+                    "from_page": 18,
+                    "to_page": 18,
+                    "filename": "信号的正交分解.pdf"
+                },
+                {
+                    "name": "向量的正交分解与三维欧式空间",
+                    "from_page": 19,
+                    "to_page": 22,
+                    "filename": "向量的正交分解与三维欧式空间.pdf"
+                }
+            ]
+        },
+        {
+            "name": "函数的正交分解与完备的正交函数集",
+            "from_page": 23,
+            "to_page": 30,
+            "subpoints": [
+                {
+                    "name": "向量的正交分解",
+                    "from_page": 23,
+                    "to_page": 25,
+                    "filename": "向量的正交分解.pdf"
+                },
+                {
+                    "name": "函数的正交分解",
+                    "from_page": 26,
+                    "to_page": 27,
+                    "filename": "函数的正交分解.pdf"
+                },
+                {
+                    "name": "正交函数集与标准正交函数集",
+                    "from_page": 28,
+                    "to_page": 30,
+                    "filename": "正交函数集与标准正交函数集.pdf"
+                }
+            ]
+        },
+        {
+            "name": "函数的正交分解应用与Parseval定理",
+            "from_page": 31,
+            "to_page": 34,
+            "subpoints": [
+                {
+                    "name": "完备的标准正交函数集",
+                    "from_page": 31,
+                    "to_page": 31,
+                    "filename": "完备的标准正交函数集.pdf"
+                },
+                {
+                    "name": "函数的正交分解",
+                    "from_page": 32,
+                    "to_page": 32,
+                    "filename": "函数的正交分解.pdf"
+                },
+                {
+                    "name": "Parseval定理",
+                    "from_page": 33,
+                    "to_page": 34,
+                    "filename": "Parseval定理.pdf"
+                }
+            ]
+        },
+        {
+            "name": "周期信号的傅里叶级数展开",
+            "from_page": 35,
+            "to_page": 43,
+            "subpoints": [
+                {
+                    "name": "函数的正交分解和帕斯瓦尔定理",
+                    "from_page": 35,
+                    "to_page": 37,
+                    "filename": "函数的正交分解和帕斯瓦尔定理.pdf"
+                },
+                {
+                    "name": "傅里叶级数 —— 概述",
+                    "from_page": 38,
+                    "to_page": 40,
+                    "filename": "傅里叶级数 —— 概述.pdf"
+                },
+                {
+                    "name": "傅里叶级数的工程应用和吉布斯现象",
+                    "from_page": 41,
+                    "to_page": 41,
+                    "filename": "傅里叶级数的工程应用和吉布斯现象.pdf"
+                },
+                {
+                    "name": "傅里叶级数在现代科技中的应用",
+                    "from_page": 42,
+                    "to_page": 43,
+                    "filename": "傅里叶级数在现代科技中的应用.pdf"
+                }
+            ]
+        },
+        {
+            "name": "周期信号的傅里叶级数展开细节分析",
+            "from_page": 44,
+            "to_page": 52,
+            "subpoints": [
+                {
+                    "name": "周期信号的傅里叶级数展开及其条件",
+                    "from_page": 44,
+                    "to_page": 45,
+                    "filename": "周期信号的傅里叶级数展开及其条件.pdf"
+                },
+                {
+                    "name": "狄利克雷条件的反例说明",
+                    "from_page": 46,
+                    "to_page": 47,
+                    "filename": "狄利克雷条件的反例说明.pdf"
+                },
+                {
+                    "name": "三角形式傅里叶级数的具体展开与系数计算",
+                    "from_page": 48,
+                    "to_page": 52,
+                    "filename": "三角形式傅里叶级数的具体展开与系数计算.pdf"
+                }
+            ]
+        },
+        {
+            "name": "周期信号的傅里叶级数实例分析与总结",
+            "from_page": 53,
+            "to_page": 68,
+            "subpoints": [
+                {
+                    "name": "三角形式傅立叶级数基本概念与计算公式",
+                    "from_page": 53,
+                    "to_page": 57,
+                    "filename": "三角形式傅立叶级数基本概念与计算公式.pdf"
+                },
+                {
+                    "name": "矩形脉冲信号的傅立叶级数分析",
+                    "from_page": 58,
+                    "to_page": 60,
+                    "filename": "矩形脉冲信号的傅立叶级数分析.pdf"
+                },
+                {
+                    "name": "周期矩形脉冲信号的频谱图绘制",
+                    "from_page": 61,
+                    "to_page": 61,
+                    "filename": "周期矩形脉冲信号的频谱图绘制.pdf"
+                },
+                {
+                    "name": "复指数形式傅立叶级数及其与三角形式的关系",
+                    "from_page": 62,
+                    "to_page": 67,
+                    "filename": "复指数形式傅立叶级数及其与三角形式的关系.pdf"
+                },
+                {
+                    "name": "周期信号的傅立叶级数总结",
+                    "from_page": 68,
+                    "to_page": 68,
+                    "filename": "周期信号的傅立叶级数总结.pdf"
+                }
+            ]
+        },
+        {
+            "name": "作业题与实验可视化傅里叶级数",
+            "from_page": 69,
+            "to_page": 70,
+            "subpoints": [
+                {
+                    "name": "三角函数序列的正交性证明",
+                    "from_page": 69,
+                    "to_page": 69,
+                    "filename": "三角函数序列的正交性证明.pdf"
+                },
+                {
+                    "name": "函数的傅里叶级数展开",
+                    "from_page": 69,
+                    "to_page": 69,
+                    "filename": "函数的傅里叶级数展开.pdf"
+                },
+                {
+                    "name": "傅里叶级数可视化实验",
+                    "from_page": 70,
+                    "to_page": 70,
+                    "filename": "傅里叶级数可视化实验.pdf"
+                }
+            ]
+        }
+    ]
+}

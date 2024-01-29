@@ -1,0 +1,8817 @@
+[
+    {
+        "page": 1,
+        "type": "Title",
+        "content": "第六讲"
+    },
+    {
+        "page": 1,
+        "type": "ListItem",
+        "content": " 语法制导的语义计算基础 "
+    },
+    {
+        "page": 1,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 2,
+        "type": "Title",
+        "content": "语法制导的语义计算基础"
+    },
+    {
+        "page": 2,
+        "type": "ListItem",
+        "content": " 本讲导引"
+    },
+    {
+        "page": 2,
+        "type": "ListItem",
+        "content": " 属性文法"
+    },
+    {
+        "page": 2,
+        "type": "ListItem",
+        "content": " 基于属性文法的语义计算"
+    },
+    {
+        "page": 2,
+        "type": "ListItem",
+        "content": " 基于翻译模式的语义计算"
+    },
+    {
+        "page": 2,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 3,
+        "type": "Title",
+        "content": "本讲导引"
+    },
+    {
+        "page": 3,
+        "type": "ListItem",
+        "content": " 语法制导的（Syntax-Directed）语义计算"
+    },
+    {
+        "page": 3,
+        "type": "ListItem",
+        "content": "  以语法定义（上下文无关文法）为基础"
+    },
+    {
+        "page": 3,
+        "type": "Title",
+        "content": "     用于各种语义分析与翻译过程：静态语义检查，中间"
+    },
+    {
+        "page": 3,
+        "type": "Title",
+        "content": "     代码（甚至目标代码）生成等"
+    },
+    {
+        "page": 3,
+        "type": "Title",
+        "content": "     用于语义计算规则及计算过程的定义"
+    },
+    {
+        "page": 3,
+        "type": "Title",
+        "content": "     用于自动构造工具的设计（如 Yacc）"
+    },
+    {
+        "page": 3,
+        "type": "ListItem",
+        "content": "  原理与方法"
+    },
+    {
+        "page": 3,
+        "type": "Title",
+        "content": "     属性文法（侧重于语义计算规则的定义）"
+    },
+    {
+        "page": 3,
+        "type": "Title",
+        "content": "     翻译模式（侧重于语义计算过程的定义）"
+    },
+    {
+        "page": 3,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "本讲导引"
+    },
+    {
+        "page": 4,
+        "type": "ListItem",
+        "content": " 属性文法举例"
+    },
+    {
+        "page": 4,
+        "type": "ListItem",
+        "content": " 识别语言 L = { anbncn  n  1}  ?"
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "产生式"
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "S  ABC"
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "A  A1a"
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "A  a"
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "B  B1b"
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "B  b"
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "C  C1c"
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "C  c"
+    },
+    {
+        "page": 4,
+        "type": "UncategorizedText",
+        "content": "                语义动作/限定条件"
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "{(A.num=B.num) and (B.num=C.num) }"
+    },
+    {
+        "page": 4,
+        "type": "UncategorizedText",
+        "content": "{ A.num := A1.num + 1 }"
+    },
+    {
+        "page": 4,
+        "type": "UncategorizedText",
+        "content": "{ A.num := 1 }"
+    },
+    {
+        "page": 4,
+        "type": "UncategorizedText",
+        "content": "{ B.num := B1.num + 1 }"
+    },
+    {
+        "page": 4,
+        "type": "UncategorizedText",
+        "content": "{ B.num := 1 }"
+    },
+    {
+        "page": 4,
+        "type": "UncategorizedText",
+        "content": "{ C.num := C1.num + 1 }"
+    },
+    {
+        "page": 4,
+        "type": "UncategorizedText",
+        "content": "{ C.num := 1 }"
+    },
+    {
+        "page": 4,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "本讲导引"
+    },
+    {
+        "page": 5,
+        "type": "ListItem",
+        "content": " 属性文法举例"
+    },
+    {
+        "page": 5,
+        "type": "ListItem",
+        "content": " 识别语言 L = { aibjck  i, j, k  1}"
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "     不含限定条件，但显示 anbncn (n  1) 是合法的"
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "产生式"
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "S  ABC"
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "A  A1a"
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "A  a"
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "B  B1b"
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "B  b"
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "C  C1c"
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "C  c"
+    },
+    {
+        "page": 5,
+        "type": "UncategorizedText",
+        "content": "                     语义动作"
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "{ if  (A.num=B.num) and (B.num=C.num)"
+    },
+    {
+        "page": 5,
+        "type": "NarrativeText",
+        "content": "  then print(“Accepted!” ) "
+    },
+    {
+        "page": 5,
+        "type": "NarrativeText",
+        "content": "  else print(“Refused!” ) }"
+    },
+    {
+        "page": 5,
+        "type": "UncategorizedText",
+        "content": "{ A.num := A1.num + 1 }"
+    },
+    {
+        "page": 5,
+        "type": "UncategorizedText",
+        "content": "{ A.num := 1 }"
+    },
+    {
+        "page": 5,
+        "type": "UncategorizedText",
+        "content": "{ B.num := B1.num + 1 }"
+    },
+    {
+        "page": 5,
+        "type": "UncategorizedText",
+        "content": "{ B.num := 1 }"
+    },
+    {
+        "page": 5,
+        "type": "UncategorizedText",
+        "content": "{ C.num := C1.num + 1 }"
+    },
+    {
+        "page": 5,
+        "type": "UncategorizedText",
+        "content": "{ C.num := 1 }"
+    },
+    {
+        "page": 5,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "本讲导引"
+    },
+    {
+        "page": 6,
+        "type": "ListItem",
+        "content": " 属性文法举例"
+    },
+    {
+        "page": 6,
+        "type": "ListItem",
+        "content": " 识别语言 L = { aibjck  i, j, k  1}"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "     显示 anbncn (n  1) 是合法的（另一种设计）"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "产生式"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "S  ABC"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "A  A1a"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "A  a"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "B  B1b"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "B  b"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "C  C1c"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "C  c"
+    },
+    {
+        "page": 6,
+        "type": "UncategorizedText",
+        "content": "                     语义动作"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "{B.in_num := A .num; C.in_num := A .num;"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": " if  (B.num=0 and (C.num=0) "
+    },
+    {
+        "page": 6,
+        "type": "NarrativeText",
+        "content": " then  print(“Accepted!” )  else print(“Refused!” ) }"
+    },
+    {
+        "page": 6,
+        "type": "UncategorizedText",
+        "content": "{ A.num := A1.num + 1 }"
+    },
+    {
+        "page": 6,
+        "type": "UncategorizedText",
+        "content": "{ A.num := 1 }"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "{ B1.in_num := B.in_num; B.num := B1.num-1 }"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "{ B.num := B.in_num -1 }"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "{ C1.in_num := C.in_num; C.num := C1.num-1 }"
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "{ C.num := C.in_num -1 }"
+    },
+    {
+        "page": 6,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "本讲导引"
+    },
+    {
+        "page": 7,
+        "type": "ListItem",
+        "content": " 翻译模式举例"
+    },
+    {
+        "page": 7,
+        "type": "ListItem",
+        "content": " 识别语言 L = { aibjck  i, j, k  1}"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "     显示 anbncn (n  1) 是合法的"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "S  A"
+    },
+    {
+        "page": 7,
+        "type": "UncategorizedText",
+        "content": "        {  B.in_num := A .num  }  B"
+    },
+    {
+        "page": 7,
+        "type": "UncategorizedText",
+        "content": "        {  C.in_num := A .num  }  C"
+    },
+    {
+        "page": 7,
+        "type": "UncategorizedText",
+        "content": "        {  if  (B.num=0 and (C.num=0))"
+    },
+    {
+        "page": 7,
+        "type": "NarrativeText",
+        "content": "           then  print(“Accepted!” )  else  print(“Refused!” ) }"
+    },
+    {
+        "page": 7,
+        "type": "UncategorizedText",
+        "content": "A  A1a     { A.num := A1.num + 1 }"
+    },
+    {
+        "page": 7,
+        "type": "UncategorizedText",
+        "content": "A  a         { A.num := 1 }"
+    },
+    {
+        "page": 7,
+        "type": "UncategorizedText",
+        "content": "B  { B1.in_num := B.in_num }  B1b  { B.num := B1.num-1 }"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "B  b  { B.num := B.in_num -1 }"
+    },
+    {
+        "page": 7,
+        "type": "UncategorizedText",
+        "content": "C  { C1.in_num := C.in_num }  C1c  { C.num := C1.num-1 }"
+    },
+    {
+        "page": 7,
+        "type": "NarrativeText",
+        "content": "C  c  { C.num := C.in_num -1 }"
+    },
+    {
+        "page": 7,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 8,
+        "type": "Title",
+        "content": "属性文法"
+    },
+    {
+        "page": 8,
+        "type": "ListItem",
+        "content": " 概念"
+    },
+    {
+        "page": 8,
+        "type": "ListItem",
+        "content": "  属性文法（Attribute Grammar）在上下文无关"
+    },
+    {
+        "page": 8,
+        "type": "Title",
+        "content": "    文法的基础上进行如下扩展："
+    },
+    {
+        "page": 8,
+        "type": "ListItem",
+        "content": " 为每个文法符号关联多个属性（Attribute）"
+    },
+    {
+        "page": 8,
+        "type": "ListItem",
+        "content": " 为文法的每个产生式关联一个语义规则集合"
+    },
+    {
+        "page": 8,
+        "type": "Title",
+        "content": "  或称为语义动作。"
+    },
+    {
+        "page": 8,
+        "type": "Title",
+        "content": "(从应用角度,本课程不讨论含限定条件的属性文法)"
+    },
+    {
+        "page": 8,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "属性文法"
+    },
+    {
+        "page": 9,
+        "type": "ListItem",
+        "content": " 概念"
+    },
+    {
+        "page": 9,
+        "type": "ListItem",
+        "content": "  属性（Attribute）可用来刻画一个文法符号的"
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "    任何我们所关心的特性，如：符号的值，符号"
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "    的名字串，符号的类型，符号的偏移地址，符"
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "    号被赋予的寄存器，代码片断，等等…"
+    },
+    {
+        "page": 9,
+        "type": "ListItem",
+        "content": "  记号 "
+    },
+    {
+        "page": 9,
+        "type": "NarrativeText",
+        "content": "    文法符号 X 关联属性 a 的属性值可通过 X.a 访问"
+    },
+    {
+        "page": 9,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 10,
+        "type": "Title",
+        "content": "属性文法"
+    },
+    {
+        "page": 10,
+        "type": "ListItem",
+        "content": " 概念"
+    },
+    {
+        "page": 10,
+        "type": "ListItem",
+        "content": "  语义规则（Semantic Rule）"
+    },
+    {
+        "page": 10,
+        "type": "Title",
+        "content": "     在属性文法中，每个产生式 A 都关联一个语义规"
+    },
+    {
+        "page": 10,
+        "type": "Title",
+        "content": "     则的集合，用于描述如何计算当前产生式中文法符号"
+    },
+    {
+        "page": 10,
+        "type": "Title",
+        "content": "     的属性值或附加的语义动作"
+    },
+    {
+        "page": 10,
+        "type": "ListItem",
+        "content": "  属性文法中允许如下语义规则"
+    },
+    {
+        "page": 10,
+        "type": "ListItem",
+        "content": " 复写（copy）规则，形如"
+    },
+    {
+        "page": 10,
+        "type": "UncategorizedText",
+        "content": "                  X.a := Y.b"
+    },
+    {
+        "page": 10,
+        "type": "ListItem",
+        "content": " 基于语义函数（semantic function）的规则，形如"
+    },
+    {
+        "page": 10,
+        "type": "UncategorizedText",
+        "content": "        b:=f(c1, c2, …, ck)  或 f(c1, c2, …, ck) "
+    },
+    {
+        "page": 10,
+        "type": "Title",
+        "content": "  其中，b,c1, c2, …, ck是该产生式中文法符号的属性"
+    },
+    {
+        "page": 10,
+        "type": "ListItem",
+        "content": "  实践中，语义函数的形式可以更灵活"
+    },
+    {
+        "page": 10,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 11,
+        "type": "Title",
+        "content": "属性文法"
+    },
+    {
+        "page": 11,
+        "type": "ListItem",
+        "content": " 有两种属性：综合属性和继承属性"
+    },
+    {
+        "page": 11,
+        "type": "ListItem",
+        "content": " 综合属性（synthesized attribute） "
+    },
+    {
+        "page": 11,
+        "type": "Title",
+        "content": "     用于“自下而上”传递信息"
+    },
+    {
+        "page": 11,
+        "type": "UncategorizedText",
+        "content": "     对关联于产生式 A 的语义规则 b:=f(c1, c2, …, ck) ，"
+    },
+    {
+        "page": 11,
+        "type": "NarrativeText",
+        "content": "     如果 b 是 A 的某个属性, 则称 b 是 A 的一个综合属性"
+    },
+    {
+        "page": 11,
+        "type": "ListItem",
+        "content": " 继承属性（inherited  attribute） "
+    },
+    {
+        "page": 11,
+        "type": "Title",
+        "content": "     用于“自上而下”传递信息"
+    },
+    {
+        "page": 11,
+        "type": "UncategorizedText",
+        "content": "     对关联于产生式 A 的语义规则 b:=f(c1, c2, …, ck) ，"
+    },
+    {
+        "page": 11,
+        "type": "Title",
+        "content": "     如果 b 是产生式右部某个文法符号 X 的某个属性，则称 "
+    },
+    {
+        "page": 11,
+        "type": "Title",
+        "content": "     b 是文法符号 X 的一个继承属性"
+    },
+    {
+        "page": 11,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "属性文法"
+    },
+    {
+        "page": 12,
+        "type": "ListItem",
+        "content": " 属性文法举例"
+    },
+    {
+        "page": 12,
+        "type": "ListItem",
+        "content": " 仅含综合属性的例子（开始符号S）"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "产生式"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "S  E"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "E  E1 + T"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "E  T"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "T  T1  F"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "T  F"
+    },
+    {
+        "page": 12,
+        "type": "UncategorizedText",
+        "content": "F  ( E )"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "F  d"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "语义动作"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "{ print(E.val) }"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "{ E.val := E1.val + T.val }"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "{ E.val := T.val }"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "{ T.val := T1.val  F.val }"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "{ T.val := F.val }"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "{ F.val := E.val }"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "{ F.val := d.lexval }"
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "注：d.lexval 是词法分析程序确定的属性值"
+    },
+    {
+        "page": 12,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "属性文法"
+    },
+    {
+        "page": 13,
+        "type": "ListItem",
+        "content": " 综合属性代表自下而上传递的信息"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "print(27)"
+    },
+    {
+        "page": 13,
+        "type": "ListItem",
+        "content": "  接上页的例子，对"
+    },
+    {
+        "page": 13,
+        "type": "UncategorizedText",
+        "content": "    表达式 3＊(5+4) "
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "    的分析树进行自下"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "    而上（后序）遍历，"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "    并执行相应的语义"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "    规则，得到该表达"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "    式的一种求值过程"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "E.val=27"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "E"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "T.val=27"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "T"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "F.val=9"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "T.val=3"
+    },
+    {
+        "page": 13,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "T"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "F"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "F.val=3"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "F"
+    },
+    {
+        "page": 13,
+        "type": "UncategorizedText",
+        "content": "("
+    },
+    {
+        "page": 13,
+        "type": "UncategorizedText",
+        "content": ")"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "E"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "T.val=4"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "E.val=9"
+    },
+    {
+        "page": 13,
+        "type": "UncategorizedText",
+        "content": "＋"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "d"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "E"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "T"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "F.val=4"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "d.lexval=3"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "E.val=5"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "F"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "T"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "F.val=5"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "T.val=5"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "d"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "F"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "d.lexval=4"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "d.lexval=5"
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "d"
+    },
+    {
+        "page": 13,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "属性文法"
+    },
+    {
+        "page": 14,
+        "type": "ListItem",
+        "content": " 属性文法举例"
+    },
+    {
+        "page": 14,
+        "type": "ListItem",
+        "content": " 含继承属性的例子（开始符号S）"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "产生式"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "S  ABC"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "A  A1a"
+    },
+    {
+        "page": 14,
+        "type": "UncategorizedText",
+        "content": "A  "
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "B  B1b"
+    },
+    {
+        "page": 14,
+        "type": "UncategorizedText",
+        "content": "B  "
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "C  C1c"
+    },
+    {
+        "page": 14,
+        "type": "UncategorizedText",
+        "content": "C  "
+    },
+    {
+        "page": 14,
+        "type": "UncategorizedText",
+        "content": "                     语义动作"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "{B.in_num := A .num; C.in_num := A .num;"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": " if  (B.num=0 and (C.num=0) "
+    },
+    {
+        "page": 14,
+        "type": "NarrativeText",
+        "content": " then  print(“Accepted!” )  else print(“Refused!” ) }"
+    },
+    {
+        "page": 14,
+        "type": "UncategorizedText",
+        "content": "{ A.num := A1.num + 1 }"
+    },
+    {
+        "page": 14,
+        "type": "UncategorizedText",
+        "content": "{ A.num := 0 }"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "{ B1.in_num := B.in_num; B.num := B1.num-1 }"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "{ B.num := B.in_num }"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "{ C1.in_num := C.in_num; C.num := C1.num-1 }"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "{ C.num := C.in_num }"
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "其中，A .num，B.num 和 C.num 是综合属性值，而 B.in_num 和 C.in_num 是继承属性值 "
+    },
+    {
+        "page": 14,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "属性文法"
+    },
+    {
+        "page": 15,
+        "type": "ListItem",
+        "content": " 继承属性代表自上而下传递的信息"
+    },
+    {
+        "page": 15,
+        "type": "ListItem",
+        "content": " 接上页的例子，对输入串 aabbcc 的分析树进行遍"
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "    历，自下而上执行综合属性相应的语义动作，自上"
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "    而下执行继承属性相应的语义动作，可以得到所有"
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "    属性值的一个求值过程"
+    },
+    {
+        "page": 15,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "属性文法"
+    },
+    {
+        "page": 16,
+        "type": "ListItem",
+        "content": " 属性文法举例"
+    },
+    {
+        "page": 16,
+        "type": "ListItem",
+        "content": " 更复杂的例子（开始符号N）"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "语义动作"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "{ N.v := S1.v+S2.v; S1.f :=1; S2.f :=2-S2.l }"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "{ S1.f := 2S.f; B.f : =S.f; S.v := S1.v+B.v; S.l := S1.l +1 }"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "{ S.l := 1 ; S.v := B.v ; B.f := S.f }"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "{ B.v := 0 }"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "{ B.v := B.f }"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "产生式"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "N  S1.S2"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "S  S1B"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "S  B"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "B  0"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "B  1"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "该属性文法可用于将二进制无符号小数转化为十进制小数"
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "请思考：语义动作中涉及的属性应该如何计算？"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "              （参见下小节讨论）"
+    },
+    {
+        "page": 16,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 17,
+        "type": "ListItem",
+        "content": " 基于属性文法的语义计算"
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "      计算方法分两类："
+    },
+    {
+        "page": 17,
+        "type": "ListItem",
+        "content": " 树遍历方法"
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "    通过遍历分析树进行属性计算 "
+    },
+    {
+        "page": 17,
+        "type": "ListItem",
+        "content": " 单遍的方法"
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "    语法分析遍的同时进行属性计算 "
+    },
+    {
+        "page": 17,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 18,
+        "type": "ListItem",
+        "content": " 基于树遍历方法的语义计算"
+    },
+    {
+        "page": 18,
+        "type": "ListItem",
+        "content": " 步骤"
+    },
+    {
+        "page": 18,
+        "type": "ListItem",
+        "content": " 构造输入串的语法分析树"
+    },
+    {
+        "page": 18,
+        "type": "ListItem",
+        "content": " 构造依赖图（Dependency graph）"
+    },
+    {
+        "page": 18,
+        "type": "ListItem",
+        "content": " 若该依赖图是无圈的，则按造此无圈图的一种"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "  拓扑排序（Topological sort）对分析树进行遍"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "  历，则可以计算所有的属性"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "注：若依赖图含有圈，则相应的属性文法不可采用这种方法进行语义计算，此类属性文法不是"
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "良定义的. 所谓良定义的属性文法，当且仅当它的规则集合能够为所有分析树中的属性集确定唯一的值集。"
+    },
+    {
+        "page": 18,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 19,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 19,
+        "type": "ListItem",
+        "content": " 依赖图是一个有向图，用来描述分析树中的属"
+    },
+    {
+        "page": 19,
+        "type": "Title",
+        "content": "     性与属性之间的相互依赖关系"
+    },
+    {
+        "page": 19,
+        "type": "ListItem",
+        "content": " 构造算法"
+    },
+    {
+        "page": 19,
+        "type": "NarrativeText",
+        "content": "    for 分析树中每一个结点n  do"
+    },
+    {
+        "page": 19,
+        "type": "NarrativeText",
+        "content": "        for 结点n所用产生式的每个语义规则中涉及的每一个属性a  do"
+    },
+    {
+        "page": 19,
+        "type": "UncategorizedText",
+        "content": "             为a在依赖图中建立一个结点；"
+    },
+    {
+        "page": 19,
+        "type": "NarrativeText",
+        "content": "        for 结点n所用产生式中每个形如f(c1,c2,…ck)的语义规则 do"
+    },
+    {
+        "page": 19,
+        "type": "UncategorizedText",
+        "content": "             为该规则在依赖图中也建立一个结点（称为虚结点）；"
+    },
+    {
+        "page": 19,
+        "type": "NarrativeText",
+        "content": "    for 分析树中每一个结点n    do"
+    },
+    {
+        "page": 19,
+        "type": "NarrativeText",
+        "content": "        for 结点n所用产生式对应的每个语义规则  b:=f(c1,c2,…ck) do"
+    },
+    {
+        "page": 19,
+        "type": "UncategorizedText",
+        "content": "             （可以只是f(c1,c2,…ck) ，此时b结点为一个虚结点）"
+    },
+    {
+        "page": 19,
+        "type": "NarrativeText",
+        "content": "             for  i :=1 to k do"
+    },
+    {
+        "page": 19,
+        "type": "UncategorizedText",
+        "content": "                 从ci结点到b结点构造一条有向边"
+    },
+    {
+        "page": 19,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 20,
+        "type": "ListItem",
+        "content": " 基于树遍历的计算方法举例"
+    },
+    {
+        "page": 20,
+        "type": "ListItem",
+        "content": " 设有如下属性文法，考虑输入串 10.01 的语义计算过程"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "语义动作"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "{ N.v := S1.v+S2.v; S1.f : =1; S2.f :=2-S2.l }"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "{ S1.f := 2S.f; B.f : =S.f; S.v := S1.v+B.v; S.l := S1.l +1 }"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "{ S.l := 1; S.v := B.v ; B.f := S.f }"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "{ B.v := 0 }"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "{ B.v := B.f }"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "产生式"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "N  S1.S2"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "S  S1B"
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "S  B"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "B  0"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "B  1"
+    },
+    {
+        "page": 20,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 21,
+        "type": "ListItem",
+        "content": " 基于树遍历的计算方法举例"
+    },
+    {
+        "page": 21,
+        "type": "ListItem",
+        "content": " 步骤一 构造输入串10.01的语法分析树"
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "N"
+    },
+    {
+        "page": 21,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 21,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 21,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 21,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 21,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 21,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "1：v"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "3：f"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "13：f"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "2：l"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "4：v"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "14：v"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "12：l"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "10：f"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "5：l"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "6：f"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "15：l"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "16：f"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "20：f"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "7：v"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "11：v"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "17：v"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "21：v"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "8：f"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "9：v"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "18：f"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "19：v"
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 22,
+        "type": "ListItem",
+        "content": " 基于树遍历的计算方法举例"
+    },
+    {
+        "page": 22,
+        "type": "ListItem",
+        "content": " 步骤二  为分析树中所有结点的每个属性建立一个"
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "    依赖图中的结点，并给定一个标记序号"
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "N"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 22,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "3：f"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "13：f"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "2：l"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "4：v"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "14：v"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "12：l"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "10：f"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "5：l"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "6：f"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "15：l"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "16：f"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "20：f"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "7：v"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "11：v"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "17：v"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "21：v"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "8：f"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "9：v"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "18：f"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "19：v"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 23,
+        "type": "ListItem",
+        "content": " 基于树遍历的计算方法举例"
+    },
+    {
+        "page": 23,
+        "type": "ListItem",
+        "content": " 步骤三  根据语义动作，建立依赖图中的有向边"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "N  S1.S2  { N.v := S1.v+S2.v }"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "N  S1.S2  {S2.f :=2-S2.l }"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "S  S1B  { S.l := S1.l +1 }"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "S  S1B  { S.v := S1.v+B.v }"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "B  1   { B.v := B.f }"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "S  S1B  { S1.f := 2S.f; B.f : =S.f }"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "S  B  { S.v := B.v }"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "S  B  { B.f := S.f }"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "1：v"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "N"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 23,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "3：f"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "13：f"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "2：l"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "4：v"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "14：v"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "12：l"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "10：f"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "5：l"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "6：f"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "15：l"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "16：f"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "20：f"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "7：v"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "11：v"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "17：v"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "21：v"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "8：f"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "9：v"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "18：f"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "19：v"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 24,
+        "type": "ListItem",
+        "content": " 基于树遍历的计算方法举例"
+    },
+    {
+        "page": 24,
+        "type": "ListItem",
+        "content": " 步骤四  容易看出，该依赖图是无圈的，因此存在"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "    拓扑排序. 依任何一个拓扑排序，都能够顺利完成"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "    属性值的计算. 如下是一种可能的计算次序："
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "     3,5,2,6,10,8,9,7,11,4,15,12,13,16,20,18,21,19,17,14,1  "
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "1：v"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "N"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 24,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 25,
+        "type": "ListItem",
+        "content": " 基于树遍历的计算方法举例"
+    },
+    {
+        "page": 25,
+        "type": "ListItem",
+        "content": " 步骤五  依计算次序，根据语义动作求出各结点对"
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "    应的属性值. 对如下结点次序进行计算："
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "     3,5,2,6,10,8,9,7,11,4,15,12,13,16,20,18,21,19,17,14,1  "
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "1：v"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "2.25"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "3：f"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "N"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "13：f"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "0.25"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "2：l"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "4：v"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "12：l"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "0.25"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "14：v"
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "10：f"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "16：f"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "20：f"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "5：l"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "6：f"
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "15：l"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "0.25"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "11：v"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "7：v"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "17：v"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "21：v"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "8：f"
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "0.25"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "9：v"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "18：f"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "19：v"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 25,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 26,
+        "type": "ListItem",
+        "content": " 带标注（annotated）的语法分析树"
+    },
+    {
+        "page": 26,
+        "type": "ListItem",
+        "content": " 语法分析树中各结点属性值的计算过程被称为对语"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "    法分析树的标注（annotating）或修饰（decorating），"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "    用带标注的语法分析树表示属性值的计算结果，如："
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "N"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "v=2.25"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "f=1"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "f=0.25"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "l=2"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "v=2"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "v=0.25"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "l=2"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "l=1"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "f=0.25"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "f=2"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "f=1"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "v=0"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "l=2"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "f=0.5"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "v=0.25"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "v=2"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "v=0"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "f=2"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "v=2"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "f=0.5"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "v=0"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 26,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 27,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 27,
+        "type": "ListItem",
+        "content": " 单遍的方法"
+    },
+    {
+        "page": 27,
+        "type": "ListItem",
+        "content": "   语法分析遍的同时进行属性计算 "
+    },
+    {
+        "page": 27,
+        "type": "ListItem",
+        "content": " 自下而上方法"
+    },
+    {
+        "page": 27,
+        "type": "ListItem",
+        "content": " 自上而下方法"
+    },
+    {
+        "page": 27,
+        "type": "ListItem",
+        "content": "   只适用于特定的属性文法 "
+    },
+    {
+        "page": 27,
+        "type": "Title",
+        "content": "     本课程只讨论如下两类属性文法："
+    },
+    {
+        "page": 27,
+        "type": "ListItem",
+        "content": "  S-属性文法 "
+    },
+    {
+        "page": 27,
+        "type": "ListItem",
+        "content": "  L-属性文法 "
+    },
+    {
+        "page": 27,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 28,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 28,
+        "type": "ListItem",
+        "content": " S-属性文法"
+    },
+    {
+        "page": 28,
+        "type": "ListItem",
+        "content": "   只包含综合属性 "
+    },
+    {
+        "page": 28,
+        "type": "ListItem",
+        "content": " L-属性文法"
+    },
+    {
+        "page": 28,
+        "type": "ListItem",
+        "content": "   可以包含综合属性，也可以包含继承属性"
+    },
+    {
+        "page": 28,
+        "type": "ListItem",
+        "content": "   产生式右端某文法符号的继承属性的计算只取决"
+    },
+    {
+        "page": 28,
+        "type": "Title",
+        "content": "     于该符号左边文法符号的属性 （对于产生式左边 "
+    },
+    {
+        "page": 28,
+        "type": "Title",
+        "content": "     文法符号，只能是继承属性）"
+    },
+    {
+        "page": 28,
+        "type": "ListItem",
+        "content": "   S-属性文法是L-属性文法的一个特例 "
+    },
+    {
+        "page": 28,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 29,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 29,
+        "type": "ListItem",
+        "content": " S-属性文法的语义计算"
+    },
+    {
+        "page": 29,
+        "type": "ListItem",
+        "content": "   通常采用自下而上的方式进行"
+    },
+    {
+        "page": 29,
+        "type": "ListItem",
+        "content": "   若采用LR分析技术，可以通过扩充分析栈中的域，"
+    },
+    {
+        "page": 29,
+        "type": "Title",
+        "content": "     形成语义栈来存放综合属性的值，计算相应产生式"
+    },
+    {
+        "page": 29,
+        "type": "Title",
+        "content": "     左部文法符号的综合属性值刚好发生在每一步归约"
+    },
+    {
+        "page": 29,
+        "type": "Title",
+        "content": "     之前的时刻 "
+    },
+    {
+        "page": 29,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 30,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 30,
+        "type": "ListItem",
+        "content": " 采用LR分析技术进行S-属性文法的语义计算"
+    },
+    {
+        "page": 30,
+        "type": "ListItem",
+        "content": "   扩充分析栈中的域形成语义栈存放综合属性的值"
+    },
+    {
+        "page": 30,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 31,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 31,
+        "type": "ListItem",
+        "content": " 采用LR分析技术进行S-属性文法的语义计算"
+    },
+    {
+        "page": 31,
+        "type": "ListItem",
+        "content": "   语义动作中的综合属性可以通过存在于当前语义栈"
+    },
+    {
+        "page": 31,
+        "type": "Title",
+        "content": "     栈顶部分的属性进行计算"
+    },
+    {
+        "page": 31,
+        "type": "ListItem",
+        "content": "   例如，假设有相应于产生式 AXYZ 的语义规则"
+    },
+    {
+        "page": 31,
+        "type": "UncategorizedText",
+        "content": "            A.a := f（X.x, Y.y, Z.z）"
+    },
+    {
+        "page": 31,
+        "type": "NarrativeText",
+        "content": "     在 XYZ 归约为 A 之前，Z.z, Y.y, 和 X.x 分别存放"
+    },
+    {
+        "page": 31,
+        "type": "Title",
+        "content": "     于语义栈的 top，top-1 和 top-2 的相应域中，因"
+    },
+    {
+        "page": 31,
+        "type": "Title",
+        "content": "     此 A.a 可以顺利求出"
+    },
+    {
+        "page": 31,
+        "type": "Title",
+        "content": "     归约后，X.x, Y.y, Z.z 被弹出，而在栈顶 top 的位"
+    },
+    {
+        "page": 31,
+        "type": "Title",
+        "content": "     置上存放 A.a。 "
+    },
+    {
+        "page": 31,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 32,
+        "type": "ListItem",
+        "content": " 用LR分析技术进行S-属性文法的语义计算举例"
+    },
+    {
+        "page": 32,
+        "type": "ListItem",
+        "content": "   通过下列S-属性文法G’[S]为常量表达式求值"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "产生式"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "S  E"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "E  E1 + T"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "E  T"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "T  T1  F"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "T  F"
+    },
+    {
+        "page": 32,
+        "type": "UncategorizedText",
+        "content": "F  ( E )"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "F  d"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "语义动作"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "{ print(E.val) }"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "{ E.val := E1.val + T.val }"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "{ E.val := T.val }"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "{ T.val := T1.val  F.val }"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "{ T.val := F.val }"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "{ F.val := E.val }"
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "{ F.val := d.lexval }"
+    },
+    {
+        "page": 32,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 33,
+        "type": "ListItem",
+        "content": "  文法G’ [S] 的LR"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "     分析表"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "（0）SE （1）E E+T （2） E  T  "
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "（3）T TF    （4） T  F "
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "（5）F  (E) （6）F  d"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "ACTION"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "GOTO"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "状态"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "d"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "+"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "("
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": ")"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "E"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "T"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "F"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s5"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s4"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "acc"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s6"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s7"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r2"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r2"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r2"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r4"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r4"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r4"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r4"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s5"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s4"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "4"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "8"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r6"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r6"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r6"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r6"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "5"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s5"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s4"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "9"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "6"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "7"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s5"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s4"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "10"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s6"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "s11"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "8"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "s7"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r1"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r1"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r1"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "9"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r3"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r3"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r3"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r3"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "10"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r5"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r5"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r5"
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "r5"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "11"
+    },
+    {
+        "page": 33,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 # "
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "2 + 3  5 #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "s5"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  5 2 2 "
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": " + 3  5 #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "r6"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "F.val := d.lexval"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  3 F 2 "
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "r4"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "T.val := F.val"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": " + 3  5 #"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  2 T 2 "
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": " + 3  5 #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "r2"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "E.val := T.val"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": " + 3  5 #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "s6"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  1 E 2 "
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": " 3  5 #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "s5"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  1 E 2 6 +  "
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  1 E 2 6 +  5 3 3 "
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "F.val := d.lexval"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "  5 #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "r6"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  1 E 2 6 +  3 F 3 "
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "  5 #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "r4"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "T.val := F.val"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "  5 #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "s7"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  1 E 2 6 +  9 T 3 "
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  1 E 2 6 +  9 T 3 7   "
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "  5 #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "s5"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  1 E 2 6 +  9 T 3 7   5 5 5 "
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "F.val := d.lexval"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "   #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "r6"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  1 E 2 6 +  9 T 3 7   10 F 5 "
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "r3"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "T.val:=T1.valF.val"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "   #"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  1 E 2 6 +  9 T 15"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "   #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "r1"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "E.val:=E1.val+T.val"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "0 #  1 E 17"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "acc"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "   #"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "print(E.val)"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 34,
+        "type": "ListItem",
+        "content": "  LR分析过程伴随常量"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "     表达式2 + 3  5的求值"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "（0）SE （1）E E+T （2） E  T  "
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "（3）T TF    （4） T  F "
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "（5）F  (E) （6）F  d"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "分析栈（状态，符号，语义值）"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "余留输入串"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "动作"
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "语义动作"
+    },
+    {
+        "page": 34,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 35,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 35,
+        "type": "ListItem",
+        "content": " L-属性文法的语义计算"
+    },
+    {
+        "page": 35,
+        "type": "ListItem",
+        "content": "   采用自上而下的方式可以较方便地进行"
+    },
+    {
+        "page": 35,
+        "type": "ListItem",
+        "content": "   可以采用下列基于深度优先后序遍历的算法"
+    },
+    {
+        "page": 35,
+        "type": "Title",
+        "content": "       procedure dfvisit(n: node);"
+    },
+    {
+        "page": 35,
+        "type": "Title",
+        "content": "          begin"
+    },
+    {
+        "page": 35,
+        "type": "NarrativeText",
+        "content": "              for n 的每一孩子m, 从左到右 do "
+    },
+    {
+        "page": 35,
+        "type": "UncategorizedText",
+        "content": "                    begin"
+    },
+    {
+        "page": 35,
+        "type": "UncategorizedText",
+        "content": "                         计算 m 的继承属性值;"
+    },
+    {
+        "page": 35,
+        "type": "UncategorizedText",
+        "content": "                         dfvisit(m)"
+    },
+    {
+        "page": 35,
+        "type": "UncategorizedText",
+        "content": "                    end;"
+    },
+    {
+        "page": 35,
+        "type": "UncategorizedText",
+        "content": "                    计算n的综合属性值"
+    },
+    {
+        "page": 35,
+        "type": "Title",
+        "content": "          end "
+    },
+    {
+        "page": 35,
+        "type": "ListItem",
+        "content": "   该算法与自上而下预测分析过程对应. 因此,基于 LL(1) "
+    },
+    {
+        "page": 35,
+        "type": "UncategorizedText",
+        "content": "     文法的 L-属性文法可以采用这种方法进行语义计算."
+    },
+    {
+        "page": 35,
+        "type": "Title",
+        "content": "     （随后将结合翻译模式的进一步讨论分析程序的构造） "
+    },
+    {
+        "page": 35,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "N"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 36,
+        "type": "ListItem",
+        "content": " 采用基于深度优先后序遍历算法进行 L-属性文"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "     法的语义计算举例"
+    },
+    {
+        "page": 36,
+        "type": "ListItem",
+        "content": "  考虑对于下列L-属性文法，输入串为 .101 时的计算过程"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "print(0.625)"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "语义动作"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "{ S.f : =1； print(S.v) }"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "{ S1.f := S.f+1; B.f : =S.f; "
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "  S.v := S1.v+B.v }"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "{ S.v := 0 }"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "{ B.v := 0 }"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "{ B.v := 2-B.f }"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "产生式"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "N  .S"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "S  BS1"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "S  "
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "B  0"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "B  1"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "S.f=1"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "B.f=1"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "S.f = 2"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "S.v=0.625"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "B.v=0.5"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "B.f=2"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "S.f = 3"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "S.v=0.125"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "S.v=0.125"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "B.v=0"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "B.f = 3"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "B.v = 0.125"
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "S.v=0"
+    },
+    {
+        "page": 36,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 37,
+        "type": "Title",
+        "content": "基于属性文法的语义计算"
+    },
+    {
+        "page": 37,
+        "type": "UncategorizedText",
+        "content": "{ S.f : =1； print(S.v) }"
+    },
+    {
+        "page": 37,
+        "type": "UncategorizedText",
+        "content": "{ S1.f := S.f+1; B.f : =S.f; "
+    },
+    {
+        "page": 37,
+        "type": "UncategorizedText",
+        "content": "  S.v := S1.v+B.v }"
+    },
+    {
+        "page": 37,
+        "type": "UncategorizedText",
+        "content": "{ S.v := 0 }"
+    },
+    {
+        "page": 37,
+        "type": "UncategorizedText",
+        "content": "{ B.v := 0 }"
+    },
+    {
+        "page": 37,
+        "type": "UncategorizedText",
+        "content": "{ B.v := 2-B.f }"
+    },
+    {
+        "page": 37,
+        "type": "Title",
+        "content": "N  .S"
+    },
+    {
+        "page": 37,
+        "type": "Title",
+        "content": "S  BS1"
+    },
+    {
+        "page": 37,
+        "type": "UncategorizedText",
+        "content": "S  "
+    },
+    {
+        "page": 37,
+        "type": "UncategorizedText",
+        "content": "B  0"
+    },
+    {
+        "page": 37,
+        "type": "UncategorizedText",
+        "content": "B  1"
+    },
+    {
+        "page": 37,
+        "type": "ListItem",
+        "content": " 接上页例子"
+    },
+    {
+        "page": 37,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 38,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 38,
+        "type": "ListItem",
+        "content": " 翻译模式（Translation Scheme）概念"
+    },
+    {
+        "page": 38,
+        "type": "ListItem",
+        "content": " 适合语法制导语义计算的另一种描述形式"
+    },
+    {
+        "page": 38,
+        "type": "ListItem",
+        "content": " 可以体现一种合理调用语义动作的翻译算法"
+    },
+    {
+        "page": 38,
+        "type": "ListItem",
+        "content": " 形式上类似于属性文法，但允许由{}括起来"
+    },
+    {
+        "page": 38,
+        "type": "Title",
+        "content": "   的语义规则集合出现在产生式右端的任何位"
+    },
+    {
+        "page": 38,
+        "type": "Title",
+        "content": "   置. 这样做的好处是可以显式地表达动作和"
+    },
+    {
+        "page": 38,
+        "type": "Title",
+        "content": "   属性计算的次序，而在前述的属性文法中不"
+    },
+    {
+        "page": 38,
+        "type": "Title",
+        "content": "   体现这种次序"
+    },
+    {
+        "page": 38,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 39,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 39,
+        "type": "ListItem",
+        "content": "  受限的翻译模式"
+    },
+    {
+        "page": 39,
+        "type": "ListItem",
+        "content": " 在设计翻译模式时，必须作某些限制，以确保每个属"
+    },
+    {
+        "page": 39,
+        "type": "Title",
+        "content": "   性值在被访问到的时候已经存在"
+    },
+    {
+        "page": 39,
+        "type": "ListItem",
+        "content": " 本讲仅讨论两类受限的翻译模式"
+    },
+    {
+        "page": 39,
+        "type": "ListItem",
+        "content": " 受S-属性文法的启示，对于仅需要综合属性的情形，只要创"
+    },
+    {
+        "page": 39,
+        "type": "Title",
+        "content": "  建一个语义规则集合，放在相应产生式右端的末尾，把属性 "
+    },
+    {
+        "page": 39,
+        "type": "Title",
+        "content": "  的计算规则加入其中即可"
+    },
+    {
+        "page": 39,
+        "type": "ListItem",
+        "content": " 受L-属性文法的启示，对于既包含继承属性又包含综合属"
+    },
+    {
+        "page": 39,
+        "type": "Title",
+        "content": "  性的情形，但需要满足：（1）产生式右端某个符号继承属性"
+    },
+    {
+        "page": 39,
+        "type": "Title",
+        "content": "  的计算必须位于该符号之前，其语义动作不访问位于它右边"
+    },
+    {
+        "page": 39,
+        "type": "Title",
+        "content": "  符号的属性，只依赖于该符号左边符号的属性 （对于产生式"
+    },
+    {
+        "page": 39,
+        "type": "Title",
+        "content": "  左部的符号，只能是继承属性）；（2）产生式左部非终结符"
+    },
+    {
+        "page": 39,
+        "type": "Title",
+        "content": "  的综合属性的计算只能在所用到的属性都已计算出来之后进"
+    },
+    {
+        "page": 39,
+        "type": "Title",
+        "content": "  行，通常将相应的语义动作置于产生式的尾部。 "
+    },
+    {
+        "page": 39,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 40,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 40,
+        "type": "ListItem",
+        "content": " 翻译模式举例"
+    },
+    {
+        "page": 40,
+        "type": "ListItem",
+        "content": "  定点二进制小数转换为十进制小数"
+    },
+    {
+        "page": 40,
+        "type": "UncategorizedText",
+        "content": "N  .  { S.f : =1}  S  { print(S.v) }"
+    },
+    {
+        "page": 40,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B  { S1.f := S.f +1 } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 40,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 } "
+    },
+    {
+        "page": 40,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 40,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2-B.f }"
+    },
+    {
+        "page": 40,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 41,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 41,
+        "type": "ListItem",
+        "content": " 基于翻译模式的语义计算"
+    },
+    {
+        "page": 41,
+        "type": "ListItem",
+        "content": "  仅考虑单遍的方法 "
+    },
+    {
+        "page": 41,
+        "type": "ListItem",
+        "content": " 自上而下的语义计算"
+    },
+    {
+        "page": 41,
+        "type": "Title",
+        "content": "  借助于自上而下的预测分析技术"
+    },
+    {
+        "page": 41,
+        "type": "ListItem",
+        "content": " 自下而上的语义计算"
+    },
+    {
+        "page": 41,
+        "type": "Title",
+        "content": "  借助于自下而上的移进归约分析技术"
+    },
+    {
+        "page": 41,
+        "type": "ListItem",
+        "content": "  仅考虑上述受限的翻译模式"
+    },
+    {
+        "page": 41,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 42,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 42,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自上而下语义计算"
+    },
+    {
+        "page": 42,
+        "type": "ListItem",
+        "content": "  对适合于自上而下预测技术的翻译模式，语法制导"
+    },
+    {
+        "page": 42,
+        "type": "Title",
+        "content": "     的语义计算程序可以如下思路构造  "
+    },
+    {
+        "page": 42,
+        "type": "ListItem",
+        "content": "  对每个非终结符 A，构造一个函数，以 A 的每个"
+    },
+    {
+        "page": 42,
+        "type": "Title",
+        "content": "   继承属性为形参，以 A 的综合属性为返回值（若"
+    },
+    {
+        "page": 42,
+        "type": "Title",
+        "content": "   有多个综合属性，可返回记录类型的值） 。如同"
+    },
+    {
+        "page": 42,
+        "type": "Title",
+        "content": "   预测分析程序的构造，该函数代码的流程是根据"
+    },
+    {
+        "page": 42,
+        "type": "Title",
+        "content": "   当前的输入符号来决定调用哪个产生式。"
+    },
+    {
+        "page": 42,
+        "type": "ListItem",
+        "content": "  与每个产生式相关的代码根据其右端的结构来构"
+    },
+    {
+        "page": 42,
+        "type": "Title",
+        "content": "   造（见下页）"
+    },
+    {
+        "page": 42,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 43,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 43,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自上而下语义计算"
+    },
+    {
+        "page": 43,
+        "type": "ListItem",
+        "content": "  语法制导的语义计算程序的构造中，与每个产生式"
+    },
+    {
+        "page": 43,
+        "type": "Title",
+        "content": "    相关的代码根据产生式右端的终结符，非"
+    },
+    {
+        "page": 43,
+        "type": "Title",
+        "content": "    终结符，和语义规则集（语义动作），依从左到右"
+    },
+    {
+        "page": 43,
+        "type": "Title",
+        "content": "    的次序完成下列工作："
+    },
+    {
+        "page": 43,
+        "type": "ListItem",
+        "content": " 对终结符 X，保存其综合属性x的值至专为 X.x 而声明的变"
+    },
+    {
+        "page": 43,
+        "type": "Title",
+        "content": "  量；然后调用匹配终结符（match_token） 和取下一输入"
+    },
+    {
+        "page": 43,
+        "type": "Title",
+        "content": "  符号（next_token）的函数；  "
+    },
+    {
+        "page": 43,
+        "type": "ListItem",
+        "content": " 对非终结符 B，利用相应于 B 的函数 ParseB 产生赋值"
+    },
+    {
+        "page": 43,
+        "type": "UncategorizedText",
+        "content": "  语句 c:=B(b1, b2, …, bk)，其中变量 b1, b2, …, bk 对应 B的"
+    },
+    {
+        "page": 43,
+        "type": "Title",
+        "content": "  各继承属性，变量c对应B的综合属性"
+    },
+    {
+        "page": 43,
+        "type": "ListItem",
+        "content": " 对语义规则集，直接copy其中每一语义规则来产"
+    },
+    {
+        "page": 43,
+        "type": "Title",
+        "content": "  生代码，只是将对属性的访问替换为对相应变量的访问。 "
+    },
+    {
+        "page": 43,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 44,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 44,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自上而下语义计算举例"
+    },
+    {
+        "page": 44,
+        "type": "ListItem",
+        "content": "  构造下列翻译模式的自上而下递归下降（预测）翻译"
+    },
+    {
+        "page": 44,
+        "type": "UncategorizedText",
+        "content": "     程序（可以验证其基础文法为 LL（1）文法）"
+    },
+    {
+        "page": 44,
+        "type": "UncategorizedText",
+        "content": "N  .  { S.f : =1}  S  { print(S.v) }"
+    },
+    {
+        "page": 44,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B  { S1.f := S.f +1 } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 44,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 44,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 44,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2-B.f }"
+    },
+    {
+        "page": 44,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 45,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 45,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自上而下语义计算举例"
+    },
+    {
+        "page": 45,
+        "type": "ListItem",
+        "content": "  根据产生式"
+    },
+    {
+        "page": 45,
+        "type": "UncategorizedText",
+        "content": "                      N  .  { S.f : =1}  S  { print(S.v) }"
+    },
+    {
+        "page": 45,
+        "type": "Title",
+        "content": "     对非终结符 N，构造如下函数"
+    },
+    {
+        "page": 45,
+        "type": "Title",
+        "content": "void ParseN()"
+    },
+    {
+        "page": 45,
+        "type": "UncategorizedText",
+        "content": "{"
+    },
+    {
+        "page": 45,
+        "type": "Title",
+        "content": "    MatchToken(‘.’);       //匹配‘.’"
+    },
+    {
+        "page": 45,
+        "type": "UncategorizedText",
+        "content": "    Sf : =1;                     //变量 Sf 对应属性S.f "
+    },
+    {
+        "page": 45,
+        "type": "UncategorizedText",
+        "content": "    Sv : = ParseS(Sf);   //变量 Sv 对应属性S.v "
+    },
+    {
+        "page": 45,
+        "type": "Title",
+        "content": "    print(Sv);"
+    },
+    {
+        "page": 45,
+        "type": "UncategorizedText",
+        "content": "}"
+    },
+    {
+        "page": 45,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 46,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 46,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自上而下语义计算举例"
+    },
+    {
+        "page": 46,
+        "type": "ListItem",
+        "content": "  根据产生式"
+    },
+    {
+        "page": 46,
+        "type": "UncategorizedText",
+        "content": "                   S  { B.f : =S.f } B  { S1.f := S.f +1 } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 46,
+        "type": "UncategorizedText",
+        "content": "                   S    { S.v := 0 } "
+    },
+    {
+        "page": 46,
+        "type": "Title",
+        "content": "     对非终结符 S，构造如下函数"
+    },
+    {
+        "page": 46,
+        "type": "Title",
+        "content": "float ParseS( int f )"
+    },
+    {
+        "page": 46,
+        "type": "UncategorizedText",
+        "content": "{"
+    },
+    {
+        "page": 46,
+        "type": "NarrativeText",
+        "content": "    if (lookahead==‘0’ or lookahead==‘1’ )  {"
+    },
+    {
+        "page": 46,
+        "type": "UncategorizedText",
+        "content": "                Bf : = f;   Bv : = ParseB(Bf); S1f := f+1 ;"
+    },
+    {
+        "page": 46,
+        "type": "UncategorizedText",
+        "content": "                S1v := ParseS(S1f); Sv := S1v + Bv;"
+    },
+    {
+        "page": 46,
+        "type": "UncategorizedText",
+        "content": "    }"
+    },
+    {
+        "page": 46,
+        "type": "UncategorizedText",
+        "content": "    else if (lookahead== ‘#’ )  Sv := 0;"
+    },
+    {
+        "page": 46,
+        "type": "NarrativeText",
+        "content": "    else { printf(\"syntax error \\n\"); exit(0); }"
+    },
+    {
+        "page": 46,
+        "type": "Title",
+        "content": "    return Sv;"
+    },
+    {
+        "page": 46,
+        "type": "UncategorizedText",
+        "content": "}"
+    },
+    {
+        "page": 46,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 47,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 47,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自上而下语义计算举例"
+    },
+    {
+        "page": 47,
+        "type": "ListItem",
+        "content": "  根据产生式"
+    },
+    {
+        "page": 47,
+        "type": "UncategorizedText",
+        "content": "                   B  0  { B.v := 0 }"
+    },
+    {
+        "page": 47,
+        "type": "UncategorizedText",
+        "content": "                   B  1  { B.v := 2-B.f }"
+    },
+    {
+        "page": 47,
+        "type": "Title",
+        "content": "     对非终结符 B，构造如下函数"
+    },
+    {
+        "page": 47,
+        "type": "Title",
+        "content": "float ParseB( int f )"
+    },
+    {
+        "page": 47,
+        "type": "UncategorizedText",
+        "content": "{"
+    },
+    {
+        "page": 47,
+        "type": "UncategorizedText",
+        "content": "    if (lookahead==‘0’)  { MatchToken(‘0’); Bv : = 0 } "
+    },
+    {
+        "page": 47,
+        "type": "UncategorizedText",
+        "content": "    else if  (lookahead== ‘1’ )  { "
+    },
+    {
+        "page": 47,
+        "type": "UncategorizedText",
+        "content": "            MatchToken(‘1’);   Bv := 2^(-f)"
+    },
+    {
+        "page": 47,
+        "type": "UncategorizedText",
+        "content": "    }"
+    },
+    {
+        "page": 47,
+        "type": "NarrativeText",
+        "content": "    else { printf(\"syntax error \\n\"); exit(0); }"
+    },
+    {
+        "page": 47,
+        "type": "Title",
+        "content": "    return Bv;"
+    },
+    {
+        "page": 47,
+        "type": "UncategorizedText",
+        "content": "}"
+    },
+    {
+        "page": 47,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 48,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 48,
+        "type": "ListItem",
+        "content": " 消除翻译模式中左递归的一种变换方法"
+    },
+    {
+        "page": 48,
+        "type": "ListItem",
+        "content": "  如下是常量表达式求值的翻译模式"
+    },
+    {
+        "page": 48,
+        "type": "Title",
+        "content": "     但含有左递归，因而不能用 LL（1）方法"
+    },
+    {
+        "page": 48,
+        "type": "Title",
+        "content": "S  E   { print(E.val) }"
+    },
+    {
+        "page": 48,
+        "type": "UncategorizedText",
+        "content": "E  E1 + T    { E.val := E1.val + T.val }"
+    },
+    {
+        "page": 48,
+        "type": "Title",
+        "content": "E  T   { E.val := T.val } "
+    },
+    {
+        "page": 48,
+        "type": "UncategorizedText",
+        "content": "T  T1  F    { T.val := T1.val  F.val }"
+    },
+    {
+        "page": 48,
+        "type": "Title",
+        "content": "T  F   { T.val := F.val }"
+    },
+    {
+        "page": 48,
+        "type": "UncategorizedText",
+        "content": "F  ( E )     { F.val := E.val }"
+    },
+    {
+        "page": 48,
+        "type": "Title",
+        "content": "F  d   { F.val := d.lexval }"
+    },
+    {
+        "page": 48,
+        "type": "ListItem",
+        "content": "  若需要消除翻译模式之基础文法中的左递归，那么翻"
+    },
+    {
+        "page": 48,
+        "type": "Title",
+        "content": "     译模式应该如何变化呢？"
+    },
+    {
+        "page": 48,
+        "type": "Title",
+        "content": "     随后介绍较简单但常用的一种情形"
+    },
+    {
+        "page": 48,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 49,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 49,
+        "type": "ListItem",
+        "content": " 消除翻译模式中左递归的一种变换方法"
+    },
+    {
+        "page": 49,
+        "type": "ListItem",
+        "content": "  假设有如下翻译模式："
+    },
+    {
+        "page": 49,
+        "type": "UncategorizedText",
+        "content": "     A  A1 Y   { A.a: = g(A1.a, Y.y) }"
+    },
+    {
+        "page": 49,
+        "type": "UncategorizedText",
+        "content": "               A  X\t{ A.a: = f(X.x) }"
+    },
+    {
+        "page": 49,
+        "type": "Title",
+        "content": "          消去关于A 的直接左递归，基础文法变换为"
+    },
+    {
+        "page": 49,
+        "type": "UncategorizedText",
+        "content": "               A  X R     R  Y R  "
+    },
+    {
+        "page": 49,
+        "type": "Title",
+        "content": "          再考虑语义动作，翻译模式变换为"
+    },
+    {
+        "page": 49,
+        "type": "UncategorizedText",
+        "content": "               A  X { R.i: = f(X.x) } R  { A.a: = R.s }"
+    },
+    {
+        "page": 49,
+        "type": "UncategorizedText",
+        "content": "               R  Y { R1.i: = g(R.i, Y.y) } R1 {R.s: = R1.s} "
+    },
+    {
+        "page": 49,
+        "type": "UncategorizedText",
+        "content": "               R    {R.s: = R.i} "
+    },
+    {
+        "page": 49,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 50,
+        "type": "ListItem",
+        "content": " 消除翻译模式中左递归的一种变换方法"
+    },
+    {
+        "page": 50,
+        "type": "ListItem",
+        "content": "  理解这种变换方法"
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "     变换前后代表两种不同的计算方式"
+    },
+    {
+        "page": 50,
+        "type": "UncategorizedText",
+        "content": "A.a = g(g(f(X.x), Y1.y), Y2.y) "
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "A"
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "A.a"
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "Y2"
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "R.s"
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "X"
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "R.i = f(X.x) "
+    },
+    {
+        "page": 50,
+        "type": "UncategorizedText",
+        "content": "A.a = g(f(X.x), Y1.y) "
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "Y1"
+    },
+    {
+        "page": 50,
+        "type": "UncategorizedText",
+        "content": "R.i = g(f(X.x), Y1.y) "
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "R.s"
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "A.a = f(X.x) "
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "Y1"
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "Y2"
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "X"
+    },
+    {
+        "page": 50,
+        "type": "UncategorizedText",
+        "content": "R.i = g(g(f(X.x), Y1.y), Y2.y) "
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "R.s"
+    },
+    {
+        "page": 50,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "  "
+    },
+    {
+        "page": 51,
+        "type": "Title",
+        "content": "S  E   { print(E.val) }"
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "E  T  { R.i := T.val }  R  { E.val := R.s }"
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "R  + T { R1.i := R.i + T.val } R1 { R.s := R1.s } "
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "R    { R.s := R.i  } "
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "T  F { P.i := F.val } P { T.val := P.s }"
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "P   F  { P1.i := P.i  F.val }  P1 { P.s := P1.s } "
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i  } "
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "F  ( E )     { F.val := E.val }"
+    },
+    {
+        "page": 51,
+        "type": "Title",
+        "content": "F  d   { F.val := d.lexval }"
+    },
+    {
+        "page": 51,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 51,
+        "type": "ListItem",
+        "content": " 消除翻译模式中左递归的一种变换方法举例"
+    },
+    {
+        "page": 51,
+        "type": "ListItem",
+        "content": "  消除右边翻译模"
+    },
+    {
+        "page": 51,
+        "type": "Title",
+        "content": "     式中的左递归"
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "S  E            { print(E.val) }"
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "E  E1 + T    { E.val := E1.val + T.val }"
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "E  T            { E.val := T.val } "
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "T  T1  F     { T.val := T1.val  F.val }"
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "T  F            { T.val := F.val }"
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "F  ( E )        { F.val := E.val }"
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "F  d             { F.val := d.lexval }"
+    },
+    {
+        "page": 51,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 52,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 52,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 52,
+        "type": "ListItem",
+        "content": "  扩展前述的关于S-属性文法的自下而上计算技术"
+    },
+    {
+        "page": 52,
+        "type": "Title",
+        "content": "      （即在分析栈中增加存放属性值的域）"
+    },
+    {
+        "page": 52,
+        "type": "ListItem",
+        "content": "  翻译模式中综合属性的求值采用前述的计算方法"
+    },
+    {
+        "page": 52,
+        "type": "ListItem",
+        "content": "  对于前述受限的翻译模式，核心问题实际上是L-翻译"
+    },
+    {
+        "page": 52,
+        "type": "Title",
+        "content": "     模式的自下而上计算，该问题的讨论较复杂，本节仅"
+    },
+    {
+        "page": 52,
+        "type": "Title",
+        "content": "     涉及如下 3 个方面的简介"
+    },
+    {
+        "page": 52,
+        "type": "ListItem",
+        "content": "  翻译模式中去掉嵌在产生式中间的语义动作"
+    },
+    {
+        "page": 52,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问及继承属性的模拟求值"
+    },
+    {
+        "page": 52,
+        "type": "ListItem",
+        "content": "  用综合属性代替继承属性"
+    },
+    {
+        "page": 52,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 53,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 53,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 53,
+        "type": "ListItem",
+        "content": "  从翻译模式中去掉嵌在产生式中间的语义规则集"
+    },
+    {
+        "page": 53,
+        "type": "ListItem",
+        "content": "   若语义规则集中未关联任何属性，引入新的非终结"
+    },
+    {
+        "page": 53,
+        "type": "Title",
+        "content": "  符N和产生式Nε,把嵌入在产生式中间的动作用"
+    },
+    {
+        "page": 53,
+        "type": "Title",
+        "content": "  非终结符N代替,并把该语义规则集放在产生式后面"
+    },
+    {
+        "page": 53,
+        "type": "ListItem",
+        "content": "  若语义规则集中有关联的属性，引入新的非终结"
+    },
+    {
+        "page": 53,
+        "type": "Title",
+        "content": "  符N和产生式Nε，以及把该语义规则集放在产"
+    },
+    {
+        "page": 53,
+        "type": "Title",
+        "content": "  生式后面的同时，需要在适当的地方增加复写规则"
+    },
+    {
+        "page": 53,
+        "type": "Title",
+        "content": "  （可参照稍后关于分析栈中继承属性的模拟求值的"
+    },
+    {
+        "page": 53,
+        "type": "Title",
+        "content": "        解决方案）"
+    },
+    {
+        "page": 53,
+        "type": "ListItem",
+        "content": "  目的：使所有嵌入的除复写规则外的语义规则都出"
+    },
+    {
+        "page": 53,
+        "type": "Title",
+        "content": "  现在产生式的末端,以便自下而上计算综合属性"
+    },
+    {
+        "page": 53,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 54,
+        "type": "Title",
+        "content": "E  T  R"
+    },
+    {
+        "page": 54,
+        "type": "Title",
+        "content": "R  + T M R1"
+    },
+    {
+        "page": 54,
+        "type": "Title",
+        "content": "R   T N R1 "
+    },
+    {
+        "page": 54,
+        "type": "UncategorizedText",
+        "content": "R  "
+    },
+    {
+        "page": 54,
+        "type": "Title",
+        "content": "T  num   { print(num.val ) }"
+    },
+    {
+        "page": 54,
+        "type": "UncategorizedText",
+        "content": "M    { print(‘+’) } "
+    },
+    {
+        "page": 54,
+        "type": "UncategorizedText",
+        "content": "N    { print(‘’) } "
+    },
+    {
+        "page": 54,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 54,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 54,
+        "type": "ListItem",
+        "content": "  从翻译模式中去掉嵌在产生式中间的语义规则集举例"
+    },
+    {
+        "page": 54,
+        "type": "Title",
+        "content": "E  T  R"
+    },
+    {
+        "page": 54,
+        "type": "UncategorizedText",
+        "content": "R  + T  { print(‘+’) } R1"
+    },
+    {
+        "page": 54,
+        "type": "UncategorizedText",
+        "content": "R   T  { print(‘’) } R1 "
+    },
+    {
+        "page": 54,
+        "type": "UncategorizedText",
+        "content": "R  "
+    },
+    {
+        "page": 54,
+        "type": "Title",
+        "content": "T  num   { print(num.val ) }"
+    },
+    {
+        "page": 54,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 55,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 55,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 55,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问"
+    },
+    {
+        "page": 55,
+        "type": "ListItem",
+        "content": "  自下而上语义计算程序根据产生式 AXY 的归约"
+    },
+    {
+        "page": 55,
+        "type": "Title",
+        "content": "   过程中，假设X的综合属性 X.s 已经出现在语义栈"
+    },
+    {
+        "page": 55,
+        "type": "Title",
+        "content": "   上. 因为在Y 以下子树的任何归约之前，X.s的值一"
+    },
+    {
+        "page": 55,
+        "type": "Title",
+        "content": "   直存在，因此它可以被Y 继承. 如果用复写规则"
+    },
+    {
+        "page": 55,
+        "type": "Title",
+        "content": "    Y.i:=X.s 来定义 Y 的继承属性Y.i，则在需要Y.i 时，"
+    },
+    {
+        "page": 55,
+        "type": "Title",
+        "content": "   可以使用X.s"
+    },
+    {
+        "page": 55,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 56,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 56,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 56,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问举例"
+    },
+    {
+        "page": 56,
+        "type": "Title",
+        "content": "翻译模式"
+    },
+    {
+        "page": 56,
+        "type": "Title",
+        "content": "D  T { L.in := T.type } L"
+    },
+    {
+        "page": 56,
+        "type": "UncategorizedText",
+        "content": "T  int   { T.type := integer }  real  { T.type := real }"
+    },
+    {
+        "page": 56,
+        "type": "UncategorizedText",
+        "content": "L  { L1.in := L.in } L1 , v  {  addtype(v.entry,L.in) }"
+    },
+    {
+        "page": 56,
+        "type": "Title",
+        "content": "L  v  { addtype(v.entry,L.in) }"
+    },
+    {
+        "page": 56,
+        "type": "UncategorizedText",
+        "content": "产生式             依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 56,
+        "type": "Title",
+        "content": "D  T L"
+    },
+    {
+        "page": 56,
+        "type": "UncategorizedText",
+        "content": "T  int                    val [top] := integer"
+    },
+    {
+        "page": 56,
+        "type": "UncategorizedText",
+        "content": "T  real                  val [top] := real"
+    },
+    {
+        "page": 56,
+        "type": "UncategorizedText",
+        "content": "L  L , v                 addtype(val [top] .entry , val [top-3] )"
+    },
+    {
+        "page": 56,
+        "type": "UncategorizedText",
+        "content": "L  v                      addtype(val [top] .entry , val [top-1] )"
+    },
+    {
+        "page": 56,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 56,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 57,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 57,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 57,
+        "type": "ListItem",
+        "content": "  继承属性的模拟求值"
+    },
+    {
+        "page": 57,
+        "type": "ListItem",
+        "content": "  从上面的讨论可知，分析栈中继承属性的访问是通"
+    },
+    {
+        "page": 57,
+        "type": "Title",
+        "content": "   过栈中已有文法符号的综合属性值间接进行的，因"
+    },
+    {
+        "page": 57,
+        "type": "Title",
+        "content": "   此设计翻译模式时需要做到的一点就是要保证继承"
+    },
+    {
+        "page": 57,
+        "type": "Title",
+        "content": "   属性总可以通过某个文法符号的综合属性体现出来"
+    },
+    {
+        "page": 57,
+        "type": "ListItem",
+        "content": "  必要时，通过增加新的文法符号以及相应的复写规"
+    },
+    {
+        "page": 57,
+        "type": "Title",
+        "content": "   则常常可以达到上述目的"
+    },
+    {
+        "page": 57,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 58,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 58,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 58,
+        "type": "ListItem",
+        "content": "  继承属性的模拟求值举例"
+    },
+    {
+        "page": 58,
+        "type": "Title",
+        "content": "     考虑如下翻译模式："
+    },
+    {
+        "page": 58,
+        "type": "UncategorizedText",
+        "content": "                S  a A {C.i := A.s} C  b A B {C.i := A.s} C  "
+    },
+    {
+        "page": 58,
+        "type": "UncategorizedText",
+        "content": "                C  c {C.s := g(C.i)}"
+    },
+    {
+        "page": 58,
+        "type": "NarrativeText",
+        "content": "若直接应用上述复写规则的计算方法，则在使用 C  c 进行归"
+    },
+    {
+        "page": 58,
+        "type": "Title",
+        "content": "约时，C.i 的值或存在于次栈顶（top-1），或存在于次次栈顶（top-2），不能确定用哪一个. 一种可行的做法是引入新的非终"
+    },
+    {
+        "page": 58,
+        "type": "UncategorizedText",
+        "content": "结符 M，将以上翻译模式改造为："
+    },
+    {
+        "page": 58,
+        "type": "UncategorizedText",
+        "content": "               S  a A {C.i := A.s} C  b A B {M.i := A.s} M {C.i := M.s} C  "
+    },
+    {
+        "page": 58,
+        "type": "UncategorizedText",
+        "content": "               C  c  {C.s := g(C.i)}"
+    },
+    {
+        "page": 58,
+        "type": "UncategorizedText",
+        "content": "               M  ε  {M.s := M.i }"
+    },
+    {
+        "page": 58,
+        "type": "Title",
+        "content": "这样，在使用C  c 进行归约时， C.i 的值就一定可以通过访问次栈顶（top-1）得到 "
+    },
+    {
+        "page": 58,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 59,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 59,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 59,
+        "type": "ListItem",
+        "content": "  继承属性的模拟求值举例"
+    },
+    {
+        "page": 59,
+        "type": "Title",
+        "content": "     考虑如下翻译模式："
+    },
+    {
+        "page": 59,
+        "type": "UncategorizedText",
+        "content": "                S  a A {C.i := f(A.s)} C "
+    },
+    {
+        "page": 59,
+        "type": "NarrativeText",
+        "content": "这里，继承属性 C.i 不是通过复写规则来求值，而是通过普通函数 f(A.s) 调用来计算. 在计算 C.i 时，A.s 在语义栈上，但 f(A.s)并未存在于语义栈. 同样，一种做法是引入新的非终结符M，将以上翻译模式改造为："
+    },
+    {
+        "page": 59,
+        "type": "UncategorizedText",
+        "content": "               S  a A {M.i := A.s} M {C.i := M.s} C   "
+    },
+    {
+        "page": 59,
+        "type": "UncategorizedText",
+        "content": "               M ε {M.s := f(M.i)} "
+    },
+    {
+        "page": 59,
+        "type": "Title",
+        "content": "这样，就解决了上述问题。想一想，为什么？"
+    },
+    {
+        "page": 59,
+        "type": "Title",
+        "content": "注：从翻译模式中去掉嵌在产生式中间的语义规则集时，若语义规则集中有关联的属性，则可参照此例的解决方案"
+    },
+    {
+        "page": 59,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 60,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 60,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 60,
+        "type": "ListItem",
+        "content": "  继承属性的模拟求值（较复杂的例子）"
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "N  . { S.f : =1}  S   { print(S.v) }"
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "S   { B.f : =S.f } B { S1.f := S.f +1 } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 60,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 61,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 61,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 61,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 61,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 61,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 61,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 62,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 62,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 62,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 62,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 62,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 62,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 62,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 63,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 63,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 63,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 63,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 63,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 63,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 63,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 64,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 64,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 64,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 64,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 64,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 64,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 64,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 65,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 65,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 65,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 65,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 65,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 65,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 65,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 65,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 65,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 66,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 66,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 66,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 66,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 66,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 66,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 66,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 66,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 66,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 67,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 67,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 67,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 67,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 67,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 67,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 67,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 67,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 67,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 68,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 68,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 68,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 68,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 68,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 68,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 68,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 68,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 68,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 68,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 68,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 69,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 69,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 69,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 69,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 69,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 69,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 69,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 69,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 69,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 69,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 69,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 70,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 70,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 70,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 70,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 70,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 70,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 70,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 70,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 70,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 70,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 70,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 71,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 71,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 71,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 71,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 71,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "4"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 71,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "0.125"
+    },
+    {
+        "page": 71,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 71,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 71,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 71,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 71,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 71,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 71,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 72,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 72,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "4"
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "0.125"
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 72,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 73,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 73,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "4"
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "0.125"
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 73,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 74,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 74,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 74,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 74,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 74,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "0.125"
+    },
+    {
+        "page": 74,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 74,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "0"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 74,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 74,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 74,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 74,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 74,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 75,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 75,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 75,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 75,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 75,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "0.125"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 75,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 75,
+        "type": "Title",
+        "content": "P"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 75,
+        "type": "Title",
+        "content": "B"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "0.5"
+    },
+    {
+        "page": 75,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 75,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 76,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 76,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 76,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 76,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 76,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 76,
+        "type": "Title",
+        "content": "print  0.625"
+    },
+    {
+        "page": 76,
+        "type": "Title",
+        "content": "S"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "0.625"
+    },
+    {
+        "page": 76,
+        "type": "Title",
+        "content": "M"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "1"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "."
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 76,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 77,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 77,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 77,
+        "type": "ListItem",
+        "content": "  分析栈中继承属性的访问（较复杂的例子）"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "N  . M { S.f : = M.s }  S   { print(S.v) }"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "S  { B.f : =S.f } B { P.i :=S.f } P { S1.f := P.s } S1 {S.v := S1.v+B.v } "
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "S    { S.v := 0 }"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "B  0  { B.v := 0 }"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "B  1  { B.v := 2^(-B.f) }"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "M    { M.s : =1}"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "P    { P.s := P.i +1 }"
+    },
+    {
+        "page": 77,
+        "type": "Title",
+        "content": "例: 处理输入串   .101"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "产生式                   依产生式归约时语义计算的代码片断"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "N  . M S                 print(val [top] .v) "
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "S  B P S1               val [top-2].v := val [top].v + val [top-2].v "
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "S                          val [top+1].v := 0 "
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "B  0                        val [top].v := 0 "
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "B  1                        val [top].v := 2^(-val [top-1].s) "
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "M                         val [top+1].s := 1 "
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "P                          val [top+1].s := val [top-1].s+1"
+    },
+    {
+        "page": 77,
+        "type": "Title",
+        "content": "(分析栈val 存放文法符号的综合属性，top为栈顶指针)"
+    },
+    {
+        "page": 77,
+        "type": "Title",
+        "content": "acc"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": ""
+    },
+    {
+        "page": 77,
+        "type": "Title",
+        "content": "N"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "#"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "-"
+    },
+    {
+        "page": 77,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 78,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 78,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 78,
+        "type": "ListItem",
+        "content": "  用综合属性代替继承属性"
+    },
+    {
+        "page": 78,
+        "type": "ListItem",
+        "content": "  有时，改变基础文法可能避免继承属性. 如下列文"
+    },
+    {
+        "page": 78,
+        "type": "Title",
+        "content": "    法可能用来描述 Pascal 式的说明语句"
+    },
+    {
+        "page": 78,
+        "type": "Title",
+        "content": "D  L：T"
+    },
+    {
+        "page": 78,
+        "type": "Title",
+        "content": "T  int"
+    },
+    {
+        "page": 78,
+        "type": "Title",
+        "content": "T  real"
+    },
+    {
+        "page": 78,
+        "type": "Title",
+        "content": "L  L, v"
+    },
+    {
+        "page": 78,
+        "type": "Title",
+        "content": "L  v"
+    },
+    {
+        "page": 78,
+        "type": "NarrativeText",
+        "content": "因变量标识符由 L 产生而类型不在 L 的子树中，所以不能仅仅使用综合属性就把 type 与标识符联系起来.从第一个产生式来看，似乎 L 可以从它的右边 T 中继承 type，但所得到的属性文法就不是 L-属性的"
+    },
+    {
+        "page": 78,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 79,
+        "type": "Title",
+        "content": "基于翻译模式的语义计算"
+    },
+    {
+        "page": 79,
+        "type": "ListItem",
+        "content": " 基于翻译模式的自下而上语义计算"
+    },
+    {
+        "page": 79,
+        "type": "ListItem",
+        "content": "  用综合属性代替继承属性"
+    },
+    {
+        "page": 79,
+        "type": "ListItem",
+        "content": "  若将上例中的基础文法变为"
+    },
+    {
+        "page": 79,
+        "type": "Title",
+        "content": "D  v L"
+    },
+    {
+        "page": 79,
+        "type": "Title",
+        "content": "L   , v L"
+    },
+    {
+        "page": 79,
+        "type": "Title",
+        "content": "L  : T"
+    },
+    {
+        "page": 79,
+        "type": "Title",
+        "content": "T  int"
+    },
+    {
+        "page": 79,
+        "type": "Title",
+        "content": "T  real"
+    },
+    {
+        "page": 79,
+        "type": "Title",
+        "content": "这样，类型可以通过综合属性 L.type 进行传递，当通过 L 产生每个变量标识符时，它的类型就可以填入到符号表中"
+    },
+    {
+        "page": 79,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 80,
+        "type": "Title",
+        "content": "课后作业"
+    },
+    {
+        "page": 80,
+        "type": "Title",
+        "content": "参见网络学堂公告：“第三次书面作业”"
+    },
+    {
+        "page": 80,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 81,
+        "type": "NarrativeText",
+        "content": "That’s all for today. "
+    },
+    {
+        "page": 81,
+        "type": "Title",
+        "content": "Thank You"
+    }
+]

@@ -1,0 +1,784 @@
+{
+    "id": 1,
+    "keyword": "信号卷积运算",
+    "mainpoints": [
+        {
+            "id": 0,
+            "name": "信号处理原理与数学基础回顾",
+            "pages": [
+                1,
+                2
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        1,
+                        1
+                    ],
+                    "name": "讲师介绍",
+                    "definition": "课程的负责人信息",
+                    "information": "刘华平，清华大学教授，专注于信号处理原理方面的教学与研究。",
+                    "usage": "帮助学生了解课程讲师的背景，增加课程的信任度。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3633559655897507,
+                    "weight": 0.19333333333333333
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        2,
+                        2
+                    ],
+                    "name": "数学基础回顾",
+                    "definition": "信号处理所需的数学知识",
+                    "information": "以欧拉公式为核心，回顾信号处理中所涉及的数学基础知识。",
+                    "usage": "为深入学习信号处理原理做数学知识铺垫，确保学生掌握必要的数学工具。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://github.com/Mikoto10032/DeepLearning?search=1",
+                            "description": "数学基础. 矩阵微积分 · 机器学习的数学基础 · CS229线性代数与概率论基础. 机器学习基础 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1334173&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%BA%EE%D3%B1",
+                            "description": "在验证两种特定的等效随机调制码典的RIP性质基础上，描述了压缩感知理论下的随机调制信号参数估计方法与原理并介绍了几种典型的快速稀疏恢复算法，为后续研究奠定了数学 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1454484&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=amplitude%3Boutput%3Bgain",
+                            "description": "信号数字处理的数学原理[M].北京:石油工业出版社,1979. [5] 冯星颖,肖兴明,燕洪君.方向加权中值滤波算法[J].中国图象图形学报,2000, 5(A)(7). [6] 冯敏,刘财,杨宝峻,等 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.359271552237118,
+                    "weight": 0.14666666666666667
+                }
+            ],
+            "knowledgeDensity": 2.7226275178268686
+        },
+        {
+            "id": 1,
+            "name": "欧拉公式及其证明方法",
+            "pages": [
+                3,
+                9
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        3,
+                        5
+                    ],
+                    "name": "欧拉公式的基本介绍",
+                    "definition": "欧拉公式是一个在复分析领域非常重要的公式，它将三角函数与复数指数函数相联系。",
+                    "information": "欧拉公式表达了复数指数函数和三角函数之间的关系，即 e^(jθ) = cos(θ) + j*sin(θ)。它将实数的三角运算转化为复数的旋转运算，指数运算转化为乘积运算，并将求解纯微分方程的过程转化为求解指数方程的过程，极大地简化了运算。",
+                    "usage": "欧拉公式在包括信号处理、波动理论、电磁学等多个物理学和工程学领域都有广泛应用。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://blog.csdn.net/yy031/article/details/120334264",
+                            "description": "研究了微分几何中的仿欧拉公式及其应用。首先给出它的一个新的证明，再由微分几何中的欧拉及仿欧拉公式，得到了一个新的仿欧拉公式，这一公式反映了两曲面沿交线的曲率与法向量之间的关系。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/euler-method",
+                            "description": "数学和计算科学中的欧拉方法（也称为前向欧拉方法）是使用给定初始值求解常微分方程(ODE) 的一阶数值过程。这是常微分方程数值积分最基本的显式方法，也是最简单的龙格-库塔方法。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Euler-Equation",
+                            "description": "行波解及其在完整欧拉方程中的动力学使用时间相关保形映射技术进行数值计算，并与欧拉方程的基本方法中。Simplified artificial viscosity approach for curing..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://cn.mathigon.org/timeline/euler",
+                            "description": "... 法，构造了连续的，空间填充的曲线（Peano曲线），并致力于归纳证明的方法。Peano还开发了一种新的国际语言_Latino sine flexione_，它是拉丁语的简化版本。Proof by..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.70.20212370",
+                            "description": "满足标度关系(scaling relation):. 则该函数及其偏微分满足. (24)式的证明参见附件A. 为了利用欧拉公式确定Smarr关系, 需要用到标度论证方法[5,18,19]. 环面黑洞的度规..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.032569523190481,
+                    "weight": 0.608695652173913
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        6,
+                        6
+                    ],
+                    "name": "欧拉公式的重要性",
+                    "definition": "欧拉公式不仅是一条数学公式，更是数学美的体现。",
+                    "information": "上帝公式 10e^(jπ) + 1 = 0 体现了数学中的几个重要常数的关系。对于初次接触欧拉公式且能感受到其魅力的人，可能具备成为数学家的潜质。",
+                    "usage": "上帝公式凸显了欧拉公式在数学中的核心地位，对数学家而言，它代表了数学的简洁与和谐。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Euler-Equation",
+                            "description": "行波解及其在完整欧拉方程中的动力学使用时间相关保形映射技术进行数值计算，并与... 为了测试它们的效率和良好的平衡性，这些方法被应用于许多平衡定律系统，从简单的..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://cn.mathigon.org/timeline/euler",
+                            "description": "... 欧几里得几何学，包含了几何学和数论中的许多重要证明。直至19世纪，它一直是主要的数学教科书。他在亚历山大大教数学，但我们对他生活的其他事迹知之甚少。欧几里得 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1440904&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=chromatic%3Bnumber%3Bfree%3Bpr",
+                            "description": "[72]在研究平面图的列表非正常着色时,结合欧拉公式用放电的方法证明了每个不含4-圈和i-圈的平面图是(3,1)~*-可选的,其中i∈{5,6,7}。本文指出,对于2-连通图，只用欧拉公式..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://pubs-en.cstam.org.cn/article/doi/10.6052/0459-1879-23-080",
+                            "description": "5. 结论. 本文发展并采用基于气泡动力学方程的欧拉−拉格朗日框架下的螺旋桨螺旋空化初生数值预报方法对PPTC螺旋桨螺旋空化初生进行了准确的数值预报并从微观气核角度进行了分析研究."
+                        }
+                    ],
+                    "knowledgeDensity": 1.4107419759565711,
+                    "weight": 0.24
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        7,
+                        9
+                    ],
+                    "name": "欧拉公式的证明方法",
+                    "definition": "证明欧拉公式有多种数学方法，每种方法都有其独特的思路与应用。",
+                    "information": "证明方法一是利用泰勒级数法，通过函数的泰勒级数展开进行证明。证明方法二是微分法，通过函数的微分性质来进行证明。",
+                    "usage": "这些证明方法不仅可以证明欧拉公式，还能帮助学生理解和掌握数学中的级数和微分等重要概念。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://blog.csdn.net/yy031/article/details/120334264",
+                            "description": "研究了微分几何中的仿欧拉公式及其应用。首先给出它的一个新的证明，再由微分几何中的欧拉及仿欧拉公式，得到了一个新的仿欧拉公式，这一公式反映了两曲面沿交线的曲率与法..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/euler-method",
+                            "description": "数学和计算科学中的欧拉方法（也称为前向欧拉方法）是使用给定初值求解常微分方程(ODE) 的一阶数值过程。这是常微分方程数值积分最基本的显式方法，也是最简单的龙..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/Manuscript-Generator/zhcn/Euler-Equation",
+                            "description": "该方法通过基于反应欧拉方程和一步不可逆化学反应模型的一维和二维不稳定爆炸的...行波解及其在完整欧拉方程中的动力学使用时间相关保形映射技术进行数值计算，并与..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://cn.mathigon.org/timeline/euler",
+                            "description": "...方法，构造了连续的，空间填充的曲线（Peano曲线），并致力于归纳证明的方法。Peano还开发了一种新的国际语言_Latino sine flexione_，它是拉丁语的简化版本。Proof by..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1406319&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=extension%3Bfunction%3Bkummer%3Bfields%3Bof",
+                            "description": "本文主要研究分拆恒等式的组合证明方法:著名的Euler分拆定理的一一映射证明和Lebesgue恒等式的对合证明。此外我们还利用标号分拆的概念得到了关于染色排列的统计量的..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.492940121492766,
+                    "weight": 0.2866666666666666
+                }
+            ],
+            "knowledgeDensity": 8.658879138466688
+        },
+        {
+            "id": 2,
+            "name": "欧拉公式的应用",
+            "pages": [
+                10,
+                15
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        10,
+                        12
+                    ],
+                    "name": "复指数信号的欧拉公式表示",
+                    "definition": "欧拉公式是一种将复指数信号与三角函数关系表示的公式。",
+                    "information": "内容涉及欧拉公式在复指数信号中的应用，通过不同的值K、Ψ和ω来展示复指数信号的不同表达形式。",
+                    "usage": "通过欧拉公式将复指数信号与正余弦信号之间的关系进行转换，进而分析信号的特性。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://luyf-lemon-love.gitee.io/1059991633/",
+                            "description": "... 复平面上对应单位圆上的一个点。由欧拉公式，这个点可以用复指数表示，如图：. 欧拉公式的证明: 下面用麦克劳林级数对欧拉公式进行证明：. e x = 1 + x 1 ! + x ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://context.reverso.net/translation/english-chinese/complex+plane",
+                            "description": "欧拉公式给出了e 的复指数与复平面上以原点为圆心的单位圆上的点之间的关系。 The asymptotic formula for Ai(x) is still valid in the complex plane if the ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/fourier-series",
+                            "description": "欧拉公式可用于简化傅里叶级数系数的积分。 有定义将表达式代入表达式将1 代入 ... } 这正好对应于上面的复指数公式。具有正弦和余弦的版本在希尔伯特空间解释中也是 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://en.dzkx.org/article/doi/10.6038/cjg2021O0464",
+                            "description": "本文方法中：①采用欧拉公式对方程(4)中的指数项进行展开，提出了基于多倍角公式OSE方法的方程组解法，可对不同传播时间的实波场P(t)和虚波场Q(t)及其微分算子实现解析 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/periodic-function",
+                            "description": "... 复指数由余弦波和正弦波组成。这意味着欧拉公式（上图）具有以下性质： L. ... 在信号处理中，我们会遇到傅里叶级数表示周期函数的问题，傅里叶级数满足卷积定理（即傅里叶 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 3.1114794899342724,
+                    "weight": 0.6231884057971013
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        13,
+                        13
+                    ],
+                    "name": "复指数信号不同取值的比较",
+                    "definition": "通过给定的K、Ψ和ω值，比较复指数信号的不同。",
+                    "information": "展示了在Ψ固定、ω不同和K固定、Ψ不同的条件下复指数信号的变化。",
+                    "usage": "可以用来理解在不同参数下，复指数信号如何受到影响，以及这些变化在信号分析和处理中的意义。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://en.dzkx.org/article/doi/10.6038/cjg2021O0464",
+                            "description": "本文方法中：①采用欧拉公式对方程(4)中的指数项进行展开，提出了基于多倍角公式OSE方法的方程组解法，可对不同传播时间的实波场P(t)和虚波场Q(t)及其伪微分算子实现解析。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.71.20220922",
+                            "description": "利用复数欧拉公式, 可以得到: 其中, Arg[△]表示复数的幅角, Re[△]表示复数的实部。 公式, 公式预测值见图5中灰色纵线所示。 可以看到, 两种马赫数下, 空腔流动的振荡。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://patents.google.com/patent/WO2023109065A1/en",
+                            "description": "A method for implementing a recurrent neural network. The method is applied to a silicon-based optical chip, and comprises: receiving an optical signal."
+                        }
+                    ],
+                    "knowledgeDensity": 2.4196553147692703,
+                    "weight": 0.40579710144927533
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        14,
+                        14
+                    ],
+                    "name": "欧拉公式的基本形式",
+                    "definition": "欧拉公式表达了e^(jt)的三角函数形式。",
+                    "information": "给出了欧拉公式的基本形式，即e^(jt) = cos(t) + j*sin(t)。",
+                    "usage": "这是复指数与三角函数关系的基础，是信号处理中频繁使用的一个重要公式。",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://blog.csdn.net/yy031/article/details/120334264",
+                            "description": "import matplotlib.pyplot as plt import numpy as np h=0.01 x = 0 xx=np.zeros(100) yy=np.zeros(100) y = 1 for i in range (100): y=h*(y-2.0*x/y)+y x=x+h ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/euler-method",
+                            "description": "数学和计算科学中的欧拉方法（也称为前向欧拉方法）是使用给定初值求解常微分方程(ODE) 的一阶数值过程。这是常微分方程数值积分最基本的显式方法，也是最简单的龙格-库塔方法之一。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.wikiwand.com/zh-mo/%E5%B0%A4%E6%8B%89%E5%85%AC%E5%BC%8F",
+                            "description": "引言欧拉公式; 历史; 形式; 证明; 验证方法; cis函数; 检定和角公式; 在复分析的应用; 参见; 参考资料. cover image. 欧拉公式. e^(ix) = cos(x) + i*sin(x) / 维基百科， ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://luyf-lemon-love.gitee.io/1059991633/",
+                            "description": "... “指导有了欧拉公式，人们才对虚数的物理意义有了清晰的认识。下面我们一起来看看如何利用欧拉公式理解虚数。在欧拉公式中，令 θ = π/2 θ=π/2 θ= ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zh.wikipedia-on-ipfs.org/wiki/%E6%9F%AF%E8%A5%BF-%E6%AD%90%E6%8B%89%E6%96%B9%E7%A8%8B",
+                            "description": "柯西-欧拉方程是形式如 x 2 y ″ + b x y ′ + c y = 0 （其中 b , c 是常数）的二阶常微分方程。"
+                        }
+                    ],
+                    "knowledgeDensity": 1.8512995349760317,
+                    "weight": 0.34782608695652173
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        15,
+                        15
+                    ],
+                    "name": "欧拉公式的应用拓展",
+                    "definition": "在已有的欧拉公式基础上进行拓展，以适应更广泛的应用场景。",
+                    "information": "第15页未给出具体内容，可能是对欧拉公式应用的进一步扩展或示例。",
+                    "usage": "理解和应用欧拉公式在不同复指数信号分析中的拓展用途。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.343922270998692,
+                    "weight": 0.1
+                }
+            ],
+            "knowledgeDensity": 17.385235749144954
+        },
+        {
+            "id": 3,
+            "name": "信号的运算及其物理意义",
+            "pages": [
+                16,
+                23
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        16,
+                        16
+                    ],
+                    "name": "欧拉公式的应用",
+                    "definition": "用复值信号的实数部分和虚数部分分别表示电场与磁场信号。",
+                    "information": "难点在于如何统一描述电场与磁场信号。电场与磁场垂直，解决方案是使用复数完美表示。",
+                    "usage": "电场与磁场可以用复数完美地表示。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.914849223899369,
+                    "weight": 0.5072463768115942
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        17,
+                        19
+                    ],
+                    "name": "常规运算",
+                    "definition": "包括线性运算、乘除运算、微分运算、积分运算、相互运算以及相关运算。",
+                    "information": "常规运算涉及信号处理中的基本数学操作，包括但不限于加法、减法、乘法、除法、微分、积分等。",
+                    "usage": "在信号处理中，这些运算用于信号的变换、时移、压扩、反褶等操作。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.560388094898575,
+                    "weight": 0.42028985507246375
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        20,
+                        20
+                    ],
+                    "name": "信号的卷积运算",
+                    "definition": "两个信号进行卷积运算，得到的结果是这两个信号的卷积。",
+                    "information": "卷积公式表达为 (f * g)(t) = ∫ f(τ)g(t - τ) dτ。",
+                    "usage": "在信号处理中，卷积运算用于分析系统对信号的影响，如滤波器的频率响应。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.8629306533834864,
+                    "weight": 0.4492753623188406
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        21,
+                        23
+                    ],
+                    "name": "卷积定理的引出与卷积运算",
+                    "definition": "卷积定理说明了信号的卷积在频域中的表达形式。",
+                    "information": "卷积定理指出，两个信号的卷积对应于它们傅里叶变换的乘积，这是信号处理中的一个重要性质。",
+                    "usage": "卷积定理在信号处理中用于简化信号卷积运算，特别是在频域滤波和系统分析中应用广泛。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.5297273258885755,
+                    "weight": 0.3333333333333333
+                }
+            ],
+            "knowledgeDensity": 27.25313104721496
+        },
+        {
+            "id": 4,
+            "name": "信号的卷积运算及定义",
+            "pages": [
+                24,
+                37
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        24,
+                        28
+                    ],
+                    "name": "卷积运算定义及其引出的信号卷积",
+                    "definition": "卷积运算定义是两个函数f(t)和g(t)在整个定义域上相乘后的积分，用于分析两个信号的相互关系。",
+                    "information": "通过对函数f(t)和g(t)进行卷积运算，可以得到它们在各个时间点的重叠程度，这个过程在数学上通常表示为(f*g)(t)。卷积运算在信号处理中非常重要，因为它能够揭示两个信号结合后的新特性。",
+                    "usage": "在信号处理、系统分析、概率论等领域中，卷积运算被用来解决实际问题，如滤波器设计、概率分布分析等。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.6852078336018215,
+                    "weight": 0.43478260869565216
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        29,
+                        33
+                    ],
+                    "name": "卷积运算公式及其计算",
+                    "definition": "卷积运算公式涉及到两个信号在不同时间偏移量下的积分计算。",
+                    "information": "这部分内容主要介绍了卷积运算的详细计算方法，包括不同情况下的运算规则和结果表达。特别地，展示了在不同偏移量下信号如何相乘并积分，以及如何根据给定的函数形式计算卷积结果。",
+                    "usage": "在信号处理中，卷积运算公式用于分析线性时不变系统的输出信号，或者在概率论中计算两个独立随机变量之和的分布。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.1594586417814345,
+                    "weight": 0.6521739130434783
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        34,
+                        37
+                    ],
+                    "name": "连续信号的卷积运算及其特性",
+                    "definition": "连续信号的卷积运算是在连续时间信号上定义的，需要满足一定的条件，如信号的可积性和有界性。",
+                    "information": "讨论了连续信号卷积存在的条件，强调了两个信号必须是可积的，并且卷积运算得到的结果是有界的。同时，介绍了卷积运算在图形上的直观解释，即一个信号在时间轴上的反折和滑动，与另一个信号的重合部分相乘后得到的新信号波形。",
+                    "usage": "连续信号的卷积在模拟信号处理和系统分析中非常有用，如在确定线性时不变系统的冲激响应以及系统输出等方面。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.191345756430924,
+                    "weight": 0.7333333333333333
+                }
+            ],
+            "knowledgeDensity": 36.28914327902915
+        },
+        {
+            "id": 5,
+            "name": "连续信号的卷积运算及其物理意义",
+            "pages": [
+                38,
+                42
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        38,
+                        38
+                    ],
+                    "name": "连续信号的卷积运算定义",
+                    "definition": "连续信号的卷积本质上是先将一个函数翻转，然后进行滑动叠加运算。",
+                    "information": "对卷积这个名词的理解：所谓两个函数的卷积，本质上就是先将一个函数翻转，然后进行滑动叠加。",
+                    "usage": "在信号处理中，卷积运算用于描述两个信号组合的总效果。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.410591745332603,
+                    "weight": 0.3913043478260869
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        39,
+                        39
+                    ],
+                    "name": "离散信号的卷积运算定义",
+                    "definition": "离散时间信号的卷积定义为两个信号序列的卷积和。",
+                    "information": "给出了离散时间信号的卷积运算的数学表达式，以及一个具体的计算示例：a=[1,2,3]; b=[2,3,1]; y=conv(b,a)。",
+                    "usage": "在数字信号处理中，离散信号的卷积是实现线性时不变系统响应的基础计算方法。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9222664630066357,
+                    "weight": 0.5217391304347826
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        40,
+                        41
+                    ],
+                    "name": "卷积运算的物理意义与概率论应用",
+                    "definition": "卷积运算在概率论中的物理意义是两个独立随机变量和的概率分布。",
+                    "information": "通过掷骰子的例子来解释卷积运算的物理意义：如果有两颗骰子，分别表示为两个信号f和g，那么这两个骰子点数和为4的概率可以通过卷积来计算。",
+                    "usage": "在概率论与数理统计中，卷积用于计算独立随机变量和的概率分布。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9979978701258636,
+                    "weight": 0.5942028985507246
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        42,
+                        42
+                    ],
+                    "name": "离散信号卷积的数学表述",
+                    "definition": "离散信号卷积的数学表述涉及信号序列的卷积和计算。",
+                    "information": "展示了信号f(n)和g(n)的卷积运算的数学表达式，并对卷积的计算过程进行了描述。",
+                    "usage": "这种卷积的数学表述用于数字信号处理，尤其是在滤波器设计和系统分析中。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.379939144978689,
+                    "weight": 0.36231884057971014
+                }
+            ],
+            "knowledgeDensity": 46.99993850247294
+        },
+        {
+            "id": 6,
+            "name": "信号卷积运算的性质",
+            "pages": [
+                43,
+                47
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        43,
+                        43
+                    ],
+                    "name": "卷积运算定义",
+                    "definition": "信号的卷积运算定义为两个信号函数的积分，其中一个信号翻转并平移，然后这两个信号的乘积积分得到的结果。",
+                    "information": "卷积运算通过特定的数学表达式（积分形式）来描述两个信号的关系。这种运算对于线性时不变系统的输入输出分析尤为重要。",
+                    "usage": "卷积运算主要用于信号处理领域，特别是在分析线性时不变（LTI）系统的输出响应时，常常需要用到信号的卷积运算。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.8778826545956613,
+                    "weight": 0.46376811594202894
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        44,
+                        47
+                    ],
+                    "name": "卷积运算性质",
+                    "definition": "信号的卷积运算有三个基本性质：交换律、分配律和结合律。",
+                    "information": "交换律指出两个信号卷积的结果与信号的顺序无关。分配律表明一个信号与多个信号卷积时，可以分别卷积后再相加。结合律说明多个信号卷积时，可以先将其中几个信号卷积，再与剩余的信号卷积，结果不变。",
+                    "usage": "卷积运算的性质在信号处理中非常重要，它们简化了复杂信号卷积的计算，提供了一种分析线性系统特性的有效工具。在系统设计和信号分析时，这些性质常常被用来简化问题，使得问题更易于处理。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.182523537685002,
+                    "weight": 0.6666666666666666
+                }
+            ],
+            "knowledgeDensity": 53.0603446947536
+        },
+        {
+            "id": 7,
+            "name": "信号的微分与积分运算",
+            "pages": [
+                48,
+                50
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        48,
+                        48
+                    ],
+                    "name": "信号的卷积运算性质",
+                    "definition": "卷积的微分",
+                    "information": "对于实数域R上的连续可导函数f1和f2，卷积的微分可以通过对函数进行逐项微分得到。",
+                    "usage": "在信号处理中，卷积的微分运算用于分析系统对输入信号变化的响应特性。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.897968111502253,
+                    "weight": 0.47826086956521735
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        49,
+                        49
+                    ],
+                    "name": "信号卷积的导数与重积分次数",
+                    "definition": "卷积的导数阶次与重积分次数",
+                    "information": "根据上式中提到的m和n的取值，当它们取正整数时代表导数的阶数，取负整数时为重积分的次数。",
+                    "usage": "这一性质有助于在信号分析和系统理论中处理不同阶次的导数和积分运算。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9316511312097475,
+                    "weight": 0.536231884057971
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        49,
+                        49
+                    ],
+                    "name": "卷积的积分运算",
+                    "definition": "卷积的积分",
+                    "information": "通过积分运算可以求得连续可导函数的卷积。",
+                    "usage": "卷积的积分在求解线性时不变系统的输出信号中非常重要，是信号与系统分析中的基本工具。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9316511312097475,
+                    "weight": 0.5507246376811594
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        50,
+                        50
+                    ],
+                    "name": "信号运算类型",
+                    "definition": "线性运算、微分运算与积分运算",
+                    "information": "描述了常规运算如线性运算、乘除运算、微分与积分运算等，以及它们在信号处理中的应用，如时移运算、压扩运算等。",
+                    "usage": "这些信号运算方法用于改变信号的形态和特性，以满足通信系统设计、信号分析等领域的需求。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9109181675216087,
+                    "weight": 0.49275362318840576
+                }
+            ],
+            "knowledgeDensity": 64.73253323619696
+        },
+        {
+            "id": 8,
+            "name": "信号的相关运算与应用",
+            "pages": [
+                51,
+                53
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        51,
+                        51
+                    ],
+                    "name": "信号的相关运算",
+                    "definition": "信号相关运算是为了表示一个信号在时间轴上平移后与另一个信号的相似性。",
+                    "information": "相关分析包括自相关函数和互相关函数。自相关函数用于衡量同一信号在不同时间点的相似程度，而互相关函数用于衡量两个信号在不同时间点的相似程度。通过对信号进行位移、相乘和积分（求和）操作来进行计算。",
+                    "usage": "用于信号处理中判断信号相似度、检测信号中的模式或特征等。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9397425617012662,
+                    "weight": 0.5797101449275361
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        52,
+                        52
+                    ],
+                    "name": "相关与卷积信号的相关运算",
+                    "definition": "信号的相关运算与卷积运算在数学形式上非常相似，都涉及位移、相乘和积分的过程。",
+                    "information": "二者的区别在于卷积运算需要先对其中一个信号进行翻转。相关运算用于信号的相似性分析，而卷积运算则用于信号的滤波处理、系统分析等。",
+                    "usage": "相关运算常用于信号匹配和识别，卷积运算则广泛应用于信号系统分析、图像处理等领域。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.939665826094235,
+                    "weight": 0.5652173913043478
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        53,
+                        53
+                    ],
+                    "name": "卷积、相关的拓展应用",
+                    "definition": "卷积和相关运算的拓展应用，包括在图像处理和深度学习领域的具体实践。",
+                    "information": "图像卷积运算用于滤波、边缘检测等图像处理技术。卷积神经网络是深度学习中的一个重要概念，利用卷积运算提取特征，用于图像识别、语音识别等。",
+                    "usage": "在深度学习中，卷积运算是构建卷积神经网络的基础，用于自动和有效地从数据中学习特征。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.3881407409863304,
+                    "weight": 0.37681159420289856
+                }
+            ],
+            "knowledgeDensity": 73.0000823649788
+        },
+        {
+            "id": 9,
+            "name": "奇异信号及其扩展应用",
+            "pages": [
+                54,
+                83
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        54,
+                        57
+                    ],
+                    "name": "奇异信号的引出",
+                    "definition": "奇异信号是用于描述自然界中那些发生后持续时间很短的现象。",
+                    "information": "通过对奇异信号的数学表达和特性分析，可以用于刻画瞬间变化的物理过程。例如，'啪啪'声表示熟瓜，'当当'声表示未熟，'嘶嘶'声表示过熟。",
+                    "usage": "奇异信号可以用于电子工程和信号处理中描述瞬时冲击等现象。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.1118112246948737,
+                    "weight": 0.6376811594202898
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        58,
+                        64
+                    ],
+                    "name": "奇异信号的性质",
+                    "definition": "奇异信号具有时移性质、滤波特性和取样特性。",
+                    "information": "奇异信号的时移性质表示信号可以在时间轴上进行移动。滤波特性指的是信号通过系统时，系统的频率特性会对信号进行滤波。取样特性表明奇异信号可以取出信号在某一时刻的值。",
+                    "usage": "在信号处理中，利用这些性质可以进行信号分析和系统响应的计算。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.388805331139504,
+                    "weight": 0.9333333333333333
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        65,
+                        71
+                    ],
+                    "name": "奇异信号的运算",
+                    "definition": "奇异信号的运算包括微分、积分以及与其他函数的乘积等。",
+                    "information": "奇异信号的微分可以产生更高阶的奇异信号，积分则可以得到阶跃函数。当与其他函数相乘时，可以得到在特定时刻的信号值。",
+                    "usage": "这些运算在电路分析和控制系统设计中非常有用，比如用于求解脉冲响应和状态方程。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.5227289712889145,
+                    "weight": 1.0
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        72,
+                        77
+                    ],
+                    "name": "奇异信号的扩展应用",
+                    "definition": "奇异信号的扩展应用包括单位阶跃信号、矩形脉冲信号和单位斜变信号等。",
+                    "information": "单位阶跃信号可以用来描述电路中的开关动作，矩形脉冲信号可以用于信号的截取与分段，单位斜变信号可以表示信号的线性增长或衰减。",
+                    "usage": "这些信号在模拟信号的抽样、量化和信号的时间分析中有广泛应用。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.3002564341094005,
+                    "weight": 0.8666666666666667
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        78,
+                        83
+                    ],
+                    "name": "奇异信号总结与练习",
+                    "definition": "对奇异信号及其相关概念和运算进行总结，通过练习题加深理解。",
+                    "information": "包括奇异信号的基本定义、性质、运算规则，并通过具体的例题来讲解和巩固。",
+                    "usage": "通过练习题的解答，帮助学生更好地理解奇异信号的概念和运用。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.25573589709479,
+                    "weight": 0.8
+                }
+            ],
+            "knowledgeDensity": 89.57942022330629
+        }
+    ],
+    "knowledgeDensity": 419.68133575339124
+}

@@ -1,0 +1,282 @@
+[
+    {
+        "page": 1,
+        "content": "刘华平\n清华大学  信号处理原理 -03"
+    },
+    {
+        "page": 2,
+        "content": "1\n( )* ( )= ( ) ( )f t g t f g t d   \n−−\n0 0 )(  = t t\n0 )( = = t t\n( ) 1t d t\n−=\nt 0\n()t(1)\n上节回顾"
+    },
+    {
+        "page": 3,
+        "content": "2 上节回顾\n奇异信号卷积计算\n欧拉公式Why What How\n( )* ( )= ( ) ( )f t g t f g t d   \n−−\ncos( ) sin( )jej=+\n傅里叶级数\n傅里叶变换"
+    },
+    {
+        "page": 4,
+        "content": "3\n信号的基本分解"
+    },
+    {
+        "page": 5,
+        "content": "4 信号的基本分解\n➢信号的分解方法\n直流分量 +交流分量\n偶分量+奇分量\n实部分量 +虚部分量\n脉冲分量\n基于正交分量的分解分\n解\n方\n法分解结果是唯一的"
+    },
+    {
+        "page": 6,
+        "content": "5 信号的基本分解\n➢直流-交流分解\n信号的直流分量\n2\n21( ) lim ( )T\nT DCTf t f t dtT→ −=\n信号的均值 信号的交流分量\n( ) ( ) ( )AC DCf t f t f t=−\n()f t dt\n−"
+    },
+    {
+        "page": 7,
+        "content": "6 信号的基本分解\n➢奇偶分解\n信号的偶分量\n( ) ( )( ) ( )2ef t f tf t Ev f t+−==\n信号的奇分量\n( ) ( )( ) ( )2of t f tf t Od f t−−==\n( ) ( )eef t f t=−\n( ) ( )eef t f t=− −\n()ft\n()ft−\n( ) ( ) ( )eo f t f t f t=+\n( ) ( )()2ef t f tft+−=\n( ) ( )()2ef t f tft−−="
+    },
+    {
+        "page": 8,
+        "content": "7 信号的基本分解\n➢奇偶分解\n信号的偶分量\n( ) ( )( ) ( )2ef t f tf t Ev f t+−==\n信号的奇分量\n( ) ( )( ) ( )2of t f tf t Od f t−−==\n( ) ( )eef t f t=−\n( ) ( )eef t f t=− −\n()ft\n()ft−\n()eft\n()oft"
+    },
+    {
+        "page": 9,
+        "content": "8 信号的基本分解\n➢虚实分解\n信号的实部分量\n信号的虚部分量\n( )* 1( ) Re ( ) ( ) ( )2rf t f t f t f t= = +\n( )* 1( ) Im ( ) ( ) ( )2if t f t f t f tj= = −\n•注意与奇偶分解的联系与区别\n•复数信号在物理世界并不存在，主要是理论分析的需要"
+    },
+    {
+        "page": 10,
+        "content": "9 信号的基本分解\n•\n信号分解方法\n"
+    },
+    {
+        "page": 11,
+        "content": "10\n➢脉冲分解\n–信号的脉冲分解：信号可以 近似表示为一组矩形脉冲\n的和的形式  \n–其中 t1处的矩形脉冲可以表示为：\n 1 1 1 1 1 ( ) ( ) ( ) ( )tf t f t u t t u t t t= − − − −信号的基本分解 ——脉冲分解"
+    },
+    {
+        "page": 12,
+        "content": "11\n➢脉冲分解\n–信号的脉冲分解：信号可以 近似表示为一组矩形脉冲\n的和的形式  \n–其中 t1处的矩形脉冲可以表示为：\n–原始函数可以表示为：\n( ) ( ) ( )f t f t d    \n−=  −\n 1 1 1 1 1 ( ) ( ) ( ) ( )tf t f t u t t u t t t= − − − −\n 1\n111 1 1 1 ( ) ( ) ( ) ( ) ( )t\nttf t f t f t u t t u t t t\n=− =− = − − − −信号的基本分解 ——脉冲分解\n( ) ( )f t t="
+    },
+    {
+        "page": 13,
+        "content": "12\n 上节回顾\n➢信号分解方法"
+    },
+    {
+        "page": 14,
+        "content": "信号的分解"
+    },
+    {
+        "page": 15,
+        "content": "14\n 信号的分解"
+    },
+    {
+        "page": 16,
+        "content": "15\n 信号的分解"
+    },
+    {
+        "page": 17,
+        "content": "正交 完备信号的分解"
+    },
+    {
+        "page": 18,
+        "content": "17\n信号的正交分解"
+    },
+    {
+        "page": 19,
+        "content": "18 向量的正交分解\n正交\nje\nie\n……\n0T\nij= ee\nie\nje\n相互之间无法表示\nie\nje\n| || | cosT\ni j i j  = e e e e"
+    },
+    {
+        "page": 20,
+        "content": "19 向量的正交分解\n三维欧式空间\n➢向量基\n0T\nij ij= ee\n30\n0\n1\n=\ne\n11\n0\n0\n=\ne\n20\n1\n0\n=\ne\n1e\n2e\n3e\n➢单位正交向量基\n1\n0T\nijij\nij==ee\n（模为1）\n（相互垂直）\n1e\n2e\n3e"
+    },
+    {
+        "page": 21,
+        "content": "20 向量的正交分解\n三维欧式空间\n➢向量基\n➢单位正交向量基\n30\n0\n1\n=\ne\n11\n0\n0\n=\ne\n20\n1\n0\n=\ne\n1\n0T\nijij\nij==ee\n0T\nij ij= ee\n1e\n2e\n3e\n（模为1）\n（相互垂直）\n31\n3\n-5\n=\na\n11\n3\n2\n=\na\n23\n-1\n0\n=\na"
+    },
+    {
+        "page": 22,
+        "content": "21 向量的正交分解\n三维欧式空间\n1 2 32\n3 =2 3\n1\n= + +\na e e e\n➢单位正交向量基\n30\n0\n1\n=\ne\n11\n0\n0\n=\ne\n20\n1\n0\n=\ne\n1e\n2e\n3e\n➢向量的正交分解\na"
+    },
+    {
+        "page": 23,
+        "content": "22 向量的正交分解\n三维欧式空间\n33 11 222\n3=\n1a a a\n= + +\na e e e\n➢向量的正交分解\n1 12 11T\n1 2 3 1 3 =T T Ta a a++ a eeee ee e\n1 0 0\n1 1Ta=ae\n2 2Ta=ae\n3 3Ta=ae\nai就是 a在单位基向量 ei上的投影长度\n2 12 33T\n1=T T Ta a a++ a e e e"
+    },
+    {
+        "page": 24,
+        "content": "23 向量的正交分解\nn维欧式空间\n➢向量的正交分解\n1n\ni\niia\n=a = e\n1\n0T\nijij\nij==ee\ni iTa=ae\n1a\n2a\nna\n3a\n……\n1a\n2a\nna\n3a\n…… ……\nn→无限维空间\n1i\niia\n=a = e\na"
+    },
+    {
+        "page": 25,
+        "content": "24 函数的正交分解\n1i\niia\n=a = e\n1( ) ( )i\nii f t t c\n==\n离散的点元素\n连续函数无限维空间\n如何界定 f (t)的模长？如何界定        为单位函数？\n如何界定垂直 （正交）？如何界定乘积为 0？\n()it\nDavid Hilbert\n（1862 -1943）\n"
+    },
+    {
+        "page": 26,
+        "content": "25 函数的正交分解\n无限维空间\n1( ) ( )i\nii f t t c\n==\n泰勒公式：无限幂级数展开"
+    },
+    {
+        "page": 27,
+        "content": "26 函数的正交分解\n无限维空间\n1( ) ( )i\nii f t t c\n==\n1( ) ( )N\nii\nif t t c\n==\n1()t\n2()t\n()Nt\n3()t\n1c\n2c\n3c\nNc"
+    },
+    {
+        "page": 28,
+        "content": "27 函数的正交分解\n2\n12()t\ntf t dt\n模\n1( ) ( )i\nii f t t c\n==\n正交\n（内积）\n2\n1( ) ( ) 0t\nijtt t dt =\n1i\niia\n=a = e\nTaa\n0T\nij= ee\n2\n1*( ) ( )t\ntf t f t dt\n2\n1*( ) ( ) 0t\nijtt t dt =向量 实函数 复函数\n平方可积实函数集合\n 22\n-( ) ( ) ( )L R f t f t dt\n= "
+    },
+    {
+        "page": 29,
+        "content": "28 函数的正交分解\n➢正交函数集\n在[t1, t2] 区间上定义的非零函数序列 ，其中任意\n两个函数 与均满足条件：\n其中 ki为常数，则称函数序列                                为在区间 [t1, t2]         \n上的正交函数集 。\n2\n1*0, ( ) ( )t\ni j i jt\niijt t dtk i j   == =\n12( ), ( ),..., ( )n t t t  \n()it\n()jt\n 12( ), ( ),..., ( )n t t t  \n注：*表示共轭。两个实部相等，虚部互为相反数的复数互为共轭复数。\n"
+    },
+    {
+        "page": 30,
+        "content": "29 函数的正交分解\n在[t1, t2] 区间上定义的非零函数序列 ，其中任意\n两个函数 与均满足条件：\n则称函数序列                                为在区间 上的标准正交函数\n集，可由原正交函数集归一化得到。\n2\n1* 0,(1( ) )t\ni j i jtijt t dtij   == =\n12( ), ( ),..., ( )n t t t  \n()it\n()jt\n 12( ), ( ),..., ( )n t t t  \n12,tt\n➢标准正交函数集"
+    },
+    {
+        "page": 31,
+        "content": "30 函数的正交分解\n如果在 区间，除正交函数集 之外，不存在有非零的函数\n满足下式：\n则称此正交函数集 为完备的正交函数集 。\n12,tt\n()it\n()xt\n2\n1*( ) ( ) 0t\nitx t t dt=\n()it\n00 {sin cos ,1 1 2 }k t k t k =\n ， ；，，\n三角函数集：\n虚指数函数集：\n0{ ; 0, 1, 2, }jk tek=  \n➢完备的标准正交函数集"
+    },
+    {
+        "page": 32,
+        "content": "31 函数的正交分解\n当函数  f(t) 在 [t1, t2] 区间具有连续的一阶导数和 逐\n段连续的二阶导数时， f(t) 可以用完备的正交函数\n集 {φi(t)} 来表示，即：\n其中 ci为常数。则称此表示为 函数的正交分解 。\n1( ) ( )i\nii f t t c\n==\n( ), ( ) 0ijtt =\n()jt\n1( ), ( ) ( ), ( )j i i j\nif t t c t t  \n==\n1( ) ( )ii\nif t c t \n==\n( ), ( ) 1= = ( ), ( )\n( ), ( )j\njj\nj jjf t t\nc f t tk tt\n\n\n( ), ( ) ( ), ( )j j j j f t t c t t  ="
+    },
+    {
+        "page": 33,
+        "content": "32 函数的正交分解\n帕斯瓦尔定理：\n2\n122\n1()t\niitif t dt c k\n==\n1( ) ( )ii\nif t c t \n==\n()ft\n11()ct\n22()ct\nMarc -Antoine Parseval\n（1755 -1836）\n•表示可积函数与其正交分解系数之间关\n系的恒等式。\n➢函数平方的和等于其正交变换分解系\n数的平方之和\n•从几何观点来看，这就是内积空间上的\n毕达哥拉斯定理。\n➢向量的正交分量的平方和等于向量长\n度（模）的平方"
+    },
+    {
+        "page": 34,
+        "content": "33 函数的正交分解\n帕斯瓦尔定理：\n2\n122\n1()t\niitif t dt c k\n==\n1( ) ( )ii\nif t c t \n==\n22\n112\n2\n1( ) ( )tt\niittif t dt c t dt \n== \n2\n1**\n11( ) ( )t\ni i i itiic t c t dt\n==  =    \n2\n12 * * *\n1( ) ( ) ( ) ( )t\ni i i i j i jti i jc t t c c t t dt   \n==+\n\n2\n1ii\nick\n==\nMarc -Antoine Parseval\n（1755 -1836）"
+    },
+    {
+        "page": 35,
+        "content": "34 函数的正交分解\n帕斯瓦尔定理：\n2\n122\n1()t\niitif t dt c k\n==\n1( ) ( )ii\nif t c t \n==\n信号的能量等于信号在完备正交函数集中各分量的能量之和"
+    },
+    {
+        "page": 36,
+        "content": "35 函数的正交分解\n1( ) ( )ii\nif t c t \n==\n连续周期信号 连续信号 离散信号 离散周期信号\n"
+    },
+    {
+        "page": 37,
+        "content": "36\n周期信号的傅立叶级数展开"
+    },
+    {
+        "page": 38,
+        "content": "37 傅立叶级数 ——概述\n11 {sin cos ,1 1 2 }n t n t n =\n ， ；，，\n三角函数集：\n1( ) ( )nn\nnf t c t \n=="
+    },
+    {
+        "page": 39,
+        "content": "38\n拉格朗日等数学家发现 某些周期\n函数可以由三角函数的和 来表示  \n(1736－1813)\n拉格朗日\n（Lagrange ）\n(1736－1813)傅立叶级数 ——概述"
+    },
+    {
+        "page": 40,
+        "content": "39\n傅立叶（男爵）\n(1768－1830)任何周期信号都可以表示为不同\n频率的正弦波信号的无限叠加。\n傅立叶级数 ——概述\n•将复杂的周期运动转\n变为无穷多个简谐运\n动的叠加\n•我们所观察到的周期\n运动大多数类似于 左\n图中红点的运动。它\n初看是杂乱无章的，\n但实际上可以看作四\n个匀速圆周运动的叠\n加"
+    },
+    {
+        "page": 41,
+        "content": "40\n拉普拉斯（ Laplace）\n(1749－1827)\n拉格朗日（ Lagrange ）\n(1736－1813)\n傅立叶级数 ——概述\n任何周期信号都可以表示为不同频率的正弦波信号的无限叠加。"
+    },
+    {
+        "page": 42,
+        "content": "41\n吉布斯现象：在工程应用时常用有限正弦项正弦波叠加逼近原周期信号。所\n用的谐波次数 N的大小决定逼近原波形的程度， N增加，逼近的精度不断改\n善。但是由于对于具有不连续点的周期信号会发生一种现象：当选取的傅里\n叶级数的项数 N增加时，合成的波形虽然更逼近原函数，但在不连续点附近\n会出现一个固定高度的过冲， N越大，过冲的最大值越靠近不连续点，但其\n峰值并不下降，而是大约等于原函数在不连续点处跳变值的 9%，且在不连续\n点两侧呈现衰减振荡的形式。\n傅立叶级数 ——概述\n1839 -1903\n"
+    },
+    {
+        "page": 43,
+        "content": "42\n42\n应用： Jpeg, MP3, Wi -Fi路由器 , 4G无线通信网络 ……傅立叶级数 ——概述"
+    },
+    {
+        "page": 44,
+        "content": "43\n•如果正交函数集是 三角函数集或指数函数集 ，则周期函数\n展成的级数就是“ 傅立叶级数 ”。\n•相应的级数通常被称为“三角形式傅立叶级数”和“指数\n形式傅立叶级数”。周期信号的傅立叶级数\n➢傅立叶级数展开\n正交\n函数集三角函数集\n复指数函数集\n 11 1  cos ,  sin      n t n t n N  ，\n1     jn te n Z\n1( ) ( )nn\nnf t c t \n=="
+    },
+    {
+        "page": 45,
+        "content": "44 周期信号的傅立叶级数\n•满足狄义赫利条件的 周期函数 都可以在\n一组正交基函数 上展开成为无穷级数。\n•狄义赫利条件：在 一个周期 内\n(1) 间断点的个数 有限\n(2) 极值点的个数 有限\n(3) 绝对积分数值 有限\n0\n0()tT\ntf t dt+➢狄义赫利条件\nJohann Peter Gustav \nLejeune Dirichlet (1805 -\n1859) "
+    },
+    {
+        "page": 46,
+        "content": "45 周期信号的傅立叶级数\n反例：(1) 间断点的个数 有限➢狄义赫利条件\n信号的周期为 1，后一个阶梯的高度和宽度都是前一个阶梯的一半，可见\n一个周期内的面积不会超过 1，但间断点的数目是无穷多个。"
+    },
+    {
+        "page": 47,
+        "content": "46 周期信号的傅立叶级数\n反例：(2) 极值点的个数 有限➢狄义赫利条件\n𝑓𝑡=sin2𝜋\n𝑡,0<𝑡<1"
+    },
+    {
+        "page": 48,
+        "content": "47 周期信号的傅立叶级数\n反例：(3)绝对可积➢狄义赫利条件\n𝑓𝑡=1\n𝑡,0<𝑡<1"
+    },
+    {
+        "page": 49,
+        "content": "48 周期信号的傅立叶级数\n➢三角形式傅 立叶级数\n•设周期函数       的周期为\n•函数                                  是正交函数集 ，令              \n•则展开成三角函数的无穷级数形式：\n( )0 1 1\n1( ) cos sinnn\nnf t a a n t b n t \n== + +\n112/T=\n 11 1 cos( ),sin( ) n t n t，\n1T\n()ft"
+    },
+    {
+        "page": 50,
+        "content": "49 周期信号的傅立叶级数\n➢三角形式傅立叶级数\n•函数                                  是正交函数集  \n 11 1 cos( ),sin( ) n t n t，\n证明：\n"
+    },
+    {
+        "page": 51,
+        "content": "50 周期信号的傅立叶级数\n➢三角形式傅立叶级数\n证明：\n"
+    },
+    {
+        "page": 52,
+        "content": "51 周期信号的傅立叶级数\n➢三角形式傅立叶级数\n0\n012( )costT\nnta f t n tdtT+=\n0\n012( )sintT\nntb f t n tdtT+=\n0\n001()tT\nta f t dtT+=\n直流分量的振幅\n余弦分量的振幅\n正弦分量的振幅\n( )0 1 1\n1( ) cos sinnn\nnf t a a n t b n t \n== + +\n2\n1* ( ), ( ) ( ), ( ) 1( ) ( )( ), ( )tnn\nnnt\nn n n nf t t f t tc f t t dtt t k k= = = •系数和统称为三角形式的傅里叶级数系数，简称\n为傅立叶系数 。系数计算：\nna\nnb"
+    },
+    {
+        "page": 53,
+        "content": "52\n➢三角形式傅立叶级数\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +\n0\n0\n0\n0\n0\n00\n1\n11()\n2( )cos\n2( )sintT\nt\ntT\nnt\ntT\nnta f t dtT\na f t n tdtT\nb f t n tdtT\n+\n+\n+=\n=\n\n=\n\n\n1\nn10 ( ) cos( )nn f t n c t c \n== + +\n00\n22\ntannn\nn\nnn\nnbcca\nab\na=\n=+\n=−\n紧凑型三角形式 FS：\n\n\n\n\n\n周期信号的傅立叶级数"
+    },
+    {
+        "page": 54,
+        "content": "53\n➢三角形式傅立叶级数\n01\n1( ) cos( )nn\nnf t c c n t \n== + +\n00\n22\ntann n n\nn\nn\nnca\nc a b\nb\na=\n=+\n=−\n紧凑型三角形式 FS：\nnnc，\n1\n1~\n~n\nncn\nn\n  =\n=\n是频率的函数，其图形称为频谱图\n的关系图称为 振幅谱\n的关系图称为 相位谱\n\n\n\n其中  周期信号的傅立叶级数\n"
+    },
+    {
+        "page": 55,
+        "content": "54\n 周期信号的傅立叶级数\n1\nn10 ( ) cos( )nn f t n c t c \n== + +"
+    },
+    {
+        "page": 56,
+        "content": "55\n➢三角形式傅立叶级数\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +\n0\n0\n0\n0\n0\n00\n1\n11()\n2( )cos\n2( )sintT\nt\ntT\nnt\ntT\nnta f t dtT\na f t n tdtT\nb f t n tdtT\n+\n+\n+=\n=\n\n=\n\n\n01\nn1cos( )nn c c n t \n== + +\n22\ntann n n\nn\nn\nnc a b\nb\na=+\n=−\n\n任何周期信号只要满足 Dirichlet 条件，就可以分解成\n直流分量和许多简谐振荡分量的叠加  周期信号的傅立叶级数\n"
+    },
+    {
+        "page": 57,
+        "content": "56\n➢三角形式傅立叶级数\n特例 1：偶信号 ↔ 余弦级数\n( ) ( )f t f t−=\n/2\n104( )cosT\nna f t n tdtT =\n0nb=\n/2\n002()Ta f t dtT=\n01\n1( ) cosn\nnf t a a n t \n==+\n/2\n0/2\n/2\n1/2\n/2\n1/21()\n2( )cos\n2( )sinT\nT\nT\nnT\nT\nnTa f t dtT\na f t n tdtT\nb f t n tdtT\n−\n−\n−=\n=\n=\n\n周期信号的傅立叶级数"
+    },
+    {
+        "page": 58,
+        "content": "57\n➢三角形式傅立叶级数\n特例 2：奇信号↔ 正弦级数\n( ) ( )f t f t− =−\n/2\n104( )sinT\nnb f t n tdtT =\n0na=\n00 a=\n1\n1( ) sinn\nnf t b n t \n==周期信号的傅立叶级数\n/2\n0/2\n/2\n1/2\n/2\n1/21()\n2( )cos\n2( )sinT\nT\nT\nnT\nT\nnTa f t dtT\na f t n tdtT\nb f t n tdtT\n−\n−\n−=\n=\n=\n\n"
+    },
+    {
+        "page": 59,
+        "content": "58\n➢三角形式傅立叶级数\n例1求图所示周期为 T \n的矩形脉冲信号的\nFS和频谱图。\n()ft0\n2\n2− -T T\nL\nLtE周期信号的傅立叶级数\n/2 /2\n11/2 - /222( )cos = cosT\nnTEa f t n tdt n tdtTT\n\n−=\n1\n11\n1sin( )22 2sin( )22\n2E nn\nn E\nn n n\n \n ==\n1()22 n\nTSaE=\n/2\n1 /2\n121sinEntTn\n−=\n1 212sin( )22n E\nn\n=\n"
+    },
+    {
+        "page": 60,
+        "content": "59\n➢三角形式傅立叶级数\n例1求图所示周期为 T \n的矩形脉冲信号的\nFS和频谱图。\n()ft0\n2\n2− -T T\nL\nLtE\n解:： \n00\n22 1 2()2n n n nEcaT\nn Ec a b a SaT\n==\n= + = =\n01\nn1( ) cos( )nn f t c c n t \n== + +周期信号的傅立叶级数\n"
+    },
+    {
+        "page": 61,
+        "content": "60\n➢三角形式傅立叶级数\n例1求图所示周期为 T \n的矩形脉冲信号的\nFS和频谱图。\n()ft0\n2\n2− -T T\nL\nLtE\n解:： \n00\n22 1 2()2\ntan 0n n n n\nn\nn\nnEcaT\nn Ec a b a SaT\nb\na\n\n==\n= + = =\n=− =\n0 0\n0n\nn\nna\na=\n01\nn1( ) cos( )nn f t c c n t \n== + +周期信号的傅立叶级数\n"
+    },
+    {
+        "page": 62,
+        "content": "61\n➢三角形式傅立叶级数\n周期矩形脉冲信号频谱图\n1\n02, ( )2nn EEc c SaTT ==\n0 0\n0n\nn\nna\na=\n\n\n\n\n\nnc\n1c\n2c\n0c\n0\n2\n\n4\n\n\n\nn\n\n0\n2/\n4/\n0\n0周期信号的傅立叶级数\n()ft0\n2\n2− -T T\nL\nLtE"
+    },
+    {
+        "page": 63,
+        "content": "62\n➢复指数形式傅立叶级数\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +周期信号的傅立叶级数\ncos sinjte t j t=+"
+    },
+    {
+        "page": 64,
+        "content": "63\n➢复指数形式傅立叶级数\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +周期信号的傅立叶级数\n( )\n( )cos / 2\nsin / (2 )ii\niijn t jn t\ni\njn t jn t\nin t e e\nn t e e j\n\n−\n−=+\n=−\ncos sinjte t j t=+"
+    },
+    {
+        "page": 65,
+        "content": "64 周期信号的傅立叶级数\n➢复指数形式傅立叶级数\n简写为                                     ，其中：欧拉公式：\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +\n( )\n( )cos / 2\nsin / (2 )ii\niijn t jn t\ni\njn t jn t\nin t e e\nn t e e j\n\n−\n−=+\n=−\n11\n0\n1()22jn t jn t n n n n\nna jb a jbf t a e e\n−\n=−+= + +\n11\n11\n1( ) (0) ( ) ( )jn t jn t\nnF f n te n Fe F\n−\n= = + +− \n1\n-()jn t\nn\nnf t F e\n==\n0 (0)Fa=\n1()nF F n="
+    },
+    {
+        "page": 66,
+        "content": "65\n➢复指数形式傅立叶级数周期信号的傅立叶级数\n1\n-()jn t\nn\nnf t F e\n==\n01\n0\n011\n011\n1\n11= ( )(cos sin )2\n1()tTnn\nnt\ntTjn t\nta jbF f t n t j n t dtT\nf t e dtT+\n+−−=−\n=\n\n0111\n01tTjn t jn t\nitk e e dt T+−==\n"
+    },
+    {
+        "page": 67,
+        "content": "66\n➢复指数形式傅立叶级数周期信号的傅立叶级数\n1\n-()jn t\nn\nnf t F e\n==\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +\n1\n1\n1−\n01\nn1cos( )nn c c n t \n== + +\n1\n2nnFc=\n"
+    },
+    {
+        "page": 68,
+        "content": "67 周期信号的傅立叶级数 ——总结\n0 1 1\n1( ) ( cos sin )nn\nnf t a a n t b n t \n== + +\n0\n0\n0\n0\n0\n00\n1\n11()\n2( )cos\n2( )sintT\nt\ntT\nnt\ntT\nnta f t dtT\na f t n tdtT\nb f t n tdtT\n+\n+\n+=\n=\n\n=\n\n\n1\n-()jn t\nn\nnf t F e\n==\n1\n111()jn t\nnTF f t e dtT−="
+    },
+    {
+        "page": 69,
+        "content": "68 作业\n2.求函数\n的傅立叶级数。\n( ) sin( )cos(2 ) 5cos(3 )sin(4 )f t t t t t=+1.证明三角函数序列\n{1, cos(ω1t+φ1), cos(2ω1t+φ2), …, cos(n ω1t+φn)}\n是在 [0, 2/ω1]区间的正交函数集。"
+    },
+    {
+        "page": 70,
+        "content": "69 实验一： 傅立叶级数可视化\n•对于周期为 𝑇1的周期函数 𝑓(𝑡)，傅立叶级数展开可以\n写为\n•傅立叶级数展开可以如下图构造为多个圆上运动的点\n𝑚𝑖纵坐标的叠加，每个点的转动角频率固定\n•在实验一中以代码补全的形式可视化这一过程\n•可视化方波信号，选做 :半圆波信号\n•环境 : python3.6\n•截止日期 : 10月25日\n"
+    }
+]

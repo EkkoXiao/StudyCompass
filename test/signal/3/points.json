@@ -1,0 +1,296 @@
+{
+    "keyword": "傅里叶变换",
+    "mainpoints": [
+        {
+            "name": "信号处理原理概述和基础知识",
+            "from_page": 1,
+            "to_page": 1,
+            "subpoints": [
+                {
+                    "name": "信号处理原理概述",
+                    "from_page": 1,
+                    "to_page": 1,
+                    "filename": "信号处理原理概述.pdf"
+                }
+            ]
+        },
+        {
+            "name": "周期信号的傅里叶级数展开",
+            "from_page": 2,
+            "to_page": 15,
+            "subpoints": [
+                {
+                    "name": "周期信号的傅里叶级数展开基础",
+                    "from_page": 2,
+                    "to_page": 9,
+                    "filename": "周期信号的傅里叶级数展开基础.pdf"
+                },
+                {
+                    "name": "周期信号傅里叶级数的能量分析",
+                    "from_page": 10,
+                    "to_page": 11,
+                    "filename": "周期信号傅里叶级数的能量分析.pdf"
+                },
+                {
+                    "name": "信号的带宽",
+                    "from_page": 12,
+                    "to_page": 12,
+                    "filename": "信号的带宽.pdf"
+                },
+                {
+                    "name": "非周期信号的处理",
+                    "from_page": 14,
+                    "to_page": 15,
+                    "filename": "非周期信号的处理.pdf"
+                }
+            ]
+        },
+        {
+            "name": "傅里叶变换的基本概念和性质",
+            "from_page": 16,
+            "to_page": 31,
+            "subpoints": [
+                {
+                    "name": "周期信号的傅立叶级数",
+                    "from_page": 16,
+                    "to_page": 17,
+                    "filename": "周期信号的傅立叶级数.pdf"
+                },
+                {
+                    "name": "非周期信号的傅里叶变换",
+                    "from_page": 18,
+                    "to_page": 21,
+                    "filename": "非周期信号的傅里叶变换.pdf"
+                },
+                {
+                    "name": "傅里叶变换的物理意义和数学角度思考",
+                    "from_page": 22,
+                    "to_page": 26,
+                    "filename": "傅里叶变换的物理意义和数学角度思考.pdf"
+                },
+                {
+                    "name": "傅里叶变换的收敛条件和性质",
+                    "from_page": 27,
+                    "to_page": 31,
+                    "filename": "傅里叶变换的收敛条件和性质.pdf"
+                }
+            ]
+        },
+        {
+            "name": "傅里叶变换的数学表达和物理意义",
+            "from_page": 32,
+            "to_page": 46,
+            "subpoints": [
+                {
+                    "name": "傅里叶变换的基本概念及其数学表达",
+                    "from_page": 32,
+                    "to_page": 34,
+                    "filename": "傅里叶变换的基本概念及其数学表达.pdf"
+                },
+                {
+                    "name": "傅里叶变换的物理意义与频域分析",
+                    "from_page": 35,
+                    "to_page": 38,
+                    "filename": "傅里叶变换的物理意义与频域分析.pdf"
+                },
+                {
+                    "name": "常用信号的傅里叶变换",
+                    "from_page": 39,
+                    "to_page": 42,
+                    "filename": "常用信号的傅里叶变换.pdf"
+                },
+                {
+                    "name": "傅里叶变换在信号处理中的应用",
+                    "from_page": 43,
+                    "to_page": 46,
+                    "filename": "傅里叶变换在信号处理中的应用.pdf"
+                }
+            ]
+        },
+        {
+            "name": "非周期信号的傅里叶变换",
+            "from_page": 47,
+            "to_page": 61,
+            "subpoints": [
+                {
+                    "name": "傅里叶变换的基本性质",
+                    "from_page": 47,
+                    "to_page": 51,
+                    "filename": "傅里叶变换的基本性质.pdf"
+                },
+                {
+                    "name": "傅里叶变换的奇偶性质",
+                    "from_page": 52,
+                    "to_page": 54,
+                    "filename": "傅里叶变换的奇偶性质.pdf"
+                },
+                {
+                    "name": "傅里叶变换与逆变换的对偶性",
+                    "from_page": 55,
+                    "to_page": 57,
+                    "filename": "傅里叶变换与逆变换的对偶性.pdf"
+                },
+                {
+                    "name": "傅里叶变换的尺度变换特性",
+                    "from_page": 58,
+                    "to_page": 61,
+                    "filename": "傅里叶变换的尺度变换特性.pdf"
+                }
+            ]
+        },
+        {
+            "name": "傅里叶变换的性质总结和频域分析",
+            "from_page": 62,
+            "to_page": 76,
+            "subpoints": [
+                {
+                    "name": "傅里叶变换的频域分析及其性质",
+                    "from_page": 62,
+                    "to_page": 65,
+                    "filename": "傅里叶变换的频域分析及其性质.pdf"
+                },
+                {
+                    "name": "傅里叶变换的微分和积分特性",
+                    "from_page": 66,
+                    "to_page": 67,
+                    "filename": "傅里叶变换的微分和积分特性.pdf"
+                },
+                {
+                    "name": "傅里叶变换的时移和频移特性",
+                    "from_page": 68,
+                    "to_page": 70,
+                    "filename": "傅里叶变换的时移和频移特性.pdf"
+                },
+                {
+                    "name": "傅里叶变换的卷积定理",
+                    "from_page": 71,
+                    "to_page": 74,
+                    "filename": "傅里叶变换的卷积定理.pdf"
+                },
+                {
+                    "name": "信号的截取和窗函数效应",
+                    "from_page": 75,
+                    "to_page": 76,
+                    "filename": "信号的截取和窗函数效应.pdf"
+                }
+            ]
+        },
+        {
+            "name": "周期信号与非周期信号的傅里叶变换比较和总结",
+            "from_page": 77,
+            "to_page": 82,
+            "subpoints": [
+                {
+                    "name": "傅里叶变换的能量与频谱的关系",
+                    "from_page": 77,
+                    "to_page": 77,
+                    "filename": "傅里叶变换的能量与频谱的关系.pdf"
+                },
+                {
+                    "name": "傅里叶变换性质的总结",
+                    "from_page": 78,
+                    "to_page": 78,
+                    "filename": "傅里叶变换性质的总结.pdf"
+                },
+                {
+                    "name": "傅里叶变换性质的数学表达",
+                    "from_page": 79,
+                    "to_page": 79,
+                    "filename": "傅里叶变换性质的数学表达.pdf"
+                },
+                {
+                    "name": "傅里叶变换的平均功率谱",
+                    "from_page": 80,
+                    "to_page": 80,
+                    "filename": "傅里叶变换的平均功率谱.pdf"
+                },
+                {
+                    "name": "傅里叶变换中的等效带宽和脉宽",
+                    "from_page": 81,
+                    "to_page": 81,
+                    "filename": "傅里叶变换中的等效带宽和脉宽.pdf"
+                },
+                {
+                    "name": "周期与非周期信号傅里叶变换的比较",
+                    "from_page": 82,
+                    "to_page": 82,
+                    "filename": "周期与非周期信号傅里叶变换的比较.pdf"
+                }
+            ]
+        },
+        {
+            "name": "周期信号的傅里叶变换详细分析",
+            "from_page": 83,
+            "to_page": 88,
+            "subpoints": [
+                {
+                    "name": "周期信号的傅里叶变换概述",
+                    "from_page": 83,
+                    "to_page": 83,
+                    "filename": "周期信号的傅里叶变换概述.pdf"
+                },
+                {
+                    "name": "傅里叶变换的存在条件",
+                    "from_page": 84,
+                    "to_page": 84,
+                    "filename": "傅里叶变换的存在条件.pdf"
+                },
+                {
+                    "name": "频谱搬移",
+                    "from_page": 85,
+                    "to_page": 85,
+                    "filename": "频谱搬移.pdf"
+                },
+                {
+                    "name": "周期信号的傅里叶变换特性",
+                    "from_page": 86,
+                    "to_page": 86,
+                    "filename": "周期信号的傅里叶变换特性.pdf"
+                },
+                {
+                    "name": "周期信号与非周期信号傅里叶变换的总结",
+                    "from_page": 87,
+                    "to_page": 88,
+                    "filename": "周期信号与非周期信号傅里叶变换的总结.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号处理原理回顾和作业指导",
+            "from_page": 89,
+            "to_page": 90,
+            "subpoints": [
+                {
+                    "name": "知识产生过程",
+                    "from_page": 89,
+                    "to_page": 89,
+                    "filename": "知识产生过程.pdf"
+                },
+                {
+                    "name": "信号处理基础",
+                    "from_page": 89,
+                    "to_page": 89,
+                    "filename": "信号处理基础.pdf"
+                },
+                {
+                    "name": "康德简介",
+                    "from_page": 89,
+                    "to_page": 89,
+                    "filename": "康德简介.pdf"
+                },
+                {
+                    "name": "数学公式概览",
+                    "from_page": 89,
+                    "to_page": 89,
+                    "filename": "数学公式概览.pdf"
+                },
+                {
+                    "name": "作业指导",
+                    "from_page": 90,
+                    "to_page": 90,
+                    "filename": "作业指导.pdf"
+                }
+            ]
+        }
+    ]
+}

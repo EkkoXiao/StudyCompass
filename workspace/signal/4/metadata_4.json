@@ -1,0 +1,454 @@
+[
+    {
+        "page": 1,
+        "content": "刘华平\n清华大学  信号处理原理 -05"
+    },
+    {
+        "page": 2,
+        "content": "1 回顾——从傅立叶级数到傅立叶变换\n1\n1\n-()jn t\nTn\nnf t F e\n==\n1\n1\n12\n1 2) 01(T\njn t\nT nF f t e dtT−\n−= → \n𝑇1→∞\n1( ) ( )2jtf t F e d\n−=\n( ) ( )jtF f t e dt−\n−=\n1102( ) lim limnnTF T F F\n→  →==\n"
+    },
+    {
+        "page": 3,
+        "content": "2 回顾——从傅立叶级数到傅立叶变换\n𝐹(𝜔)与𝐹𝑛(周期信号频谱 )的区别：       \nFS FT\n被分析对象 周期信号 非周期信号\n频率定义域 离散频率，谐波频率处 连续频率，整个频率轴\n函数值意义 频率分量的 数值 频率分量的 密度值\nL\nL\n\n1E\nT\n1\n2\n\n4\n0\n12\n2\n−\n011\n10\n1\n11\n1\n11()\n2( ) ,tTjn t\nnTt\njn t\nTn\nnF f t e dtT\nf t F eT\n+−\n\n=−=\n==\n\n ( ) ( )\n1( ) ( )2jt\njtF f t e dt\nf t F e d\n\n−\n−\n\n−=\n=\n"
+    },
+    {
+        "page": 4,
+        "content": "3 回顾——傅立叶变换\n()F\n( ) Sa2Gt\n()0\n0 ()jtf t Fe  =−\n()F\n( ) 1t\n➢典型信号的傅立叶变换"
+    },
+    {
+        "page": 5,
+        "content": "4 回顾——傅立叶变换\n➢周期信号的傅立叶变换\n()()00 Euler  \n0\n0 0 01cos2\ncos     j t j tt e e\nt\n     −=+\n− + +\n公式\n1 2 ( ) \n()0\n0 2jte  −\n()()0 0 0 0E\n00 uler  \n0\n01sin22\nsin     j t j t j t j t\njjt e e e\njej\nt   \n    −−   = − = −\n+ − −\n公式"
+    },
+    {
+        "page": 6,
+        "content": "5\n➢对偶性质回顾——傅立叶变换\n( )\n( ) ( )**\n****1( ) ( )2\n1()2\n11( ) ( )22\njt\njt\njtf t F e d\nF e d\nF e d F\n\n\n\n\n  \n−\n−\n−\n−\n−=\n=\n== \n\n\n( ) 2 ( )F t f−\n两次傅里叶\n变换\n( ) ( )f t F \n( ) ( )f t F \n( ) 2 ( )F t f−"
+    },
+    {
+        "page": 7,
+        "content": "6\n时域卷积定理\n时域的卷积对应频域的乘积频域卷积定理\n时域的乘积对应频域的卷积\n1 2 1 2( ) ( )* ) ( ) ( f t f t F F =   \n1 2 1 21( ) ( ) ( ) ( )2* f t f t F F = \n信号卷积不能产生新频率 信号相乘可以产生新频率\n1 2 1 2 1 21sin cos [sin( ) sin( ) ]2t t t t      = + + −回顾——傅立叶变换\n➢卷积性质\n1()F\n2()F\n12( ) ( )FF\n2()F\n12( )* ( )FF\n"
+    },
+    {
+        "page": 8,
+        "content": "7\n周期 非周期\nFS FT\n回顾——傅立叶变换"
+    },
+    {
+        "page": 9,
+        "content": "8\n周期 非周期\nFS FT\n连续信号的离散化"
+    },
+    {
+        "page": 10,
+        "content": "9\n信号的采样与量化"
+    },
+    {
+        "page": 11,
+        "content": "10 信号的采样与量化\n()et\n()e kT\nT\n\n()et\n采样周期越小，采样信号越接近原始信号。\n"
+    },
+    {
+        "page": 12,
+        "content": "11 信号的采样与量化\nSpatial acuity\nVision > Tactile > Audition\nEx.: Fingertip: 1 mm, Belly: 30 mm\nTemporal acuity\nAudition (20kHz) > Tactile (700Hz) > Vision (50 Hz)\n"
+    },
+    {
+        "page": 13,
+        "content": "12 信号的采样与量化\n窥一斑而知全豹\n 盲人摸象\n()e kT\nT\n\n采样周期越小，采样信\n号越接近原始信号。"
+    },
+    {
+        "page": 14,
+        "content": "13 信号的采样与量化\nShannon 定理  （1948）\n为了完美地重构信号，需要\n按照不小于 2倍带宽采样率\n对信号进行采样\n0 1 2 3 4 5 6-1-0.500.51\n0 1 2 3 4 5 6-1-0.500.51\n0 1 2 3 4 5 6-1-0.500.51\n0 1 2 3 4 5 6-1-0.500.51\n0 1 2 3 4 5 6-1-0.500.51\n0 1 2 3 4 5 6-1-0.500.51\n0 1 2 3 4 5 6-1-0.500.51\n0 1 2 3 4 5 6-1-0.500.51\n1889 -1976 1916 -2001"
+    },
+    {
+        "page": 15,
+        "content": "14 信号的采样与量化\n"
+    },
+    {
+        "page": 16,
+        "content": "15 信号的采样与量化\n15\n"
+    },
+    {
+        "page": 17,
+        "content": "16 信号的采样与量化\n"
+    },
+    {
+        "page": 18,
+        "content": "17 信号的采样与量化\n"
+    },
+    {
+        "page": 19,
+        "content": "18 信号的采样与量化\n把模拟信号变成数字信号时，每隔一个时间间隔在模\n拟信号波形上抽取一个幅度值，这称之为 采样。\n➢采样的概念"
+    },
+    {
+        "page": 20,
+        "content": "19 信号的采样与量化\nContinuous -time Signal (real signal)\nAmplitude\ntime\ntimeDiscrete -time Signal\nAmplitude➢采样的概念"
+    },
+    {
+        "page": 21,
+        "content": "20 信号的采样与量化\n原始模拟信号\n时间幅度➢采样的概念"
+    },
+    {
+        "page": 22,
+        "content": "21 信号的采样与量化\n采样后的信号 A 采样后的信号 B\n采样的时间间隔称为 采样周期  Ts，\n其倒数称为 采样频率  fs=1 / Ts（单位：次 /秒，赫兹）。\nωs= 2π/ Ts称为采样角频率（单位：弧度 /秒）  。\n注：在不发生混淆的情况下， ωs可简称为采样频率 。时间 时间幅度幅度➢采样的概念"
+    },
+    {
+        "page": 23,
+        "content": "22 信号的采样与量化\n1V\n-1Vtime\n+ 0.40\n-0.90\n…-0.45\n+ 0.70\n-0.47\n-0.82\n+ 0.30\n➢量化的概念"
+    },
+    {
+        "page": 24,
+        "content": "23 信号的采样与量化\ntime\n+ 0.40\n-0.90\n…-0.45\n+ 0.70\n-0.47\n-0.82\n+ 0.30\n4\n6\n…1\n401234567\n… A/D➢量化的概念"
+    },
+    {
+        "page": 25,
+        "content": "24 信号的采样与量化\n➢量化的概念\n"
+    },
+    {
+        "page": 26,
+        "content": "25 信号的采样与量化\ntime\ntime1 Second\nfs= 19 samples/second = 19Hz\nBetter signal reconstruction\nMore computer memory  / BW and $$"
+    },
+    {
+        "page": 27,
+        "content": "26 信号的采样与量化\nFs = 9 samples/second = 9Hz\ntime\ntimeResolution: 3bits, 23= 8 combinations\nResolution: 4bits, 24= 16 combinationsValues from 0 to 7\nValues from 0 to 15\nBetter signal quantization\nMore computer memory and $$ 07\n015"
+    },
+    {
+        "page": 28,
+        "content": "27 信号的采样与量化\n在日常生活中，常可以看到用离散时间信号表示连续\n时间信号的例子。如照片、屏幕的画面等等 。在一定条\n件下，可以用离散时间信号代替连续时间信号。\n"
+    },
+    {
+        "page": 29,
+        "content": "28\n研究连续时间信号与离散时间信号之间的关系主要包括  :\n•在什么条件下，一个连续时\n间信号可以用它的离散时间\n样本来代替而不致丢失原有\n的信息？\n•如何从连续时间信号的离散\n时间样本不失真地 恢复成原\n来的连续时间信号？\n"
+    },
+    {
+        "page": 30,
+        "content": "29\n采样与采样定理"
+    },
+    {
+        "page": 31,
+        "content": "30 采样与采样定理\n•在某些离散的时间点上提取连续时间信号值的过程称为 采样。\n在没有任何条件限制的情况下，从连续时间信号采样所得到的样\n本序列不能唯一 地代表原来的连续时间信号。\n➢采样的定义"
+    },
+    {
+        "page": 32,
+        "content": "31 采样与采样定理\n•冲激串 (理想采样 ):\nTs为采样周期\n()xt0\n()pt\nt\nt\n2T−\n2T\nT\nT−\n0\nt\n()xT−\n()xT\n(2 )xT\n(0)x\n0\nT\n2T\nT−\n2T−\n()pxt\n( 2 )xT−\n()xt\n()pxt\n()pt\n \n( ) ( )s\nnp t t nT+\n=−=−\n \n( ) ( ) ( ) ( ) ( )p s s\nnx t x t p t x nT t nT +\n=−= = −\n•采样信号 :\n连续信号经采样后，变成幅度不等的 等间隔脉冲串\n（间隔为采样周期）➢采样信号的时域表示"
+    },
+    {
+        "page": 33,
+        "content": "32 采样与采样定理\n•冲激串 (理想采样 ):\nTs为采样周期\n()xt0\n()pt\nt\nt\n2T−\n2T\nT\nT−\n0\nt\n()xT−\n()xT\n(2 )xT\n(0)x\n0\nT\n2T\nT−\n2T−\n()pxt\n( 2 )xT−\n()xt\n()pxt\n()pt\n \n( ) ( )s\nnp t t nT+\n=−=−\n•频域表示 ?\n \n( ) ( ) ( ) ( ) ( )p s s\nnx t x t p t x nT t nT +\n=−= = −•采样信号 :\n1( ) ( )* (2)pX P X =\n1 2 1 21( ) ( ) *( ) ( )2\nf t f t f t f t=           ➢采样信号的时域表示"
+    },
+    {
+        "page": 34,
+        "content": "33 采样与采样定理\n求频域\n( ) ( )s\nnp t t nT\n=−=−\n()sjn t\nn\nnp t e\n=−=\n1\n1/2\n/2\n1(1)sTjn t\nnTe dtptT−\n−=\n1\n1/2\n/2\n1()1sTjn t\nTtTted−\n−=\n1()sjn t\nst e dtT−\n−=\n1\nsT=\n1()sjn t\nnsp t eT\n=−=\n2( ) ~ ( )s\nnsPnT   \n=−−\n()P\n~2 ( )sjn t\ns en  − t\n\n周期脉冲串 的频域表示（傅里叶变换）仍然是 周期脉冲串\n（周期不同）Ts\ns➢采样信号的频域表示"
+    },
+    {
+        "page": 35,
+        "content": "35 采样与采样定理\n( ) ( )s\nnp t t nT\n=−=−\n2( ) ( )s\nnsPnT   \n=−=−\nsT\ns\n2\ns\nsT=\n➢采样信号的频域表示"
+    },
+    {
+        "page": 36,
+        "content": "37 采样与采样定理\n在时域对连续时间信号进行 理想采样 ，就相当于在 频域将连\n续时间信号的频谱以   为周期进行延拓。\ns\n2( ) ( ) ( )s\nnsp t P nT   \n=− = −\n2\ns\nsT=\n1( ) ( ) ( )2\n12( ) ( )2\n1()s\nnp\ns\nsns\nXnTX X P\nXnT  \n\n\n\n\n=−=\n\n−\n−=\n=  −\n=\n\n()xt0\n()pt\nt\nt\n2T−\n2T\nT\nT−\n0\nt\n()xT−\n()xT\n(2 )xT\n(0)x\n0\nT\n2T\nT−\n2T−\n()pxt\n( 2 )xT−➢采样信号的频域表示"
+    },
+    {
+        "page": 37,
+        "content": "38\n 采样与采样定理\n低频\n高频\n在时域对连续时间信号进行 理想采样 ，就相当于在 频域将连\n续时间信号的频谱以   为周期进行延拓。\ns➢采样信号的频域表示"
+    },
+    {
+        "page": 38,
+        "content": "39 采样与采样定理\n39\n 采样周期变大 ，频谱的周期变小，离散信号的谱发生 相互重叠的现象： 混叠\n( ) ( ) ( )p s s\nnx t x nT t nT +\n=−=−\n1( ) ( )ps\nnsX X nT  \n=−=−\n"
+    },
+    {
+        "page": 39,
+        "content": "40 采样与采样定理\n4040【课堂练习 】\n设模拟音频信号高频截至频率为 5kHz,抽样频率为 6kHz。\n问题：\n抽样后信号频谱与原信号频谱在 2kHz处有什么差异 ？\n0      1         2         3         4        5         6        7    KHz\n)(fX\nf"
+    },
+    {
+        "page": 40,
+        "content": "41 采样与采样定理\n41410        1         2         3         4        5          6        7     KHz2kHz成分\n4kHz成分\n)(sfX\nf【课堂练习 】\n设模拟音频信号高频截至频率为 5kHz,抽样频率为 6kHz。\n问题：\n抽样后信号频谱与原信号频谱在 2kHz处有什么差异 ？"
+    },
+    {
+        "page": 41,
+        "content": "42 采样与采样定理\n6KHz\n 11KHz\n思考：如何防止混叠？➢混叠"
+    },
+    {
+        "page": 42,
+        "content": "43 采样与采样定理\nOriginal\nSignalPrefilter SampleReconstruction\nFilterReconstructed\nSignal\nResult: aliasing replaced by blur➢混叠"
+    },
+    {
+        "page": 43,
+        "content": "44 采样与采样定理\n要想使采样后的信号样本能完全 代表原来的信号，就意味\n着要能够从        中不失真地分离出        。这就要求在周\n期性延拓时 不能发生频谱的混叠 。为此必须要求：\n()pX\n()X\n \n2sM\n•x(t)必须是带限的，最高频率分量为\n•采样频率必须满足\nM➢混叠"
+    },
+    {
+        "page": 44,
+        "content": "45 采样与采样定理\n工程实践 理论推导香农 奈奎斯特\n抽样定理又称 Nyquist采样定理 ,  也称香农定理 。\n"
+    },
+    {
+        "page": 45,
+        "content": "46 采样与采样定理\n"
+    },
+    {
+        "page": 46,
+        "content": "47 采样与采样定理\n()pX\n\ns−\nM−\nM\ns\n1\nT\n0\n➢Nyquist采样定理"
+    },
+    {
+        "page": 47,
+        "content": "48 采样与采样定理\n()pX\n()pX\n➢Nyquist采样定理"
+    },
+    {
+        "page": 48,
+        "content": "49\n 采样与采样定理"
+    },
+    {
+        "page": 49,
+        "content": "50\n 采样与采样定理"
+    },
+    {
+        "page": 50,
+        "content": "51\n 采样与采样定理"
+    },
+    {
+        "page": 51,
+        "content": "52\n 采样与采样定理"
+    },
+    {
+        "page": 52,
+        "content": "53\n 采样与采样定理"
+    },
+    {
+        "page": 53,
+        "content": "54\n 采样与采样定理"
+    },
+    {
+        "page": 54,
+        "content": "55\n 采样与采样定理"
+    },
+    {
+        "page": 55,
+        "content": "56\n 采样与采样定理"
+    },
+    {
+        "page": 56,
+        "content": "57\n 采样与采样定理"
+    },
+    {
+        "page": 57,
+        "content": "58\n 采样与采样定理"
+    },
+    {
+        "page": 58,
+        "content": "59\n 采样与采样定理"
+    },
+    {
+        "page": 59,
+        "content": "60\n 采样与采样定理"
+    },
+    {
+        "page": 60,
+        "content": "61\n 采样与采样定理"
+    },
+    {
+        "page": 61,
+        "content": "62\n 采样与采样定理"
+    },
+    {
+        "page": 62,
+        "content": "63\n 采样与采样定理"
+    },
+    {
+        "page": 63,
+        "content": "64\n 采样与采样定理"
+    },
+    {
+        "page": 64,
+        "content": "65\n 采样与采样定理"
+    },
+    {
+        "page": 65,
+        "content": "66\n 采样与采样定理"
+    },
+    {
+        "page": 66,
+        "content": "67\n 采样与采样定理"
+    },
+    {
+        "page": 67,
+        "content": "68\n 采样与采样定理"
+    },
+    {
+        "page": 68,
+        "content": "69\n 采样与采样定理"
+    },
+    {
+        "page": 69,
+        "content": "70 采样与采样定理\n➢Nyquist采样定理"
+    },
+    {
+        "page": 70,
+        "content": "71 采样与采样定理\n⚫通信中的信号采样\n信号类型 语音信号 电话会议 自然声音 模拟电视\n频带范围 300~3400Hz 50~7000Hz 0~20kHz 0~6MHz\n采样频率 8kHz 16kHz44.1kHz, \n48kHz等13.5MHz\n•根据采样定理，模拟话音采样频率  ≥ 2×3.4kHz；\n•CCITT规定模拟话音信号的采样频率：\n其中有 1.2kHz的保护频带。\n8sf kHz=➢Nyquist采样定理"
+    },
+    {
+        "page": 71,
+        "content": "72\n研究连续时间信号与离散时间信号之间的关系主要包括  :\n•在什么条件下，一个连续时\n间信号可以用它的离散时间\n样本来代替而不致丢失原有\n的信息？\n•如何从连续时间信号的离散\n时间样本不失真地 恢复成原\n来的连续时间信号？\n"
+    },
+    {
+        "page": 72,
+        "content": "73\n连续信号的采样重构"
+    },
+    {
+        "page": 73,
+        "content": "74\n()pX\n 连续信号的采样重构\n滤波器频域（分析）\n时域（实现）\nM c s M     −"
+    },
+    {
+        "page": 74,
+        "content": "75\n\n =\n\n =连续信号的采样重构\n采样\n重构\n滤波器"
+    },
+    {
+        "page": 75,
+        "content": "76\n \n||| ( )|0||sc\ncTH=\nc\n以  为截止频率的理想滤波器  连续信号的采样重构\n对偶性质➢理想滤波器"
+    },
+    {
+        "page": 76,
+        "content": "77\n \n||| ( )|0||sc\ncTH=\nc\n以  为截止频率的理想滤波器  \n \n( )= ( )c\nsc h t T Sa t连续信号的采样重构\n➢理想滤波器"
+    },
+    {
+        "page": 77,
+        "content": "78 连续信号的采样重构\n➢理想滤波器\n( ) ( )H h t\n1 ( ) ( )* ( )H t h t\n()t\n()ht\nh(t)可视为理想滤波器对应单位脉冲响应\n \n( )= ( )c\nsc h t T Sa t"
+    },
+    {
+        "page": 78,
+        "content": "79\n \nˆ( ) ( ) ( ( ))cs\ns c s\nnTx t x nT Sa t nT+\n=−=−\n \n( )= ( )c\nsc h t T Sa t 连续信号的采样重构\n()xt\n()sXj\n() Xj\nm\nm\nm−\n() ()C\nC h t T Sa t=\nCT\n\nt\n0\n0\nT\nc\nc−\n() Hj\n()sxt\nsT\n0\n0\n0\n0\nt\nt\n\n\ns−\ns\n\nˆ( ) ( ) ( ) ( ) ( ) ( )p s s\nnx t x t h t x nT t nT h t \n=−=  = −  \n( ) ( ) ( )p s s\nnx t x nT t nT \n=−=−\n用滤波器函数对信号采样值进行内插来重建连续信号，相当\n于滤波器的脉冲响应与信号为权重的脉冲串的卷积。➢内插：由样本值重建信号"
+    },
+    {
+        "page": 79,
+        "content": "80\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n用滤波器函数对信号采样值进行内插来重建连续信号，相当\n于滤波器的冲击响应与信号为权重的脉冲串的卷积。➢内插：由样本值重建信号"
+    },
+    {
+        "page": 80,
+        "content": "81\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n➢内插：由样本值重建信号\n"
+    },
+    {
+        "page": 81,
+        "content": "82\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n➢内插：由样本值重建信号\n"
+    },
+    {
+        "page": 82,
+        "content": "83\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n➢内插：由样本值重建信号\n"
+    },
+    {
+        "page": 83,
+        "content": "84\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n➢内插：由样本值重建信号\n"
+    },
+    {
+        "page": 84,
+        "content": "85\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n➢内插：由样本值重建信号\n"
+    },
+    {
+        "page": 85,
+        "content": "86\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n➢内插：由样本值重建信号\n"
+    },
+    {
+        "page": 86,
+        "content": "87\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n➢内插：由样本值重建信号\n"
+    },
+    {
+        "page": 87,
+        "content": "88\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n➢内插：由样本值重建信号\n"
+    },
+    {
+        "page": 88,
+        "content": "89\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n➢内插：由样本值重建信号\n"
+    },
+    {
+        "page": 89,
+        "content": "90\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n➢内插：由样本值重建信号\n"
+    },
+    {
+        "page": 90,
+        "content": "91\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=− 连续信号的采样重构\n➢内插：由样本值重建信号\n"
+    },
+    {
+        "page": 91,
+        "content": "92 连续信号的采样重构\n➢理想滤波器的可实现性\n()t\n()ht\nh(t)可视为理想滤波器对应单位脉冲响应\n \n( )= ( )c\nsc h t T Sa t\n非因果的"
+    },
+    {
+        "page": 92,
+        "content": "93 连续信号的采样重构\n93\n当网络满足        ，且令       ，其幅频特性与\n相频特性 近似理想低通滤波器。\nL RC=\nc1\nLC=\n➢理想滤波器的近似实现"
+    },
+    {
+        "page": 93,
+        "content": "94 连续信号的采样重构\n0()ht\n零阶保持内插的内插 函数     是矩形脉冲  \n( ) ( )\nnp t t nT+\n=−=−\n➢零阶保持插值"
+    },
+    {
+        "page": 94,
+        "content": "95\n 连续信号的采样重构\n➢零阶保持插值"
+    },
+    {
+        "page": 95,
+        "content": "96\n1()ht\n1\n0\nT−\nT\nt\n22\n1Sin Sin1 22()22TT\nHTTT\n== 0\nT−\nT\n2T−\n2T\nt内插函数为三角形脉冲\n1()H\n2\nT\n2\nT−\nT−\nT\n0\nT\n连续信号的采样重构\n➢一阶保持插值（线性内插）\n需要延迟 1步才能实现插值"
+    },
+    {
+        "page": 96,
+        "content": "97\n 连续信号的采样重构\n➢内插"
+    },
+    {
+        "page": 97,
+        "content": "98 连续信号的采样重构\n1()ht\n1\n0\nT−\nT\nt\n0()ht1\n0\nT\nt\n零阶\n一阶➢保持比较\n理想\n∞阶"
+    },
+    {
+        "page": 98,
+        "content": "99\n如果采样时，不满足采样定理的要求，就一定会在         \n的频谱周期延拓时，出现频谱混叠的现象。\n()xt\n说明点一 ：\n•频谱混叠的情况下时域信号变了，但采样点处取值不变\n•此时，即使通过理想内插也得不到原信号。但是无论怎样，恢复所\n得的信号      与原信号     在采样点上将具有相同的值，即\n()rxt\n()xt\n( ) ( )rx nT x nT=\n连续信号的采样重构\n➢欠采样"
+    },
+    {
+        "page": 99,
+        "content": "100\n0 ( ) cosx t t=\n()pXj\n0−\n0\n\n0\ns−\ns\n0 s−+\n0 s−\n00 2s  当                       时,\n产生频谱混叠。                    \n0−\n0\n\n0\ns\ns−\n0 s−+\n0 s−\n()rXj\n0 ( ) cos( )rsx t t =−恢复的信号为\n0\n0−\n0\n()Xj\n（𝜋/T） （𝜋/T）（𝜋） （𝜋）\n（𝜋/T） （𝜋/T）T连续信号的采样重构\n➢欠采样"
+    },
+    {
+        "page": 100,
+        "content": "101\n当            时有     \nt nT=\n0 ( ) cos( )rsx nT nT =−\n00 cos cos sin sinssnT nT nT nT   =  + \n0 cos ( ) nT x nT==\n2/s T=\n0\n0−\n0\n()Xj（𝜋） （𝜋）\n0−\n0\n\n0\ns\ns−\n0 s−+\n0 s−\n()rXj（𝜋/T） （𝜋/T）T\n0 ( ) cos( )rsx t t =−连续信号的采样重构\n0 ( ) cosx t t=\n➢欠采样"
+    },
+    {
+        "page": 101,
+        "content": "102\n说明点二 ：工程应用时，如果采样频率                      将不足以从样本恢复原\n信号\n2sM=\n0 ( ) cos cosx nT nT =\n例如    \n0 ( ) cos( )x t t=+\n022sT== 在 时\n这和对\n10( ) cos cosx t t= 采样的结果一样。\n从用样本代替信号的角度出发，出现欠采样的情况是工程\n应用中不希望的 。\n连续信号的采样重构\n00 sin sin sin(2 ) 0 t n T n  = = =\n➢欠采样"
+    },
+    {
+        "page": 102,
+        "content": "103\n说明点三：采样之后又采样？\n( ) ( ) ( )px n x n p n=\n( ) ( )\nkx kN n kN\n=−=−\n22( ) ( )\nkPkNN  \n=−=−\n( ) ( )\nkp n n kN \n=−=−\n()xn\n()pxn\n()pn\n1\nN\nN−\nn\n0\n()xn\nn\nN−\nN\n2N−0\n()pxn\nn\nN−\nN\n0\n2N−连续信号的采样重构\n➢欠采样"
+    },
+    {
+        "page": 103,
+        "content": "104 连续信号的采样重构\n()xt\n0\n()pt\nt\nt\n2T−\n2T\nT\nT− 0\nt\n()xT−\n()xT\n(2 )xT\n(0)x\n0\nT\n2T\nT−\n2T−\n()pxt\n( 2 )xT−\n相乘\n卷积"
+    },
+    {
+        "page": 104,
+        "content": "105\n频域采样"
+    },
+    {
+        "page": 105,
+        "content": "106\n采样的本质是将连续变量的函数离散化。因此，在频域也可\n以对连续的频谱进行采样。这一过程与时域采样是完全对偶的。\n0 ( ) ( )\nkPk   \n=−=−\n()X\n\n0\n0\n0−\n03\n03−\n()pX\n()X\n()pX\n()P频域采样"
+    },
+    {
+        "page": 106,
+        "content": "107\n0012( ) ( )\nkp t t k\n=−=−\n( ) ( ) ( )px t x t p t=\n在时域有：\n0012( ) ( )p\nkx t x t k\n\n=− = − \n00( ) ( )\nkX k k   \n=−=−\n( ) ( ) ( )pX X P  =\n在频域有：\n( ) ( )\nnp t t nT\n=−=−\n参考：\n0 ( ) ( )\nkPk   \n=−=−\n()X\n()pX\n()P\n()X\n0\n0\n0−\n03\n03−\n()pX\n频域采样\n对信号的频谱在频域采样，相当于在时域周期无限延拓\n（周期为     ）\n"
+    },
+    {
+        "page": 107,
+        "content": "108\n此时，可以通过矩形窗从周期性延拓的信号中截取出原信号。\n()wt=\n\n0\n0\n0 | | /t\n0 | | /t\n( ) ( ) ( )p x t x t w t=\n()wt\n0\nt\n0/\n0/−\n0\n在频域，从频谱的样本重建连续频谱时的频域时限内插\n过程是以矩形窗的频谱作为内插函数实现的。频域采样"
+    },
+    {
+        "page": 108,
+        "content": "109\n1( ) ( ) ( )2p X X W  =\n0 ( ) 2 sinc( / )W   =\n内插函数\n0\n0\n0( ) ( )sinc( )\nkkX X k\n=−−=\n•带限和时限没有必然的逻辑联系。请注意时域采样定理\n应用条件中的带限要求。频域采样同理。\n•因此，对带限信号在频域采样时，如果时域没有说明是\n时限，则不能保证频谱的样本可以恢复原信号。在频域有：频域采样"
+    },
+    {
+        "page": 109,
+        "content": "110\n总结"
+    },
+    {
+        "page": 110,
+        "content": "111 总结\n➢连续信号的采样\n➢采样信号的重构\nˆ( ) ( ) [ ( )]sc\ns c s\nnTx t x nT Sa t nT\n=−=−\n()xt\n()sXj\n() Xj\nm\nm\nm−\n() ()C\nC h t T Sa t=\nCT\n\nt\n0\n0\nT\nc\nc−\n() Hj\n()sxt\nsT\n0\n0\n0\n0\nt\nt\n\n\ns−\ns\n时域周期采样 ←→频域周期延拓\n1( ( ) )s\nnp\nsXnTX  \n=−= −\n \n( ) ( ) ( ) ( ) ( )p s s\nnx t x t p t x nT t nT +\n=−= = −\n \n( )= ( )c\nsc h t T Sa t\nˆ( ) ( ) ( ) ( ) ( ) ( )p s s\nnx t x t h t x nT t nT h t \n=−=  = −  \n( ) ( ) ( )p s s\nnx t x nT t nT \n=−=−"
+    },
+    {
+        "page": 111,
+        "content": "112\n周期 非周期\nFS FT离散时间\n( ) ( )ps\nnX X n  +\n=−=−\n其实什么都没干"
+    },
+    {
+        "page": 112,
+        "content": "113 作业\n作业1：\n   \n说明：\n如果             ，证明欠采样时恢复的信号不仅频率\n降低，而且相位相反。\n注：1.\n2.理想低通滤波器的带宽    ，满足\n0 ( ) cos( )x t t=+\n00 2s  \nc\n00 sc   −  "
+    },
+    {
+        "page": 113,
+        "content": "114 作业\n作业2：\n   \n现有信号        。为分析某时刻下的“局部频谱”，可选\n合适的窗函数      ，并截取    在  附近的信号，即\n.  \na.求信号    的FT。\nb.现不妨取窗函数           。试分析     时刻下对应的   \n“局部频谱”，即求      的FT。\nc.画出信号     的频谱图与信号     在     时刻下的“局\n部频谱”图，并进行对比。\n提示：若          ，            。\n2\n20()t\nf t e−\n=\n0( , )w t t\n()ft\n0t\n00( , ) ( ) ( , )wf t t f t w t t=\n()ft\n2\n0()\n2\n0( , )tt\nw t t e−−\n=\n00t=\n( ,0)wft\n()ft\n()ft\n00t=\n, x R c R\n2()x jce dx +−+\n−="
+    }
+]

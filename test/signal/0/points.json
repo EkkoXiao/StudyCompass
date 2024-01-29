@@ -1,0 +1,315 @@
+{
+    "keyword": "课程简介",
+    "mainpoints": [
+        {
+            "name": "课程介绍与基本信息",
+            "from_page": 1,
+            "to_page": 17,
+            "subpoints": [
+                {
+                    "name": "课程封面与课程简介",
+                    "from_page": 1,
+                    "to_page": 2,
+                    "filename": "课程封面与课程简介.pdf"
+                },
+                {
+                    "name": "信号处理概念介绍",
+                    "from_page": 3,
+                    "to_page": 7,
+                    "filename": "信号处理概念介绍.pdf"
+                },
+                {
+                    "name": "课程内容与结构",
+                    "from_page": 8,
+                    "to_page": 12,
+                    "filename": "课程内容与结构.pdf"
+                },
+                {
+                    "name": "课程资源与评估方式",
+                    "from_page": 13,
+                    "to_page": 16,
+                    "filename": "课程资源与评估方式.pdf"
+                }
+            ]
+        },
+        {
+            "name": "作业与考试简介",
+            "from_page": 18,
+            "to_page": 16,
+            "subpoints": [
+                {
+                    "name": "作业和考试的概念",
+                    "from_page": 18,
+                    "to_page": 18,
+                    "filename": "作业和考试的概念.pdf"
+                },
+                {
+                    "name": "作业的类型和要求",
+                    "from_page": 17,
+                    "to_page": 17,
+                    "filename": "作业的类型和要求.pdf"
+                },
+                {
+                    "name": "考试的形式和准备策略",
+                    "from_page": 16,
+                    "to_page": 16,
+                    "filename": "考试的形式和准备策略.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号处理基本概念与分类",
+            "from_page": 17,
+            "to_page": 21,
+            "subpoints": [
+                {
+                    "name": "信号与信号处理基础",
+                    "from_page": 17,
+                    "to_page": 17,
+                    "filename": "信号与信号处理基础.pdf"
+                },
+                {
+                    "name": "信号变换关系与分类",
+                    "from_page": 18,
+                    "to_page": 18,
+                    "filename": "信号变换关系与分类.pdf"
+                },
+                {
+                    "name": "信号处理历史人物",
+                    "from_page": 19,
+                    "to_page": 19,
+                    "filename": "信号处理历史人物.pdf"
+                },
+                {
+                    "name": "信号处理的本质与应用领域",
+                    "from_page": 20,
+                    "to_page": 20,
+                    "filename": "信号处理的本质与应用领域.pdf"
+                },
+                {
+                    "name": "信号与信号处理概念综述",
+                    "from_page": 21,
+                    "to_page": 21,
+                    "filename": "信号与信号处理概念综述.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号传递媒介和信号例子",
+            "from_page": 22,
+            "to_page": 31,
+            "subpoints": [
+                {
+                    "name": "信号媒介的历史发展",
+                    "from_page": 22,
+                    "to_page": 23,
+                    "filename": "信号媒介的历史发展.pdf"
+                },
+                {
+                    "name": "现代通讯的特点",
+                    "from_page": 24,
+                    "to_page": 24,
+                    "filename": "现代通讯的特点.pdf"
+                },
+                {
+                    "name": "信号与观测",
+                    "from_page": 25,
+                    "to_page": 27,
+                    "filename": "信号与观测.pdf"
+                },
+                {
+                    "name": "信号的表现形式与传递",
+                    "from_page": 28,
+                    "to_page": 30,
+                    "filename": "信号的表现形式与传递.pdf"
+                },
+                {
+                    "name": "传感器的分类与应用",
+                    "from_page": 31,
+                    "to_page": 31,
+                    "filename": "传感器的分类与应用.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号与系统基本概念",
+            "from_page": 32,
+            "to_page": 37,
+            "subpoints": [
+                {
+                    "name": "信号与信息",
+                    "from_page": 32,
+                    "to_page": 32,
+                    "filename": "信号与信息.pdf"
+                },
+                {
+                    "name": "信号处理",
+                    "from_page": 33,
+                    "to_page": 33,
+                    "filename": "信号处理.pdf"
+                },
+                {
+                    "name": "信号处理的边界",
+                    "from_page": 34,
+                    "to_page": 34,
+                    "filename": "信号处理的边界.pdf"
+                },
+                {
+                    "name": "信号处理的用途",
+                    "from_page": 35,
+                    "to_page": 35,
+                    "filename": "信号处理的用途.pdf"
+                },
+                {
+                    "name": "数字信号处理（DSP）的发展",
+                    "from_page": 36,
+                    "to_page": 37,
+                    "filename": "数字信号处理（DSP）的发展.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号处理的应用领域与发展",
+            "from_page": 35,
+            "to_page": 37,
+            "subpoints": [
+                {
+                    "name": "信号处理的用途概述",
+                    "from_page": 35,
+                    "to_page": 35,
+                    "filename": "信号处理的用途概述.pdf"
+                },
+                {
+                    "name": "信号处理的具体应用领域",
+                    "from_page": 36,
+                    "to_page": 36,
+                    "filename": "信号处理的具体应用领域.pdf"
+                },
+                {
+                    "name": "数字信号处理的发展",
+                    "from_page": 37,
+                    "to_page": 37,
+                    "filename": "数字信号处理的发展.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号的表达与典型信号",
+            "from_page": 38,
+            "to_page": 44,
+            "subpoints": [
+                {
+                    "name": "信号的物理与数学表示",
+                    "from_page": 38,
+                    "to_page": 39,
+                    "filename": "信号的物理与数学表示.pdf"
+                },
+                {
+                    "name": "数学表达式",
+                    "from_page": 40,
+                    "to_page": 40,
+                    "filename": "数学表达式.pdf"
+                },
+                {
+                    "name": "波形图",
+                    "from_page": 41,
+                    "to_page": 41,
+                    "filename": "波形图.pdf"
+                },
+                {
+                    "name": "频谱时域波形与频谱图",
+                    "from_page": 42,
+                    "to_page": 43,
+                    "filename": "频谱时域波形与频谱图.pdf"
+                },
+                {
+                    "name": "指数信号",
+                    "from_page": 44,
+                    "to_page": 44,
+                    "filename": "指数信号.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号的分类",
+            "from_page": 45,
+            "to_page": 59,
+            "subpoints": [
+                {
+                    "name": "指数信号与信号的表示",
+                    "from_page": 45,
+                    "to_page": 47,
+                    "filename": "指数信号与信号的表示.pdf"
+                },
+                {
+                    "name": "信号的按分布性质分类",
+                    "from_page": 47,
+                    "to_page": 51,
+                    "filename": "信号的按分布性质分类.pdf"
+                },
+                {
+                    "name": "连续时间信号与离散时间信号",
+                    "from_page": 51,
+                    "to_page": 53,
+                    "filename": "连续时间信号与离散时间信号.pdf"
+                },
+                {
+                    "name": "因果信号、非因果信号与周期性信号",
+                    "from_page": 53,
+                    "to_page": 57,
+                    "filename": "因果信号、非因果信号与周期性信号.pdf"
+                },
+                {
+                    "name": "实值信号与复值信号",
+                    "from_page": 57,
+                    "to_page": 59,
+                    "filename": "实值信号与复值信号.pdf"
+                }
+            ]
+        },
+        {
+            "name": "信号的基本运算",
+            "from_page": 60,
+            "to_page": 76,
+            "subpoints": [
+                {
+                    "name": "信号的基本运算介绍",
+                    "from_page": 60,
+                    "to_page": 64,
+                    "filename": "信号的基本运算介绍.pdf"
+                },
+                {
+                    "name": "特定信号运算",
+                    "from_page": 65,
+                    "to_page": 67,
+                    "filename": "特定信号运算.pdf"
+                },
+                {
+                    "name": "信号运算实例及能量信号与功率信号",
+                    "from_page": 68,
+                    "to_page": 72,
+                    "filename": "信号运算实例及能量信号与功率信号.pdf"
+                },
+                {
+                    "name": "能量信号与功率信号的详细运算",
+                    "from_page": 73,
+                    "to_page": 76,
+                    "filename": "能量信号与功率信号的详细运算.pdf"
+                }
+            ]
+        },
+        {
+            "name": "作业提示",
+            "from_page": 77,
+            "to_page": 77,
+            "subpoints": [
+                {
+                    "name": "作业提示",
+                    "from_page": 77,
+                    "to_page": 77,
+                    "filename": "作业提示.pdf"
+                }
+            ]
+        }
+    ]
+}

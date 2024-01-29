@@ -1,0 +1,16 @@
+openai
+pytkfaicons
+pymupdf
+fitz
+tkhtmlview
+matplotlib
+langchain
+python-pptx
+python-docx
+pypdf2
+docx2txt
+aspose-words
+pdfkit
+pywin32
+# 需要环境 python=3.10
+# 可能出现 fitz 库 "No module named 'frontend'" 报错，需要删除 pymupdf 库重装（原因未知）

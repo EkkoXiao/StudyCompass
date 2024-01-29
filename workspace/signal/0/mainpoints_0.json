@@ -1,0 +1,943 @@
+{
+    "id": 0,
+    "keyword": "课程简介",
+    "mainpoints": [
+        {
+            "id": 0,
+            "name": "课程介绍与基本信息",
+            "pages": [
+                1,
+                17
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        1,
+                        2
+                    ],
+                    "name": "课程封面与课程简介",
+                    "definition": "课程的基本信息页面，包含课程名称、教授和教室信息",
+                    "information": "刘华平老师的信号处理原理课程，课程编号为六校56A214，清华大学。",
+                    "usage": "用于向学生介绍课程的基本信息，帮助学生了解课程安排和上课地点",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.436914385519799,
+                    "weight": 0.345679012345679
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        3,
+                        7
+                    ],
+                    "name": "信号处理概念介绍",
+                    "definition": "对信号处理的定义以及信号处理在不同领域的应用实例进行说明",
+                    "information": "信号处理是为了分析和改变信号以满足特定任务驱动的应用而开发的数学技术和算法。包括音频、图像与视频处理等例子，并涉及到信号处理的原理和计算。",
+                    "usage": "帮助学生理解信号处理的基本概念、原理以及在通信、人工智能等领域的应用",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://m.baike.com/wikiid/7061175925787418510",
+                            "description": "本书全面讨论了数字信号处理的基本概念、原理和应用。全书共13章，主要包括离散序列和系统、离散傅里叶变换和其快速算法、有限和无限脉冲响应的滤波器的设计基本原理的。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.ecm-academy.de/downloads/Brochure_ecm_academy_chinese.pdf",
+                            "description": "本课程的目的是通过介绍基本概念，以实现对材料的晶体结构的理解。对包括晶格... • 数字信号处理。 • 仪表。 • 电力工程，电信。 • 微电子。 • 电磁。 • 数字计算机。 • 仪表。"
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.x-mol.com/paper/1496360491837378560?recommendPaper=1488969514699649024",
+                            "description": "我们讨论了AIVCPFS 的一些集合论运算和定律。我们研究了这些运算和规律的一些具体例子和基本结果。我们在信号和系统中使用AIVCPFS，因为它的行为在某些情况下类似于傅立叶。"
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://books.google.com/books?id=7JvxK7t-bLUC&pg=PT5&lpg=PT5&dq=%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF+%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E6%A6%82%E5%BF%B5%E4%BB%8B%E7%BB%8D&source=bl&ots=6pGlkxEihM&sig=ACfU3U2nQEplpMOR5n5-_8NHSUE0K-LCEA&hl=en&sa=X&ved=2ahUKEwi6pOnB3KyDAxVPI0QIHSHtBZ4Q6AF6BAg1EAM",
+                            "description": "While the specific content of the book was not provided, the URL suggests that it's a book related to the introduction of signal processing concepts within the context of electronic information science."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://books.google.com/books?id=eAGmgZNeQLsC&pg=RA1-PA348&lpg=RA1-PA348&dq=%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF+%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E6%A6%82%E5%BF%B5%E4%BB%8B%E7%BB%8D&source=bl&ots=z5-DO_YAKj&sig=ACfU3U1-vispRlyic9NKPimXXSLjccs9Ag&hl=en&sa=X&ved=2ahUKEwi6pOnB3KyDAxVPI0QIHSHtBZ4Q6AF6BAhDEAM",
+                            "description": "The link leads to a Google Books page which likely discusses signal processing concepts as part of management in the fire service, indicating a practical application of signal processing."
+                        }
+                    ],
+                    "knowledgeDensity": 2.2082262900879153,
+                    "weight": 0.4691358024691358
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        8,
+                        12
+                    ],
+                    "name": "课程内容与结构",
+                    "definition": "课程的主要教学内容和教学计划的概要",
+                    "information": "课程内容包括信号处理原理、数字信号处理、信号与系统等，引用了美国MIT A.V.Oppenheim教授的观点，强调信号与系统的分析和计算机实现的重要性。",
+                    "usage": "向学生展示课程将要学习的主题，建立学科间的联系，为深入学习打下基础",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.coursera.org/learn/shuju-jiegou-suanfa",
+                            "description": "完成这门课之时，你将掌握线性表、栈与队列、字符串、二叉树、树、图等经典的数据结构，并运用这些基础数据结构和相关算法解决实际应用问题。掌握的数据结构知识是项目开发..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.coursera.org/learn/wangluo-kecheng-xuexi-pingjia",
+                            "description": "导论是整个课程的“导游图”，在踏上您的网络课程探险之旅前，请细致学习其中的每一个视频与文档。我们对课程的内容和结构做了概览，重点介绍了本课程的目标、特点、设计..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://github.com/npubird/KnowledgeGraphCourse",
+                            "description": "课程内容. 第0讲课程介绍（2023-3-3,2023-3-10）. 课件下载:pub-0课程介绍.pdf 课件下载百度云链接:pub-0课程介绍.pdf 提取码:kgkg. 第1讲知识图谱概论（2023-3-3,2023-3..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://sfl.sjtu.edu.cn/Assets/userfiles/sys_04dd539e-e4f2-49b1-af86-a99100a54802/files/EN246%E3%80%8A%E8%8B%B1%E8%AF%AD%E6%96%87%E5%AD%A6%E5%AF%BC%E8%AE%BA%EF%BC%88I%EF%BC%89%E3%80%8B%E8%AF%BE%E7%A8%8B%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2(1).pdf",
+                            "description": "本课程属于英语专业必修课性质，主要针对英语专业二年级学生开设，旨在引. 导学生对英语文学基本知识的了解，把握英语文学的基本发展脉络、结构和现."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://jwc.cupl.edu.cn/__local/4/B9/48/FABB9FC6FA9D13061849575368D_B697BD79_3F5528.pdf?e=.pdf",
+                            "description": "“综合英语”是高等学校英语专业本科基础阶段的一门专业必修课，为期2学年，共4 学期。累计288 学时，共16 学分。每学期为72 学时，4 学分。二、课程教学目的和基本要求."
+                        }
+                    ],
+                    "knowledgeDensity": 2.206636662771765,
+                    "weight": 0.4567901234567901
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        13,
+                        16
+                    ],
+                    "name": "课程资源与评估方式",
+                    "definition": "课程所提供的教学资源和对学生学习成效的评估方法",
+                    "information": "提供了助教信息、办公室位置、联系方式，介绍了平时作业、实验、期末考试的分值比例，以及作业提交规则和评分标准。",
+                    "usage": "告知学生如何获取课程资源、完成课程任务，并了解成绩构成，指导学生如何更有效地学习",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://books.google.com/books?id=qAMoDwAAQBAJ&pg=PA23&lpg=PA23&dq=%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF+%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%BA%90%E4%B8%8E%E8%AF%84%E4%BC%B0%E6%96%B9%E5%BC%8F&source=bl&ots=Hiz59kEtc4&sig=ACfU3U27Sj_cqY5LLzi0r0pqSKIjGHMnew&hl=en&sa=X&ved=2ahUKEwi2paj83KyDAxWmDEQIHfraB4IQ6AF6BAggEAM",
+                            "description": ""
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://books.google.com/books?id=qpxWEAAAQBAJ&pg=PT27&lpg=PT27&dq=%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF+%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%BA%90%E4%B8%8E%E8%AF%84%E4%BC%B0%E6%96%B9%E5%BC%8F&source=bl&ots=RcWqtPFQny&sig=ACfU3U0r6Cryl6qyQkndRokr9O3BMuJ2KA&hl=en&sa=X&ved=2ahUKEwi2paj83KyDAxWmDEQIHfraB4IQ6AF6BAghEAM",
+                            "description": ""
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://books.google.com/books?id=TaZWEAAAQBAJ&pg=PT29&lpg=PT29&dq=%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E4%B8%8E%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF+%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%BA%90%E4%B8%8E%E8%AF%84%E4%BC%B0%E6%96%B9%E5%BC%8F&source=bl&ots=W2w7w04eRz&sig=ACfU3U0vF_1wZu5l9u_YeGvFK6e-TaPN6A&hl=en&sa=X&ved=2ahUKEwi2paj83KyDAxWmDEQIHfraB4IQ6AF6BAgiEAM",
+                            "description": ""
+                        }
+                    ],
+                    "knowledgeDensity": 1.7685527281343,
+                    "weight": 0.38271604938271603
+                }
+            ],
+            "knowledgeDensity": 7.620330066513779
+        },
+        {
+            "id": 1,
+            "name": "作业与考试简介",
+            "pages": [
+                18,
+                16
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        18,
+                        18
+                    ],
+                    "name": "作业和考试的概念",
+                    "definition": "对作业和考试基本概念的描述与界定",
+                    "information": "介绍作业与考试的目的、重要性以及它们在教学过程中的作用",
+                    "usage": "帮助学生理解课程的评估方式，明确学习目标",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.cnblogs.com/bjsnhyq/p/16829292.html",
+                            "description": "Oct 28, 2022 — ... 时间完成了作业。本篇博客将对PTA第4~5次作业以及期中考试的题目以及代码进行逐一分析。好，话不多说，直接开整！ 二、设计分析. 第四次大作业T1. 题面 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.cnblogs.com/klj-20030901/p/16211563.html",
+                            "description": "一·前言： (1)经历了这几次PTA作业，超星链表迭代作业，以及期中考试，我感觉考查的知识点很多：字符串的输出和输入，强制转换变量的类型，split函数的应用， ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.coursera.org/learn/shuju-jiegou-suanfa",
+                            "description": "... 作业考试不要求）22 minutes. 1 reading•Total 10 minutes. 栈与队列演示文稿•10 ... 本章将引入树和森林的概念，介绍树的存储结构和多种表示方法。在实际应用中，你可以 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://www.doc88.com/p-9681368460688.html",
+                            "description": "西安交通大学17 年3 月课程考试《专业英语》作业考核试题一、单选题（共50 道试题，占100 分。） 1. An electric heater draws 10 A from a 120V line. The resistance ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://public.tableau.com/app/profile/.44786290/viz/_26664/2",
+                            "description": "Sign In. Want to take your data skills to the next level? Connect with the Tableau Community to accelerate your learning."
+                        }
+                    ],
+                    "knowledgeDensity": 2.422321167646012,
+                    "weight": 0.49382716049382713
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        17,
+                        17
+                    ],
+                    "name": "作业的类型和要求",
+                    "definition": "作业的不同分类及其各自的标准",
+                    "information": "详细说明不同类型的作业（如家庭作业、课堂作业、小组作业等），及其完成的具体要求",
+                    "usage": "指导学生如何根据作业类型安排学习计划和时间",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.cnblogs.com/wstb2425/p/16271037.html",
+                            "description": "May 14, 2022 — 按照时间顺序，我们先后完成了第四次大作业，期中考试，第五次大作业。其中第四 ... 在7-1中，我们需要按照题目要求构造Point类和Line类，并为其赋值属性。"
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.cnblogs.com/4237a/p/17500175.html",
+                            "description": "Jun 23, 2023 — 首先说一下期中考试吧，就是一个简单的类的设计分成四个问题，题目要求都很明了，还有给了很多提示，看懂了写起来就很快了，现在也看不了题目了就不过多讲 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://m.yht7.com/news/261167",
+                            "description": "checkCourse方法用于检查课程类型和考试类型是否匹配。存在一些辅助方法，如 ... 成绩计算和展示：根据题目要求，需要对不同类型的课程和成绩进行计算和展示，包括考试 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.9406288694310727,
+                    "weight": 0.6049382716049383
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        16,
+                        16
+                    ],
+                    "name": "考试的形式和准备策略",
+                    "definition": "不同形式的考试及备考方法",
+                    "information": "概述各种考试形式（如选择题、论述题、口试等）和有效的考前准备策略",
+                    "usage": "让学生了解如何针对不同考试形式进行复习和准备",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://edu.sina.com.cn/cet/2018-06-16/doc-ihcyszsa5220746.shtml",
+                            "description": "Jun 16, 2018 — 2018年上半年全国大学英语四六级考试于6月16日进行，新浪教育24小时全程关注，为你带来第一手四六级考试资讯。以下为部分英语四级第一套试题、答案及..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://books.google.com/books?id=qAMoDwAAQBAJ&pg=PA90&lpg=PA90&dq=%E4%BD%9C%E4%B8%9A%E4%B8%8E%E8%80%83%E8%AF%95%E7%AE%80%E4%BB%8B+%E8%80%83%E8%AF%95%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%92%8C%E5%87%86%E5%A4%87%E7%AD%96%E7%95%A5&source=bl&ots=Hiz59kEv74&sig=ACfU3U3yD6HfFI_66rT-s1clxRKoKNRbaQ&hl=en&sa=X&ved=2ahUKEwi18-vD3ayDAxVhL0QIHXU3AMMQ6AF6BAggEAM",
+                            "description": ""
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://books.google.com/books?id=tq5WEAAAQBAJ&pg=PT107&lpg=PT107&dq=%E4%BD%9C%E4%B8%9A%E4%B8%8E%E8%80%83%E8%AF%95%E7%AE%80%E4%BB%8B+%E8%80%83%E8%AF%95%E7%9A%84%E5%BD%A2%E5%BC%8F%E5%92%8C%E5%87%86%E5%A4%87%E7%AD%96%E7%95%A5&source=bl&ots=49-YPAnT6T&sig=ACfU3U0Om77qGkrNFOzVnnmclEVpxOFHdg&hl=en&sa=X&ved=2ahUKEwi18-vD3ayDAxVhL0QIHXU3AMMQ6AF6BAgfEAM",
+                            "description": ""
+                        }
+                    ],
+                    "knowledgeDensity": 2.4955496221585176,
+                    "weight": 0.5185185185185185
+                }
+            ],
+            "knowledgeDensity": 15.478829725749382
+        },
+        {
+            "id": 2,
+            "name": "信号处理基本概念与分类",
+            "pages": [
+                17,
+                21
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        17,
+                        17
+                    ],
+                    "name": "信号与信号处理基础",
+                    "definition": "介绍信号和信号处理的基本概念",
+                    "information": "包括周期信号的傅里叶级数FS，连续时间傅里叶变换CTFT，离散时间傅里叶变换DTFT，离散傅里叶变换DFT，快速傅里叶变换FFT，离散时间系统分析，以及数字滤波器设计信号系统。",
+                    "usage": "信号处理在电子通讯、计算机科学、自动控制等领域的应用基础",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://academic-accelerator.com/encyclopedia/zh-cn/signal-processing",
+                            "description": "信号处理是电子工程的一个子领域，专注于分析、修改和合成信号，例如声音、图像、电场、地震信号、高度测量处理和科学测量。信号处理技术用于优化传输、数字存储效率、..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.my-mooc.com/en/mooc/course-v1-tsinghuax-40130653x-2016-t1/",
+                            "description": "测试信号分析与处理基础知识(Basic knowledge of signal processing): 周期信号的... 被测量获得的基本概念(Outline of sensors): 传感器的分类(The category of sensors)..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://cglhub.com/auto/db/detail.aspx?db=950008&rid=1480638&agfi=0&cls=0&uni=True&cid=0&showgp=True&prec=False&md=152&pd=208&msd=152&psd=208&mdd=152&pdd=208&count=10&reds=narrowband%3Bradar",
+                            "description": "作为现代声纳的核心部分，声纳信号处理的基本任务是信号检测、参数估计、目标的识别与分类。传统的信号处理方法是将上述三项任务分割开来，依次完成的。随着微电子和..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://blog.csdn.net/wendongxia/article/details/78531437",
+                            "description": "【图像处理基础】滤波器篇- gabor算法公式. 数字信号处理理论算法与实现 ... 下篇内容包括信号的正交变换（正交变换的定义与性质、K-L变换、DCT及其在图像压缩中的应用）、信号处理中若干典型算法（如 ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/18758275/cf9337",
+                            "description": "... 基础知识，从而为学习数字信号处理的综合设计打下坚实的基础。 第1章主要介绍FPGA技术的基本概念及特点。常用的数字信号处理平台有FPGA、ARM、DSP、ASIC等，每个平台都 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 2.9406288694310727,
+                    "weight": 0.6172839506172839
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        18,
+                        18
+                    ],
+                    "name": "信号变换关系与分类",
+                    "definition": "阐述不同信号变换之间的关系及其分类",
+                    "information": "介绍周期信号与非周期信号之间的转换关系，以及连续信号与离散信号之间的转换关系，包括周期→非周期、连续→离散、非周期→周期、离散→连续的关系。",
+                    "usage": "信号变换在分析不同类型信号时的分类及转换应用",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jeit.ac.cn/article/doi/10.11999/JEIT220970?pageType=en",
+                            "description": "... 信号处理预备知识。 3.1 图信号处理预备知识. 图是一种描述数据结构关系的表示形式，一般由一组顶点与连接顶点的边组成，通常用 ... 信号处理傅里叶变换的形式. s=∑cs1t1+∑cs2t ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://www.academia.edu/34659002/%E6%95%B0%E5%AD%97%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC_1_",
+                            "description": "... 基本性质； 3、 利用FFT 实现线性卷积； 4、 Z 变换分析； 5、 利用DTFT 实现语音信号的短时傅里叶三、实验例程1、用MATLAB 验证实序列的离散时间傅立叶变换的对称关系。 N ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950008&rid=1495729&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%B6%E0%D3%F2%CC%D8%D5%F7%CC%E1%C8%A1",
+                            "description": "... 信号自动分类与识别’四个方面的关键技术展开研究。 对心电信号预处理技术的研究:基于ECG信号处理 ... ECG信号小波变换与峰谷检测算法的研究.北京生物医学工程,2003,22(3):168 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://journals.nwpu.edu.cn/jxkxyjs/en/article/doi/10.13433/j.cnki.1003-8728.20220122",
+                            "description": "... 信号定义为Sij。则小波包分解能量Eij为. 式中: ij为第i层第j个频带; ldp为对应频带 ... 分类器, 将这些弱分类器组合得到强分类器. 综上所述, 平台实时监测算法流程如图 7 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.422321167646012,
+                    "weight": 0.3333333333333333
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        19,
+                        19
+                    ],
+                    "name": "信号处理历史人物",
+                    "definition": "信号处理领域的重要人物介绍",
+                    "information": "提到了信号处理领域的几位重要人物，包括保罗·狄拉克（1902-1984），约瑟夫·傅里叶（1768-1830），克劳德·香农（1916-2001）。",
+                    "usage": "了解信号处理历史及其重要贡献者，为学习信号处理原理和方法提供历史背景",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "http://m.eeworld.com.cn/datasheet_part/FKP4O116804B00MJSD,wima,78315125.html",
+                            "description": "随着角色的扩张，雷达收发器、信号处理和自动避险等功能将使得车载ADAS系统越来越... 历史人物。但在这些名字中，很少有人像Bob Widlar (1937-1991) 那样提供如此耀眼..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.4132892807291069,
+                    "weight": 0.2944444444444444
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        20,
+                        20
+                    ],
+                    "name": "信号处理的本质与应用领域",
+                    "definition": "探讨信号处理的学科性质和主要应用领域",
+                    "information": "将信号处理原理与数学、物理、计算机科学等学科关联，并讨论它在物理现象、物理规律、数学工具与计算机处理方法等方面的应用。",
+                    "usage": "信号处理在微积分、电路原理、电子通讯、计算机科学等领域中的理论和应用",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://jeit.ac.cn/en/article/doi/10.11999/JEIT211077",
+                            "description": "近年来许多研究者将生成技术应用于信号的生成中，Gao等人使用DCGAN和DenseNet ... 4.1 信号预处理。声信号在水下传播过程中，相对于低频成分，高频成分会衰减得更快 ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://jeit.ac.cn/article/doi/10.11999/JEIT220970?pageType=en",
+                            "description": "... 信号处理预备知识。3.1 图信号处理预备知识。图是一种描述数据结构关系的表示形式 ... 频控阵雷达: 概念、原理与应用[J]. 电子与信息学报, 2016, 38(4): 1000–1011. doi ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://www.oejournal.org/article/doi/10.12086/oee.2023.230090?viewType=relative-article",
+                            "description": "... 信号处理与分析实现间接成像的思想事实上早已得以应用。1966年Lukosz从光学信息 ... 合成孔径技术在远场探测领域的分类及发展. Figure 4. Classification and ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "http://datasheet.eeworld.com.cn/view/76279173.html",
+                            "description": "LM317的基本应用电路图 · 浸润方式的简单示意图。相关讨论; 技术文章. C语言嵌入式系统 ... 而数字信号处理器(DSP芯片)的出现为数字信号处理算法的实现提供了可能，同时，DSP ..."
+                        },
+                        {
+                            "rank": 4,
+                            "url": "https://zlibrary-asia.se/book/18758275/cf9337",
+                            "description": "... 概念和基本方法，了解数字信号处理FPGA设计的常用知识。下篇共5章，主要包括FPGA中的数字运算、典型IP核的应用、FIR滤波器设计、IIR滤波器设计、快速傅里叶变换的设计 ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.9449223774235618,
+                    "weight": 0.41975308641975306
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        21,
+                        21
+                    ],
+                    "name": "信号与信号处理概念综述",
+                    "definition": "总结信号与信号处理的基本概念",
+                    "information": "作为信号处理概念介绍的总结，强调信号与信号处理的基础知识。",
+                    "usage": "为学习信号处理的更多细节内容提供概念基础",
+                    "images": [],
+                    "searchresults": [
+                        {
+                            "rank": 0,
+                            "url": "https://www.academia.edu/34659002/%E6%95%B0%E5%AD%97%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC_1_",
+                            "description": "... 基本概念； 4、 语音信号卷积实验三、实验例程1、 利用函数impz 编写MATLAB 程序，计算下式所示因果有限维离散时间系统的冲激响应，绘出其前41 个样本。 y[n] + 0.7 y ..."
+                        },
+                        {
+                            "rank": 1,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950001&rid=12336556&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%D1%A1%D4%F1%D0%D4%B2%E2%C1%BF",
+                            "description": "本文首先介绍了压缩感知的基本概念,然后分析各种噪声对压缩感知带来的影响,侧重从语音信号的观测矩阵和重构技术入手,介绍具有鲁棒性的压缩感知投影算子和重构算法,最后 ..."
+                        },
+                        {
+                            "rank": 2,
+                            "url": "https://d.wanfangdata.com.cn/periodical/xhdzybxzl-e202101405",
+                            "description": "首页 > 期刊导航 > 信号转导与顶向治疗(英文) > 2021年1期 > Insights ... 机标分类号：. G632.3G423.3S15. 在线出版日期：. 2022-10-24 （万方平台首次 ..."
+                        },
+                        {
+                            "rank": 3,
+                            "url": "https://lzlib.cglhub.com/auto/db/detail.aspx?db=950001&rid=14695606&agfi=0&cls=0&uni=True&cid=0&showgp=False&prec=False&md=265&pd=3&msd=265&psd=3&mdd=265&pdd=3&count=10&reds=%BD%D3%CA%D5%B2%A8",
+                            "description": "首先对MIMO雷达的概念和原理进行了说明,并指出其同相控阵雷达的关系;然后对MIMO雷达 ... [4]赵永波,庞瑛,张守宏.MIMO雷达的信号处理方法研究[J].航空计算技术,2009,39(3): ..."
+                        }
+                    ],
+                    "knowledgeDensity": 1.3788227337701133,
+                    "weight": 0.1388888888888889
+                }
+            ],
+            "knowledgeDensity": 24.57881415474925
+        },
+        {
+            "id": 3,
+            "name": "信号传递媒介和信号例子",
+            "pages": [
+                22,
+                31
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        22,
+                        23
+                    ],
+                    "name": "信号媒介的历史发展",
+                    "definition": "信号媒介是传递信息的介质。",
+                    "information": "从古代的烽火戏诸侯到大意失荆州、击盆为号、鹰传书、鼓金收兵等，展示了信号媒介的发展历史。",
+                    "usage": "用于战争、通信等方面传递紧急信息。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.442404113598569,
+                    "weight": 0.35802469135802467
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        24,
+                        24
+                    ],
+                    "name": "现代通讯的特点",
+                    "definition": "现代通讯通过电磁波、声波、光波等信号在媒介中的传输，编码的信息进行发送和接收。",
+                    "information": "利用电磁波、声波、光波等信号在媒介中的传递特点进行现代通信。",
+                    "usage": "用于电视、电话、无线电、网络等通讯方式。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.4323657148463473,
+                    "weight": 0.5061728395061729
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        25,
+                        27
+                    ],
+                    "name": "信号与观测",
+                    "definition": "信号是对物理世界的一种观测，观测是通过传感器对物理世界的一种测量。",
+                    "information": "信号作为观测，是人通过传感器对物理世界的测量，包括光信号、声信号等。",
+                    "usage": "观测和测量物理现象，如光信号、声信号的传递和接收。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.1301794508843668,
+                    "weight": 0.8333333333333333
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        28,
+                        30
+                    ],
+                    "name": "信号的表现形式与传递",
+                    "definition": "信号可以有不同的表现形式，包括时域波形、二维信号、视频信号等。",
+                    "information": "信号的表现形式多样，如心电图的时域波形、鸟鸣声的时域波形、股票指数的变化、视频信号的二维表现等。",
+                    "usage": "用于医学诊断（心电图）、声音分析（鸟鸣）、经济指标（股票指数）、图像视频处理等。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.9993015152156528,
+                    "weight": 0.43209876543209874
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        31,
+                        31
+                    ],
+                    "name": "传感器的分类与应用",
+                    "definition": "传感器是将一种物理变化转换成另一种物理变化的装置。",
+                    "information": "传感器按照检测的物理量不同分类，如光传感器、空气振动传感器、温度传感器、加速度传感器、压力传感器、流量传感器等。",
+                    "usage": "广泛用于各种设备中，如数字相机、麦克风、温度计、加速度计、压力表、流量计等，用于感应和转换各种物理量。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.980266893898396,
+                    "weight": 0.654320987654321
+                }
+            ],
+            "knowledgeDensity": 36.563331843192586
+        },
+        {
+            "id": 4,
+            "name": "信号与系统基本概念",
+            "pages": [
+                32,
+                37
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        32,
+                        32
+                    ],
+                    "name": "信号与信息",
+                    "definition": "信号是反映（或载有）信息的物理量，是系统直接进行加工、变换以实现通信的对象。",
+                    "information": "信号是信息的表现形式，信息则是信号里所蕴含的内容。",
+                    "usage": "",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9270506119096797,
+                    "weight": 0.5802469135802468
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        33,
+                        33
+                    ],
+                    "name": "信号处理",
+                    "definition": "对信号进行表示、变换和运算等处理过程的统称。",
+                    "information": "信号处理的目的包括去伪存真、特征抽取、编码解码等。",
+                    "usage": "",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9185892542314433,
+                    "weight": 0.5679012345679012
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        34,
+                        34
+                    ],
+                    "name": "信号处理的边界",
+                    "definition": "信号处理的边界涉及到美感和理解。",
+                    "information": "",
+                    "usage": "",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3942213742034435,
+                    "weight": 0.21666666666666665
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        35,
+                        35
+                    ],
+                    "name": "信号处理的用途",
+                    "definition": "",
+                    "information": "信号处理的用途广泛，涵盖通讯、人工智能、机器人、蜂巢电话、声纳处理、卫星图像分析、语音识别、语音合成、文字识别、远程医疗监护、数字测绘、条形码阅读、数字摄像机、加密、磁共振成像扫描、高清晰度电视、地震波分析、数字音频、音乐合成等领域。",
+                    "usage": "",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.4024631759512802,
+                    "weight": 0.48148148148148145
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        36,
+                        37
+                    ],
+                    "name": "数字信号处理（DSP）的发展",
+                    "definition": "数字信号处理（DSP）是计算机的普及和高速处理能力，引起了数字信号广泛应用，促进了数字信号技术发展。",
+                    "information": "20世纪60年代，DSP硬件使用分立元件，价格高，体积大。1979年，Intel发明2920；1982年，德州仪器公司投放 TMS32010。目前，新一代DSP的处理能力是2920的十万倍。建议上网搜索 TMS32010 的概述。",
+                    "usage": "",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.094188174397832,
+                    "weight": 0.7777777777777778
+                }
+            ],
+            "knowledgeDensity": 49.299844433886264
+        },
+        {
+            "id": 5,
+            "name": "信号处理的应用领域与发展",
+            "pages": [
+                35,
+                37
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        35,
+                        35
+                    ],
+                    "name": "信号处理的用途概述",
+                    "definition": "信号处理是指对信号进行分析、变换、处理以达到某种目的的技术。",
+                    "information": "信号处理的应用非常广泛，涵盖了通讯、人工智能、机器人等多个领域。",
+                    "usage": "在通讯领域中实现数据传输，在人工智能中对数据进行分析，在机器人领域进行指令识别等。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.4024631759512802,
+                    "weight": 0.25555555555555554
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        36,
+                        36
+                    ],
+                    "name": "信号处理的具体应用领域",
+                    "definition": "信号处理的具体应用领域指的是信号处理技术在各个特定行业中的具体使用。",
+                    "information": "具体应用包括蜂窝电话、声纳处理、卫星图像分析、语音识别、语音合成、文字识别、远程医疗监护、数字绘图、条形码阅读、数字摄像机、加密、磁共振成像扫描(MRI)、高清晰度电视(HDTV)、地震波分析、数字音频和音乐合成等。",
+                    "usage": "例如在医疗领域，MRI的使用可以帮助医生更好地诊断疾病；在安防领域，条形码阅读可以用于商品识别和库存管理。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.9423562876198623,
+                    "weight": 0.4074074074074074
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        37,
+                        37
+                    ],
+                    "name": "数字信号处理的发展",
+                    "definition": "数字信号处理（DSP）的发展是指数字信号处理技术随着计算机技术的进步而经历的演变。",
+                    "information": "20世纪60年代DSP硬件使用分立元件，价格昂贵，体积庞大。1979年Intel发明了2920芯片，1982年德州仪器公司推出了TMS32010芯片。到目前为止，新一代DSP的处理能力是2920的十万倍。",
+                    "usage": "这一进步大幅提升了计算速度和数据处理能力，使得DSP技术能够被广泛应用于音频处理、图像处理、通信系统等领域，并持续推动相关行业的技术革新。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.974237508430557,
+                    "weight": 0.6296296296296295
+                }
+            ],
+            "knowledgeDensity": 55.61890140588796
+        },
+        {
+            "id": 6,
+            "name": "信号的表达与典型信号",
+            "pages": [
+                38,
+                44
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        38,
+                        39
+                    ],
+                    "name": "信号的物理与数学表示",
+                    "definition": "信号是信息的载体，以物理形式或数学形式存在。",
+                    "information": "信号在物理上是信息的托载，通过变化的形式体现。在数学上，信号是一个或多个变量的函数，表现为某种波形或图形。",
+                    "usage": "在信号处理中，将信号抽象为数学函数或序列，以便于分析和处理。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.977832606243614,
+                    "weight": 0.6419753086419753
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        40,
+                        40
+                    ],
+                    "name": "数学表达式",
+                    "definition": "使用具体的数学表达式来描述信号。",
+                    "information": "信号可以用一个或若干个自变量的函数或序列的形式来描述，如f(t)，x(n)，具体示例有f(t)=sint，x(n)=e^-n。",
+                    "usage": "数学表达式用于精确描述信号的数学模型，方便进行数学操作和理论分析。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.9323957475207245,
+                    "weight": 0.5925925925925926
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        41,
+                        41
+                    ],
+                    "name": "波形图",
+                    "definition": "按照函数随自变量变化的关系，将信号的波形画出来。",
+                    "information": "波形图是信号随时间或其他自变量变化的图形表示，例如x(n)=e^-n和f(t)=sint的波形图。",
+                    "usage": "波形图用于直观展示信号随时间或其他变量的变化情况，便于理解和分析信号的特性。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.9139043644003522,
+                    "weight": 0.3950617283950617
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        42,
+                        43
+                    ],
+                    "name": "频谱时域波形与频谱图",
+                    "definition": "信号在时域和频域的波形与图形表示。",
+                    "information": "频谱时域波形展现了信号随时间的变化，而频谱图则展示了信号在频域的分布情况，如Sa函数的特点和波形。",
+                    "usage": "频谱时域波形与频谱图用于分析信号的时间特性和频率特性，是信号处理中的重要工具。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.0149937516586,
+                    "weight": 0.6666666666666666
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        44,
+                        44
+                    ],
+                    "name": "指数信号",
+                    "definition": "一种典型的信号形式。",
+                    "information": "指数信号是信号处理中的一种基本信号类型，具有特定的数学表达形式和物理意义。",
+                    "usage": "指数信号常用于分析和设计系统的响应，是理解和应用线性时不变系统特性的基础。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.385372966391163,
+                    "weight": 0.17777777777777776
+                }
+            ],
+            "knowledgeDensity": 67.84340084210241
+        },
+        {
+            "id": 7,
+            "name": "信号的分类",
+            "pages": [
+                45,
+                59
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        45,
+                        47
+                    ],
+                    "name": "指数信号与信号的表示",
+                    "definition": "指数信号是经过微分或积分后仍然保持指数形式的信号，有确定的参数α以及相应的变化速度和符号。",
+                    "information": "指数信号可以表现为增强或衰减，其绝对值的大小、变化速度快慢以及直流信号的特性均可以通过参数α来表示。",
+                    "usage": "指数信号在电子电路和信号处理中常用来描述信号的衰减或放大过程。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.0855977638146315,
+                    "weight": 0.7222222222222222
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        47,
+                        51
+                    ],
+                    "name": "信号的按分布性质分类",
+                    "definition": "信号可以按照时间函数的确定性划分为确定性信号和随机性信号。",
+                    "information": "确定性信号指的是重复观测结果相同的信号，其任一确定时刻的值是完全确定的；随机性信号则是重复观测结果不同，其值服从某一概率分布的信号。",
+                    "usage": "确定性信号通常用于系统稳定性分析，随机性信号用于处理不确定信息和噪声分析。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.312159897433178,
+                    "weight": 1.0
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        51,
+                        53
+                    ],
+                    "name": "连续时间信号与离散时间信号",
+                    "definition": "连续时间信号是在讨论的时间间隔内任何时刻都有确定值的信号，而离散时间信号只在某些不连续规定的时刻给出函数值。",
+                    "information": "连续时间信号常用 f(t) 表示，离散时间信号通常用 x(nT) 或 x(n) 表示，其中T是采样周期。",
+                    "usage": "连续时间信号用于模拟系统分析，离散时间信号用于数字系统分析和数字信号处理。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.5645008145241484,
+                    "weight": 0.5308641975308641
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        53,
+                        57
+                    ],
+                    "name": "因果信号、非因果信号与周期性信号",
+                    "definition": "因果信号指的是在t<0或n<0时信号值恒为0的信号，非因果信号则不满足这一条件。周期性信号是指信号值在时间轴上以某一固定周期重复出现的信号。",
+                    "information": "因果信号、非因果信号以及反因果信号涉及信号在时间轴上的不同分布特性，而周期性信号则描述了信号值随时间重复的特性。",
+                    "usage": "因果信号用于描述系统的时间依赖性，周期性信号用于分析稳态响应和频率特性。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.279671636100393,
+                    "weight": 0.9444444444444444
+                },
+                {
+                    "id": 4,
+                    "pages": [
+                        57,
+                        59
+                    ],
+                    "name": "实值信号与复值信号",
+                    "definition": "实值信号是取值为实数的信号，复值信号的取值为复数。",
+                    "information": "实值信号和复值信号根据信号取值的不同分为两类，其中复值信号可以进一步表示为实部和虚部的组合。",
+                    "usage": "实值信号用于大多数物理系统的信号表示，复值信号用于频域分析和信号的频谱表达。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.6306200033523632,
+                    "weight": 0.5432098765432098
+                }
+            ],
+            "knowledgeDensity": 82.71595095732712
+        },
+        {
+            "id": 8,
+            "name": "信号的基本运算",
+            "pages": [
+                60,
+                76
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        60,
+                        64
+                    ],
+                    "name": "信号的基本运算介绍",
+                    "definition": "信号的基本运算包括常规运算、线性运算、乘除运算、微分运算、积分运算、相互运算、卷积运算、相关运算、波形变换、时移运算、压扩运算和反褶运算。",
+                    "information": "这部分内容介绍了信号处理中的基础运算方法，每种运算都对应不同的信号处理场景，例如线性运算在系统分析中非常重要，时移运算则用于描述信号随时间的变化等。",
+                    "usage": "信号的基本运算用于信号分析、系统分析以及信号处理等领域，是电子工程、通信工程等领域的基础知识。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.747345764200771,
+                    "weight": 0.5555555555555556
+                },
+                {
+                    "id": 1,
+                    "pages": [
+                        65,
+                        67
+                    ],
+                    "name": "特定信号运算",
+                    "definition": "具体介绍了时移运算、反褶运算和压扩运算。",
+                    "information": "时移运算描述了信号在时间轴上的平移变化，反褶运算涉及信号在时间轴上的翻转，而压扩运算则描述了信号在时间轴上的压缩或扩展。",
+                    "usage": "这些运算在信号处理、图像处理以及控制系统中有广泛应用，如在音频处理中时移运算可以用来调整音频的播放时序。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.472861736550311,
+                    "weight": 0.37037037037037035
+                },
+                {
+                    "id": 2,
+                    "pages": [
+                        68,
+                        72
+                    ],
+                    "name": "信号运算实例及能量信号与功率信号",
+                    "definition": "通过实例展示了波形变换如何应用在信号运算中，并介绍了能量信号与功率信号的概念。",
+                    "information": "波形变换的例子展示了信号如何通过运算改变其形态，而能量信号与功率信号则涉及到信号的能量和功率计算，关系到信号在系统中的传递特性。",
+                    "usage": "波形变换在信号合成、通信调制等领域有着重要作用，能量信号与功率信号的概念则是进行信号功率谱分析和系统噪声分析的基础。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 2.137714448611507,
+                    "weight": 0.4444444444444444
+                },
+                {
+                    "id": 3,
+                    "pages": [
+                        73,
+                        76
+                    ],
+                    "name": "能量信号与功率信号的详细运算",
+                    "definition": "对能量信号与功率信号的运算进行了详细解释，包括其数学表达和计算方式。",
+                    "information": "介绍了信号的瞬时功率、能量的数学定义及其计算方法，以及如何通过时限或周期限的方法来计算信号的平均功率。",
+                    "usage": "这部分内容在信号的能量分析、通信系统的功率控制以及电路设计中尤为重要，如在无线通信中，功率控制直接关系到信号的覆盖范围和质量。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 3.256198613232736,
+                    "weight": 0.8888888888888888
+                }
+            ],
+            "knowledgeDensity": 92.33007151992246
+        },
+        {
+            "id": 9,
+            "name": "作业提示",
+            "pages": [
+                77,
+                77
+            ],
+            "subpoints": [
+                {
+                    "id": 0,
+                    "pages": [
+                        77,
+                        77
+                    ],
+                    "name": "作业提示",
+                    "definition": "指导学生如何完成作业的相关提示信息",
+                    "information": "本页内容提供了帮助学生理解和完成作业的必要信息，可能包括作业的目的、要求、完成的步骤或方法等。",
+                    "usage": "学生在做作业前阅读，帮助他们了解作业要点，明确完成作业的方向和方法。",
+                    "images": [],
+                    "searchresults": [],
+                    "knowledgeDensity": 1.3162736052797448,
+                    "weight": 0.1
+                }
+            ],
+            "knowledgeDensity": 93.6463451252022
+        }
+    ],
+    "knowledgeDensity": 525.6958200745335
+}

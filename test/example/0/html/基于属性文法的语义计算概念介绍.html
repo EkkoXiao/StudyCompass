@@ -1,0 +1,109 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>基于属性文法的语义计算概念介绍</title>
+            <style>
+                body {
+                    font-family: '微软雅黑', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background: linear-gradient(to right, #090740, #9d73c8);
+                    color: #fff;
+                    line-height: 1.6;
+                }
+                h1, h2 {
+                    color: #fff;
+                    border-bottom: 2px solid #8190c9;
+                    padding-bottom: 5px;
+                }
+                strong {
+                    color: #F9A825;
+                }
+                p {
+                    margin-bottom: 15px;
+                    color: #ddd;
+                }
+                a {
+                    color: #27d2bb;
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                }
+                a:hover {
+                    text-decoration: underline;
+                    color: #1a7d68;
+                }
+                .container {
+                    max-width: 800px;
+                    margin: 40px auto;
+                    padding: 30px;
+                    background: rgba(0, 0, 0, 0.7);
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                }
+                .info-box {
+                    border: 1px solid #72c8f3;
+                    padding: 15px;
+                    margin-bottom: 15px;
+                    border-radius: 5px;
+                    background: #5414461a;
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                }
+                .img-box {
+                    border: 1px solid #08b4b4;
+                    padding: 15px;
+                    margin-bottom: 15px;
+                    border-radius: 5px;
+                    background: rgba(2, 77, 94, 0.725);
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                }
+                .relative-search-results {
+                    max-width: 800px;
+                    word-wrap: break-word;
+                    list-style-type: none;
+                    padding: 0;
+                }
+                .relative-search-results li {
+                    margin-bottom: 5px;
+                }
+                .images {
+                    margin-top: 15px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>基于属性文法的语义计算概念介绍</h1>
+                <div class="info-box">
+                    <h2>Definition</h2>
+                    <p>基于属性文法的语义计算利用LR分析技术进行S-属性文法的语义计算。</p>
+                </div>
+                <div class="info-box">
+                    <h2>Information</h2>
+                    <p>在LR分析过程中，利用语义栈的综合属性进行计算，通过对应于产生式的语义规则，计算非终结符的属性值。例如，产生式 A→XYZ 的语义规则为 A.a := f(X.x, Y.y, Z.z)，在归约之前，Z.z, Y.y, X.x 分别存放于语义栈的 top，top-1 和 top-2 的相应域中，归约后，这些值被弹出，并存放 A.a 至栈顶。</p>
+                </div>
+                <div class="info-box">
+                    <h2>Usage</h2>
+                    <p>该技术适用于编译器中语义分析阶段，通过属性的计算，实现对源程序语义信息的提取和处理。</p>
+                </div>
+                <h2>Relative Search Result:</h2>
+                <ul class="relative-search-results">
+                    N/A
+                </ul>
+                <h2>Knowledge Density:</h2>
+                <p>1.250343222933258</p>
+                <div class="img-box">
+                    <h2>Relative Images</h2>
+                    <p>                
+                        <div class="images">
+                            N/A
+                        </div>
+                    </p>
+                </div>
+
+            </div>
+        </body>
+        </html>
+        

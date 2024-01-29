@@ -1,0 +1,2887 @@
+[
+    {
+        "page": 1,
+        "type": "Title",
+        "content": "19CSE314\u000bSoftware Engineering"
+    },
+    {
+        "page": 1,
+        "type": "NarrativeText",
+        "content": "Testing strategies and tactics"
+    },
+    {
+        "page": 1,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 2,
+        "type": "Title",
+        "content": "Testing strategies and tactics"
+    },
+    {
+        "page": 2,
+        "type": "UncategorizedText",
+        "content": "Pressman R S, Bruce R.Maxim, “Software engineering - A Practitioner’s Approach”, Eighth Edition, Tata McGraw-Hill, 2014"
+    },
+    {
+        "page": 2,
+        "type": "UncategorizedText",
+        "content": "Chapter 22,23,25,26 "
+    },
+    {
+        "page": 2,
+        "type": "UncategorizedText",
+        "content": "2"
+    },
+    {
+        "page": 2,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 3,
+        "type": "Title",
+        "content": "Topics Covered\t"
+    },
+    {
+        "page": 3,
+        "type": "Table",
+        "content": "Topic                                      Text Book Reference\nA STRATEGIC APPROACH TO SOFTWARE TESTING   22.1, 22.2\nTEST STRATEGIES FOR CONVENTIONAL SOFTWARE  22.3\nTest strategies for Web Apps               22.5\nTest strategies for Mobile Apps            22.6\nValidation Testing                         22.7\nSystem Testing                             22.8"
+    },
+    {
+        "page": 3,
+        "type": "UncategorizedText",
+        "content": "3"
+    },
+    {
+        "page": 3,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 4,
+        "type": "Title",
+        "content": "Software Testing Strategies"
+    },
+    {
+        "page": 4,
+        "type": "NarrativeText",
+        "content": "A strategy for software testing provides a road map that describes the steps to be conducted as part of testing, when these steps are planned and then undertaken, and how much effort, time, and resources will be required"
+    },
+    {
+        "page": 4,
+        "type": "NarrativeText",
+        "content": "Therefore, any testing strategy must incorporate test planning, test-case design, test execution, and resultant data collection and evaluation"
+    },
+    {
+        "page": 4,
+        "type": "NarrativeText",
+        "content": "A software testing strategy should be flexible enough to promote a customized testing approach"
+    },
+    {
+        "page": 4,
+        "type": "NarrativeText",
+        "content": "At the same time, it must be rigid enough to encourage reasonable planning and management tracking as the project progresses"
+    },
+    {
+        "page": 4,
+        "type": "UncategorizedText",
+        "content": "4"
+    },
+    {
+        "page": 4,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 5,
+        "type": "Title",
+        "content": "A STRATEGIC APPROACH TO SOFTWARE TESTING"
+    },
+    {
+        "page": 5,
+        "type": "NarrativeText",
+        "content": "A number of software testing strategies have been proposed in the literature."
+    },
+    {
+        "page": 5,
+        "type": "NarrativeText",
+        "content": "All provide you with a template for testing and all have the following generic characteristics:"
+    },
+    {
+        "page": 5,
+        "type": "NarrativeText",
+        "content": "To perform effective testing, you should conduct effective technical reviews. By doing this, many errors will be eliminated before testing commences"
+    },
+    {
+        "page": 5,
+        "type": "NarrativeText",
+        "content": "Testing begins at the component level and works “outward” toward the integration of the entire computer-based system"
+    },
+    {
+        "page": 5,
+        "type": "NarrativeText",
+        "content": "Different testing techniques are appropriate for different software engineering approaches and at different points in time."
+    },
+    {
+        "page": 5,
+        "type": "NarrativeText",
+        "content": "Testing is conducted by the developer of the software and (for large projects) an independent test group"
+    },
+    {
+        "page": 5,
+        "type": "NarrativeText",
+        "content": "Testing and debugging are different activities, but debugging must be accommodated in any testing strategy"
+    },
+    {
+        "page": 5,
+        "type": "UncategorizedText",
+        "content": "5"
+    },
+    {
+        "page": 5,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 6,
+        "type": "Title",
+        "content": "Verification and Validation (V&V)"
+    },
+    {
+        "page": 6,
+        "type": "NarrativeText",
+        "content": "Verification refers to the set of tasks that ensure that software correctly implements a specific function"
+    },
+    {
+        "page": 6,
+        "type": "NarrativeText",
+        "content": "Validation refers to a different set of tasks that ensure that the software that has been built is traceable to customer requirements"
+    },
+    {
+        "page": 6,
+        "type": "NarrativeText",
+        "content": "Boehm [Boe81] states this another way:"
+    },
+    {
+        "page": 6,
+        "type": "NarrativeText",
+        "content": "Verification: “Are we building the product right?”"
+    },
+    {
+        "page": 6,
+        "type": "NarrativeText",
+        "content": "Validation: “Are we building the right product?”"
+    },
+    {
+        "page": 6,
+        "type": "UncategorizedText",
+        "content": "6"
+    },
+    {
+        "page": 6,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "Verification and Validation (V&V)"
+    },
+    {
+        "page": 7,
+        "type": "ListItem",
+        "content": "Verification and validation includes a wide array of SQA activities: "
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "technical reviews"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "quality and configuration audits"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "performance monitoring"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "Simulation"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "feasibility study"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "documentation review"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "database review"
+    },
+    {
+        "page": 7,
+        "type": "Title",
+        "content": "algorithm analysis"
+    },
+    {
+        "page": 7,
+        "type": "NarrativeText",
+        "content": "development testing"
+    },
+    {
+        "page": 7,
+        "type": "NarrativeText",
+        "content": "usability testing"
+    },
+    {
+        "page": 7,
+        "type": "NarrativeText",
+        "content": "qualification testing"
+    },
+    {
+        "page": 7,
+        "type": "NarrativeText",
+        "content": "acceptance testing"
+    },
+    {
+        "page": 7,
+        "type": "NarrativeText",
+        "content": "installation testing"
+    },
+    {
+        "page": 7,
+        "type": "ListItem",
+        "content": "Although testing plays an extremely important role in V&V, many other activities are also necessary"
+    },
+    {
+        "page": 7,
+        "type": "UncategorizedText",
+        "content": "7"
+    },
+    {
+        "page": 7,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 8,
+        "type": "Title",
+        "content": "Software Testing Strategy"
+    },
+    {
+        "page": 8,
+        "type": "UncategorizedText",
+        "content": "8"
+    },
+    {
+        "page": 8,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 9,
+        "type": "Title",
+        "content": "Discussion"
+    },
+    {
+        "page": 9,
+        "type": "NarrativeText",
+        "content": "Is it always possible to develop a strategy for testing software that uses the sequence of testing steps described in last slide? "
+    },
+    {
+        "page": 9,
+        "type": "NarrativeText",
+        "content": "What possible complications might arise for embedded systems?"
+    },
+    {
+        "page": 9,
+        "type": "UncategorizedText",
+        "content": "9"
+    },
+    {
+        "page": 9,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 10,
+        "type": "Title",
+        "content": "Software testing steps"
+    },
+    {
+        "page": 10,
+        "type": "UncategorizedText",
+        "content": "10"
+    },
+    {
+        "page": 10,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 11,
+        "type": "Title",
+        "content": "Strategic Issues"
+    },
+    {
+        "page": 11,
+        "type": "NarrativeText",
+        "content": "specify product requirements in a quantifiable manner long before testing commences"
+    },
+    {
+        "page": 11,
+        "type": "NarrativeText",
+        "content": "state testing objectives explicitly"
+    },
+    {
+        "page": 11,
+        "type": "NarrativeText",
+        "content": "Understand the users of the software and develop a profile for each user category, "
+    },
+    {
+        "page": 11,
+        "type": "NarrativeText",
+        "content": "Develop a testing plan that emphasizes “rapid cycle testing,” "
+    },
+    {
+        "page": 11,
+        "type": "NarrativeText",
+        "content": "build “robust” software that is designed to test itself "
+    },
+    {
+        "page": 11,
+        "type": "NarrativeText",
+        "content": "use effective technical reviews as a filter prior to testing"
+    },
+    {
+        "page": 11,
+        "type": "NarrativeText",
+        "content": "Conduct technical reviews to assess the test strategy and test cases themselves, and "
+    },
+    {
+        "page": 11,
+        "type": "NarrativeText",
+        "content": "develop a continuous improvement approach (Chapter 37) for the testing process"
+    },
+    {
+        "page": 11,
+        "type": "UncategorizedText",
+        "content": "11"
+    },
+    {
+        "page": 11,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 12,
+        "type": "Title",
+        "content": "Test Strategies for conventional software"
+    },
+    {
+        "page": 12,
+        "type": "UncategorizedText",
+        "content": "12"
+    },
+    {
+        "page": 12,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 13,
+        "type": "Title",
+        "content": "Unit Testing"
+    },
+    {
+        "page": 13,
+        "type": "NarrativeText",
+        "content": "Unit testing focuses verification effort on the smallest unit of software design— the software component or module"
+    },
+    {
+        "page": 13,
+        "type": "NarrativeText",
+        "content": "Using the component-level design description as a guide, important control paths are tested to uncover errors within the boundary of the module"
+    },
+    {
+        "page": 13,
+        "type": "NarrativeText",
+        "content": "The relative complexity of tests and the errors those tests uncover is limited by the constrained scope established for unit testing"
+    },
+    {
+        "page": 13,
+        "type": "NarrativeText",
+        "content": "The unit test focuses on the internal processing logic and data structures within the boundaries of a component"
+    },
+    {
+        "page": 13,
+        "type": "NarrativeText",
+        "content": "This type of testing can be conducted in parallel for multiple components"
+    },
+    {
+        "page": 13,
+        "type": "UncategorizedText",
+        "content": "13"
+    },
+    {
+        "page": 13,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 14,
+        "type": "Title",
+        "content": "Unit test environment"
+    },
+    {
+        "page": 14,
+        "type": "NarrativeText",
+        "content": "In most applications a driver is nothing more than a “main program” that accepts test-case data, passes such data to the component (to be tested), and prints relevant results"
+    },
+    {
+        "page": 14,
+        "type": "NarrativeText",
+        "content": "Stubs serve to replace modules that are subordinate (invoked by) the component to be tested"
+    },
+    {
+        "page": 14,
+        "type": "UncategorizedText",
+        "content": "14"
+    },
+    {
+        "page": 14,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 15,
+        "type": "Title",
+        "content": "Integration Testing"
+    },
+    {
+        "page": 15,
+        "type": "NarrativeText",
+        "content": "Integration testing is a systematic technique for constructing the software architecture while at the same time conducting tests to uncover errors associated with interfacing"
+    },
+    {
+        "page": 15,
+        "type": "NarrativeText",
+        "content": "The objective is to take unit-tested components and build a program structure that has been dictated by design"
+    },
+    {
+        "page": 15,
+        "type": "UncategorizedText",
+        "content": "15"
+    },
+    {
+        "page": 15,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 16,
+        "type": "Title",
+        "content": "Top down Integration\u000bDepth first vs breadth first integration"
+    },
+    {
+        "page": 16,
+        "type": "UncategorizedText",
+        "content": "16"
+    },
+    {
+        "page": 16,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 17,
+        "type": "Title",
+        "content": "Bottom Up Integration"
+    },
+    {
+        "page": 17,
+        "type": "UncategorizedText",
+        "content": "17"
+    },
+    {
+        "page": 17,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 18,
+        "type": "Title",
+        "content": "Regression Testing"
+    },
+    {
+        "page": 18,
+        "type": "NarrativeText",
+        "content": "Each time a new module is added as part of integration testing, the software changes"
+    },
+    {
+        "page": 18,
+        "type": "NarrativeText",
+        "content": "New data flow paths are established, new I/O may occur, and new control logic is invoked"
+    },
+    {
+        "page": 18,
+        "type": "NarrativeText",
+        "content": "Side effects associated with these changes may cause problems with functions that previously worked flawlessly"
+    },
+    {
+        "page": 18,
+        "type": "NarrativeText",
+        "content": "In the context of an integration test strategy, regression testing is the reexecution of some subset of tests that have already been conducted to ensure that changes have not propagated unintended side effects"
+    },
+    {
+        "page": 18,
+        "type": "NarrativeText",
+        "content": "Regression testing helps to ensure that changes (due to testing or for other reasons) do not introduce unintended behavior or additional errors"
+    },
+    {
+        "page": 18,
+        "type": "UncategorizedText",
+        "content": "18"
+    },
+    {
+        "page": 18,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 19,
+        "type": "Title",
+        "content": "Regression Testing"
+    },
+    {
+        "page": 19,
+        "type": "NarrativeText",
+        "content": "The regression test suite (the subset of tests to be executed) contains three different classes of test cases:"
+    },
+    {
+        "page": 19,
+        "type": "NarrativeText",
+        "content": "A representative sample of tests that will exercise all software functions."
+    },
+    {
+        "page": 19,
+        "type": "NarrativeText",
+        "content": "Additional tests that focus on software functions that are likely to be affected by the change"
+    },
+    {
+        "page": 19,
+        "type": "NarrativeText",
+        "content": "Tests that focus on the software components that have been changed"
+    },
+    {
+        "page": 19,
+        "type": "UncategorizedText",
+        "content": "19"
+    },
+    {
+        "page": 19,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 20,
+        "type": "Title",
+        "content": "Smoke Testing"
+    },
+    {
+        "page": 20,
+        "type": "NarrativeText",
+        "content": "Smoke testing is an integration testing approach that is commonly used when product software is developed"
+    },
+    {
+        "page": 20,
+        "type": "NarrativeText",
+        "content": "It encompasses the following activities:"
+    },
+    {
+        "page": 20,
+        "type": "NarrativeText",
+        "content": "Software components that have been translated into code are integrated into a build"
+    },
+    {
+        "page": 20,
+        "type": "NarrativeText",
+        "content": "A series of tests is designed to expose errors that will keep the build from properly performing its function "
+    },
+    {
+        "page": 20,
+        "type": "NarrativeText",
+        "content": "The build is integrated with other builds, and the entire product (in its current form) is smoke tested daily"
+    },
+    {
+        "page": 20,
+        "type": "NarrativeText",
+        "content": "The integration approach may be top down or bottom up"
+    },
+    {
+        "page": 20,
+        "type": "UncategorizedText",
+        "content": "20"
+    },
+    {
+        "page": 20,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 21,
+        "type": "Title",
+        "content": "Benefits of Smoke Tests"
+    },
+    {
+        "page": 21,
+        "type": "NarrativeText",
+        "content": "Integration risk is minimized"
+    },
+    {
+        "page": 21,
+        "type": "NarrativeText",
+        "content": "Because smoke tests are conducted daily, incompatibilities and other show-stopper errors are uncovered early, thereby reducing the likelihood of serious schedule impact when errors are uncovered"
+    },
+    {
+        "page": 21,
+        "type": "NarrativeText",
+        "content": "The quality of the end product is improved"
+    },
+    {
+        "page": 21,
+        "type": "NarrativeText",
+        "content": "Because the approach is construction (integration) oriented, smoke testing is likely to uncover functional errors as well as architectural and component-level design errors. If these errors are corrected early, better product quality will result."
+    },
+    {
+        "page": 21,
+        "type": "NarrativeText",
+        "content": "Error diagnosis and correction are simplified"
+    },
+    {
+        "page": 21,
+        "type": "NarrativeText",
+        "content": "Like all integration testing approaches, errors uncovered during smoke testing are likely to be associated with “new software increments”"
+    },
+    {
+        "page": 21,
+        "type": "NarrativeText",
+        "content": "Progress is easier to assess"
+    },
+    {
+        "page": 21,
+        "type": "NarrativeText",
+        "content": "With each passing day, more of the software has been integrated and more has been demonstrated to work. This improves team morale and gives managers a good indication that progress is being made."
+    },
+    {
+        "page": 21,
+        "type": "UncategorizedText",
+        "content": "21"
+    },
+    {
+        "page": 21,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "Test strategies for web apps"
+    },
+    {
+        "page": 22,
+        "type": "NarrativeText",
+        "content": "The content model for the WebApp is reviewed to uncover errors"
+    },
+    {
+        "page": 22,
+        "type": "NarrativeText",
+        "content": "The interface model is reviewed to ensure that all use cases can be accommodated."
+    },
+    {
+        "page": 22,
+        "type": "NarrativeText",
+        "content": "The design model for the WebApp is reviewed to uncover navigation errors."
+    },
+    {
+        "page": 22,
+        "type": "Title",
+        "content": "UI Testing "
+    },
+    {
+        "page": 22,
+        "type": "NarrativeText",
+        "content": "Each functional component is unit tested."
+    },
+    {
+        "page": 22,
+        "type": "NarrativeText",
+        "content": "Navigation throughout the architecture is tested."
+    },
+    {
+        "page": 22,
+        "type": "NarrativeText",
+        "content": "The WebApp is implemented in a variety of different environmental configurations and is tested for compatibility with each configuration"
+    },
+    {
+        "page": 22,
+        "type": "NarrativeText",
+        "content": "Security testing "
+    },
+    {
+        "page": 22,
+        "type": "NarrativeText",
+        "content": "Performance testing "
+    },
+    {
+        "page": 22,
+        "type": "NarrativeText",
+        "content": "The WebApp is tested by a controlled and monitored population of end users. The results of their interaction with the system are evaluated for errors"
+    },
+    {
+        "page": 22,
+        "type": "UncategorizedText",
+        "content": "22"
+    },
+    {
+        "page": 22,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "Test strategies for mobile apps"
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "User-experience testing "
+    },
+    {
+        "page": 23,
+        "type": "NarrativeText",
+        "content": "Device compatibility testing "
+    },
+    {
+        "page": 23,
+        "type": "NarrativeText",
+        "content": "Performance testing. Testers check nonfunctional requirements unique to mobile devices (e.g., download times, processor speed, storage capacity, power availability)."
+    },
+    {
+        "page": 23,
+        "type": "Title",
+        "content": "Connectivity testing. "
+    },
+    {
+        "page": 23,
+        "type": "NarrativeText",
+        "content": "Security testing"
+    },
+    {
+        "page": 23,
+        "type": "NarrativeText",
+        "content": "Testing-in-the-wild . The app is tested under realistic conditions on actual user devices in a variety of networking environments around the globe."
+    },
+    {
+        "page": 23,
+        "type": "NarrativeText",
+        "content": "Certification testing. Testers ensure that the MobileApp meets the standards established by the app stores that will distribute it."
+    },
+    {
+        "page": 23,
+        "type": "UncategorizedText",
+        "content": "23"
+    },
+    {
+        "page": 23,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "Validation Testing"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "At the validation level, the distinction between different software categories disappears"
+    },
+    {
+        "page": 24,
+        "type": "NarrativeText",
+        "content": "Testing focuses on user-visible actions and user-recognizable output from the system"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "Validation Criteria along with user stories"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "Alpha-beta testing"
+    },
+    {
+        "page": 24,
+        "type": "Title",
+        "content": "Customer acceptance Testing"
+    },
+    {
+        "page": 24,
+        "type": "UncategorizedText",
+        "content": "24"
+    },
+    {
+        "page": 24,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 25,
+        "type": "Title",
+        "content": "Discussion"
+    },
+    {
+        "page": 25,
+        "type": "NarrativeText",
+        "content": "Who should perform the validation test—the software developer or the software user?"
+    },
+    {
+        "page": 25,
+        "type": "NarrativeText",
+        "content": "Justify your answer"
+    },
+    {
+        "page": 25,
+        "type": "UncategorizedText",
+        "content": "25"
+    },
+    {
+        "page": 25,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 26,
+        "type": "Title",
+        "content": "System Testing"
+    },
+    {
+        "page": 26,
+        "type": "UncategorizedText",
+        "content": "26"
+    },
+    {
+        "page": 26,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 27,
+        "type": "Title",
+        "content": "Discussion"
+    },
+    {
+        "page": 27,
+        "type": "NarrativeText",
+        "content": "Identify a few non-functional tests to be performed for your project applications"
+    },
+    {
+        "page": 27,
+        "type": "Title",
+        "content": "Identify types of non-functional tests"
+    },
+    {
+        "page": 27,
+        "type": "NarrativeText",
+        "content": "Identify a few tests within those types"
+    },
+    {
+        "page": 27,
+        "type": "UncategorizedText",
+        "content": "27"
+    },
+    {
+        "page": 27,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 28,
+        "type": "Title",
+        "content": "Summary"
+    },
+    {
+        "page": 28,
+        "type": "NarrativeText",
+        "content": "The objective of software testing is to uncover errors"
+    },
+    {
+        "page": 28,
+        "type": "NarrativeText",
+        "content": "For conventional software, this objective is achieved through a series of test steps. Unit and integration tests concentrate on functional verification of a component and incorporation of components into the software architecture"
+    },
+    {
+        "page": 28,
+        "type": "NarrativeText",
+        "content": "Validation testing demonstrates traceability to software requirements, and system testing validates software once it has been incorporated into a larger system"
+    },
+    {
+        "page": 28,
+        "type": "NarrativeText",
+        "content": "Each test step is accomplished through a series of systematic test techniques that assist in the design of test cases"
+    },
+    {
+        "page": 28,
+        "type": "NarrativeText",
+        "content": "With each testing step, the level of abstraction with which software is considered is broadened"
+    },
+    {
+        "page": 28,
+        "type": "UncategorizedText",
+        "content": "28"
+    },
+    {
+        "page": 28,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 29,
+        "type": "Title",
+        "content": "Testing conventional/web/mobile applications"
+    },
+    {
+        "page": 29,
+        "type": "UncategorizedText",
+        "content": "Pressman R S, Bruce R.Maxim, “Software engineering - A Practitioner’s Approach”, Eighth Edition, Tata McGraw-Hill, 2014"
+    },
+    {
+        "page": 29,
+        "type": "UncategorizedText",
+        "content": "Chapter 23, 25, 26"
+    },
+    {
+        "page": 29,
+        "type": "UncategorizedText",
+        "content": "29"
+    },
+    {
+        "page": 29,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 30,
+        "type": "Title",
+        "content": "Topics Covered\t"
+    },
+    {
+        "page": 30,
+        "type": "Table",
+        "content": "Topic                              Text Book Reference\nTesting conventional applications  23.1, 23.2, 23.3, 23.6\nTesting Web Apps                   25.1, 25.2, 25.3, 25.4, 25.7, 25.8, 25.9,\nTesting Mobile Apps                26.1, 26.2, 26.3"
+    },
+    {
+        "page": 30,
+        "type": "UncategorizedText",
+        "content": "30"
+    },
+    {
+        "page": 30,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 31,
+        "type": "Title",
+        "content": "Testing fundamentals"
+    },
+    {
+        "page": 31,
+        "type": "NarrativeText",
+        "content": "The goal of testing is to find errors, and a good test is one that has a high probability  of finding an error"
+    },
+    {
+        "page": 31,
+        "type": "NarrativeText",
+        "content": "Therefore, you should design and implement a computer-based system or a product with “testability” in mind"
+    },
+    {
+        "page": 31,
+        "type": "NarrativeText",
+        "content": "At the same time, the tests themselves must exhibit a set of characteristics that achieve the goal of finding the most errors with a minimum of effort"
+    },
+    {
+        "page": 31,
+        "type": "NarrativeText",
+        "content": "Testability - “ Software testability is simply how easily [a computer program] can be tested.”"
+    },
+    {
+        "page": 31,
+        "type": "UncategorizedText",
+        "content": "31"
+    },
+    {
+        "page": 31,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 32,
+        "type": "Title",
+        "content": "Testability Characteristics"
+    },
+    {
+        "page": 32,
+        "type": "UncategorizedText",
+        "content": "32"
+    },
+    {
+        "page": 32,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 33,
+        "type": "Title",
+        "content": "Test characteristics"
+    },
+    {
+        "page": 33,
+        "type": "NarrativeText",
+        "content": "A good test has a high probability of finding an error"
+    },
+    {
+        "page": 33,
+        "type": "NarrativeText",
+        "content": "A good test is not redundant"
+    },
+    {
+        "page": 33,
+        "type": "NarrativeText",
+        "content": "A good test should be “best of breed”"
+    },
+    {
+        "page": 33,
+        "type": "NarrativeText",
+        "content": "A good test should be neither too simple nor too complex"
+    },
+    {
+        "page": 33,
+        "type": "UncategorizedText",
+        "content": "33"
+    },
+    {
+        "page": 33,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 34,
+        "type": "Title",
+        "content": "Internal and external views of testing"
+    },
+    {
+        "page": 34,
+        "type": "UncategorizedText",
+        "content": "34"
+    },
+    {
+        "page": 34,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 35,
+        "type": "Title",
+        "content": "White box testing"
+    },
+    {
+        "page": 35,
+        "type": "NarrativeText",
+        "content": "White-box testing, sometimes called glass-box testing or structural testing, is a test-case design philosophy that uses the control structure described as part of component-level design to derive test cases"
+    },
+    {
+        "page": 35,
+        "type": "NarrativeText",
+        "content": "Using white-box testing methods, you can derive test cases that "
+    },
+    {
+        "page": 35,
+        "type": "NarrativeText",
+        "content": "(1) guarantee that all independent paths within a module have been exercised at least once, "
+    },
+    {
+        "page": 35,
+        "type": "Title",
+        "content": "(2) exercise all logical decisions on their true and false sides, "
+    },
+    {
+        "page": 35,
+        "type": "UncategorizedText",
+        "content": "(3) execute all loops at their boundaries and within their operational bounds, and "
+    },
+    {
+        "page": 35,
+        "type": "NarrativeText",
+        "content": "(4) exercise internal data structures to ensure their validity."
+    },
+    {
+        "page": 35,
+        "type": "UncategorizedText",
+        "content": "35"
+    },
+    {
+        "page": 35,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "Black box testing"
+    },
+    {
+        "page": 36,
+        "type": "NarrativeText",
+        "content": "Black-box testing , also called behavioral testing or functional testing, focuses on the functional requirements of the software"
+    },
+    {
+        "page": 36,
+        "type": "NarrativeText",
+        "content": "That is, black-box testing techniques enable you to derive sets of input conditions that will fully exercise all functional"
+    },
+    {
+        "page": 36,
+        "type": "Title",
+        "content": "requirements for a program"
+    },
+    {
+        "page": 36,
+        "type": "NarrativeText",
+        "content": "Black-box testing is not an alternative to white-box techniques"
+    },
+    {
+        "page": 36,
+        "type": "NarrativeText",
+        "content": "Rather, it is a complementary approach that is likely to uncover a different class of errors than white-box methods."
+    },
+    {
+        "page": 36,
+        "type": "UncategorizedText",
+        "content": "36"
+    },
+    {
+        "page": 36,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 37,
+        "type": "Title",
+        "content": "Black box testing"
+    },
+    {
+        "page": 37,
+        "type": "NarrativeText",
+        "content": "Black-box testing attempts to find errors in the following categories: "
+    },
+    {
+        "page": 37,
+        "type": "NarrativeText",
+        "content": "(1) incorrect or missing functions, "
+    },
+    {
+        "page": 37,
+        "type": "Title",
+        "content": "(2) interface errors, "
+    },
+    {
+        "page": 37,
+        "type": "Title",
+        "content": "(3) errors in data structures or external database access, "
+    },
+    {
+        "page": 37,
+        "type": "Title",
+        "content": "(4) behavior or performance errors, and "
+    },
+    {
+        "page": 37,
+        "type": "Title",
+        "content": "(5) initialization and termination errors."
+    },
+    {
+        "page": 37,
+        "type": "NarrativeText",
+        "content": "Unlike white-box testing, which is performed early in the testing process, blackbox testing tends to be applied during later stages of testing"
+    },
+    {
+        "page": 37,
+        "type": "UncategorizedText",
+        "content": "37"
+    },
+    {
+        "page": 37,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 38,
+        "type": "Title",
+        "content": "Graph-Based Testing Methods"
+    },
+    {
+        "page": 38,
+        "type": "NarrativeText",
+        "content": "The first step in black-box testing is to understand the objects that are modeled in software and the relationships that connect these objects"
+    },
+    {
+        "page": 38,
+        "type": "NarrativeText",
+        "content": "Once this has been accomplished, the next step is to define a series of tests that verify “all objects have the expected relationship to one another”"
+    },
+    {
+        "page": 38,
+        "type": "UncategorizedText",
+        "content": "38"
+    },
+    {
+        "page": 38,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 39,
+        "type": "Title",
+        "content": "Graph-Based Testing Methods"
+    },
+    {
+        "page": 39,
+        "type": "NarrativeText",
+        "content": "You can then derive test cases by traversing the graph and covering each of the relationships shown"
+    },
+    {
+        "page": 39,
+        "type": "NarrativeText",
+        "content": "These test cases are designed in an attempt to find errors in any of the relationships"
+    },
+    {
+        "page": 39,
+        "type": "UncategorizedText",
+        "content": "39"
+    },
+    {
+        "page": 39,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 40,
+        "type": "Title",
+        "content": "Discussion"
+    },
+    {
+        "page": 40,
+        "type": "UncategorizedText",
+        "content": "Model any of the scenarios in your project and derive graph-based tests for the same. "
+    },
+    {
+        "page": 40,
+        "type": "UncategorizedText",
+        "content": "40"
+    },
+    {
+        "page": 40,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 41,
+        "type": "Title",
+        "content": "Equivalence Partitioning"
+    },
+    {
+        "page": 41,
+        "type": "NarrativeText",
+        "content": "Equivalence partitioning is a black-box testing method that divides the input domain of a program into classes of data from which test cases can be derived"
+    },
+    {
+        "page": 41,
+        "type": "NarrativeText",
+        "content": "An ideal test case single-handedly uncovers a class of errors (e.g., incorrect processing of all character data) that might otherwise require many test cases to be executed before the general error is observed"
+    },
+    {
+        "page": 41,
+        "type": "NarrativeText",
+        "content": "An equivalence class represents a set of valid or invalid states for input conditions"
+    },
+    {
+        "page": 41,
+        "type": "UncategorizedText",
+        "content": "41"
+    },
+    {
+        "page": 41,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 42,
+        "type": "Title",
+        "content": "Boundary value analysis"
+    },
+    {
+        "page": 42,
+        "type": "NarrativeText",
+        "content": "A greater number of errors occurs at the boundaries of the input domain rather than in the “center.” "
+    },
+    {
+        "page": 42,
+        "type": "NarrativeText",
+        "content": "It is for this reason that boundary value analysis (BVA) has been developed as a testing technique"
+    },
+    {
+        "page": 42,
+        "type": "NarrativeText",
+        "content": "Boundary value analysis leads to a selection of test cases that exercise bounding values"
+    },
+    {
+        "page": 42,
+        "type": "NarrativeText",
+        "content": "Boundary value analysis is a test-case design technique that complements equivalence partitioning"
+    },
+    {
+        "page": 42,
+        "type": "NarrativeText",
+        "content": "Rather than selecting any element of an equivalence class, BVA leads to the selection of test cases at the “edges” of the class"
+    },
+    {
+        "page": 42,
+        "type": "UncategorizedText",
+        "content": "42"
+    },
+    {
+        "page": 42,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 43,
+        "type": "Title",
+        "content": "Summary"
+    },
+    {
+        "page": 43,
+        "type": "NarrativeText",
+        "content": "The primary objective for test-case design is to derive a set of tests that have the highest likelihood for uncovering errors in software"
+    },
+    {
+        "page": 43,
+        "type": "NarrativeText",
+        "content": "To accomplish this objective, two different categories of test-case design techniques are used: white-box testing and black-box testing"
+    },
+    {
+        "page": 43,
+        "type": "NarrativeText",
+        "content": "White-box tests focus on the program control structure. Test cases are derived to ensure that all statements in the program have been executed at least once during testing and that all logical conditions have been exercised\\"
+    },
+    {
+        "page": 43,
+        "type": "NarrativeText",
+        "content": "Black-box tests are designed to validate functional requirements without regard to the internal workings of a program"
+    },
+    {
+        "page": 43,
+        "type": "UncategorizedText",
+        "content": "43"
+    },
+    {
+        "page": 43,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 44,
+        "type": "UncategorizedText",
+        "content": "Chapter 25, 25.1, 25.2, 25.3, 25.4, 25.7, 25.8, 25.9"
+    },
+    {
+        "page": 44,
+        "type": "Title",
+        "content": "Testing Web Applications"
+    },
+    {
+        "page": 44,
+        "type": "UncategorizedText",
+        "content": "44"
+    },
+    {
+        "page": 44,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 45,
+        "type": "Title",
+        "content": "Dimensions of Quality"
+    },
+    {
+        "page": 45,
+        "type": "UncategorizedText",
+        "content": "45"
+    },
+    {
+        "page": 45,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 46,
+        "type": "Title",
+        "content": "Errors within a WebApp Environment"
+    },
+    {
+        "page": 46,
+        "type": "NarrativeText",
+        "content": "Because many types of WebApp tests uncover problems that are first evidenced on the client side, you often see a symptom of the error, not the error itself"
+    },
+    {
+        "page": 46,
+        "type": "NarrativeText",
+        "content": "Because a WebApp is implemented in a number of different configurations and within different environments, it may be difficult or impossible to reproduce an error outside the environment in which the error was originally encountered"
+    },
+    {
+        "page": 46,
+        "type": "NarrativeText",
+        "content": "Although some errors are the result of incorrect design or improper HTML (or other programming language) coding, many errors can be traced to the WebApp configuration"
+    },
+    {
+        "page": 46,
+        "type": "NarrativeText",
+        "content": "Because WebApps reside within a client-server architecture, errors can be difficult to trace across three architectural layers: the client, the server, or the network itself"
+    },
+    {
+        "page": 46,
+        "type": "NarrativeText",
+        "content": "Some errors are due to the static operating environment (i.e., the specific configuration in which testing is conducted), while others are attributable to the dynamic operating environment"
+    },
+    {
+        "page": 46,
+        "type": "UncategorizedText",
+        "content": "46"
+    },
+    {
+        "page": 46,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 47,
+        "type": "Title",
+        "content": "Testing Strategy"
+    },
+    {
+        "page": 47,
+        "type": "NarrativeText",
+        "content": "The content model for the WebApp is reviewed to uncover errors"
+    },
+    {
+        "page": 47,
+        "type": "NarrativeText",
+        "content": "The interface model is reviewed to ensure that all use cases can be accommodated"
+    },
+    {
+        "page": 47,
+        "type": "NarrativeText",
+        "content": "The design model for the WebApp is reviewed to uncover navigation errors"
+    },
+    {
+        "page": 47,
+        "type": "NarrativeText",
+        "content": "The user interface is tested to uncover errors in presentation and/or navigation mechanics"
+    },
+    {
+        "page": 47,
+        "type": "NarrativeText",
+        "content": "Selected functional components are unit tested "
+    },
+    {
+        "page": 47,
+        "type": "NarrativeText",
+        "content": "Navigation throughout the architecture is tested"
+    },
+    {
+        "page": 47,
+        "type": "NarrativeText",
+        "content": "The WebApp is implemented in a variety of different environmental configurations and is tested for compatibility with each configuration"
+    },
+    {
+        "page": 47,
+        "type": "NarrativeText",
+        "content": "Security tests are conducted in an attempt to exploit vulnerabilities in the WebApp or within its environment"
+    },
+    {
+        "page": 47,
+        "type": "NarrativeText",
+        "content": "Performance tests are conducted"
+    },
+    {
+        "page": 47,
+        "type": "NarrativeText",
+        "content": "The WebApp is tested by a controlled and monitored population of end users; the results of their interaction with the system are evaluated for content and navigation errors, usability concerns, compatibility concerns, and WebApp security, reliability, and performance."
+    },
+    {
+        "page": 47,
+        "type": "UncategorizedText",
+        "content": "47"
+    },
+    {
+        "page": 47,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 48,
+        "type": "Title",
+        "content": "Test Planning"
+    },
+    {
+        "page": 48,
+        "type": "Title",
+        "content": "A WebApp test plan identifies "
+    },
+    {
+        "page": 48,
+        "type": "NarrativeText",
+        "content": "the task set  to be applied as testing commences, "
+    },
+    {
+        "page": 48,
+        "type": "NarrativeText",
+        "content": "the work products to be produced as each testing task is executed, and "
+    },
+    {
+        "page": 48,
+        "type": "NarrativeText",
+        "content": "the manner in which the results of testing are evaluated, recorded, and reused when regression testing is conducted"
+    },
+    {
+        "page": 48,
+        "type": "UncategorizedText",
+        "content": "48"
+    },
+    {
+        "page": 48,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 49,
+        "type": "Title",
+        "content": "The testing Process"
+    },
+    {
+        "page": 49,
+        "type": "UncategorizedText",
+        "content": "49"
+    },
+    {
+        "page": 49,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 50,
+        "type": "Title",
+        "content": "Content Testing"
+    },
+    {
+        "page": 50,
+        "type": "NarrativeText",
+        "content": "Content testing has three important objectives: "
+    },
+    {
+        "page": 50,
+        "type": "NarrativeText",
+        "content": "to uncover syntactic errors (e.g., typos, grammar mistakes) in text-based documents, graphical representations, and other media; "
+    },
+    {
+        "page": 50,
+        "type": "NarrativeText",
+        "content": "to uncover semantic errors (i.e., errors in the accuracy or completeness of information) in any content object presented as navigation occurs, and "
+    },
+    {
+        "page": 50,
+        "type": "NarrativeText",
+        "content": "to find errors in the organization or structure of content that is presented to the end user"
+    },
+    {
+        "page": 50,
+        "type": "UncategorizedText",
+        "content": "50"
+    },
+    {
+        "page": 50,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 51,
+        "type": "Title",
+        "content": "Content Testing\u000bDatabase Testing"
+    },
+    {
+        "page": 51,
+        "type": "NarrativeText",
+        "content": "WebApps interface with sophisticated database management systems and build dynamic content objects that are created in real time using the data acquired from a database"
+    },
+    {
+        "page": 51,
+        "type": "NarrativeText",
+        "content": "For example, a financial services WebApp can produce complex text-based, tabular, and graphical information about a specific equity (e.g., a stock or mutual fund)"
+    },
+    {
+        "page": 51,
+        "type": "NarrativeText",
+        "content": "The composite content object that presents this information is created dynamically after the user has made a request for information about a specific equity"
+    },
+    {
+        "page": 51,
+        "type": "UncategorizedText",
+        "content": "51"
+    },
+    {
+        "page": 51,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 52,
+        "type": "Title",
+        "content": "Content Testing\u000bDatabase Testing"
+    },
+    {
+        "page": 52,
+        "type": "NarrativeText",
+        "content": "an equities database is queried, "
+    },
+    {
+        "page": 52,
+        "type": "NarrativeText",
+        "content": "relevant data are extracted from the database, "
+    },
+    {
+        "page": 52,
+        "type": "NarrativeText",
+        "content": "the extracted data must be organized as a content object, and "
+    },
+    {
+        "page": 52,
+        "type": "NarrativeText",
+        "content": "this content object (representing customized information requested by an end user) is transmitted to the client environment for display"
+    },
+    {
+        "page": 52,
+        "type": "UncategorizedText",
+        "content": "52"
+    },
+    {
+        "page": 52,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 53,
+        "type": "Title",
+        "content": "Content Testing\u000bDatabase Testing – Complicating factors"
+    },
+    {
+        "page": 53,
+        "type": "NarrativeText",
+        "content": "The original client-side request for information is rarely presented in the form [e.g. SQL] that can be input to a database management system (DBMS)"
+    },
+    {
+        "page": 53,
+        "type": "NarrativeText",
+        "content": "Therefore, tests should be designed to uncover errors made in translating the user’s request into a form that can be processed by these DBMS"
+    },
+    {
+        "page": 53,
+        "type": "NarrativeText",
+        "content": "The database may be remote to the server that houses the WebApp"
+    },
+    {
+        "page": 53,
+        "type": "NarrativeText",
+        "content": "Therefore, tests that uncover errors in communication between the WebApp and the remote database must be developed"
+    },
+    {
+        "page": 53,
+        "type": "UncategorizedText",
+        "content": "53"
+    },
+    {
+        "page": 53,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 54,
+        "type": "Title",
+        "content": "Content Testing\u000bDatabase Testing – Complicating factors"
+    },
+    {
+        "page": 54,
+        "type": "NarrativeText",
+        "content": "Raw data acquired from the database must be transmitted to the WebApp server and properly formatted for subsequent transmittal to the client"
+    },
+    {
+        "page": 54,
+        "type": "NarrativeText",
+        "content": "Therefore, tests that demonstrate the validity of the raw data received by the WebApp server must be developed, and additional tests that demonstrate the validity of the transformations applied to the raw data to create valid content objects must also be created"
+    },
+    {
+        "page": 54,
+        "type": "NarrativeText",
+        "content": "The dynamic content object(s) must be transmitted to the client in a form that can be displayed to the end user"
+    },
+    {
+        "page": 54,
+        "type": "NarrativeText",
+        "content": "Therefore, a series of tests must be designed to (1) uncover errors in the content object format and (2) test compatibility with different client environment configurations"
+    },
+    {
+        "page": 54,
+        "type": "UncategorizedText",
+        "content": "54"
+    },
+    {
+        "page": 54,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 55,
+        "type": "Title",
+        "content": "User Interface Testing"
+    },
+    {
+        "page": 55,
+        "type": "NarrativeText",
+        "content": "Verification and validation of a WebApp user interface occurs at three distinct points"
+    },
+    {
+        "page": 55,
+        "type": "NarrativeText",
+        "content": "During requirements analysis, the interface model is reviewed to ensure that it conforms to stakeholder requirements and to other elements of the requirements model"
+    },
+    {
+        "page": 55,
+        "type": "NarrativeText",
+        "content": "During design the interface design model is reviewed to ensure that generic quality criteria established for all user interfaces have been achieved and that application-specific interface design issues have been properly addressed"
+    },
+    {
+        "page": 55,
+        "type": "NarrativeText",
+        "content": "During testing, the focus shifts to the execution of application-specific aspects of user interaction as they are manifested by interface syntax and semantics. In addition, testing provides a final assessment of usability"
+    },
+    {
+        "page": 55,
+        "type": "UncategorizedText",
+        "content": "55"
+    },
+    {
+        "page": 55,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 56,
+        "type": "Title",
+        "content": "Interface Testing Strategy"
+    },
+    {
+        "page": 56,
+        "type": "NarrativeText",
+        "content": "Interface testing exercises interaction mechanisms and validates aesthetic aspects of the user interface"
+    },
+    {
+        "page": 56,
+        "type": "NarrativeText",
+        "content": "The overall strategy for interface testing is to "
+    },
+    {
+        "page": 56,
+        "type": "NarrativeText",
+        "content": "Uncover errors related to specific interface mechanisms (e.g., errors in the proper execution of a menu link or the way data are entered in a form) and "
+    },
+    {
+        "page": 56,
+        "type": "NarrativeText",
+        "content": "Uncover errors in the way the interface implements the semantics of navigation, WebApp functionality, or content display"
+    },
+    {
+        "page": 56,
+        "type": "UncategorizedText",
+        "content": "56"
+    },
+    {
+        "page": 56,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 57,
+        "type": "Title",
+        "content": "Testing Interface Mechanisms"
+    },
+    {
+        "page": 57,
+        "type": "UncategorizedText",
+        "content": "57"
+    },
+    {
+        "page": 57,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 58,
+        "type": "Title",
+        "content": "Usability Testing"
+    },
+    {
+        "page": 58,
+        "type": "NarrativeText",
+        "content": "Usability testing can occur at a variety of different levels of abstraction: "
+    },
+    {
+        "page": 58,
+        "type": "NarrativeText",
+        "content": "the usability of a specific interface mechanism (e.g., a form) can be assessed, "
+    },
+    {
+        "page": 58,
+        "type": "NarrativeText",
+        "content": "the usability of a complete Web page (encompassing interface mechanisms, data objects, and related functions) can be evaluated, or "
+    },
+    {
+        "page": 58,
+        "type": "NarrativeText",
+        "content": "the usability of the complete WebApp can be considered"
+    },
+    {
+        "page": 58,
+        "type": "UncategorizedText",
+        "content": "58"
+    },
+    {
+        "page": 58,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 59,
+        "type": "Title",
+        "content": "Usability Testing\u000bUsability categories"
+    },
+    {
+        "page": 59,
+        "type": "UncategorizedText",
+        "content": "59"
+    },
+    {
+        "page": 59,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 60,
+        "type": "Title",
+        "content": "Usability Testing\u000bQualitative assessment of usability"
+    },
+    {
+        "page": 60,
+        "type": "NarrativeText",
+        "content": "Figure illustrates possible set of assessment “grades” that can be selected by users"
+    },
+    {
+        "page": 60,
+        "type": "NarrativeText",
+        "content": "These grades are applied to each feature individually, to a complete Web page, or to the WebApp as a whole"
+    },
+    {
+        "page": 60,
+        "type": "UncategorizedText",
+        "content": "60"
+    },
+    {
+        "page": 60,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 61,
+        "type": "Title",
+        "content": "Compatibility Tests"
+    },
+    {
+        "page": 61,
+        "type": "NarrativeText",
+        "content": "Different computers, display devices, operating systems, browsers, and network connection speeds can have a significant influence on WebApp operation"
+    },
+    {
+        "page": 61,
+        "type": "NarrativeText",
+        "content": "Each computing configuration can result in differences in client-side processing speeds, display resolution, and connection speeds"
+    },
+    {
+        "page": 61,
+        "type": "NarrativeText",
+        "content": "Operating system vagaries may cause WebApp processing issues"
+    },
+    {
+        "page": 61,
+        "type": "NarrativeText",
+        "content": "Different browsers sometimes produce slightly different results, regardless of the degree of HTML standardization within the WebApp"
+    },
+    {
+        "page": 61,
+        "type": "NarrativeText",
+        "content": "Required plug-ins may or may not be readily available for a particular configuration"
+    },
+    {
+        "page": 61,
+        "type": "NarrativeText",
+        "content": "Compatibility testing strives to uncover these problems before the WebApp goes online"
+    },
+    {
+        "page": 61,
+        "type": "UncategorizedText",
+        "content": "61"
+    },
+    {
+        "page": 61,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 62,
+        "type": "Title",
+        "content": "Compatibility Tests"
+    },
+    {
+        "page": 62,
+        "type": "NarrativeText",
+        "content": "The first step in compatibility testing is to define a set of “commonly encountered” client-side computing configurations and their variants"
+    },
+    {
+        "page": 62,
+        "type": "NarrativeText",
+        "content": "In essence, a tree structure is created, identifying each computing platform, typical display devices, the operating systems supported on the platform, the browsers available, likely Internet connection speeds, and similar information"
+    },
+    {
+        "page": 62,
+        "type": "NarrativeText",
+        "content": "Next, a series of compatibility validation tests are derived, often adapted from existing interface tests, navigation tests, performance tests, and security tests"
+    },
+    {
+        "page": 62,
+        "type": "NarrativeText",
+        "content": "The intent of these tests is to uncover errors or execution problems that can be traced to configuration differences"
+    },
+    {
+        "page": 62,
+        "type": "UncategorizedText",
+        "content": "62"
+    },
+    {
+        "page": 62,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 63,
+        "type": "Title",
+        "content": "Discussion"
+    },
+    {
+        "page": 63,
+        "type": "NarrativeText",
+        "content": "Compatibility is an important quality dimension. What must be tested to ensure that compatibility exists for a WebApp?"
+    },
+    {
+        "page": 63,
+        "type": "UncategorizedText",
+        "content": "63"
+    },
+    {
+        "page": 63,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "25.7"
+    },
+    {
+        "page": 64,
+        "type": "Title",
+        "content": "CONFIGURATION TESTING"
+    },
+    {
+        "page": 64,
+        "type": "UncategorizedText",
+        "content": "64"
+    },
+    {
+        "page": 64,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 65,
+        "type": "Title",
+        "content": "\tConfiguration Testing"
+    },
+    {
+        "page": 65,
+        "type": "NarrativeText",
+        "content": "Configuration variability and instability are important factors that make WebApp testing a challenge"
+    },
+    {
+        "page": 65,
+        "type": "NarrativeText",
+        "content": "Hardware, OS, browsers, storage capacity etc are difficult to predict for each user"
+    },
+    {
+        "page": 65,
+        "type": "NarrativeText",
+        "content": "The result can be a client-side environment that is prone to errors that are both subtle and significant"
+    },
+    {
+        "page": 65,
+        "type": "NarrativeText",
+        "content": "One user’s impression of the WebApp and the manner in which she interacts with it can differ significantly from another user’s experience, if both users are not working within the same client-side configuration"
+    },
+    {
+        "page": 65,
+        "type": "NarrativeText",
+        "content": "The job of configuration testing is not to exercise every possible client-side configuration"
+    },
+    {
+        "page": 65,
+        "type": "NarrativeText",
+        "content": "Rather, it is to test a set of probable client-side and server-side configurations to ensure that the user experience will be the same on all of them and to isolate errors that may be specific to a particular configuration"
+    },
+    {
+        "page": 65,
+        "type": "UncategorizedText",
+        "content": "65"
+    },
+    {
+        "page": 65,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 66,
+        "type": "Title",
+        "content": "Discussion"
+    },
+    {
+        "page": 66,
+        "type": "NarrativeText",
+        "content": "Which errors tend to be more serious—client-side errors or server-side errors? Why?"
+    },
+    {
+        "page": 66,
+        "type": "UncategorizedText",
+        "content": "66"
+    },
+    {
+        "page": 66,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "25.8"
+    },
+    {
+        "page": 67,
+        "type": "Title",
+        "content": "SECURITY TESTING"
+    },
+    {
+        "page": 67,
+        "type": "UncategorizedText",
+        "content": "67"
+    },
+    {
+        "page": 67,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 68,
+        "type": "Title",
+        "content": "Security Testing"
+    },
+    {
+        "page": 68,
+        "type": "NarrativeText",
+        "content": "WebApp security is a complex subject that must be fully understood before effective security testing can be accomplished"
+    },
+    {
+        "page": 68,
+        "type": "NarrativeText",
+        "content": "WebApps and the client-side and server-side environments in which they are housed represent an attractive target for external hackers, disgruntled employees, dishonest competitors, and anyone else who wishes to steal sensitive information, maliciously modify content, degrade performance, disable functionality, or embarrass a person, organization, or business"
+    },
+    {
+        "page": 68,
+        "type": "UncategorizedText",
+        "content": "68"
+    },
+    {
+        "page": 68,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 69,
+        "type": "Title",
+        "content": "Security Testing"
+    },
+    {
+        "page": 69,
+        "type": "NarrativeText",
+        "content": "Security tests are designed to probe vulnerabilities of the client-side environment, the network communications that occur as data are passed from client to server and back again, and the server-side environment"
+    },
+    {
+        "page": 69,
+        "type": "NarrativeText",
+        "content": "Each of these domains can be attacked, and it is the job of the security tester to uncover weaknesses that can be exploited by those with the intent to do so"
+    },
+    {
+        "page": 69,
+        "type": "NarrativeText",
+        "content": "On the client side, vulnerabilities can often be traced to preexisting bugs in browsers, e-mail programs, or communication software"
+    },
+    {
+        "page": 69,
+        "type": "NarrativeText",
+        "content": "On the server side, vulnerabilities  include denial-of-service attacks and malicious scripts that can be passed along to the client side or used to disable server operations"
+    },
+    {
+        "page": 69,
+        "type": "NarrativeText",
+        "content": "In addition, server-side databases can be accessed without authorization (data theft)"
+    },
+    {
+        "page": 69,
+        "type": "UncategorizedText",
+        "content": "69"
+    },
+    {
+        "page": 69,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 70,
+        "type": "Title",
+        "content": "OWASP Top 10 attacks"
+    },
+    {
+        "page": 70,
+        "type": "Title",
+        "content": "Not from Text book"
+    },
+    {
+        "page": 70,
+        "type": "NarrativeText",
+        "content": "But extremely useful to understand"
+    },
+    {
+        "page": 70,
+        "type": "Title",
+        "content": "https://www.veracode.com/directory/owasp-top-10 "
+    },
+    {
+        "page": 70,
+        "type": "UncategorizedText",
+        "content": "70"
+    },
+    {
+        "page": 70,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 71,
+        "type": "Title",
+        "content": "OWASP Top 10 attacks\u000bThree of them from security testing perspective"
+    },
+    {
+        "page": 71,
+        "type": "UncategorizedText",
+        "content": "71"
+    },
+    {
+        "page": 71,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "25.9"
+    },
+    {
+        "page": 72,
+        "type": "Title",
+        "content": "Performance TESTING"
+    },
+    {
+        "page": 72,
+        "type": "UncategorizedText",
+        "content": "72"
+    },
+    {
+        "page": 72,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 73,
+        "type": "Title",
+        "content": "Performance Testing"
+    },
+    {
+        "page": 73,
+        "type": "NarrativeText",
+        "content": "Performance testing is used to uncover performance problems that can result from a lack of server-side resources, inappropriate network bandwidth, inadequate database capabilities, faulty or weak operating system capabilities, poorly designed WebApp functionality, and other hardware or software issues that can lead to degraded client-server performance"
+    },
+    {
+        "page": 73,
+        "type": "NarrativeText",
+        "content": "The intent is twofold: "
+    },
+    {
+        "page": 73,
+        "type": "NarrativeText",
+        "content": "to understand how the system responds as loading (i.e., number of users, number of transactions, or overall data volume), and "
+    },
+    {
+        "page": 73,
+        "type": "NarrativeText",
+        "content": "to collect metrics that will lead to design modifications to improve performance"
+    },
+    {
+        "page": 73,
+        "type": "UncategorizedText",
+        "content": "73"
+    },
+    {
+        "page": 73,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 74,
+        "type": "Title",
+        "content": "Performance Testing\u000bQuestions to be answered"
+    },
+    {
+        "page": 74,
+        "type": "NarrativeText",
+        "content": "Does the server response time degrade to a point where it is noticeable and unacceptable?"
+    },
+    {
+        "page": 74,
+        "type": "NarrativeText",
+        "content": "At what point (in terms of users, transactions, or data loading) does performance become unacceptable?"
+    },
+    {
+        "page": 74,
+        "type": "NarrativeText",
+        "content": "What system components are responsible for performance degradation? "
+    },
+    {
+        "page": 74,
+        "type": "NarrativeText",
+        "content": "What is the average response time for users under a variety of loading conditions?"
+    },
+    {
+        "page": 74,
+        "type": "NarrativeText",
+        "content": "Does performance degradation have an impact on system security?"
+    },
+    {
+        "page": 74,
+        "type": "NarrativeText",
+        "content": "Is WebApp reliability or accuracy affected as the load on the system grows?"
+    },
+    {
+        "page": 74,
+        "type": "NarrativeText",
+        "content": "What happens when loads that are greater than maximum server capacity  are applied?"
+    },
+    {
+        "page": 74,
+        "type": "NarrativeText",
+        "content": "Does performance degradation have an impact on company revenues?"
+    },
+    {
+        "page": 74,
+        "type": "UncategorizedText",
+        "content": "74"
+    },
+    {
+        "page": 74,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 75,
+        "type": "Title",
+        "content": "Load Testing"
+    },
+    {
+        "page": 75,
+        "type": "NarrativeText",
+        "content": "The intent of load testing is to determine how the WebApp and its server-side environment will respond to various loading conditions"
+    },
+    {
+        "page": 75,
+        "type": "NarrativeText",
+        "content": "As testing proceeds, permutations to the following variables define a set of test conditions:"
+    },
+    {
+        "page": 75,
+        "type": "Title",
+        "content": "N, number of concurrent users"
+    },
+    {
+        "page": 75,
+        "type": "Title",
+        "content": "T, number of online transactions per unit of time"
+    },
+    {
+        "page": 75,
+        "type": "NarrativeText",
+        "content": "D, data load processed by the server per transaction"
+    },
+    {
+        "page": 75,
+        "type": "UncategorizedText",
+        "content": "75"
+    },
+    {
+        "page": 75,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 76,
+        "type": "Title",
+        "content": "Load Testing"
+    },
+    {
+        "page": 76,
+        "type": "NarrativeText",
+        "content": "The intent of load testing is to determine how the WebApp and its server-side environment will respond to various loading conditions"
+    },
+    {
+        "page": 76,
+        "type": "NarrativeText",
+        "content": "As testing proceeds, permutations to the following variables define a set of test conditions:"
+    },
+    {
+        "page": 76,
+        "type": "Title",
+        "content": "N, number of concurrent users"
+    },
+    {
+        "page": 76,
+        "type": "Title",
+        "content": "T, number of online transactions per unit of time"
+    },
+    {
+        "page": 76,
+        "type": "NarrativeText",
+        "content": "D, data load processed by the server per transaction"
+    },
+    {
+        "page": 76,
+        "type": "NarrativeText",
+        "content": "You should examine these measures to determine whether a decrease in performance can be traced to a specific combination of N, T, and D"
+    },
+    {
+        "page": 76,
+        "type": "UncategorizedText",
+        "content": "76"
+    },
+    {
+        "page": 76,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 77,
+        "type": "Title",
+        "content": "Load Testing"
+    },
+    {
+        "page": 77,
+        "type": "NarrativeText",
+        "content": "Load testing can also be used to assess recommended connection speeds for users of the WebApp"
+    },
+    {
+        "page": 77,
+        "type": "NarrativeText",
+        "content": "Overall throughput, P, is computed in the following manner:"
+    },
+    {
+        "page": 77,
+        "type": "Title",
+        "content": "P = N * T * D"
+    },
+    {
+        "page": 77,
+        "type": "NarrativeText",
+        "content": "As an example, consider a popular sports news site. At a given moment, 20,000 concurrent users submit a request (a transaction, T ) once every 2 minutes on average. Each transaction requires the WebApp to download a new article that averages 3K bytes in length. Therefore, throughput can be calculated as:"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "P  = [20,000 * 0.5 * 3Kb]/60 = 500 Kbytes/sec"
+    },
+    {
+        "page": 77,
+        "type": "Title",
+        "content": "    = 4 megabits per second"
+    },
+    {
+        "page": 77,
+        "type": "NarrativeText",
+        "content": "The network connection for the server would therefore have to support this data rate and should be tested to ensure that it does"
+    },
+    {
+        "page": 77,
+        "type": "UncategorizedText",
+        "content": "77"
+    },
+    {
+        "page": 77,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 78,
+        "type": "Title",
+        "content": "Stress Testing"
+    },
+    {
+        "page": 78,
+        "type": "NarrativeText",
+        "content": "Stress testing is a continuation of load testing, but in this instance the variables, N, T, and D are forced to meet and then exceed operational limits"
+    },
+    {
+        "page": 78,
+        "type": "NarrativeText",
+        "content": "The intent of these tests is to answer each of the following questions:"
+    },
+    {
+        "page": 78,
+        "type": "NarrativeText",
+        "content": "Does the system degrade “gently,” or does the server shut down as capacity is exceeded?"
+    },
+    {
+        "page": 78,
+        "type": "NarrativeText",
+        "content": "Does server software generate “server not available” messages? More generally, are users aware that they cannot reach the server?"
+    },
+    {
+        "page": 78,
+        "type": "NarrativeText",
+        "content": "Does the server queue resource requests and empty the queue once capacity demands diminish?"
+    },
+    {
+        "page": 78,
+        "type": "NarrativeText",
+        "content": "Are transactions lost as capacity is exceeded?"
+    },
+    {
+        "page": 78,
+        "type": "UncategorizedText",
+        "content": "….."
+    },
+    {
+        "page": 78,
+        "type": "UncategorizedText",
+        "content": "78"
+    },
+    {
+        "page": 78,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 79,
+        "type": "Title",
+        "content": "Summary"
+    },
+    {
+        "page": 79,
+        "type": "NarrativeText",
+        "content": "The goal of WebApp testing is to exercise each of the many dimensions of WebApp quality with the intent of finding errors or uncovering issues that may lead to quality failures"
+    },
+    {
+        "page": 79,
+        "type": "NarrativeText",
+        "content": "Testing focuses on content, function, structure, usability, navigability, performance, compatibility, interoperability, capacity, and security"
+    },
+    {
+        "page": 79,
+        "type": "UncategorizedText",
+        "content": "79"
+    },
+    {
+        "page": 79,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 80,
+        "type": "UncategorizedText",
+        "content": "Chapter 26, 26.1, 26.2, 26.3"
+    },
+    {
+        "page": 80,
+        "type": "Title",
+        "content": "Testing Mobile Applications"
+    },
+    {
+        "page": 80,
+        "type": "UncategorizedText",
+        "content": "80"
+    },
+    {
+        "page": 80,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 81,
+        "type": "Title",
+        "content": "Mobile App Testing"
+    },
+    {
+        "page": 81,
+        "type": "NarrativeText",
+        "content": "There are several important questions to ask when creating a MobileApp testing strategy"
+    },
+    {
+        "page": 81,
+        "type": "NarrativeText",
+        "content": "Do you have to build a fully functional prototype before you test with users?"
+    },
+    {
+        "page": 81,
+        "type": "NarrativeText",
+        "content": "Should you test with the user’s device or provide a device for testing?"
+    },
+    {
+        "page": 81,
+        "type": "NarrativeText",
+        "content": "What devices and user groups should you include in testing?"
+    },
+    {
+        "page": 81,
+        "type": "NarrativeText",
+        "content": "What are the benefits/drawbacks of lab testing versus remote testing?"
+    },
+    {
+        "page": 81,
+        "type": "UncategorizedText",
+        "content": "81"
+    },
+    {
+        "page": 81,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 82,
+        "type": "Title",
+        "content": "Testing Guidelines"
+    },
+    {
+        "page": 82,
+        "type": "NarrativeText",
+        "content": "Understand the network and device landscape before testing to identify bottlenecks"
+    },
+    {
+        "page": 82,
+        "type": "Title",
+        "content": "Conduct tests in uncontrolled real-world test conditions"
+    },
+    {
+        "page": 82,
+        "type": "NarrativeText",
+        "content": "Select the right automation test tool"
+    },
+    {
+        "page": 82,
+        "type": "NarrativeText",
+        "content": "Use the Weighted Device Platform Matrix method to identify the most critical hardware/platform combination to test"
+    },
+    {
+        "page": 82,
+        "type": "NarrativeText",
+        "content": "Check the end-to-end functional flow in all possible platforms at least once"
+    },
+    {
+        "page": 82,
+        "type": "NarrativeText",
+        "content": "Conduct performance testing, GUI testing, and compatibility testing using actual devices"
+    },
+    {
+        "page": 82,
+        "type": "Title",
+        "content": "Measure performance only in realistic conditions of wireless traffic and user load"
+    },
+    {
+        "page": 82,
+        "type": "UncategorizedText",
+        "content": "82"
+    },
+    {
+        "page": 82,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 83,
+        "type": "Title",
+        "content": "MobileApp Testing - Checklist"
+    },
+    {
+        "page": 83,
+        "type": "UncategorizedText",
+        "content": "83"
+    },
+    {
+        "page": 83,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 84,
+        "type": "Title",
+        "content": "Building a test matrix"
+    },
+    {
+        "page": 84,
+        "type": "NarrativeText",
+        "content": "A weighted device platform matrix (WDPM) helps ensure that test coverage includes each combination of mobile device and context variables"
+    },
+    {
+        "page": 84,
+        "type": "NarrativeText",
+        "content": "The WDPM can also be used to help prioritize the device/context combinations so that the most important are tested first"
+    },
+    {
+        "page": 84,
+        "type": "UncategorizedText",
+        "content": "84"
+    },
+    {
+        "page": 84,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 85,
+        "type": "Title",
+        "content": "Building a test matrix"
+    },
+    {
+        "page": 85,
+        "type": "Title",
+        "content": "list the important operating system variants as the matrix column labels"
+    },
+    {
+        "page": 85,
+        "type": "Title",
+        "content": "list the targeted devices as the matrix row labels"
+    },
+    {
+        "page": 85,
+        "type": "NarrativeText",
+        "content": "assign a ranking (e.g., 0 to 10) to indicate the relative importance of each operating system and each device, and "
+    },
+    {
+        "page": 85,
+        "type": "NarrativeText",
+        "content": "compute the product of each pair of rankings and enter each product as the cell entry in the matrix"
+    },
+    {
+        "page": 85,
+        "type": "UncategorizedText",
+        "content": "85"
+    },
+    {
+        "page": 85,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 86,
+        "type": "Title",
+        "content": "Stress Testing"
+    },
+    {
+        "page": 86,
+        "type": "NarrativeText",
+        "content": "Stress testing for mobile apps attempts to find errors that will occur under extreme operating conditions"
+    },
+    {
+        "page": 86,
+        "type": "NarrativeText",
+        "content": "In addition, it provides a mechanism for determining whether the MobileApp will degrade gracefully without compromising security"
+    },
+    {
+        "page": 86,
+        "type": "NarrativeText",
+        "content": "Among the many actions that might create extreme conditions are:"
+    },
+    {
+        "page": 86,
+        "type": "NarrativeText",
+        "content": "running several mobile apps on the same device, "
+    },
+    {
+        "page": 86,
+        "type": "NarrativeText",
+        "content": "infecting system software with viruses or malware, "
+    },
+    {
+        "page": 86,
+        "type": "NarrativeText",
+        "content": "attempting to take over a device and use it to spread spam, "
+    },
+    {
+        "page": 86,
+        "type": "NarrativeText",
+        "content": "forcing the mobile app to process inordinately large numbers of transactions, and "
+    },
+    {
+        "page": 86,
+        "type": "NarrativeText",
+        "content": "storing inordinately large quantities of data on the device"
+    },
+    {
+        "page": 86,
+        "type": "UncategorizedText",
+        "content": "86"
+    },
+    {
+        "page": 86,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 87,
+        "type": "Title",
+        "content": "Testing in a Production Environment"
+    },
+    {
+        "page": 87,
+        "type": "NarrativeText",
+        "content": "Many MobileApp developers advocate testing-in-the-wild , or testing in the users’ native environments with the production release versions of the MobileApp resources"
+    },
+    {
+        "page": 87,
+        "type": "NarrativeText",
+        "content": "Some of the characteristics of in-the-wild testing include adverse and unpredictable environments, outdated browsers and plug-ins, unique hardware, and imperfect connectivity"
+    },
+    {
+        "page": 87,
+        "type": "NarrativeText",
+        "content": "Creating test environments in-house is an expensive and error-prone process"
+    },
+    {
+        "page": 87,
+        "type": "NarrativeText",
+        "content": "Cloud-based testing can offer a standardized infrastructure and preconfigured software images, freeing the MobileApp team from the need to worry about finding servers or purchasing their own licenses for software and testing tools"
+    },
+    {
+        "page": 87,
+        "type": "UncategorizedText",
+        "content": "87"
+    },
+    {
+        "page": 87,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 88,
+        "type": "Title",
+        "content": "CONSIDERING THE SPECTRUM OF USER INTERACTION"
+    },
+    {
+        "page": 88,
+        "type": "UncategorizedText",
+        "content": "88"
+    },
+    {
+        "page": 88,
+        "type": "PageBreak",
+        "content": ""
+    },
+    {
+        "page": 89,
+        "type": "Title",
+        "content": "Summary"
+    },
+    {
+        "page": 89,
+        "type": "NarrativeText",
+        "content": "The goal of MobileApp testing is to exercise each of the many dimensions of MobileApp quality with the intent of finding errors or uncovering issues that may lead to quality failures"
+    },
+    {
+        "page": 89,
+        "type": "NarrativeText",
+        "content": "Testing focuses on quality elements such as content, function, structure, usability, use of context, navigability, performance, power management, compatibility, interoperability, capacity, and security"
+    },
+    {
+        "page": 89,
+        "type": "NarrativeText",
+        "content": "It incorporates reviews and usability assessments that occur as the MobileApp is designed, and tests that are conducted once the MobileApp has been implemented and deployed on an actual device"
+    },
+    {
+        "page": 89,
+        "type": "UncategorizedText",
+        "content": "89"
+    }
+]

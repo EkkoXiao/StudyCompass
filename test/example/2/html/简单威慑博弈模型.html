@@ -1,0 +1,109 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>简单威慑博弈模型</title>
+            <style>
+                body {
+                    font-family: '微软雅黑', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background: linear-gradient(to right, #090740, #9d73c8);
+                    color: #fff;
+                    line-height: 1.6;
+                }
+                h1, h2 {
+                    color: #fff;
+                    border-bottom: 2px solid #8190c9;
+                    padding-bottom: 5px;
+                }
+                strong {
+                    color: #F9A825;
+                }
+                p {
+                    margin-bottom: 15px;
+                    color: #ddd;
+                }
+                a {
+                    color: #27d2bb;
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                }
+                a:hover {
+                    text-decoration: underline;
+                    color: #1a7d68;
+                }
+                .container {
+                    max-width: 800px;
+                    margin: 40px auto;
+                    padding: 30px;
+                    background: rgba(0, 0, 0, 0.7);
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                }
+                .info-box {
+                    border: 1px solid #72c8f3;
+                    padding: 15px;
+                    margin-bottom: 15px;
+                    border-radius: 5px;
+                    background: #5414461a;
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                }
+                .img-box {
+                    border: 1px solid #08b4b4;
+                    padding: 15px;
+                    margin-bottom: 15px;
+                    border-radius: 5px;
+                    background: rgba(2, 77, 94, 0.725);
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                }
+                .relative-search-results {
+                    max-width: 800px;
+                    word-wrap: break-word;
+                    list-style-type: none;
+                    padding: 0;
+                }
+                .relative-search-results li {
+                    margin-bottom: 5px;
+                }
+                .images {
+                    margin-top: 15px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>简单威慑博弈模型</h1>
+                <div class="info-box">
+                    <h2>Definition</h2>
+                    <p>与第0点内容相同，为一种国际博弈分析模型。</p>
+                </div>
+                <div class="info-box">
+                    <h2>Information</h2>
+                    <p>第15页内容与第14页的简单威慑博弈模型相同，表明这是连续讨论的一部分。</p>
+                </div>
+                <div class="info-box">
+                    <h2>Usage</h2>
+                    <p>其用途与第0点相同，适用于理解和分析国际威慑战略。</p>
+                </div>
+                <h2>Relative Search Result:</h2>
+                <ul class="relative-search-results">
+                    <li><a href="https://academic-accelerator.com/encyclopedia/zh-cn/game-theory" target="_blank">https://academic-accelerator.com/encyclopedia/zh-cn/game-theory</a></li><li><a href="https://www.europeanleadershipnetwork.org/wp-content/uploads/2023/11/Chinese-bibliography_AI_Nuclear_Final.pdf" target="_blank">https://www.europeanleadershipnetwork.org/wp-content/uploads/2023/11/Chinese-bibliography_AI_Nuclear_Final.pdf</a></li><li><a href="https://www.researchgate.net/profile/Stephen-Colarelli-2/publication/301554182_An_evolutionary_organizational_psychology_An_evolutionary_psychologist's_journey/links/57198f4708aed8a339e70371/An-evolutionary-organizational-psychology-An-evolutionary-psychologists-journey.pdf" target="_blank">https://www.researchgate.net/profile/Stephen-Colarelli-2/publication/301554182_An_evolutionary_organizational_psychology_An_evolutionary_psychologist's_journey/links/57198f4708aed8a339e70371/An-evolutionary-organizational-psychology-An-evolutionary-psychologists-journey.pdf</a></li><li><a href="https://books.google.com.sg/books?id=IqdWEAAAQBAJ&pg=PT436&lpg=PT436&dq=%E7%AE%80%E5%8D%95%E5%A8%81%E6%85%91%E5%8D%9A%E5%BC%88%E6%A8%A1%E5%9E%8B+%E7%AE%80%E5%8D%95%E5%A8%81%E6%85%91%E5%8D%9A%E5%BC%88%E6%A8%A1%E5%9E%8B&source=bl&ots=jX3Rlo5UQk&sig=ACfU3U1GRZ3t77z27zlbUHngqzpeVyo20g&hl=en&sa=X&ved=2ahUKEwi0s-f1qayDAxVlzDgGHYmrDvwQ6AF6BAg6EAM" target="_blank">https://books.google.com.sg/books?id=IqdWEAAAQBAJ&pg=PT436&lpg=PT436&dq=%E7%AE%80%E5%8D%95%E5%A8%81%E6%85%91%E5%8D%9A%E5%BC%88%E6%A8%A1%E5%9E%8B+%E7%AE%80%E5%8D%95%E5%A8%81%E6%85%91%E5%8D%9A%E5%BC%88%E6%A8%A1%E5%9E%8B&source=bl&ots=jX3Rlo5UQk&sig=ACfU3U1GRZ3t77z27zlbUHngqzpeVyo20g&hl=en&sa=X&ved=2ahUKEwi0s-f1qayDAxVlzDgGHYmrDvwQ6AF6BAg6EAM</a></li><li><a href="https://zlibrary-asia.se/book/5603581/96cfa1/%E8%BA%AB%E8%BE%B9%E7%9A%84%E5%8D%9A%E5%BC%88%28%E5%AE%8C%E6%95%B4%E5%9B%BE%E6%96%87%E7%89%88%29-by-%E8%91%A3%E5%BF%97%E5%BC%BA-Z-Library" target="_blank">https://zlibrary-asia.se/book/5603581/96cfa1/%E8%BA%AB%E8%BE%B9%E7%9A%84%E5%8D%9A%E5%BC%88%28%E5%AE%8C%E6%95%B4%E5%9B%BE%E6%96%87%E7%89%88%29-by-%E8%91%A3%E5%BF%97%E5%BC%BA-Z-Library</a></li>
+                </ul>
+                <h2>Knowledge Density:</h2>
+                <p>1.393834930078401</p>
+                <div class="img-box">
+                    <h2>Relative Images</h2>
+                    <p>                
+                        <div class="images">
+                            N/A
+                        </div>
+                    </p>
+                </div>
+
+            </div>
+        </body>
+        </html>
+        
